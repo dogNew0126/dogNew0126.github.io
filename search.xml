@@ -1,0 +1,2166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Hexo中使用emoji表情</title>
+    <url>/2022/05/22/Hexo%E4%B8%AD%E4%BD%BF%E7%94%A8emoji%E8%A1%A8%E6%83%85/</url>
+    <content><![CDATA[<h1 id="Hexo中使用emoji表情"><a href="#Hexo中使用emoji表情" class="headerlink" title="Hexo中使用emoji表情"></a>Hexo中使用emoji表情</h1><p>Hexo默认的markdown渲染引擎不支持将Github emoji渲染到静态的html页面中，我们换一个支持emoji的引擎，再增加一个emoji插件即可。</p>
+<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><p>命令行如下：</p>
+<figure class="highlight applescript"><table><tr><td class="code"><pre><code class="hljs applescript">npm un hexo-renderer-marked <span class="hljs-comment">--save</span><br><br>npm i hexo-renderer-markdown-<span class="hljs-keyword">it</span> <span class="hljs-comment">--save</span><br><br>npm install markdown-<span class="hljs-keyword">it</span>-emoji <span class="hljs-comment">--save</span><br></code></pre></td></tr></table></figure>
+
+
+
+<h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2><p>完成插件安装后还需要修改Hexo站点配置文件<code>_config.yml</code>(不是主题配置)</p>
+<p>加入下列代码：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><code class="hljs yaml"><span class="hljs-comment">## markdown 渲染引擎配置，默认是hexo-renderer-marked，这个插件渲染速度更快，且有新特性</span><br><span class="hljs-attr">markdown:</span><br>  <span class="hljs-attr">render:</span><br>    <span class="hljs-attr">html:</span> <span class="hljs-literal">true</span><br>    <span class="hljs-attr">xhtmlOut:</span> <span class="hljs-literal">false</span><br>    <span class="hljs-attr">breaks:</span> <span class="hljs-literal">true</span><br>    <span class="hljs-attr">linkify:</span> <span class="hljs-literal">true</span><br>    <span class="hljs-attr">typographer:</span> <span class="hljs-literal">true</span><br>    <span class="hljs-attr">quotes:</span> <span class="hljs-string">&#x27;“”‘’&#x27;</span><br>  <span class="hljs-attr">plugins:</span><br>    <span class="hljs-bullet">-</span> <span class="hljs-string">markdown-it-footnote</span><br>    <span class="hljs-bullet">-</span> <span class="hljs-string">markdown-it-sup</span><br>    <span class="hljs-bullet">-</span> <span class="hljs-string">markdown-it-sub</span><br>    <span class="hljs-bullet">-</span> <span class="hljs-string">markdown-it-abbr</span><br>    <span class="hljs-bullet">-</span> <span class="hljs-string">markdown-it-emoji</span><br>  <span class="hljs-attr">anchors:</span><br>    <span class="hljs-attr">level:</span> <span class="hljs-number">2</span><br>    <span class="hljs-attr">collisionSuffix:</span> <span class="hljs-string">&#x27;v&#x27;</span><br>    <span class="hljs-attr">permalink:</span> <span class="hljs-literal">false</span><br>    <span class="hljs-attr">permalinkClass:</span> <span class="hljs-string">header-anchor</span><br>    <span class="hljs-attr">permalinkSymbol:</span> <span class="hljs-string">¶</span><br></code></pre></td></tr></table></figure>
+
+<p>这里需要注意<code>render:</code>下的<code>html:</code>配置项，它的作用是控制<code>Markdown</code>渲染引擎是否转移文档中出现的<code>html</code>标签，默认为<code>false</code>，这里要设置为<code>true</code>，否则会导致<code>&lt;!--more--&gt;</code>渲染失败。</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><code class="hljs yaml"><span class="hljs-attr">html:</span> <span class="hljs-literal">true</span> <span class="hljs-comment"># 不转义 HTML 内容，即允许 HTML</span><br>    <span class="hljs-comment">## OR</span><br><span class="hljs-attr">html:</span> <span class="hljs-literal">false</span> <span class="hljs-comment"># 转义 HTML，&lt; &gt; 尖括号会被转义成 &amp;lt; &amp;gt;等</span><br></code></pre></td></tr></table></figure>
+
+<p><code>plugins:</code>中的最后一项<code>- markdown-it-emoji</code>是手动添加的，官方Github Wiki中给出的配置不包含这一项，其他配置参照的Github Wiki中的默认配置。</p>
+<h2 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h2><p>输入对应的emoji编码</p>
+<p>例如：输入笑脸对应的emoji编码<code>:smile:</code>就可以得到:smile:</p>
+<h2 id="emoji编码合集"><a href="#emoji编码合集" class="headerlink" title="emoji编码合集"></a>emoji编码合集</h2><p>People</p>
+<table>
+<thead>
+<tr>
+<th>😐 <code>:neutral_face:</code></th>
+<th>😄 <code>:smile:</code></th>
+<th>😆 <code>:laughing:</code></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>😊 <code>:blush:</code></td>
+<td>😃 <code>:smiley:</code></td>
+<td>☺️ <code>:relaxed:</code></td>
+</tr>
+<tr>
+<td>😏 <code>:smirk:</code></td>
+<td>😍 <code>:heart_eyes:</code></td>
+<td>😘 <code>:kissing_heart:</code></td>
+</tr>
+<tr>
+<td>😚 <code>:kissing_closed_eyes:</code></td>
+<td>😳 <code>:flushed:</code></td>
+<td>😌 <code>:relieved:</code></td>
+</tr>
+<tr>
+<td>😆 <code>:satisfied:</code></td>
+<td>😁 <code>:grin:</code></td>
+<td>😉 <code>:wink:</code></td>
+</tr>
+<tr>
+<td>😜 <code>:stuck_out_tongue_winking_eye:</code></td>
+<td>😝 <code>:stuck_out_tongue_closed_eyes:</code></td>
+<td>😀 <code>:grinning:</code></td>
+</tr>
+<tr>
+<td>😗 <code>:kissing:</code></td>
+<td>😙 <code>:kissing_smiling_eyes:</code></td>
+<td>😛 <code>:stuck_out_tongue:</code></td>
+</tr>
+<tr>
+<td>😴 <code>:sleeping:</code></td>
+<td>😟 <code>:worried:</code></td>
+<td>😦 <code>:frowning:</code></td>
+</tr>
+<tr>
+<td>😧 <code>:anguished:</code></td>
+<td>😮 <code>:open_mouth:</code></td>
+<td>😬 <code>:grimacing:</code></td>
+</tr>
+<tr>
+<td>😕 <code>:confused:</code></td>
+<td>😯 <code>:hushed:</code></td>
+<td>😑 <code>:expressionless:</code></td>
+</tr>
+<tr>
+<td>😒 <code>:unamused:</code></td>
+<td>😅 <code>:sweat_smile:</code></td>
+<td>😓 <code>:sweat:</code></td>
+</tr>
+<tr>
+<td>😥 <code>:disappointed_relieved:</code></td>
+<td>😩 <code>:weary:</code></td>
+<td>😔 <code>:pensive:</code></td>
+</tr>
+<tr>
+<td>😞 <code>:disappointed:</code></td>
+<td>😖 <code>:confounded:</code></td>
+<td>😨 <code>:fearful:</code></td>
+</tr>
+<tr>
+<td>😰 <code>:cold_sweat:</code></td>
+<td>😣 <code>:persevere:</code></td>
+<td>😢 <code>:cry:</code></td>
+</tr>
+<tr>
+<td>😭 <code>:sob:</code></td>
+<td>😂 <code>:joy:</code></td>
+<td>😲 <code>:astonished:</code></td>
+</tr>
+<tr>
+<td>😱 <code>:scream:</code></td>
+<td>💭 <code>:thought_balloon:</code></td>
+<td>😫 <code>:tired_face:</code></td>
+</tr>
+<tr>
+<td>😠 <code>:angry:</code></td>
+<td>😡 <code>:rage:</code></td>
+<td>😤 <code>:triumph:</code></td>
+</tr>
+<tr>
+<td>😪 <code>:sleepy:</code></td>
+<td>😋 <code>:yum:</code></td>
+<td>😷 <code>:mask:</code></td>
+</tr>
+<tr>
+<td>😎 <code>:sunglasses:</code></td>
+<td>😵 <code>:dizzy_face:</code></td>
+<td>👿 <code>:imp:</code></td>
+</tr>
+<tr>
+<td>😈 <code>:smiling_imp:</code></td>
+<td>💬 <code>:speech_balloon:</code></td>
+<td>😶 <code>:no_mouth:</code></td>
+</tr>
+<tr>
+<td>😇 <code>:innocent:</code></td>
+<td>👽 <code>:alien:</code></td>
+<td>💛 <code>:yellow_heart:</code></td>
+</tr>
+<tr>
+<td>💙 <code>:blue_heart:</code></td>
+<td>💜 <code>:purple_heart:</code></td>
+<td>❤️ <code>:heart:</code></td>
+</tr>
+<tr>
+<td>💚 <code>:green_heart:</code></td>
+<td>💔 <code>:broken_heart:</code></td>
+<td>💓 <code>:heartbeat:</code></td>
+</tr>
+<tr>
+<td>💗 <code>:heartpulse:</code></td>
+<td>💕 <code>:two_hearts:</code></td>
+<td>💞 <code>:revolving_hearts:</code></td>
+</tr>
+<tr>
+<td>💘 <code>:cupid:</code></td>
+<td>💖 <code>:sparkling_heart:</code></td>
+<td>✨ <code>:sparkles:</code></td>
+</tr>
+<tr>
+<td>⭐️ <code>:star:</code></td>
+<td>🌟 <code>:star2:</code></td>
+<td>💫 <code>:dizzy:</code></td>
+</tr>
+<tr>
+<td>💥 <code>:boom:</code></td>
+<td>💥 <code>:collision:</code></td>
+<td>💢 <code>:anger:</code></td>
+</tr>
+<tr>
+<td>❗️ <code>:exclamation:</code></td>
+<td>❓ <code>:question:</code></td>
+<td>❕ <code>:grey_exclamation:</code></td>
+</tr>
+<tr>
+<td>❔ <code>:grey_question:</code></td>
+<td>💤 <code>:zzz:</code></td>
+<td>💨 <code>:dash:</code></td>
+</tr>
+<tr>
+<td>💦 <code>:sweat_drops:</code></td>
+<td>🎶 <code>:notes:</code></td>
+<td>🎵 <code>:musical_note:</code></td>
+</tr>
+<tr>
+<td>🔥 <code>:fire:</code></td>
+<td>💩 <code>:hankey:</code></td>
+<td>💩 <code>:poop:</code></td>
+</tr>
+<tr>
+<td>💩 <code>:shit:</code></td>
+<td>👍 <code>:+1:</code></td>
+<td>👍 <code>:thumbsup:</code></td>
+</tr>
+<tr>
+<td>👎 <code>:-1:</code></td>
+<td>👎 <code>:thumbsdown:</code></td>
+<td>👌 <code>:ok_hand:</code></td>
+</tr>
+<tr>
+<td>👊 <code>:punch:</code></td>
+<td>👊 <code>:facepunch:</code></td>
+<td>✊ <code>:fist:</code></td>
+</tr>
+<tr>
+<td>✌️ <code>:v:</code></td>
+<td>👋 <code>:wave:</code></td>
+<td>✋ <code>:hand:</code></td>
+</tr>
+<tr>
+<td>✋ <code>:raised_hand:</code></td>
+<td>👐 <code>:open_hands:</code></td>
+<td>☝️ <code>:point_up:</code></td>
+</tr>
+<tr>
+<td>👇 <code>:point_down:</code></td>
+<td>👈 <code>:point_left:</code></td>
+<td>👉 <code>:point_right:</code></td>
+</tr>
+<tr>
+<td>🙌 <code>:raised_hands:</code></td>
+<td>🙏 <code>:pray:</code></td>
+<td>👆 <code>:point_up_2:</code></td>
+</tr>
+<tr>
+<td>👏 <code>:clap:</code></td>
+<td>💪 <code>:muscle:</code></td>
+<td>🤘 <code>:metal:</code></td>
+</tr>
+<tr>
+<td>🖕 <code>:fu:</code></td>
+<td>🚶 <code>:walking:</code></td>
+<td>🏃 <code>:runner:</code></td>
+</tr>
+<tr>
+<td>🏃 <code>:running:</code></td>
+<td>👫 <code>:couple:</code></td>
+<td>👪 <code>:family:</code></td>
+</tr>
+<tr>
+<td>👬 <code>:two_men_holding_hands:</code></td>
+<td>👭 <code>:two_women_holding_hands:</code></td>
+<td>💃 <code>:dancer:</code></td>
+</tr>
+<tr>
+<td>👯 <code>:dancers:</code></td>
+<td>🙆 <code>:ok_woman:</code></td>
+<td>🙅 <code>:no_good:</code></td>
+</tr>
+<tr>
+<td>💁 <code>:information_desk_person:</code></td>
+<td>🙋 <code>:raising_hand:</code></td>
+<td>👰 <code>:bride_with_veil:</code></td>
+</tr>
+<tr>
+<td>🙎 <code>:person_with_pouting_face:</code></td>
+<td>🙍 <code>:person_frowning:</code></td>
+<td>🙇 <code>:bow:</code></td>
+</tr>
+<tr>
+<td>:couplekiss: <code>:couplekiss:</code></td>
+<td>💑 <code>:couple_with_heart:</code></td>
+<td>💆 <code>:massage:</code></td>
+</tr>
+<tr>
+<td>💇 <code>:haircut:</code></td>
+<td>💅 <code>:nail_care:</code></td>
+<td>👦 <code>:boy:</code></td>
+</tr>
+<tr>
+<td>👧 <code>:girl:</code></td>
+<td>👩 <code>:woman:</code></td>
+<td>👨 <code>:man:</code></td>
+</tr>
+<tr>
+<td>👶 <code>:baby:</code></td>
+<td>👵 <code>:older_woman:</code></td>
+<td>👴 <code>:older_man:</code></td>
+</tr>
+<tr>
+<td>👱 <code>:person_with_blond_hair:</code></td>
+<td>👲 <code>:man_with_gua_pi_mao:</code></td>
+<td>👳 <code>:man_with_turban:</code></td>
+</tr>
+<tr>
+<td>👷 <code>:construction_worker:</code></td>
+<td>👮 <code>:cop:</code></td>
+<td>👼 <code>:angel:</code></td>
+</tr>
+<tr>
+<td>👸 <code>:princess:</code></td>
+<td>😺 <code>:smiley_cat:</code></td>
+<td>😸 <code>:smile_cat:</code></td>
+</tr>
+<tr>
+<td>😻 <code>:heart_eyes_cat:</code></td>
+<td>😽 <code>:kissing_cat:</code></td>
+<td>😼 <code>:smirk_cat:</code></td>
+</tr>
+<tr>
+<td>🙀 <code>:scream_cat:</code></td>
+<td>😿 <code>:crying_cat_face:</code></td>
+<td>😹 <code>:joy_cat:</code></td>
+</tr>
+<tr>
+<td>😾 <code>:pouting_cat:</code></td>
+<td>👹 <code>:japanese_ogre:</code></td>
+<td>👺 <code>:japanese_goblin:</code></td>
+</tr>
+<tr>
+<td>🙈 <code>:see_no_evil:</code></td>
+<td>🙉 <code>:hear_no_evil:</code></td>
+<td>🙊 <code>:speak_no_evil:</code></td>
+</tr>
+<tr>
+<td>💂 <code>:guardsman:</code></td>
+<td>💀 <code>:skull:</code></td>
+<td>🐾 <code>:feet:</code></td>
+</tr>
+<tr>
+<td>👄 <code>:lips:</code></td>
+<td>💋 <code>:kiss:</code></td>
+<td>💧 <code>:droplet:</code></td>
+</tr>
+<tr>
+<td>👂 <code>:ear:</code></td>
+<td>👀 <code>:eyes:</code></td>
+<td>👃 <code>:nose:</code></td>
+</tr>
+<tr>
+<td>👅 <code>:tongue:</code></td>
+<td>💌 <code>:love_letter:</code></td>
+<td>👤 <code>:bust_in_silhouette:</code></td>
+</tr>
+<tr>
+<td>👥 <code>:busts_in_silhouette:</code></td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+<p>Nature</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>☀️ <code>:sunny:</code></td>
+<td>☔️ <code>:umbrella:</code></td>
+<td>☁️ <code>:cloud:</code></td>
+</tr>
+<tr>
+<td>❄️ <code>:snowflake:</code></td>
+<td>⛄️ <code>:snowman:</code></td>
+<td>⚡️ <code>:zap:</code></td>
+</tr>
+<tr>
+<td>🌀 <code>:cyclone:</code></td>
+<td>🌁 <code>:foggy:</code></td>
+<td>🌊 <code>:ocean:</code></td>
+</tr>
+<tr>
+<td>🐱 <code>:cat:</code></td>
+<td>🐶 <code>:dog:</code></td>
+<td>🐭 <code>:mouse:</code></td>
+</tr>
+<tr>
+<td>🐹 <code>:hamster:</code></td>
+<td>🐰 <code>:rabbit:</code></td>
+<td>🐺 <code>:wolf:</code></td>
+</tr>
+<tr>
+<td>🐸 <code>:frog:</code></td>
+<td>🐯 <code>:tiger:</code></td>
+<td>🐨 <code>:koala:</code></td>
+</tr>
+<tr>
+<td>🐻 <code>:bear:</code></td>
+<td>🐷 <code>:pig:</code></td>
+<td>🐽 <code>:pig_nose:</code></td>
+</tr>
+<tr>
+<td>🐮 <code>:cow:</code></td>
+<td>🐗 <code>:boar:</code></td>
+<td>🐵 <code>:monkey_face:</code></td>
+</tr>
+<tr>
+<td>🐒 <code>:monkey:</code></td>
+<td>🐴 <code>:horse:</code></td>
+<td>🐎 <code>:racehorse:</code></td>
+</tr>
+<tr>
+<td>🐫 <code>:camel:</code></td>
+<td>🐑 <code>:sheep:</code></td>
+<td>🐘 <code>:elephant:</code></td>
+</tr>
+<tr>
+<td>🐼 <code>:panda_face:</code></td>
+<td>🐍 <code>:snake:</code></td>
+<td>🐦 <code>:bird:</code></td>
+</tr>
+<tr>
+<td>🐤 <code>:baby_chick:</code></td>
+<td>🐥 <code>:hatched_chick:</code></td>
+<td>🐣 <code>:hatching_chick:</code></td>
+</tr>
+<tr>
+<td>🐔 <code>:chicken:</code></td>
+<td>🐧 <code>:penguin:</code></td>
+<td>🐢 <code>:turtle:</code></td>
+</tr>
+<tr>
+<td>🐛 <code>:bug:</code></td>
+<td>🐝 <code>:honeybee:</code></td>
+<td>🐜 <code>:ant:</code></td>
+</tr>
+<tr>
+<td>🐞 <code>:beetle:</code></td>
+<td>🐌 <code>:snail:</code></td>
+<td>🐙 <code>:octopus:</code></td>
+</tr>
+<tr>
+<td>🐠 <code>:tropical_fish:</code></td>
+<td>🐟 <code>:fish:</code></td>
+<td>🐳 <code>:whale:</code></td>
+</tr>
+<tr>
+<td>🐋 <code>:whale2:</code></td>
+<td>🐬 <code>:dolphin:</code></td>
+<td>🐄 <code>:cow2:</code></td>
+</tr>
+<tr>
+<td>🐏 <code>:ram:</code></td>
+<td>🐀 <code>:rat:</code></td>
+<td>🐃 <code>:water_buffalo:</code></td>
+</tr>
+<tr>
+<td>🐅 <code>:tiger2:</code></td>
+<td>🐇 <code>:rabbit2:</code></td>
+<td>🐉 <code>:dragon:</code></td>
+</tr>
+<tr>
+<td>🐐 <code>:goat:</code></td>
+<td>🐓 <code>:rooster:</code></td>
+<td>🐕 <code>:dog2:</code></td>
+</tr>
+<tr>
+<td>🐖 <code>:pig2:</code></td>
+<td>🐁 <code>:mouse2:</code></td>
+<td>🐂 <code>:ox:</code></td>
+</tr>
+<tr>
+<td>🐲 <code>:dragon_face:</code></td>
+<td>🐡 <code>:blowfish:</code></td>
+<td>🐊 <code>:crocodile:</code></td>
+</tr>
+<tr>
+<td>🐪 <code>:dromedary_camel:</code></td>
+<td>🐆 <code>:leopard:</code></td>
+<td>🐈 <code>:cat2:</code></td>
+</tr>
+<tr>
+<td>🐩 <code>:poodle:</code></td>
+<td>🐾 <code>:paw_prints:</code></td>
+<td>💐 <code>:bouquet:</code></td>
+</tr>
+<tr>
+<td>🌸 <code>:cherry_blossom:</code></td>
+<td>🌷 <code>:tulip:</code></td>
+<td>🍀 <code>:four_leaf_clover:</code></td>
+</tr>
+<tr>
+<td>🌹 <code>:rose:</code></td>
+<td>🌻 <code>:sunflower:</code></td>
+<td>🌺 <code>:hibiscus:</code></td>
+</tr>
+<tr>
+<td>🍁 <code>:maple_leaf:</code></td>
+<td>🍃 <code>:leaves:</code></td>
+<td>🍂 <code>:fallen_leaf:</code></td>
+</tr>
+<tr>
+<td>🌿 <code>:herb:</code></td>
+<td>🍄 <code>:mushroom:</code></td>
+<td>🌵 <code>:cactus:</code></td>
+</tr>
+<tr>
+<td>🌴 <code>:palm_tree:</code></td>
+<td>🌲 <code>:evergreen_tree:</code></td>
+<td>🌳 <code>:deciduous_tree:</code></td>
+</tr>
+<tr>
+<td>🌰 <code>:chestnut:</code></td>
+<td>🌱 <code>:seedling:</code></td>
+<td>🌼 <code>:blossom:</code></td>
+</tr>
+<tr>
+<td>🌾 <code>:ear_of_rice:</code></td>
+<td>🐚 <code>:shell:</code></td>
+<td>🌐 <code>:globe_with_meridians:</code></td>
+</tr>
+<tr>
+<td>🌞 <code>:sun_with_face:</code></td>
+<td>🌝 <code>:full_moon_with_face:</code></td>
+<td>🌚 <code>:new_moon_with_face:</code></td>
+</tr>
+<tr>
+<td>🌑 <code>:new_moon:</code></td>
+<td>🌒 <code>:waxing_crescent_moon:</code></td>
+<td>🌓 <code>:first_quarter_moon:</code></td>
+</tr>
+<tr>
+<td>🌔 <code>:waxing_gibbous_moon:</code></td>
+<td>🌕 <code>:full_moon:</code></td>
+<td>🌖 <code>:waning_gibbous_moon:</code></td>
+</tr>
+<tr>
+<td>🌗 <code>:last_quarter_moon:</code></td>
+<td>🌘 <code>:waning_crescent_moon:</code></td>
+<td>🌜 <code>:last_quarter_moon_with_face:</code></td>
+</tr>
+<tr>
+<td>🌛 <code>:first_quarter_moon_with_face:</code></td>
+<td>🌔 <code>:moon:</code></td>
+<td>🌍 <code>:earth_africa:</code></td>
+</tr>
+<tr>
+<td>🌎 <code>:earth_americas:</code></td>
+<td>🌏 <code>:earth_asia:</code></td>
+<td>🌋 <code>:volcano:</code></td>
+</tr>
+<tr>
+<td>🌌 <code>:milky_way:</code></td>
+<td>⛅️ <code>:partly_sunny:</code></td>
+<td></td>
+</tr>
+</tbody></table>
+<p>Objects</p>
+<table>
+<thead>
+<tr>
+<th>🎍 <code>:bamboo:</code></th>
+<th>💝 <code>:gift_heart:</code></th>
+<th>🎎 <code>:dolls:</code></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>🎒 <code>:school_satchel:</code></td>
+<td>🎓 <code>:mortar_board:</code></td>
+<td>🎏 <code>:flags:</code></td>
+</tr>
+<tr>
+<td>🎆 <code>:fireworks:</code></td>
+<td>🎇 <code>:sparkler:</code></td>
+<td>🎐 <code>:wind_chime:</code></td>
+</tr>
+<tr>
+<td>🎑 <code>:rice_scene:</code></td>
+<td>🎃 <code>:jack_o_lantern:</code></td>
+<td>👻 <code>:ghost:</code></td>
+</tr>
+<tr>
+<td>🎅 <code>:santa:</code></td>
+<td>🎄 <code>:christmas_tree:</code></td>
+<td>🎁 <code>:gift:</code></td>
+</tr>
+<tr>
+<td>🔔 <code>:bell:</code></td>
+<td>🔕 <code>:no_bell:</code></td>
+<td>🎋 <code>:tanabata_tree:</code></td>
+</tr>
+<tr>
+<td>🎉 <code>:tada:</code></td>
+<td>🎊 <code>:confetti_ball:</code></td>
+<td>🎈 <code>:balloon:</code></td>
+</tr>
+<tr>
+<td>🔮 <code>:crystal_ball:</code></td>
+<td>💿 <code>:cd:</code></td>
+<td>📀 <code>:dvd:</code></td>
+</tr>
+<tr>
+<td>💾 <code>:floppy_disk:</code></td>
+<td>📷 <code>:camera:</code></td>
+<td>📹 <code>:video_camera:</code></td>
+</tr>
+<tr>
+<td>🎥 <code>:movie_camera:</code></td>
+<td>💻 <code>:computer:</code></td>
+<td>📺 <code>:tv:</code></td>
+</tr>
+<tr>
+<td>📱 <code>:iphone:</code></td>
+<td>☎️ <code>:phone:</code></td>
+<td>☎️ <code>:telephone:</code></td>
+</tr>
+<tr>
+<td>📞 <code>:telephone_receiver:</code></td>
+<td>📟 <code>:pager:</code></td>
+<td>📠 <code>:fax:</code></td>
+</tr>
+<tr>
+<td>💽 <code>:minidisc:</code></td>
+<td>📼 <code>:vhs:</code></td>
+<td>🔉 <code>:sound:</code></td>
+</tr>
+<tr>
+<td>🔈 <code>:speaker:</code></td>
+<td>🔇 <code>:mute:</code></td>
+<td>📢 <code>:loudspeaker:</code></td>
+</tr>
+<tr>
+<td>📣 <code>:mega:</code></td>
+<td>⌛️ <code>:hourglass:</code></td>
+<td>⏳ <code>:hourglass_flowing_sand:</code></td>
+</tr>
+<tr>
+<td>⏰ <code>:alarm_clock:</code></td>
+<td>⌚️ <code>:watch:</code></td>
+<td>📻 <code>:radio:</code></td>
+</tr>
+<tr>
+<td>📡 <code>:satellite:</code></td>
+<td>➿ <code>:loop:</code></td>
+<td>🔍 <code>:mag:</code></td>
+</tr>
+<tr>
+<td>🔎 <code>:mag_right:</code></td>
+<td>🔓 <code>:unlock:</code></td>
+<td>🔒 <code>:lock:</code></td>
+</tr>
+<tr>
+<td>🔏 <code>:lock_with_ink_pen:</code></td>
+<td>🔐 <code>:closed_lock_with_key:</code></td>
+<td>🔑 <code>:key:</code></td>
+</tr>
+<tr>
+<td>💡 <code>:bulb:</code></td>
+<td>🔦 <code>:flashlight:</code></td>
+<td>🔆 <code>:high_brightness:</code></td>
+</tr>
+<tr>
+<td>🔅 <code>:low_brightness:</code></td>
+<td>🔌 <code>:electric_plug:</code></td>
+<td>🔋 <code>:battery:</code></td>
+</tr>
+<tr>
+<td>📲 <code>:calling:</code></td>
+<td>✉️ <code>:email:</code></td>
+<td>📫 <code>:mailbox:</code></td>
+</tr>
+<tr>
+<td>📮 <code>:postbox:</code></td>
+<td>🛀 <code>:bath:</code></td>
+<td>🛁 <code>:bathtub:</code></td>
+</tr>
+<tr>
+<td>🚿 <code>:shower:</code></td>
+<td>🚽 <code>:toilet:</code></td>
+<td>🔧 <code>:wrench:</code></td>
+</tr>
+<tr>
+<td>🔩 <code>:nut_and_bolt:</code></td>
+<td>🔨 <code>:hammer:</code></td>
+<td>💺 <code>:seat:</code></td>
+</tr>
+<tr>
+<td>💰 <code>:moneybag:</code></td>
+<td>💴 <code>:yen:</code></td>
+<td>💵 <code>:dollar:</code></td>
+</tr>
+<tr>
+<td>💷 <code>:pound:</code></td>
+<td>💶 <code>:euro:</code></td>
+<td>💳 <code>:credit_card:</code></td>
+</tr>
+<tr>
+<td>💸 <code>:money_with_wings:</code></td>
+<td>📧 <code>:e-mail:</code></td>
+<td>📥 <code>:inbox_tray:</code></td>
+</tr>
+<tr>
+<td>📤 <code>:outbox_tray:</code></td>
+<td>✉️ <code>:envelope:</code></td>
+<td>📨 <code>:incoming_envelope:</code></td>
+</tr>
+<tr>
+<td>📯 <code>:postal_horn:</code></td>
+<td>📪 <code>:mailbox_closed:</code></td>
+<td>📬 <code>:mailbox_with_mail:</code></td>
+</tr>
+<tr>
+<td>📭 <code>:mailbox_with_no_mail:</code></td>
+<td>🚪 <code>:door:</code></td>
+<td>🚬 <code>:smoking:</code></td>
+</tr>
+<tr>
+<td>💣 <code>:bomb:</code></td>
+<td>🔫 <code>:gun:</code></td>
+<td>🔪 <code>:hocho:</code></td>
+</tr>
+<tr>
+<td>💊 <code>:pill:</code></td>
+<td>💉 <code>:syringe:</code></td>
+<td>📄 <code>:page_facing_up:</code></td>
+</tr>
+<tr>
+<td>📃 <code>:page_with_curl:</code></td>
+<td>📑 <code>:bookmark_tabs:</code></td>
+<td>📊 <code>:bar_chart:</code></td>
+</tr>
+<tr>
+<td>📈 <code>:chart_with_upwards_trend:</code></td>
+<td>📉 <code>:chart_with_downwards_trend:</code></td>
+<td>📜 <code>:scroll:</code></td>
+</tr>
+<tr>
+<td>📋 <code>:clipboard:</code></td>
+<td>📆 <code>:calendar:</code></td>
+<td>📅 <code>:date:</code></td>
+</tr>
+<tr>
+<td>📇 <code>:card_index:</code></td>
+<td>📁 <code>:file_folder:</code></td>
+<td>📂 <code>:open_file_folder:</code></td>
+</tr>
+<tr>
+<td>✂️ <code>:scissors:</code></td>
+<td>📌 <code>:pushpin:</code></td>
+<td>📎 <code>:paperclip:</code></td>
+</tr>
+<tr>
+<td>✒️ <code>:black_nib:</code></td>
+<td>✏️ <code>:pencil2:</code></td>
+<td>📏 <code>:straight_ruler:</code></td>
+</tr>
+<tr>
+<td>📐 <code>:triangular_ruler:</code></td>
+<td>📕 <code>:closed_book:</code></td>
+<td>📗 <code>:green_book:</code></td>
+</tr>
+<tr>
+<td>📘 <code>:blue_book:</code></td>
+<td>📙 <code>:orange_book:</code></td>
+<td>📓 <code>:notebook:</code></td>
+</tr>
+<tr>
+<td>📔 <code>:notebook_with_decorative_cover:</code></td>
+<td>📒 <code>:ledger:</code></td>
+<td>📚 <code>:books:</code></td>
+</tr>
+<tr>
+<td>🔖 <code>:bookmark:</code></td>
+<td>📛 <code>:name_badge:</code></td>
+<td>🔬 <code>:microscope:</code></td>
+</tr>
+<tr>
+<td>🔭 <code>:telescope:</code></td>
+<td>📰 <code>:newspaper:</code></td>
+<td>🏈 <code>:football:</code></td>
+</tr>
+<tr>
+<td>🏀 <code>:basketball:</code></td>
+<td>⚽️ <code>:soccer:</code></td>
+<td>⚾️ <code>:baseball:</code></td>
+</tr>
+<tr>
+<td>🎾 <code>:tennis:</code></td>
+<td>🎱 <code>:8ball:</code></td>
+<td>🏉 <code>:rugby_football:</code></td>
+</tr>
+<tr>
+<td>🎳 <code>:bowling:</code></td>
+<td>⛳️ <code>:golf:</code></td>
+<td>🚵 <code>:mountain_bicyclist:</code></td>
+</tr>
+<tr>
+<td>🚴 <code>:bicyclist:</code></td>
+<td>🏇 <code>:horse_racing:</code></td>
+<td>🏂 <code>:snowboarder:</code></td>
+</tr>
+<tr>
+<td>🏊 <code>:swimmer:</code></td>
+<td>🏄 <code>:surfer:</code></td>
+<td>🎿 <code>:ski:</code></td>
+</tr>
+<tr>
+<td>♠️ <code>:spades:</code></td>
+<td>♥️ <code>:hearts:</code></td>
+<td>♣️ <code>:clubs:</code></td>
+</tr>
+<tr>
+<td>♦️ <code>:diamonds:</code></td>
+<td>💎 <code>:gem:</code></td>
+<td>💍 <code>:ring:</code></td>
+</tr>
+<tr>
+<td>🏆 <code>:trophy:</code></td>
+<td>🎼 <code>:musical_score:</code></td>
+<td>🎹 <code>:musical_keyboard:</code></td>
+</tr>
+<tr>
+<td>🎻 <code>:violin:</code></td>
+<td>👾 <code>:space_invader:</code></td>
+<td>🎮 <code>:video_game:</code></td>
+</tr>
+<tr>
+<td>🃏 <code>:black_joker:</code></td>
+<td>🎴 <code>:flower_playing_cards:</code></td>
+<td>🎲 <code>:game_die:</code></td>
+</tr>
+<tr>
+<td>🎯 <code>:dart:</code></td>
+<td>🀄️ <code>:mahjong:</code></td>
+<td>🎬 <code>:clapper:</code></td>
+</tr>
+<tr>
+<td>📝 <code>:memo:</code></td>
+<td>📝 <code>:pencil:</code></td>
+<td>📖 <code>:book:</code></td>
+</tr>
+<tr>
+<td>🎨 <code>:art:</code></td>
+<td>🎤 <code>:microphone:</code></td>
+<td>🎧 <code>:headphones:</code></td>
+</tr>
+<tr>
+<td>🎺 <code>:trumpet:</code></td>
+<td>🎷 <code>:saxophone:</code></td>
+<td>🎸 <code>:guitar:</code></td>
+</tr>
+<tr>
+<td>👞 <code>:shoe:</code></td>
+<td>👡 <code>:sandal:</code></td>
+<td>👠 <code>:high_heel:</code></td>
+</tr>
+<tr>
+<td>💄 <code>:lipstick:</code></td>
+<td>👢 <code>:boot:</code></td>
+<td>👕 <code>:shirt:</code></td>
+</tr>
+<tr>
+<td>👕 <code>:tshirt:</code></td>
+<td>👔 <code>:necktie:</code></td>
+<td>👚 <code>:womans_clothes:</code></td>
+</tr>
+<tr>
+<td>👗 <code>:dress:</code></td>
+<td>🎽 <code>:running_shirt_with_sash:</code></td>
+<td>👖 <code>:jeans:</code></td>
+</tr>
+<tr>
+<td>👘 <code>:kimono:</code></td>
+<td>👙 <code>:bikini:</code></td>
+<td>🎀 <code>:ribbon:</code></td>
+</tr>
+<tr>
+<td>🎩 <code>:tophat:</code></td>
+<td>👑 <code>:crown:</code></td>
+<td>👒 <code>:womans_hat:</code></td>
+</tr>
+<tr>
+<td>👞 <code>:mans_shoe:</code></td>
+<td>🌂 <code>:closed_umbrella:</code></td>
+<td>💼 <code>:briefcase:</code></td>
+</tr>
+<tr>
+<td>👜 <code>:handbag:</code></td>
+<td>👝 <code>:pouch:</code></td>
+<td>👛 <code>:purse:</code></td>
+</tr>
+<tr>
+<td>👓 <code>:eyeglasses:</code></td>
+<td>🎣 <code>:fishing_pole_and_fish:</code></td>
+<td>☕️ <code>:coffee:</code></td>
+</tr>
+<tr>
+<td>🍵 <code>:tea:</code></td>
+<td>🍶 <code>:sake:</code></td>
+<td>🍼 <code>:baby_bottle:</code></td>
+</tr>
+<tr>
+<td>🍺 <code>:beer:</code></td>
+<td>🍻 <code>:beers:</code></td>
+<td>🍸 <code>:cocktail:</code></td>
+</tr>
+<tr>
+<td>🍹 <code>:tropical_drink:</code></td>
+<td>🍷 <code>:wine_glass:</code></td>
+<td>🍴 <code>:fork_and_knife:</code></td>
+</tr>
+<tr>
+<td>🍕 <code>:pizza:</code></td>
+<td>🍔 <code>:hamburger:</code></td>
+<td>🍟 <code>:fries:</code></td>
+</tr>
+<tr>
+<td>🍗 <code>:poultry_leg:</code></td>
+<td>🍖 <code>:meat_on_bone:</code></td>
+<td>🍝 <code>:spaghetti:</code></td>
+</tr>
+<tr>
+<td>🍛 <code>:curry:</code></td>
+<td>🍤 <code>:fried_shrimp:</code></td>
+<td>🍱 <code>:bento:</code></td>
+</tr>
+<tr>
+<td>🍣 <code>:sushi:</code></td>
+<td>🍥 <code>:fish_cake:</code></td>
+<td>🍙 <code>:rice_ball:</code></td>
+</tr>
+<tr>
+<td>🍘 <code>:rice_cracker:</code></td>
+<td>🍚 <code>:rice:</code></td>
+<td>🍜 <code>:ramen:</code></td>
+</tr>
+<tr>
+<td>🍲 <code>:stew:</code></td>
+<td>🍢 <code>:oden:</code></td>
+<td>🍡 <code>:dango:</code></td>
+</tr>
+<tr>
+<td>🥚 <code>:egg:</code></td>
+<td>🍞 <code>:bread:</code></td>
+<td>🍩 <code>:doughnut:</code></td>
+</tr>
+<tr>
+<td>🍮 <code>:custard:</code></td>
+<td>🍦 <code>:icecream:</code></td>
+<td>🍨 <code>:ice_cream:</code></td>
+</tr>
+<tr>
+<td>🍧 <code>:shaved_ice:</code></td>
+<td>🎂 <code>:birthday:</code></td>
+<td>🍰 <code>:cake:</code></td>
+</tr>
+<tr>
+<td>🍪 <code>:cookie:</code></td>
+<td>🍫 <code>:chocolate_bar:</code></td>
+<td>🍬 <code>:candy:</code></td>
+</tr>
+<tr>
+<td>🍭 <code>:lollipop:</code></td>
+<td>🍯 <code>:honey_pot:</code></td>
+<td>🍎 <code>:apple:</code></td>
+</tr>
+<tr>
+<td>🍏 <code>:green_apple:</code></td>
+<td>🍊 <code>:tangerine:</code></td>
+<td>🍋 <code>:lemon:</code></td>
+</tr>
+<tr>
+<td>🍒 <code>:cherries:</code></td>
+<td>🍇 <code>:grapes:</code></td>
+<td>🍉 <code>:watermelon:</code></td>
+</tr>
+<tr>
+<td>🍓 <code>:strawberry:</code></td>
+<td>🍑 <code>:peach:</code></td>
+<td>🍈 <code>:melon:</code></td>
+</tr>
+<tr>
+<td>🍌 <code>:banana:</code></td>
+<td>🍐 <code>:pear:</code></td>
+<td>🍍 <code>:pineapple:</code></td>
+</tr>
+<tr>
+<td>🍠 <code>:sweet_potato:</code></td>
+<td>🍆 <code>:eggplant:</code></td>
+<td>🍅 <code>:tomato:</code></td>
+</tr>
+<tr>
+<td>🌽 <code>:corn:</code></td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+<p>Places</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>🏠 <code>:house:</code></td>
+<td>🏡 <code>:house_with_garden:</code></td>
+<td>🏫 <code>:school:</code></td>
+</tr>
+<tr>
+<td>🏢 <code>:office:</code></td>
+<td>🏣 <code>:post_office:</code></td>
+<td>🏥 <code>:hospital:</code></td>
+</tr>
+<tr>
+<td>🏦 <code>:bank:</code></td>
+<td>🏪 <code>:convenience_store:</code></td>
+<td>🏩 <code>:love_hotel:</code></td>
+</tr>
+<tr>
+<td>🏨 <code>:hotel:</code></td>
+<td>💒 <code>:wedding:</code></td>
+<td>⛪️ <code>:church:</code></td>
+</tr>
+<tr>
+<td>🏬 <code>:department_store:</code></td>
+<td>🏤 <code>:european_post_office:</code></td>
+<td>🌇 <code>:city_sunrise:</code></td>
+</tr>
+<tr>
+<td>🌆 <code>:city_sunset:</code></td>
+<td>🏯 <code>:japanese_castle:</code></td>
+<td>🏰 <code>:european_castle:</code></td>
+</tr>
+<tr>
+<td>⛺️ <code>:tent:</code></td>
+<td>🏭 <code>:factory:</code></td>
+<td>🗼 <code>:tokyo_tower:</code></td>
+</tr>
+<tr>
+<td>🗾 <code>:japan:</code></td>
+<td>🗻 <code>:mount_fuji:</code></td>
+<td>🌄 <code>:sunrise_over_mountains:</code></td>
+</tr>
+<tr>
+<td>🌅 <code>:sunrise:</code></td>
+<td>🌠 <code>:stars:</code></td>
+<td>🗽 <code>:statue_of_liberty:</code></td>
+</tr>
+<tr>
+<td>🌉 <code>:bridge_at_night:</code></td>
+<td>🎠 <code>:carousel_horse:</code></td>
+<td>🌈 <code>:rainbow:</code></td>
+</tr>
+<tr>
+<td>🎡 <code>:ferris_wheel:</code></td>
+<td>⛲️ <code>:fountain:</code></td>
+<td>🎢 <code>:roller_coaster:</code></td>
+</tr>
+<tr>
+<td>🚢 <code>:ship:</code></td>
+<td>🚤 <code>:speedboat:</code></td>
+<td>⛵️ <code>:boat:</code></td>
+</tr>
+<tr>
+<td>⛵️ <code>:sailboat:</code></td>
+<td>🚣 <code>:rowboat:</code></td>
+<td>⚓️ <code>:anchor:</code></td>
+</tr>
+<tr>
+<td>🚀 <code>:rocket:</code></td>
+<td>✈️ <code>:airplane:</code></td>
+<td>🚁 <code>:helicopter:</code></td>
+</tr>
+<tr>
+<td>🚂 <code>:steam_locomotive:</code></td>
+<td>🚊 <code>:tram:</code></td>
+<td>🚞 <code>:mountain_railway:</code></td>
+</tr>
+<tr>
+<td>🚲 <code>:bike:</code></td>
+<td>🚡 <code>:aerial_tramway:</code></td>
+<td>🚟 <code>:suspension_railway:</code></td>
+</tr>
+<tr>
+<td>🚠 <code>:mountain_cableway:</code></td>
+<td>🚜 <code>:tractor:</code></td>
+<td>🚙 <code>:blue_car:</code></td>
+</tr>
+<tr>
+<td>🚘 <code>:oncoming_automobile:</code></td>
+<td>🚗 <code>:car:</code></td>
+<td>🚗 <code>:red_car:</code></td>
+</tr>
+<tr>
+<td>🚕 <code>:taxi:</code></td>
+<td>🚖 <code>:oncoming_taxi:</code></td>
+<td>🚛 <code>:articulated_lorry:</code></td>
+</tr>
+<tr>
+<td>🚌 <code>:bus:</code></td>
+<td>🚍 <code>:oncoming_bus:</code></td>
+<td>🚨 <code>:rotating_light:</code></td>
+</tr>
+<tr>
+<td>🚓 <code>:police_car:</code></td>
+<td>🚔 <code>:oncoming_police_car:</code></td>
+<td>🚒 <code>:fire_engine:</code></td>
+</tr>
+<tr>
+<td>🚑 <code>:ambulance:</code></td>
+<td>🚐 <code>:minibus:</code></td>
+<td>🚚 <code>:truck:</code></td>
+</tr>
+<tr>
+<td>🚋 <code>:train:</code></td>
+<td>🚉 <code>:station:</code></td>
+<td>🚆 <code>:train2:</code></td>
+</tr>
+<tr>
+<td>🚅 <code>:bullettrain_front:</code></td>
+<td>🚄 <code>:bullettrain_side:</code></td>
+<td>🚈 <code>:light_rail:</code></td>
+</tr>
+<tr>
+<td>🚝 <code>:monorail:</code></td>
+<td>🚃 <code>:railway_car:</code></td>
+<td>🚎 <code>:trolleybus:</code></td>
+</tr>
+<tr>
+<td>🎫 <code>:ticket:</code></td>
+<td>⛽️ <code>:fuelpump:</code></td>
+<td>🚦 <code>:vertical_traffic_light:</code></td>
+</tr>
+<tr>
+<td>🚥 <code>:traffic_light:</code></td>
+<td>⚠️ <code>:warning:</code></td>
+<td>🚧 <code>:construction:</code></td>
+</tr>
+<tr>
+<td>🔰 <code>:beginner:</code></td>
+<td>🏧 <code>:atm:</code></td>
+<td>🎰 <code>:slot_machine:</code></td>
+</tr>
+<tr>
+<td>🚏 <code>:busstop:</code></td>
+<td>💈 <code>:barber:</code></td>
+<td>♨️ <code>:hotsprings:</code></td>
+</tr>
+<tr>
+<td>🏁 <code>:checkered_flag:</code></td>
+<td>🎌 <code>:crossed_flags:</code></td>
+<td>🏮 <code>:izakaya_lantern:</code></td>
+</tr>
+<tr>
+<td>🗿 <code>:moyai:</code></td>
+<td>🎪 <code>:circus_tent:</code></td>
+<td>🎭 <code>:performing_arts:</code></td>
+</tr>
+<tr>
+<td>📍 <code>:round_pushpin:</code></td>
+<td>🚩 <code>:triangular_flag_on_post:</code></td>
+<td></td>
+</tr>
+</tbody></table>
+<p>Symbols</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1️⃣ <code>:one:</code></td>
+<td>2️⃣ <code>:two:</code></td>
+<td>3️⃣ <code>:three:</code></td>
+</tr>
+<tr>
+<td>4️⃣ <code>:four:</code></td>
+<td>5️⃣ <code>:five:</code></td>
+<td>6️⃣ <code>:six:</code></td>
+</tr>
+<tr>
+<td>7️⃣ <code>:seven:</code></td>
+<td>8️⃣ <code>:eight:</code></td>
+<td>9️⃣ <code>:nine:</code></td>
+</tr>
+<tr>
+<td>🔟 <code>:keycap_ten:</code></td>
+<td>🔢 <code>:1234:</code></td>
+<td>0️⃣ <code>:zero:</code></td>
+</tr>
+<tr>
+<td>#️⃣ <code>:hash:</code></td>
+<td>🔣 <code>:symbols:</code></td>
+<td>◀️ <code>:arrow_backward:</code></td>
+</tr>
+<tr>
+<td>⬇️ <code>:arrow_down:</code></td>
+<td>▶️ <code>:arrow_forward:</code></td>
+<td>⬅️ <code>:arrow_left:</code></td>
+</tr>
+<tr>
+<td>🔠 <code>:capital_abcd:</code></td>
+<td>🔡 <code>:abcd:</code></td>
+<td>🔤 <code>:abc:</code></td>
+</tr>
+<tr>
+<td>↙️ <code>:arrow_lower_left:</code></td>
+<td>↘️ <code>:arrow_lower_right:</code></td>
+<td>➡️ <code>:arrow_right:</code></td>
+</tr>
+<tr>
+<td>⬆️ <code>:arrow_up:</code></td>
+<td>↖️ <code>:arrow_upper_left:</code></td>
+<td>↗️ <code>:arrow_upper_right:</code></td>
+</tr>
+<tr>
+<td>⏬ <code>:arrow_double_down:</code></td>
+<td>⏫ <code>:arrow_double_up:</code></td>
+<td>🔽 <code>:arrow_down_small:</code></td>
+</tr>
+<tr>
+<td>⤵️ <code>:arrow_heading_down:</code></td>
+<td>⤴️ <code>:arrow_heading_up:</code></td>
+<td>↩️ <code>:leftwards_arrow_with_hook:</code></td>
+</tr>
+<tr>
+<td>↪️ <code>:arrow_right_hook:</code></td>
+<td>↔️ <code>:left_right_arrow:</code></td>
+<td>↕️ <code>:arrow_up_down:</code></td>
+</tr>
+<tr>
+<td>🔼 <code>:arrow_up_small:</code></td>
+<td>🔃 <code>:arrows_clockwise:</code></td>
+<td>🔄 <code>:arrows_counterclockwise:</code></td>
+</tr>
+<tr>
+<td>⏪ <code>:rewind:</code></td>
+<td>⏩ <code>:fast_forward:</code></td>
+<td>ℹ️ <code>:information_source:</code></td>
+</tr>
+<tr>
+<td>🆗 <code>:ok:</code></td>
+<td>🔀 <code>:twisted_rightwards_arrows:</code></td>
+<td>🔁 <code>:repeat:</code></td>
+</tr>
+<tr>
+<td>🔂 <code>:repeat_one:</code></td>
+<td>🆕 <code>:new:</code></td>
+<td>🔝 <code>:top:</code></td>
+</tr>
+<tr>
+<td>🆙 <code>:up:</code></td>
+<td>🆒 <code>:cool:</code></td>
+<td>🆓 <code>:free:</code></td>
+</tr>
+<tr>
+<td>🆖 <code>:ng:</code></td>
+<td>🎦 <code>:cinema:</code></td>
+<td>🈁 <code>:koko:</code></td>
+</tr>
+<tr>
+<td>📶 <code>:signal_strength:</code></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>🈂️ <code>:sa:</code></td>
+<td>🚻 <code>:restroom:</code></td>
+<td>🚹 <code>:mens:</code></td>
+</tr>
+<tr>
+<td>🚺 <code>:womens:</code></td>
+<td>🚼 <code>:baby_symbol:</code></td>
+<td>🚭 <code>:no_smoking:</code></td>
+</tr>
+<tr>
+<td>🅿️ <code>:parking:</code></td>
+<td>♿️ <code>:wheelchair:</code></td>
+<td>🚇 <code>:metro:</code></td>
+</tr>
+<tr>
+<td>🛄 <code>:baggage_claim:</code></td>
+<td>🉑 <code>:accept:</code></td>
+<td>🚾 <code>:wc:</code></td>
+</tr>
+<tr>
+<td>🚰 <code>:potable_water:</code></td>
+<td>🚮 <code>:put_litter_in_its_place:</code></td>
+<td>㊙️ <code>:secret:</code></td>
+</tr>
+<tr>
+<td>㊗️ <code>:congratulations:</code></td>
+<td>Ⓜ️ <code>:m:</code></td>
+<td>🛂 <code>:passport_control:</code></td>
+</tr>
+<tr>
+<td>🛅 <code>:left_luggage:</code></td>
+<td>🛃 <code>:customs:</code></td>
+<td>🉐 <code>:ideograph_advantage:</code></td>
+</tr>
+<tr>
+<td>🆑 <code>:cl:</code></td>
+<td>🆘 <code>:sos:</code></td>
+<td>🆔 <code>:id:</code></td>
+</tr>
+<tr>
+<td>🚫 <code>:no_entry_sign:</code></td>
+<td>🔞 <code>:underage:</code></td>
+<td>📵 <code>:no_mobile_phones:</code></td>
+</tr>
+<tr>
+<td>🚯 <code>:do_not_litter:</code></td>
+<td>🚱 <code>:non-potable_water:</code></td>
+<td>🚳 <code>:no_bicycles:</code></td>
+</tr>
+<tr>
+<td>🚷 <code>:no_pedestrians:</code></td>
+<td>🚸 <code>:children_crossing:</code></td>
+<td>⛔️ <code>:no_entry:</code></td>
+</tr>
+<tr>
+<td>✳️ <code>:eight_spoked_asterisk:</code></td>
+<td>✴️ <code>:eight_pointed_black_star:</code></td>
+<td>💟 <code>:heart_decoration:</code></td>
+</tr>
+<tr>
+<td>🆚 <code>:vs:</code></td>
+<td>📳 <code>:vibration_mode:</code></td>
+<td>📴 <code>:mobile_phone_off:</code></td>
+</tr>
+<tr>
+<td>💹 <code>:chart:</code></td>
+<td>💱 <code>:currency_exchange:</code></td>
+<td>♈️ <code>:aries:</code></td>
+</tr>
+<tr>
+<td>♉️ <code>:taurus:</code></td>
+<td>♊️ <code>:gemini:</code></td>
+<td>♋️ <code>:cancer:</code></td>
+</tr>
+<tr>
+<td>♌️ <code>:leo:</code></td>
+<td>♍️ <code>:virgo:</code></td>
+<td>♎️ <code>:libra:</code></td>
+</tr>
+<tr>
+<td>♏️ <code>:scorpius:</code></td>
+<td>♐️ <code>:sagittarius:</code></td>
+<td>♑️ <code>:capricorn:</code></td>
+</tr>
+<tr>
+<td>♒️ <code>:aquarius:</code></td>
+<td>♓️ <code>:pisces:</code></td>
+<td>⛎ <code>:ophiuchus:</code></td>
+</tr>
+<tr>
+<td>🔯 <code>:six_pointed_star:</code></td>
+<td>❎ <code>:negative_squared_cross_mark:</code></td>
+<td>🅰️ <code>:a:</code></td>
+</tr>
+<tr>
+<td>🅱️ <code>:b:</code></td>
+<td>🆎 <code>:ab:</code></td>
+<td>🅾️ <code>:o2:</code></td>
+</tr>
+<tr>
+<td>💠 <code>:diamond_shape_with_a_dot_inside:</code></td>
+<td>♻️ <code>:recycle:</code></td>
+<td>🔚 <code>:end:</code></td>
+</tr>
+<tr>
+<td>🔛 <code>:on:</code></td>
+<td>🔜 <code>:soon:</code></td>
+<td>🕐 <code>:clock1:</code></td>
+</tr>
+<tr>
+<td>🕜 <code>:clock130:</code></td>
+<td>🕙 <code>:clock10:</code></td>
+<td>🕥 <code>:clock1030:</code></td>
+</tr>
+<tr>
+<td>🕚 <code>:clock11:</code></td>
+<td>🕦 <code>:clock1130:</code></td>
+<td>🕛 <code>:clock12:</code></td>
+</tr>
+<tr>
+<td>🕧 <code>:clock1230:</code></td>
+<td>🕑 <code>:clock2:</code></td>
+<td>🕝 <code>:clock230:</code></td>
+</tr>
+<tr>
+<td>🕒 <code>:clock3:</code></td>
+<td>🕞 <code>:clock330:</code></td>
+<td>🕓 <code>:clock4:</code></td>
+</tr>
+<tr>
+<td>🕟 <code>:clock430:</code></td>
+<td>🕔 <code>:clock5:</code></td>
+<td>🕠 <code>:clock530:</code></td>
+</tr>
+<tr>
+<td>🕕 <code>:clock6:</code></td>
+<td>🕡 <code>:clock630:</code></td>
+<td>🕖 <code>:clock7:</code></td>
+</tr>
+<tr>
+<td>🕢 <code>:clock730:</code></td>
+<td>🕗 <code>:clock8:</code></td>
+<td>🕣 <code>:clock830:</code></td>
+</tr>
+<tr>
+<td>🕘 <code>:clock9:</code></td>
+<td>🕤 <code>:clock930:</code></td>
+<td>💲 <code>:heavy_dollar_sign:</code></td>
+</tr>
+<tr>
+<td>©️ <code>:copyright:</code></td>
+<td>®️ <code>:registered:</code></td>
+<td>™️ <code>:tm:</code></td>
+</tr>
+<tr>
+<td>❌ <code>:x:</code></td>
+<td>❗️ <code>:heavy_exclamation_mark:</code></td>
+<td>‼️ <code>:bangbang:</code></td>
+</tr>
+<tr>
+<td>⁉️ <code>:interrobang:</code></td>
+<td>⭕️ <code>:o:</code></td>
+<td>✖️ <code>:heavy_multiplication_x:</code></td>
+</tr>
+<tr>
+<td>➕ <code>:heavy_plus_sign:</code></td>
+<td>➖ <code>:heavy_minus_sign:</code></td>
+<td>➗ <code>:heavy_division_sign:</code></td>
+</tr>
+<tr>
+<td>💮 <code>:white_flower:</code></td>
+<td>💯 <code>:100:</code></td>
+<td>✔️ <code>:heavy_check_mark:</code></td>
+</tr>
+<tr>
+<td>☑️ <code>:ballot_box_with_check:</code></td>
+<td>🔘 <code>:radio_button:</code></td>
+<td>🔗 <code>:link:</code></td>
+</tr>
+<tr>
+<td>➰ <code>:curly_loop:</code></td>
+<td>〰️ <code>:wavy_dash:</code></td>
+<td>〽️ <code>:part_alternation_mark:</code></td>
+</tr>
+<tr>
+<td>🔱 <code>:trident:</code></td>
+<td>🔻 <code>:small_red_triangle_down:</code></td>
+<td>🔺 <code>:small_red_triangle:</code></td>
+</tr>
+<tr>
+<td>✅ <code>:white_check_mark:</code></td>
+<td>🔲 <code>:black_square_button:</code></td>
+<td>🔳 <code>:white_square_button:</code></td>
+</tr>
+<tr>
+<td>⚫️ <code>:black_circle:</code></td>
+<td>⚪️ <code>:white_circle:</code></td>
+<td>🔴 <code>:red_circle:</code></td>
+</tr>
+<tr>
+<td>🔵 <code>:large_blue_circle:</code></td>
+<td>🔷 <code>:large_blue_diamond:</code></td>
+<td>🔶 <code>:large_orange_diamond:</code></td>
+</tr>
+<tr>
+<td>🔹 <code>:small_blue_diamond:</code></td>
+<td>🔸 <code>:small_orange_diamond:</code></td>
+<td></td>
+</tr>
+</tbody></table>
+<p>转载来源：<a href="https://hasaik.com/posts/9b280ea3.html">Hexo中使用emoji表情 - 银河小徐 (hasaik.com)</a></p>
+]]></content>
+      <tags>
+        <tag>博客美化</tag>
+        <tag>杂</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>firstDemo</title>
+    <url>/2022/05/08/firstDemo/</url>
+    <content><![CDATA[<h1 id="dogNew"><a href="#dogNew" class="headerlink" title="dogNew"></a>dogNew</h1><h2 id="第一篇文章"><a href="#第一篇文章" class="headerlink" title="第一篇文章"></a>第一篇文章</h2>]]></content>
+      <categories>
+        <category>前端</category>
+      </categories>
+      <tags>
+        <tag>导航</tag>
+        <tag>分享</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2022/04/22/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>leetcode刷题</title>
+    <url>/2022/05/22/leetcode%E5%88%B7%E9%A2%98/</url>
+    <content><![CDATA[]]></content>
+      <tags>
+        <tag>算法</tag>
+        <tag>leetcode</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>hexo使用笔记</title>
+    <url>/2022/05/10/hexo%E4%BD%BF%E7%94%A8%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<h1 id="hexo笔记"><a href="#hexo笔记" class="headerlink" title="hexo笔记"></a>hexo笔记</h1><h2 id="写作命令"><a href="#写作命令" class="headerlink" title="写作命令"></a>写作命令</h2><ol>
+<li>新建分页: <code>hexo new page 名称</code></li>
+<li>新建文章: <code>hexo new 名称</code> 或 <code>hexo n 名称</code></li>
+<li>新建草稿: <code>hexo new draft 名称</code> 或 <code>hexo n draft 名称</code></li>
+<li>草稿生成文章: <code>hexo publish 名称</code> 或 <code>hexo p 名称</code></li>
+<li>草稿生成分页: <code>hexo publish page 名称</code> 或 <code>hexo p 名称</code></li>
+</ol>
+<h2 id="操作命令"><a href="#操作命令" class="headerlink" title="操作命令"></a>操作命令</h2><ol>
+<li>清除已生成文件: <code>hexo clean</code></li>
+<li>运行本地服务器（预览）: <code>hexo s</code></li>
+<li>运行本地服务器（预览草稿）: <code>hexo s --drafts</code></li>
+<li>生成静态文件: <code>hexo g</code></li>
+<li>部署到服务器: <code>hexo d</code></li>
+<li>生成并部署文件: <code>hexo g -d</code> 或 <code>hexo d -g</code></li>
+</ol>
+<h2 id="常见事项"><a href="#常见事项" class="headerlink" title="常见事项"></a>常见事项</h2><ol>
+<li>多标签<figure class="highlight subunit"><table><tr><td class="code"><pre><code class="hljs subunit"><span class="hljs-keyword">tags:</span> <br>- 标签1<br>- 标签2<br></code></pre></td></tr></table></figure>
+或<code>tags:[标签1，标签2]</code></li>
+<li>设置阅读全文</li>
+</ol>
+<ul>
+<li>方法1：在文章中使用<code>&lt;!--more--&gt;</code>手动进行截断,Hexo提供的方式（推荐）</li>
+<li>方法2：在文章的front-matter中添加description,并提供文章摘录</li>
+<li>方法3：自动形成摘要,在主题配置文件中修改：<figure class="highlight dts"><table><tr><td class="code"><pre><code class="hljs dts"><span class="hljs-symbol">auto_excerpt:</span><br><span class="hljs-symbol">    enable:</span>true<br><span class="hljs-symbol">    length:</span><span class="hljs-number">150</span><br></code></pre></td></tr></table></figure>
+默认截取的长度为150字符，可以根据需要自行设定<blockquote>
+<p>建议使用<code>&lt;!--more--&gt;</code>(及第一种方式)，除了可以精确控制需要显示的展露内容以外，这种方式也可以让Hexo中的插件更好的识别</p>
+</blockquote>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>博客搭建</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>关于本博客访问的一点说明</title>
+    <url>/2022/05/16/%E5%85%B3%E4%BA%8E%E6%9C%AC%E5%8D%9A%E5%AE%A2%E8%AE%BF%E9%97%AE%E7%9A%84%E4%B8%80%E7%82%B9%E8%AF%B4%E6%98%8E/</url>
+    <content><![CDATA[<p>经舍友推荐采用免费图床<a href="https://imgur.com/">imgur</a>,因此图片需链接代理后才可完整显示。</p>
+]]></content>
+      <tags>
+        <tag>杂</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>建站想法</title>
+    <url>/2022/05/14/%E5%BB%BA%E7%AB%99%E6%83%B3%E6%B3%95/</url>
+    <content><![CDATA[<h1 id="建站想法"><a href="#建站想法" class="headerlink" title="建站想法"></a>建站想法</h1><div class="note note-success">
+            <p>以前总是不在意自己的写作能力，现在想输出点东西但不知道怎么组织语言了</p>
+          </div>
+<h2 id="聊一聊我"><a href="#聊一聊我" class="headerlink" title="聊一聊我"></a>聊一聊我</h2><ul>
+<li>总患得患失。做大事而惜身，见小利而忘命。  </li>
+<li>三分钟热度，爱好广泛但没有能搬上台的东西。  </li>
+<li>一直在后悔。后悔做了某事儿，后悔没做某事儿。  </li>
+<li>白日梦想家。整日在想应该做什么但从没付诸行动。</li>
+</ul>
+<h2 id="为什么会有这个想法"><a href="#为什么会有这个想法" class="headerlink" title="为什么会有这个想法"></a>为什么会有这个想法</h2><p>回想高中生活，我的知识基本都还给老师了，只留下了应试技巧。大一尝到了甜头，用那些技巧，没怎么认真学但成绩很好，因此大二大三只是为了去应付考试，很少去将知识用于实践。所以回头看一眼我的大学生活，真正拿得出手的就只有成绩单上几个数字，但知识早就忘光了。  </p>
+<p>我的朋友们都很强，看到他们都有所成就，心里很替他们高兴，但也有些不是滋味。因为一想到可能出了大学自己会的还是那点应试技巧，那就太无聊了。  </p>
+<p>大学期间也经历了一些不开心、不光彩、甚至说没出息的事儿，我也想找个地方把它们记录下来。  </p>
+<p>网上看到很多技术大牛都有自己的博客，用来记录自己所学或是日常生活。因此我也一直想拥有一个自己的博客，但是总是担心不会写文章，没有拿得出手的技术硬货，一直迟迟没有动手。偶然看到舍友的博客，我终于下定了决心，不管结果怎样，先动手，说不定能坚持下去。  </p>
+<h2 id="我该写点什么"><a href="#我该写点什么" class="headerlink" title="我该写点什么"></a>我该写点什么</h2><ul>
+<li>学习笔记</li>
+<li>学习感悟</li>
+<li>生活日记</li>
+<li>生活感悟</li>
+</ul>
+<h2 id="领路人"><a href="#领路人" class="headerlink" title="领路人"></a>领路人</h2><p>两个舍友，三个朋友，让我下定决心搭建博客，并一直提供支持，有问必有答。感谢！</p>
+<ul>
+<li>PPLong</li>
+<li>Fan Lu </li>
+<li>WLeoo</li>
+</ul>
+<h2 id="对自己的期望"><a href="#对自己的期望" class="headerlink" title="对自己的期望"></a>对自己的期望</h2><ul>
+<li>保持这份爱好</li>
+<li>拒绝患得患失  </li>
+<li>少思考多行动</li>
+</ul>
+<blockquote>
+<p>『做不让自己后悔的事，不后悔自己做过的事』——「PPLong &amp; Wan」</p>
+</blockquote>
+<p>博客成功建成，就当是个新的开始，接受过去，享受现在，迎接未来。</p>
+]]></content>
+      <tags>
+        <tag>生活杂谈</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>生活杂谈1</title>
+    <url>/2022/05/16/%E7%94%9F%E6%B4%BB%E6%9D%82%E8%B0%881/</url>
+    <content><![CDATA[<h1 id="生活杂谈1"><a href="#生活杂谈1" class="headerlink" title="生活杂谈1"></a>生活杂谈1</h1><div class="note note-success">
+            <p>其实我也不知道说些什么，但又觉得总有点什么，可能有那么一股埋藏在心里很久的情绪，有一天见了光，突然发了芽。</p>
+          </div>  
+
+<p>到了深夜，可能多愁善感的人会变得更多愁善感，优柔寡断的人也更优柔寡断了。  </p>
+<p>早从外地回来老朱就喊我出去吃夜宵。但最近确实忙，鸽了老朱好多次，今晚终于抽出时间了。  </p>
+<p>随便喝了点。喝到尽兴处，老朱跟我说了最近的情感经历。看来这段时间也不止我经历了些不好的事情呀。老朱说的这些话也引起了我的很多思绪。有些事情很难说得清，很多事情也很难做到感同身受。可能经历的故事不一样，遇到的人也不一样。我不知道是不是自己做错了，但我要学会把别人往坏处想。  </p>
+<p>聊了很多。我们都想家了。时间和空间真的会改变一个人的性情，一个人在外面呆久了便会特别惧怕一切抒情的东西。就像突然看到New朝我撒欢的照片视频，思绪便会拉扯到远方。当初说以后死活不留在家乡的豪言壮志，没想到在外面只过了三年就想食言了。我总拿着担当的名义来掩盖自己的没出息。但我不后悔出来，这三年我经历了很多，学到了很多，我相信这些是在家乡里学不来的。借用一位巾帼英雄的话：“大丈夫之志应如长江，东奔大海，何苦怀恋于温柔之乡？”  </p>
+<p>真的感谢那些倾听我负面情绪的人。不是每个人都愿意承担我的负能量，在乎我的种种情绪。我高兴时他们也感到高兴，我难过时他们也会对我百般安慰。就像我写这篇文章，他们看到的不只是我的文字，更多的是我写这篇文章时的心情。感谢生在这样一个小家庭，感谢遇见了这么多的好朋友。希望我也能早日成长起来，好好的报答你们。</p>
+<p>这篇文章也是在看到一位大佬的博客有感而发，感觉我们的经历有点类似。本人文笔很差，很多句子也是照搬照抄。我也不放链接了，希望您看到可以理解。</p>
+<p>时候不早了，明天还得继续做大作业。晚安好梦。</p>
+]]></content>
+      <tags>
+        <tag>生活杂谈</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>计算机游戏设计上机实验1</title>
+    <url>/2022/05/25/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%B8%B8%E6%88%8F%E8%AE%BE%E8%AE%A1%E4%B8%8A%E6%9C%BA%E5%AE%9E%E9%AA%8C1/</url>
+    <content><![CDATA[<h1 id="《巫师3：狂猎》游戏世界分析"><a href="#《巫师3：狂猎》游戏世界分析" class="headerlink" title="《巫师3：狂猎》游戏世界分析"></a>《巫师3：狂猎》游戏世界分析</h1><h2 id="《巫师3：狂猎》游戏介绍"><a href="#《巫师3：狂猎》游戏介绍" class="headerlink" title="《巫师3：狂猎》游戏介绍"></a>《巫师3：狂猎》游戏介绍</h2><p>《巫师3：狂猎》是由CD Projekt RED制作，WB Games（北美地区）、Spike Chunsoft（日本地区）发行的一款RPG游戏（角色扮演类游戏），于2015年5月19日在Windows&#x2F;Playstation 4&#x2F;Xbox One平台发行，2019年10月13日登录Nintendo Switch平台。游戏改编自小说《猎魔人》系列，为《<a href="https://baike.baidu.com/item/%E5%B7%AB%E5%B8%88/3816318">巫师</a>》系列的第三部作品，同时也是杰洛特冒险的终曲。该游戏曾获得2015年TGA年度最佳RPG游戏、IGN年度最佳RPG游戏、游民星空年度最佳RPG游戏以及2016年TGA年度最佳RPG游戏等等奖项。  </p>
+<p>《巫师3：狂猎》是一款情节驱动的开放世界角色扮演游戏。本作讲述的是猎魔人杰洛特的故事，游戏中玩家也将扮演猎魔人杰洛特进行游戏。故事发生在一个令人目眩神迷的奇幻宇宙里，玩家做出的每一个选择都意义重大，同时也要面对影响深远的后果。游戏中玩家通过完成任务和打败怪物可以获得经验点数，在获得一定的经验点数后就能提升等级，并获得能力点数、解锁技能槽与突变诱发物槽来进行人物设定。</p>
+<h2 id="游戏世界分析"><a href="#游戏世界分析" class="headerlink" title="游戏世界分析"></a>游戏世界分析</h2><p>从物理维度、时间维度、环境维度、感情维度、道德维度以及现实度六个维度分析《巫师：3》游戏世界</p>
+<h3 id="物理维度"><a href="#物理维度" class="headerlink" title="物理维度"></a>物理维度</h3><h4 id="空间维度"><a href="#空间维度" class="headerlink" title="空间维度"></a>空间维度</h4><ul>
+<li>游戏中几乎所有图形素材均为3D建模，因此该游戏是一款3D游戏。</li>
+</ul>
+<h4 id="大小规模"><a href="#大小规模" class="headerlink" title="大小规模"></a>大小规模</h4><ul>
+<li><p>游戏是高仿真游戏，物体之间大小比例比较准确，但有些关键物体会被夸大，比如需要采的药草、需要获取的推动剧情发展的物品（钥匙、人物手镯等等）</p>
+<img src="https://i.imgur.com/F8pReji.png"  width="500"  height = "300" />
+</li>
+<li><p>人、建筑物与地形高度较为符合现实，但也存在某些房屋较矮的情况，玩家甚至能轻易跳上屋顶。或许是游戏厂商有意为之。</p>
+</li>
+<li><p>室内和室外场所比例比较符合逻辑。</p>
+<ul>
+<li><p>室内大小合理，玩家只需要走动或者跑动即可在短时间内走完。</p>
+<p><img src="https://i.imgur.com/Tg7oU5L.png"></p>
+</li>
+<li><p>城市之间距离在游戏世界中相对来说路程较远，可用现实世界的公里来衡量。玩家要从一个城市到另一个城市往往需要借助其他工具，游戏中体现为马匹和传送门。游戏也设置快速传送点，方便玩家在城市间切换。</p>
+</li>
+</ul>
+<p><img src="https://i.imgur.com/qdrwnv6.png"></p>
+</li>
+<li><p>物体相对速度合理。人物有走动、跑动状态，马匹有慢走，慢跑与疾驰状态，状态间速度变化明显。人物相对马移动速度满，游戏刻画地非常明显。同时背包中物品数量也会影响人物以及马匹的移动速度。上述设置较为合理且符合现实。</p>
+</li>
+</ul>
+<h4 id="界限"><a href="#界限" class="headerlink" title="界限"></a>界限</h4><p>不知是否是翻译问题，游戏宣传曾说《巫师3：狂猎》的世界所有“目之所及”的地方都可以到达，没有空气墙和边界。但我测试一下，结果并非完全如此。</p>
+<ul>
+<li><p>游戏世界确实没有空气墙，且玩家确实无法到达边界。但当玩家即将抵达地图边界时，游戏会弹出提示：“超出地图边界，请回头”。此时游戏主角杰洛特也会说：“我不觉得希瑞（推动故事发展的人物）会在那个方向”。但若忽视掉这些提示，继续跑一会儿，屏幕就会突然黑屏然后将人物强制转头，将人物传送回“地图边界”。</p>
+<p><img src="https://i.imgur.com/u3zSRsU.png" alt="到达世界边缘"></p>
+</li>
+<li><p>当人物到达游戏边境时打开ansel摄像头，去探索游戏远景，发现游戏世界确实还是存在边界，只不过被上述方法巧妙掩盖了。</p>
+</li>
+</ul>
+<h3 id="时间维度"><a href="#时间维度" class="headerlink" title="时间维度"></a>时间维度</h3><p>对于这类大型的开放世界RPG游戏中时间流逝是很重要的一个设定。如果是游戏时间流逝过快就会让玩家缺乏游戏的代入感，但要是时间流速过慢又会让游戏的节奏过慢而导致玩家丧失耐心。</p>
+<ul>
+<li><p>对《巫师3：狂猎》中的时间变化，游戏时间中的时间流速是游戏世界中的一天等于现实世界的1小时36分钟。可以测算出现实中过去一秒，游戏中过去15秒。时间是绝对的，无论玩家是否在行动，时间都是在流逝的。不过《巫师3：狂猎》中并不存在季节系统。</p>
+</li>
+<li><p>游戏是存在时间尺度的。游戏有时间单位，用周、天、小时等来度量。部分任务要求一周或者几天后才能开始执行。玩家化身具有某些能力以及部分道具是用小时来衡量的。</p>
+</li>
+<li><p>游戏中存在白天黄昏黑夜等。</p>
+<p><img src="https://i.imgur.com/hJEcXgt.png" alt="日落"></p>
+<ul>
+<li>白天与黑夜不会影响玩家的化身，玩家的化身不会因为时间流逝而感觉到饿或者累。但是黑夜通常会影响玩家的视野，若玩家在黑夜中赶路通常需要一些照明设备。另外有些道具要求必须在白天或在晚上才能做。</li>
+<li>有些任务要求玩家必须在特定的时间段来完成，例如要求玩家在黄昏时完成的任务。</li>
+<li>玩家也可根据时段来做相应任务，以此来降低人物的难度系数。</li>
+<li>许多生物在不同的时间段都会有不同的效果，比如说狼在夜晚会增加攻击力，或是在晴天的时候成群结队等等。</li>
+</ul>
+<p>玩家可以在游戏中把握时间从而更轻易达到自己的目的。因此增加了玩家的可玩性。</p>
+<p><img src="https://i.imgur.com/in0QwcZ.png" alt="黑夜"></p>
+</li>
+<li><p>游戏存在可变时间。玩家有时需要游戏时间快速流逝，来达到自己想要的时间段。游戏提供了一种冥想的功能。玩家可以选择冥想的时间，最久24小时，最少1小时（游戏时间）。玩家可以通过冥想来快速度过时间。</p>
+<img src="https://i.imgur.com/T8AKIcx.png"  width="400"  height = "600" />
+</li>
+<li><p>不允许玩家调整时间。游戏中时间作为绝对的游戏元素不可被玩家手动更改。如上所述，玩家可采用“冥想”快速消耗时间来“调整时间”。</p>
+</li>
+<li><p>游戏中不存在反常时间。</p>
+</li>
+</ul>
+<h3 id="环境维度"><a href="#环境维度" class="headerlink" title="环境维度"></a>环境维度</h3><ul>
+<li><p>游戏延承了《猎魔人》系列小说的世界观。游戏世界观极为宏大，故事发生在“巫师星球”上。巫师星球与另一颗星球交汇，出现了许多魔物。之后巫师星球出现了第一批精灵，后面演化出了人类。过了很多年之后，人类建立起了自己的帝国，版图大致分为两块：北方诸国与南方帝国。</p>
+</li>
+<li><p>在游戏中人类具有一个复杂的、有组织的社会。上面也提到，人类建立起了帝国，包括北方的瑞达尼亚、科德温、泰莫利亚、亚甸以及南方的尼弗迦德。人们社会阶层分明，如同中世纪的欧洲帝国，包括统治者，大臣，贵族，平民等等。行业多种多样，主要包括：商店老板、药草师、猎魔人、工匠、术士、士兵、猎人、诗人、佣兵、农民等等。游戏中存在一种组织叫做“狂猎”，作为与游戏化身矛盾的发起点。</p>
+</li>
+<li><p>游戏中的家具、服装、建筑风格与中世纪的欧洲帝国相似。家具精致而质朴，多为木工手艺；服饰多为样式单调的肥大长衣以及连袖外套为主，色彩素淡；建筑简洁、线条分明、讲究对称、多运用色彩明暗、暗淡对视觉进行冲击。</p>
+<p><img src="https://i.imgur.com/HjbOita.png"></p>
+</li>
+<li><p>人们多以游牧业与农业为主，崇尚帝国主义以及军事威力，因此战乱较为频繁。</p>
+</li>
+<li><p>巫师的世界中，神的存在并没有像指环王的世界那样重要和严谨，可以被看作是无神论或者自然神论的奇幻世界。巫师的世界中终身被称作‘gods’，带没有明确的神系和神域，其中游戏涉及的主神有女神Melitele，在游戏中拥有教堂和广泛的信徒，神域特征是善良和守护；Lilit女神是恶魔的化身，但被世界的东部居民崇拜，甚于特征是邪恶与毁灭。另外还有一些邪教性质的信仰，包括Coram Agh Tera，信仰某种蜘蛛类的‘邪神’，‘伟大的编织者’；还有永恒之火教团等等。</p>
+<p><img src="https://i.imgur.com/tN8npEF.png" alt="永恒之火教团祭祀"></p>
+</li>
+<li><p>游戏视觉风格统一。角色、用户界面等等符合古代欧洲帝国典雅、朴素但不失壮丽的风格。</p>
+</li>
+<li><p>游戏设计各种自然环境。现实世界中能想到的地形，游戏世界中基本都能涵盖，包括雪山、大海、荒地、森林、平原等等。</p>
+</li>
+<li><p>游戏风格和气氛与物理环境相关。当天气晴朗且人物在安全状态时，游戏气氛无忧无虑且欢快。但当天气作恶或与魔物接触时游戏气氛紧张刺激。</p>
+</li>
+<li><p>游戏细节处理极为丰富。游戏对细节刻画极为重视，人类的尸骨，魔物的血迹甚至脚步都能看到。当然，有些任务也需要玩家仔细寻找发现这些细节才能继续执行。</p>
+<p><img src="https://i.imgur.com/UIUhDqv.png" alt="羊的脚印"></p>
+</li>
+</ul>
+<h3 id="感情维度"><a href="#感情维度" class="headerlink" title="感情维度"></a>感情维度</h3><ul>
+<li><p>游戏感情极为丰富，甚至可以说游戏剧情是以感情为线索发展的。</p>
+<ul>
+<li><p>主角杰洛特与叶奈法（女术士）的感情始于一场关于迪精的冒险，随着这场冒险，他们二人的命运纠缠在了一起。二人也同时养育着杰洛特意外获得的养女（希里）。</p>
+<p><img src="https://i.imgur.com/cQkP5jw.png" alt="杰洛特与叶奈法"></p>
+</li>
+<li><p>杰洛特与叶奈法在经历了一场意外后失忆。杰洛特在失忆后于叶奈法的好友特莉丝（女术士）还有一段坎坷的恋情。</p>
+<p><img src="https://i.imgur.com/FEESNf9.png" alt="杰洛特与特莉丝"></p>
+</li>
+<li><p>后面杰洛特恢复了记忆，使得特莉丝无法接受自己爱上了好友爱人的事实，但在感性上又无法割舍对杰洛特的爱，这就产生了矛盾。</p>
+</li>
+<li><p>而叶奈法先于杰洛特恢复了记忆。因此他早已得知恋人和曾经的好友在一起的事实，与杰洛特有着很深羁绊的她无疑时十分痛苦的。</p>
+</li>
+</ul>
+</li>
+<li><p>感情作为剧情推动。从开始杰洛特要去寻找旧爱叶奈法与好友来到白果园，后面要与希里生父合作找寻自己疼爱的养女希里等等，正是因为玩家化身具备丰富的感情，才使得游戏剧情顺利推进。</p>
+</li>
+<li><p>游戏给玩家设立了很多抉择，不同抉择下的剧情推动不同，玩家必须为游戏化身做出选择。比如杰洛特在恢复记忆后是否拒绝特莉丝的表白等等。这样玩家通常会出于同情或其他心里难以抉择，或是对其中一方本就嗤之以鼻而爽快抉择两种方式。玩家基于对剧情走向的理解做出选择，则增加了玩家的沉浸感，容易引起玩家感情的共鸣。</p>
+</li>
+<li><p>玩家的抉择一般有善恶两种。比如完成任务后是否收取农民来之不易的钱。这与玩家的价值观相互辉映，容易激发玩家的情感，使玩家更易沉浸其中。</p>
+</li>
+</ul>
+<h3 id="道德维度"><a href="#道德维度" class="headerlink" title="道德维度"></a>道德维度</h3><ul>
+<li><p>从游戏大局以及现在人们的价值观来看，游戏中存在一个绝对的反派艾瑞汀。他抓走杰洛特的养女希里是为了获得其长者之血以及时空导航能力，从而在各个世界之间跳跃，侵略。</p>
+<p><img src="https://i.imgur.com/TxVg9V8.png" alt="艾瑞汀"></p>
+</li>
+<li><p>然而分析其他人物时并没有绝对的对错。比如还有人想要带走希里，叫做阿瓦拉克。它来自艾恩艾尔世界，其白霜将在不久的将来吞噬整个世界。而阿瓦拉克的目的是用希里的能力拯救家乡，让其免遭白霜的吞噬；再比如杰洛特在游戏开始时曾与不满新帝国暴政的平民意外起了冲突，便将所有暴乱的平民全部杀掉。这些并不能判定究竟谁对谁错，这种道德的模棱两可也是游戏成功的原因之一。</p>
+</li>
+<li><p>游戏并未太过解释自身世界的道德维度，总体都是让玩家自己判断。而对玩家正确的判断通常会得到额外的奖励，比如金币、经验等等。这也算是一种给玩家解释道德维度的方式。</p>
+<p><img src="https://i.imgur.com/Y1KW3G4.png" alt="玩家具有不同的抉择"></p>
+</li>
+<li><p>游戏世界充斥着冲突与暴力。玩家需要与其他人或怪物打斗来赢得奖励。玩家有两把剑，一把铁剑一把银剑。虽然玩家经常与其他人冲突，但通常都是用铁剑斩恶，银剑斩妖。且基本都是出于正向原因而与他人冲突。</p>
+</li>
+<li><p>游戏中有些抉择给玩家对暴力的选择范围。有个剧情提到玩家攻下了一座城墙，而玩家可以选择饶城主一命或是杀掉。但似乎并没有因为选择非暴力而奖励，也没有因为选择暴力而惩罚。选择不同的抉择一般只会影响后续的剧情发展。</p>
+</li>
+<li><p>游戏里也有偷盗、掠夺、或是不遵守诺言的问题。但这些行为通常会有消极的后果。比如玩家若在城墙中偷拿走一些物资，会使得本中立的士兵对玩家刀剑相向。还有不向雇佣者缴纳物资之类不遵守诺言的问题，往往使得玩家不能获得应有的奖励。</p>
+</li>
+</ul>
+<h3 id="现实度"><a href="#现实度" class="headerlink" title="现实度"></a>现实度</h3><ul>
+<li><p>游戏比较符合显示规律。比如人物背包中物资过多无法长时间快跑，装备具有耐久度，马匹具有耐力。</p>
+<p><img src="https://i.imgur.com/CtRABZI.png"></p>
+</li>
+<li><p>但游戏也去掉了某些现实。比如玩家化身虽然可以进食，但没有饥饿感，食物主要用来回复生命值；玩家化身虽然会因装备多无法长时间快跑，但并无角色疲劳感的数值面板；角色没有情绪上的变化，至少没有对应的数值面板；角色的马匹可在几乎任何时候召唤到自己身边，这也不太符合现实。</p>
+<p><img src="https://i.imgur.com/6RKlroe.png"></p>
+</li>
+<li><p>但游戏中这些现实与“非现实”都是为可玩性服务的。人物背包物资过多就要求玩家去寻求npc交易或将装备存储；装备需要经常找工匠维护才能维持耐久度；马匹耐力有限，当马匹快跑时间过长时需要时间休息；角色可以进食但没有饥饿感、没有设置角色情绪上的变化也会减轻玩家对游戏的“不耐烦”；玩家几乎可以随时随地召唤自己的马匹也是为了方便玩家执行任务等等。综上所述，这些现实与“非现实”更增加了玩家的代入感，增加了游戏的可玩性。</p>
+</li>
+</ul>
+]]></content>
+      <tags>
+        <tag>游戏分析</tag>
+        <tag>课程作业</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>计算机网络</title>
+    <url>/2022/05/16/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/</url>
+    <content><![CDATA[<h1 id="第一章-概述"><a href="#第一章-概述" class="headerlink" title="第一章 概述"></a>第一章 概述</h1><h2 id="概念功能组成分类"><a href="#概念功能组成分类" class="headerlink" title="概念功能组成分类"></a>概念功能组成分类</h2><h3 id="计算机网络的概念"><a href="#计算机网络的概念" class="headerlink" title="计算机网络的概念"></a>计算机网络的概念</h3><ul>
+<li>计算机网络是 <strong>互连</strong> 的、<strong>自治</strong> 的计算机集合<ul>
+<li>互联：互联互通</li>
+<li>自治：无主从关系</li>
+</ul>
+</li>
+</ul>
+<h3 id="计算机网络的功能"><a href="#计算机网络的功能" class="headerlink" title="计算机网络的功能"></a>计算机网络的功能</h3><ol>
+<li><em><strong>数据通信</strong></em></li>
+<li><em><strong>资源共享</strong></em><ul>
+<li>硬件</li>
+<li>软件</li>
+<li>数据</li>
+</ul>
+</li>
+<li>分布式处理</li>
+<li>提高可靠性</li>
+<li>负载均衡</li>
+</ol>
+<h3 id="计算机网络的组成"><a href="#计算机网络的组成" class="headerlink" title="计算机网络的组成"></a>计算机网络的组成</h3><ol>
+<li>组成部分<ul>
+<li>硬件</li>
+<li>软件</li>
+<li>协议</li>
+</ul>
+</li>
+<li>工作方式<ul>
+<li>边缘部分：用户直接使用（主机所在的地方）<ul>
+<li>C&#x2F;S方式</li>
+<li>P2P方式</li>
+</ul>
+</li>
+<li>核心部分：为边缘部分服务</li>
+</ul>
+</li>
+<li>功能组成<ul>
+<li>通信子网：实现数据通信</li>
+<li>资源子网：实现资源共享&#x2F;数据处理<br><img src="https://i.imgur.com/6q7hsnX.png"></li>
+</ul>
+</li>
+</ol>
+<h3 id="计算机网络的分类"><a href="#计算机网络的分类" class="headerlink" title="计算机网络的分类"></a>计算机网络的分类</h3><ol>
+<li>按分布范围分<ul>
+<li>广域网WAN 交换技术</li>
+<li>城域网MAN</li>
+<li>局域网WAN 广播技术</li>
+<li>个人区域网PAN</li>
+</ul>
+</li>
+<li>按使用者分<ul>
+<li>公用网</li>
+<li>专用网</li>
+</ul>
+</li>
+<li>按交换技术分<ul>
+<li>电路交换</li>
+<li>报文交换</li>
+<li>分组交换</li>
+</ul>
+</li>
+<li>按拓扑结构分</li>
+<li>按传输技术分<ul>
+<li>广播式网络 共享公共通信信道</li>
+<li>点对点网络 使用分组存储转发和路由选择机制<br><img src="https://i.imgur.com/zr0BdxW.png"></li>
+</ul>
+</li>
+</ol>
+<h2 id="标准化工作和计算机相关性能指标"><a href="#标准化工作和计算机相关性能指标" class="headerlink" title="标准化工作和计算机相关性能指标"></a>标准化工作和计算机相关性能指标</h2><h3 id="标准化工作"><a href="#标准化工作" class="headerlink" title="标准化工作"></a>标准化工作</h3><h4 id="标准的分类"><a href="#标准的分类" class="headerlink" title="标准的分类"></a>标准的分类</h4><ol>
+<li>法定标准：<br>有权威机构指定的正式的、合法的标准 OSI</li>
+<li>事实标准：<br>某些公司的产品在竞争中占据了主流，时间长了，这些产品中的协议和技术就成了标准</li>
+</ol>
+<h3 id="计算机相关性能指标"><a href="#计算机相关性能指标" class="headerlink" title="计算机相关性能指标"></a>计算机相关性能指标</h3><h4 id="速率"><a href="#速率" class="headerlink" title="速率"></a>速率</h4><ul>
+<li>速率及数据率或称数据传输率或比特率</li>
+<li>连接在计算机网络上的主机在数字信道上传送数据位数的速率</li>
+</ul>
+<h4 id="带宽"><a href="#带宽" class="headerlink" title="带宽"></a>带宽</h4><ol>
+<li>“带宽”原本只某个信号具有的拼单宽度，即最高频率与最低频率之差，单位是赫兹(Hz)</li>
+<li>计算机网络中，带宽用来表示网络的通信线路传送数据的能力，通常是指单位时间内从网络的某一点到另一点所能通过的“最高数据率”。单位是“比特每秒”。（<em><strong>网络设备所支持的最高速度</strong></em>）</li>
+</ol>
+<h4 id="吞吐量"><a href="#吞吐量" class="headerlink" title="吞吐量"></a>吞吐量</h4><ul>
+<li>表示在<em><strong>单位时间</strong></em>内通过某个网络(或信道、接口)的数据量。</li>
+<li>吞吐量受网络的带宽或网络的额定速率的限制。</li>
+</ul>
+<h4 id="时延"><a href="#时延" class="headerlink" title="时延"></a>时延</h4><ul>
+<li>指数据（报文&#x2F;分组&#x2F;比特流）从网络(或链路)的一端传送到另一端所需的时间。也叫延迟或迟延。单位是s。</li>
+</ul>
+<ol>
+<li>发送时延<br><img src="https://i.imgur.com/uqCEbWI.png"></li>
+<li>传播时延<br>取决于电磁波传播速度和链路长度<br><img src="https://i.imgur.com/2wsJTgi.png"></li>
+<li>排队时延<br>等待输出&#x2F;入链路可用</li>
+<li>处理时延<br>检错 找出口</li>
+</ol>
+<h4 id="时延带宽积"><a href="#时延带宽积" class="headerlink" title="时延带宽积"></a>时延带宽积</h4><p>   时延带宽积&#x3D;传播时延 * 带宽<br>   以比特为单位的链路长度，即某段链路现在有多少比特。  </p>
+<h4 id="往返时延RTT"><a href="#往返时延RTT" class="headerlink" title="往返时延RTT"></a>往返时延RTT</h4><p>   从发送方发送数据开始，到发送方收到接收方的确认（接收方收到数据后立即发送确认），总共经历的时延<br>   RTT越大，在收到确认之前，可以发送的数据越多  </p>
+<ol>
+<li>往返传播时延&#x3D;传播时延*2</li>
+<li>末端处理时间</li>
+</ol>
+<h4 id="利用率"><a href="#利用率" class="headerlink" title="利用率"></a>利用率</h4><ul>
+<li>信道利用率</li>
+<li>网络利用率<br><img src="https://i.imgur.com/dTNsdgW.png"></li>
+</ul>
+<h2 id="分层结构、接口、协议、服务"><a href="#分层结构、接口、协议、服务" class="headerlink" title="分层结构、接口、协议、服务"></a>分层结构、接口、协议、服务</h2><h3 id="发送文件前要完成的工作"><a href="#发送文件前要完成的工作" class="headerlink" title="发送文件前要完成的工作"></a>发送文件前要完成的工作</h3><ul>
+<li>发送通信的计算机必须将数据通信的通路进行激活</li>
+<li>要告诉网络如何识别目的主机</li>
+<li>发起通信的计算机要查明目的主机是否开机，并且与网络连接正常</li>
+<li>发起通信的计算机要弄清楚，对方计算机中文件管理程序是否已经做好准备工作</li>
+<li>确保差错和意外可以解决</li>
+</ul>
+<h3 id="分层的基本原则"><a href="#分层的基本原则" class="headerlink" title="分层的基本原则"></a>分层的基本原则</h3><ol>
+<li>各层之间相互独立，每层只实现一种相对独立的功能。</li>
+<li>每层之间界面自然清晰，易于理解，相互交流尽可能少（接口）</li>
+<li>结构上可分割开。每层都采用最合适的技术来实现。</li>
+<li>保持下层对上层的独立性，<em><strong>上层单项使用下层提供的服务。</strong></em></li>
+<li>整个分层结构应该能促进标准化工作。</li>
+</ol>
+<h3 id="分层结构"><a href="#分层结构" class="headerlink" title="分层结构"></a>分层结构</h3><ol>
+<li>实体：第n层中的活动元素成为<em><strong>n层实体。</strong></em>同一层的实体叫对等实体。</li>
+<li>协议：为进行网络中的对等实体数据交换而建立的规则、标准或约定成为网络协议。（水平）<ul>
+<li>语法：规定传输数据的的格式</li>
+<li>语义：规定所要完成的功能</li>
+<li>同步：规定各种操作的顺序</li>
+</ul>
+</li>
+<li>接口（访问服务点SAP）：上层使用下层服务的入口</li>
+<li>服务：下层为相邻上层提供的功能调用。（垂直）</li>
+</ol>
+<ul>
+<li>SDU服务数据单元：为完成用户所要去的功能而应传送的数据。</li>
+<li>PCI协议控制信息：控制协议操作的信息</li>
+<li>PDU协议数据单元：对等层次之间传送的数据单位</li>
+</ul>
+<h2 id="概念总结"><a href="#概念总结" class="headerlink" title="概念总结"></a>概念总结</h2><ul>
+<li>网络体系结构是从<em><strong>功能</strong></em>上描述计算机网络结构</li>
+<li>计算机网络体系结构简称网络体系结构是<em><strong>分层结构。</strong></em></li>
+<li>每层遵循某个&#x2F;些<em><strong>网络协议</strong></em>已完成本层功能。</li>
+<li><em><strong>计算机网络体系结构</strong></em>是计算机网络的<em><strong>各层级其协议</strong></em>的集合。</li>
+<li>第n层在向n+1层提供服务时，此服务不仅包含第n层本身的功能，还包含有下层服务提供的功能。</li>
+<li>仅仅在<em><strong>相邻层</strong></em><strong>间有接口</strong>，且所能提供服务的具体实现细节对上一层完全屏蔽</li>
+<li>体系结构是<em><strong>抽象</strong></em>的，而实现是指能运行的一些软件和硬件</li>
+</ul>
+<h2 id="OSI参考模型"><a href="#OSI参考模型" class="headerlink" title="OSI参考模型"></a>OSI参考模型</h2><p><img src="https://i.imgur.com/Q1Zw9P9.png"></p>
+<ul>
+<li>国际标准化组织（ISO）于1984年提出开放系统互连（OSI）参考模型。</li>
+<li>目的：支持<em><strong>异构网络系统</strong></em>的互联互通。</li>
+<li>OSI七层<br><img src="https://i.imgur.com/f1Q0VIP.png"><br>  每层完成特定的功能<br><img src="https://i.imgur.com/gCS12RL.png"></li>
+</ul>
+<h3 id="应用层"><a href="#应用层" class="headerlink" title="应用层"></a>应用层</h3><ul>
+<li>所有能和用户交互产生网络流量的程序</li>
+<li>典型应用层服务<ol>
+<li>文件传输（FTP）</li>
+<li>电子邮件（SMTP）</li>
+<li>万维网（HTTP）</li>
+</ol>
+</li>
+</ul>
+<h3 id="表示层"><a href="#表示层" class="headerlink" title="表示层"></a>表示层</h3><ul>
+<li>用于处理在两个通信系统中交换信息的表示方式（语法和语义）</li>
+<li>功能<ol>
+<li>数据格式变换（翻译官）</li>
+<li>数据加密解密</li>
+<li>数据压缩和恢复</li>
+</ol>
+</li>
+<li>主要协议：JPEG、ASCII</li>
+</ul>
+<h3 id="会话层"><a href="#会话层" class="headerlink" title="会话层"></a>会话层</h3><ul>
+<li>向表示层实体&#x2F;用户进程提供<em><strong>建立连接</strong></em>并在连接上<em><strong>有序</strong></em>地<em><strong>传输</strong></em>数据，这是会话，也是建立同步（SYN）</li>
+<li>功能<ol>
+<li>建立、管理、终止会话</li>
+<li>使用校验点可使会话在通信失效时从<em><strong>校验点&#x2F;同步点</strong></em>继续恢复数据同步（是用于传输大文件）</li>
+</ol>
+</li>
+<li>主要协议ADSP、ASP</li>
+</ul>
+<h3 id="传输层"><a href="#传输层" class="headerlink" title="传输层"></a>传输层</h3><ul>
+<li>负责主机中<em><strong>两个进程</strong></em>的通信，及<em><strong>端到端</strong></em>的通信。传输单位是报文段或用户数据报。</li>
+<li>功能<ol>
+<li>可靠传输、不可靠传输</li>
+<li>差错控制</li>
+<li>流量控制</li>
+<li>复用分用<ul>
+<li>复用：多个应用层进程可同时使用下面运输层的服务</li>
+<li>分用：运输层把收到的信息分别交付给上面应用层中相应的进程。</li>
+</ul>
+</li>
+</ol>
+</li>
+<li>主要协议：TCP、UDP</li>
+</ul>
+<h3 id="网络层（IP层、网际层）"><a href="#网络层（IP层、网际层）" class="headerlink" title="网络层（IP层、网际层）"></a>网络层（IP层、网际层）</h3><ul>
+<li>主要任务是把<em><strong>分组</strong></em>从源端传到目的端，为分组交换网上的不同主机提供通信服务。网络层传输单位是<em><strong>数据报</strong></em></li>
+<li>功能<ol>
+<li>路由选择（最佳路径）</li>
+<li>流量控制</li>
+<li>差错控制</li>
+<li>拥塞控制<ul>
+<li>若所有结点都来不及接受分组，而要丢弃大量分组的话，网络就处于<em><strong>拥塞</strong></em>状态。因此要采取一定措施，缓解这种拥塞。</li>
+</ul>
+</li>
+</ol>
+</li>
+<li>主要协议：IP、IPX、ICMP、IGMP、ARP、RARP、OSPF</li>
+</ul>
+<h3 id="数据链路层"><a href="#数据链路层" class="headerlink" title="数据链路层"></a>数据链路层</h3><ul>
+<li>主要任务是把网络层传下来的数据报<em><strong>组装成帧</strong></em>。</li>
+<li>数据链路层&#x2F;链路层的传输单位是帧。</li>
+<li>功能<ol>
+<li>成帧（定义帧的开始和结束）</li>
+<li>差错控制 帧错+位错</li>
+<li>流量控制</li>
+<li>访问（接入）控制 控制对信道的访问</li>
+</ol>
+</li>
+<li>主要协议：SDLC、HDLC、PPP、STP</li>
+</ul>
+<h3 id="物理层"><a href="#物理层" class="headerlink" title="物理层"></a>物理层</h3><ul>
+<li>主要任务是在<strong>物理媒体</strong>上实现比特流的<strong>透明传输</strong></li>
+<li>物理层的传输单位是<em><strong>比特</strong></em><ul>
+<li>透明传输：指不管所传数据是什么样的比特组合，都应当能够在链路上传送。</li>
+</ul>
+</li>
+<li>功能<ol>
+<li>定义接口特性</li>
+<li>定义传输模式 单工、半双工、双工</li>
+<li>定义传输速率</li>
+<li>比特同步</li>
+<li>比特编码</li>
+</ol>
+</li>
+<li>主要协议：Rj45、802.3</li>
+</ul>
+<h2 id="TCP、IP参考模型和5层参考模型"><a href="#TCP、IP参考模型和5层参考模型" class="headerlink" title="TCP、IP参考模型和5层参考模型"></a>TCP、IP参考模型和5层参考模型</h2><p><img src="https://i.imgur.com/vKqe4dN.png"></p>
+<ul>
+<li>OSI参考模型与TCP&#x2F;IP参考模型相同点<ol>
+<li>都分层</li>
+<li>基于独立的协议栈的概念</li>
+<li>可以实现异构网络互联</li>
+</ol>
+</li>
+<li>不同点：<ol>
+<li>OSI定义三点：服务、协议、接口</li>
+<li>OSI先出现，参考模型先于协议发明，不偏向特定协议</li>
+<li>TCP&#x2F;IP设计之初就考虑到异构网互联问题，将IP作为重要层次</li>
+<li><img src="https://i.imgur.com/xaR5okc.png"></li>
+</ol>
+</li>
+</ul>
+<h3 id="5层参考模型"><a href="#5层参考模型" class="headerlink" title="5层参考模型"></a>5层参考模型</h3><p><img src="https://i.imgur.com/73QBib1.png"></p>
+<ul>
+<li>5层参考模型的数据封装与解封装<br><img src="https://i.imgur.com/wSWt5NB.png"></li>
+</ul>
+<h1 id="第二章-物理层"><a href="#第二章-物理层" class="headerlink" title="第二章 物理层"></a>第二章 物理层</h1><h2 id="物理层基本概念"><a href="#物理层基本概念" class="headerlink" title="物理层基本概念"></a>物理层基本概念</h2><ul>
+<li>物理层解决如何在连接各种计算机的传输媒体上<em><strong>传输数据比特流</strong></em>，而不是指具体的传输媒体。</li>
+<li>主要任务：确定与传输媒体<strong>接口</strong>有关的一些特性 定义标准</li>
+<li>规定特性<ol>
+<li>机械特性：定义物理连接的特性，规定物理连接时所采用的规格、接口形状、引线数目、引脚数量和排列情况。</li>
+<li>电气特性：规定传输二进制位时，线路上信号的电压范围、阻抗匹配、传输速率和距离限制等。</li>
+<li>功能特性：指明某条线上出现的某一点平表示何种意义，接口部件的信号线的用途。</li>
+<li>规程特性：（过程特性）定义各条物理线路的工作规程和时序关系。</li>
+</ol>
+</li>
+</ul>
+<h2 id="数据通信基础知识"><a href="#数据通信基础知识" class="headerlink" title="数据通信基础知识"></a>数据通信基础知识</h2><ul>
+<li>典型的数据通信模型<br><img src="https://i.imgur.com/BGaDxiG.png"></li>
+</ul>
+<h3 id="数据通信相关术语"><a href="#数据通信相关术语" class="headerlink" title="数据通信相关术语"></a>数据通信相关术语</h3><ul>
+<li>通信的目的是<strong>传送消息</strong>。</li>
+<li>数据：传送信息的实体，通常是有意义的符号序列。</li>
+<li>信号：数据的电气&#x2F;电磁的表现，是数据在传输过程中的<em><strong>存在形式</strong></em>。 数字信号：代表消息的参数取值是离散的。模拟信号：代表消息的参数取值是连续的。</li>
+<li>信源：产生和发送数据的源头。</li>
+<li>信宿：接受数据的终点。</li>
+<li>信道：信号的传输媒介。一般用来表示向某一个方向传送信息的介质，因此一条通信线路往往包含一条发送信道和一条接受信道。<br><img src="https://i.imgur.com/YZxu0je.png"></li>
+</ul>
+<h3 id="三种通信方式"><a href="#三种通信方式" class="headerlink" title="三种通信方式"></a>三种通信方式</h3><ul>
+<li>从通信双方信息的交互方式看，可以有三种基本方式<ol>
+<li>单工通信：只有一个方向的通信而没有反方向的交互，仅需要一条信道。</li>
+<li>半双工通信：通信的双方都可以发送或接受信息，但任何一方都不能同时发送和接受，需要两条信道。</li>
+<li>全双工通信：通信双方可以同时发送和接收信息，也需要两条信道。</li>
+</ol>
+</li>
+</ul>
+<h3 id="两种数据传输方式"><a href="#两种数据传输方式" class="headerlink" title="两种数据传输方式"></a>两种数据传输方式</h3><ul>
+<li>串行传输<br>速度慢，费用低，适合远距离</li>
+<li>并行传输<br>速度快，费用高，适合近距离</li>
+</ul>
+<h3 id="码元、波特、速率、带宽"><a href="#码元、波特、速率、带宽" class="headerlink" title="码元、波特、速率、带宽"></a>码元、波特、速率、带宽</h3><h4 id="码元"><a href="#码元" class="headerlink" title="码元"></a>码元</h4><ul>
+<li>码元是指用一个<em><strong>固定时长</strong></em>的<em><strong>信号波形</strong></em>（数字脉冲），代表不同离散数值的基本波形，是数字通信中数字信号的计量单位，这个时长内的信号称为k进制码元，而该时长称为码元宽度。当码元的离散状态有M个时（M大于2），此时码元为M进制码元。</li>
+<li>1码元可以携带多个比特的信息量。例如，在使用二进制编码时，只有两种不同的码元，一种代表0状态，另一种代表1状态。</li>
+</ul>
+<h4 id="速率、波特、带宽"><a href="#速率、波特、带宽" class="headerlink" title="速率、波特、带宽"></a>速率、波特、带宽</h4><ul>
+<li>速率也叫数据率，是指数据的<em><strong>传输速率</strong></em>，表示单位时间内传输的数据量。可以用<strong>码元传输速率</strong>和<strong>信息传输速率</strong>表示</li>
+<li>码元传输速率：别名码元速率、波形速率、调制速率、符号速率等，他表示单位时间内数字通信系统所传输的码元个数（也可称为<em><strong>脉冲个数或信号变换的次数</strong></em>），单位是<em><strong>波特（Baud）</strong></em>。1波特表示数字通信系统每秒传输一个码元。这里的码元可以是多进制的，也可以是二进制的，但码元速率与进制数无关。</li>
+<li>信息传输速率：别名信息速率、比特率等，表示单位时间内数字通信系统传输的二进制码元个数（即比特数），单位是比特&#x2F;秒（b&#x2F;s）。</li>
+<li>关系：若一个码元携带<em>n</em>bit的信息量，即M Baud的码元传输速率所对应的信息传输速率为M*n bit&#x2F;s。</li>
+<li>带宽：表示在单位时间内从网络中的某一点到另一点所能通过的“最高数据率”，常用来表示网络的通信线路所能传输数据的能力。单位是b&#x2F;s。</li>
+</ul>
+<h2 id="奈氏准则和香农定理"><a href="#奈氏准则和香农定理" class="headerlink" title="奈氏准则和香农定理"></a>奈氏准则和香农定理</h2><h3 id="失真"><a href="#失真" class="headerlink" title="失真"></a>失真</h3><ul>
+<li>影响失真程度的因素：<ol>
+<li>码元传输速率</li>
+<li>信号传输距离</li>
+<li>噪声干扰</li>
+<li>传输媒体质量</li>
+</ol>
+</li>
+</ul>
+<h3 id="失真的一种现象–码间串扰"><a href="#失真的一种现象–码间串扰" class="headerlink" title="失真的一种现象–码间串扰"></a>失真的一种现象–码间串扰</h3><ul>
+<li>信道带宽 是信道能通过的最高频率和最低频率之差。</li>
+<li>码间串扰：接收端收到的信号波形<em>失去了码元之间清晰界限</em>的现象。</li>
+</ul>
+<h3 id="奈氏准则（奈奎斯特定理）"><a href="#奈氏准则（奈奎斯特定理）" class="headerlink" title="奈氏准则（奈奎斯特定理）"></a>奈氏准则（奈奎斯特定理）</h3><ul>
+<li>奈氏准则：在理想低通（无噪声，带宽受限）条件下，为了避免码间串扰，极限码元传输速率为2W Baud，W是信道带宽，单位是Hz。</li>
+<li>理想地通信倒下的极限数据传输率&#x3D;2Wlog2V(b&#x2F;s)<ol>
+<li>在任何信道中，码元传输的速率是有<em><strong>上限</strong></em>的，若传输速率超过此上限，就会出现严重的码间串扰问题，使接收端对码元的完全正确识别成为不可能。</li>
+<li>信道的频带越宽（即能通过的信号高频分量越多），就可以用更高的速率进行码元的有效传输。</li>
+<li>奈氏准则给出了码元传输速率的限制，但并没有对信息传输速率给出限制。</li>
+<li>由于码元的传输速率受奈氏准则的制约，所以要提高数据的传输速率，就必须设法使每个码元能携带更多个比特的信息量，这就需要采用多元制的调制方法。</li>
+</ol>
+</li>
+</ul>
+<h3 id="香农定理"><a href="#香农定理" class="headerlink" title="香农定理"></a>香农定理</h3><ul>
+<li>噪声存在于所有的电子设备和通信信道中。由于噪声随机产生，它的瞬时值有时会很大，因此噪声会使接收端对码元的判决产生错误。但是噪声的影响是相对的，若信号较强，那么噪声影响相对较小。因此，信噪比就很重要。</li>
+<li>信噪比&#x3D;信号的平均功率&#x2F;噪声的平均功率，常记为S&#x2F;N，并用分贝（dB）作为度量单位，即信噪比<br>(dB)&#x3D;10log10（S&#x2F;N）</li>
+<li>香农定理：在带宽受限且有噪声的信道中，为了不产生误差，信息的数据传输速率有上限值。<br>信道的极限数据传输速率&#x3D;Wlog2（1+S&#x2F;N）(b&#x2F;s)</li>
+<li>信道的带宽或信道中的信噪比越大，则信息的极限传输速率就越高。</li>
+<li>对一定的传输带宽和一定的信噪比，信息传输速率的上限就确定了。</li>
+<li>只要信息的传输速率低于信道的极限传输速率，就一定能找到某种方法来实现<em><strong>无差错的传输</strong></em>。</li>
+<li>香农定理得出的为极限信息传输速率，实际信道能达到的传输速率要比它低不少。</li>
+<li>从香农定理可以看出，若信道带宽W或信噪比S&#x2F;N没有上限（不可能），那么信道的极限信息传输速率也就没有上限。</li>
+</ul>
+<h2 id="编码与调制"><a href="#编码与调制" class="headerlink" title="编码与调制"></a>编码与调制</h2><h3 id="基带信号与宽带信号"><a href="#基带信号与宽带信号" class="headerlink" title="基带信号与宽带信号"></a>基带信号与宽带信号</h3><p><img src="https://i.imgur.com/LdjolZY.png"><br><img src="https://i.imgur.com/jvMgOpx.png"></p>
+<ul>
+<li>在传输距离较近时，计算机网络采用基带传输方式（近距离衰减小，从而信号内容不易发生变化）</li>
+<li>在传输距离较远时，计算机网络采用宽带传输方式（远距离衰减大，即使信号变化大也能最后过滤出来基带信号）</li>
+</ul>
+<h3 id="编码与调制-1"><a href="#编码与调制-1" class="headerlink" title="编码与调制"></a>编码与调制</h3><p><img src="https://i.imgur.com/VN1Tk2O.png"><br><img src="https://i.imgur.com/LbPOtIW.png">  </p>
+<h4 id="数字数据编码为数字信号"><a href="#数字数据编码为数字信号" class="headerlink" title="数字数据编码为数字信号"></a>数字数据编码为数字信号</h4><p><img src="https://i.imgur.com/hxuf8K4.png"></p>
+<ul>
+<li>非归零编码【NRZ】<br><em><strong>高1低0</strong></em><br>编码容易实现，但没有检错功能，且无法判断一个码元的开始和结束，以至于收发双方<em><strong>难以保持同步</strong></em>。</li>
+<li>归零编码【RZ】<br>信号电平在一个码元之内都要恢复到零的这种编码成编码方式。</li>
+<li>反向不归零编码【NRZI】<br>信号电平翻转表示0，信号电平不变表示1。</li>
+<li>曼彻斯特编码<br>将一个码元分成两个相等的间隔，前一个间隔为低电平后一个间隔为高电平表示码元1；码元0则正好相反。也可以采用相反的规定。该编码的特点是在每一个码元的中间出现电平跳变，位中间的跳变既作时钟信号（可用于同步），又作数据信号，但它所占的频带宽度是原始的基带宽度的两倍。</li>
+<li>差分曼彻斯特<br><em><strong>同1异0</strong></em><br>常用于局域网传输，其规则是：若码元为1，则前半个码元的电平与上一个码元的后半个码元的电平相同，若为0，则相反。改变吗的特点是，在每个码元的中间，都有一次电平的跳转，可以实现自同步，且抗干扰性强于曼彻斯特编码</li>
+<li>4B&#x2F;5B编码<br>比特流中插入额外的比特以打破一连串的0或1，就是用5个比特来编码4个比特的数据，之后再传给接收方，因此称为4B&#x2F;5B.编码效率为80%。</li>
+</ul>
+<h4 id="数字数据调制为模拟信号"><a href="#数字数据调制为模拟信号" class="headerlink" title="数字数据调制为模拟信号"></a>数字数据调制为模拟信号</h4><ul>
+<li>数字数据调制技术在发送端将数字信号转换为模拟信号，而在接收端将模拟信号还原为数字信号，分别对应于调制解调器的调制和解调过程。<br><img src="https://i.imgur.com/cnIEfna.png"></li>
+</ul>
+<h4 id="模拟数据编码为数字信号"><a href="#模拟数据编码为数字信号" class="headerlink" title="模拟数据编码为数字信号"></a>模拟数据编码为数字信号</h4><ul>
+<li>计算机内部处理的是二进制数据，处理的都是数字音频，所以需要将模拟音频通过采样、量化转换成有限个数字表示的离散序列（即实现<em><strong>音频数字化</strong></em>）。</li>
+<li>最典型的例子就是对音频信号进行编码的脉码调制(PCM),在计算机应用中，能够达到<em><strong>最高保真水平</strong></em>的就是PCM编码，被广泛用于素材保存及音乐欣赏，CD、DVD以及我们常见的WAV文件中均有应用。它主要包括三步：抽样、量化、编码。<ol>
+<li>抽样：<br>  对模拟信号周期性扫描，把时间上连续的信号变成时间上离散的信号。<br>  为了使所得的离散信号能无失真地代表被抽样的模拟数据，要使用采样定理进行采样：f(采样频率)&gt;&#x3D;2f(信号最高频率)</li>
+<li>量化：<br>  把抽样取得的电平幅值按照一定的分级标度转化为对应的数字值，并取整数，这就把连续的电平幅值转换为离散的数字量。</li>
+<li>编码：<br>  把量化的结果转换为与之对应的二进制编码。</li>
+</ol>
+</li>
+</ul>
+<h4 id="模拟数据调制为模拟信号"><a href="#模拟数据调制为模拟信号" class="headerlink" title="模拟数据调制为模拟信号"></a>模拟数据调制为模拟信号</h4><ul>
+<li>为了实现传输的有效性，可能需要较高的频率。这种调制方式还可以使用频分复用技术，充分利用带宽资源。在电话机和本地交换机所传输的信号时采用模拟信号传输模拟数据的方式：模拟的声音数据是加载到模拟的载波信号中传输的。</li>
+</ul>
+<h2 id="物理层传输介质与设备"><a href="#物理层传输介质与设备" class="headerlink" title="物理层传输介质与设备"></a>物理层传输介质与设备</h2><h3 id="传输介质及分类"><a href="#传输介质及分类" class="headerlink" title="传输介质及分类"></a>传输介质及分类</h3><ul>
+<li>传输介质也称传输媒体&#x2F;传输媒介，他就是数据传输系统中在发送设备和接收设备之间的<em><strong>物理通路</strong></em>。<br><em><strong>传输媒体并不是物理层</strong></em>。<br>传输媒体在物理层的下面，因为物理层是体系结构的第一层，因此有时称传输媒体为0层。在传输媒体中传输的是信号，但传输媒体并不知道所传输的信号代表什么意思。但物理层规定了<em><strong>电气特性</strong></em>，因此能够识别所传送的比特流。</li>
+<li>传输介质分为<ol>
+<li>导向性传输介质：电磁波被导向沿着固体媒介（铜线&#x2F;光纤）传播。</li>
+<li>非导向型传输介质：自由空间，介质可以是空气、真空、海水等。</li>
+</ol>
+</li>
+</ul>
+<h3 id="导向性传输介质"><a href="#导向性传输介质" class="headerlink" title="导向性传输介质"></a>导向性传输介质</h3><h4 id="双绞线"><a href="#双绞线" class="headerlink" title="双绞线"></a>双绞线</h4><p>   双绞线是古老、又最常用的传输介质，它由<em><strong>两根</strong></em>采用一定规则并排<em><strong>绞合</strong></em>的、相互绝缘的<strong>铜导线</strong>组成。<br>   <strong>绞合可以减少对相邻导线的电磁干扰。</strong><br>   为了进一步提高抗电磁干扰能力，可在双绞线的外面再加上一个由<strong>金属丝</strong>编织成的屏蔽层，这就是<strong>屏蔽双绞线</strong>（STP），无屏蔽层的双绞线就成为<strong>非屏蔽双绞线</strong>（UTP）。<br>   <img src="https://i.imgur.com/uqxeDNi.png"><br>   双绞线价格<strong>便宜</strong>，是最常用的传输介质之一，在局域网和传统电话网中普遍使用。模拟传输和数字传输都可以使用双绞线，其通信距离一般为几公里到数十公里。距离太远时，对于<em><strong>模拟传输</strong></em>，要用<strong>放大器</strong>放大衰减的信号；对于<em><strong>数字传输</strong></em>，要用<strong>中继器</strong>将失真的信号整形。  </p>
+<h4 id="同轴电缆"><a href="#同轴电缆" class="headerlink" title="同轴电缆"></a>同轴电缆</h4><p>   同轴电缆由<em><strong>导体铜质芯线、绝缘层、网状编制屏蔽层和塑料外层</strong></em>构成。按特性阻抗数值的不同，通常将同轴电缆分为两类：50Ω同轴电缆和78Ω同轴电缆。其中，50Ω同轴电缆主要用于传送基带数字信号，又称为<strong>基带同轴电缆</strong>，它在局域网中得到广泛应用；75Ω同轴电缆主要用于传送宽带信号，又称为<strong>宽带同轴电缆</strong>，它主要用于有线电视系统。  </p>
+<ul>
+<li>同轴电缆和双绞线<br>  由于外导体屏蔽层的作用，同轴电缆<strong>抗干扰特性</strong>比双绞线好，被广泛应用于传输较高速率的数据，其<strong>传输距离</strong>更远，但<strong>价格</strong>较双绞线贵。</li>
+</ul>
+<h4 id="光纤"><a href="#光纤" class="headerlink" title="光纤"></a>光纤</h4><p>   光纤通信就是利用光导纤维（简称光纤）传递<strong>光脉冲</strong>来进行通信。有光脉冲表示1，无光脉冲表示0.而可见光的频率大约是10^8MHz，因此光纤通信系统的<em>带宽远远大于</em>目前其他各种传输媒体的带宽。<br>   光纤主要由<em><strong>纤芯（实心的！）</strong></em>和<em><strong>包层</strong></em>构成，光波通过纤芯进行传导，包层较纤芯有较低的折射率。当光纤从高折射率的介质射向低折射率的介质时，其折射角将大于入射角。因此，如果入射角足够大，就会出现<em><strong>全反射</strong></em>，即光纤碰到包层时候就会折射回纤芯、这个过程不断重复，光也就沿着光纤传输下去。<br>   <img src="https://i.imgur.com/Fo3ZdyF.png"></p>
+<ul>
+<li>一根光缆少则只有一根光纤，多则包括十至数百根光纤。</li>
+<li>光纤的特点：<br>1. 传输损耗小，中继距离长，对远距离传输特别经济。<br>2. 抗雷电荷电磁干扰性能好。<br>3. 无串音干扰，保密性好，也不易被窃听或截取数据。<br>4. 体积小，重量轻。</li>
+</ul>
+<h3 id="非导向性传输介质"><a href="#非导向性传输介质" class="headerlink" title="非导向性传输介质"></a>非导向性传输介质</h3><h4 id="无线电波"><a href="#无线电波" class="headerlink" title="无线电波"></a>无线电波</h4><ul>
+<li>信号向所有方向传播。</li>
+<li>较强穿透能力，可传远距离，广泛用于通信领域。</li>
+</ul>
+<h4 id="微波"><a href="#微波" class="headerlink" title="微波"></a>微波</h4><ul>
+<li>信号固定方向传播。</li>
+<li>微波通信频率较高、频段范围宽，因此数据率很高。</li>
+</ul>
+<ol>
+<li>地面微波接力通信</li>
+<li>卫星通信<br><img src="https://i.imgur.com/seUYwh7.png"></li>
+</ol>
+<h4 id="红外线、激光"><a href="#红外线、激光" class="headerlink" title="红外线、激光"></a>红外线、激光</h4><ul>
+<li>信号固定方向传播。</li>
+<li>把要传输的信号分别转换为各自的信号格式，即红外光信号和激光信号，再在空间中传播。</li>
+</ul>
+<h3 id="物理层设备"><a href="#物理层设备" class="headerlink" title="物理层设备"></a>物理层设备</h3><h4 id="中继器"><a href="#中继器" class="headerlink" title="中继器"></a>中继器</h4><ul>
+<li>诞生原因：由于存在损耗，在线路上传输的信号功率会逐渐衰减，衰减到一定程度时将造成信号失真，因此会导致接受错误。</li>
+<li>中继器的功能：对信号进行<strong>再生和还原</strong>，对衰减的信号进行放大，保持与源数据相同，以增加信号传输的距离，延长网络的长度。</li>
+<li>中继器的两端：两端的网络部分是网段，而不是子网，适用于完全相同的两类网络的互连，且两个网段速率要相同。<br>中继器只讲任何电缆端上的数据发送到另一段电缆上，它仅作用于信号的电气部分，并不管数据中是否有错误数据或不适于网段的数据。<br>两端可连相同媒体，也可连不同媒体。<br>中继器两端的网段一定要是同一个协议。  </li>
+<li>5-4-3规则：网络标准中都对信号的延迟范围作了具体的规定，因而中继器只能在规定的范围内进行，否则会网络故障。<br><img src="https://i.imgur.com/ZjI6WGr.png"></li>
+</ul>
+<h4 id="集线器（多口中继器）"><a href="#集线器（多口中继器）" class="headerlink" title="集线器（多口中继器）"></a>集线器（多口中继器）</h4><ul>
+<li>再生，放大信号</li>
+<li>功能：对信号进行再生<strong>放大转发</strong>，对衰减的信号进行放大，接着转发到其他所有（除输入端口外）处于工作状态的端口上，以增加信号传输的距离，延长网络的长度。不具备信号的定向传送能力，是一个共享式设备。<br><img src="https://i.imgur.com/cpU2LXS.png"></li>
+<li>集线器不能分割冲突域。</li>
+<li>连在集线器上的工作主机平分带宽。</li>
+</ul>
+]]></content>
+      <tags>
+        <tag>计算机网络</tag>
+        <tag>学习笔记</tag>
+      </tags>
+  </entry>
+</search>
