@@ -4,6 +4,31 @@
   
   
   <entry>
+    <title>wireshark学习与应用</title>
+    <link href="/2022/05/26/wireshark%E5%AD%A6%E4%B9%A0%E4%B8%8E%E5%BA%94%E7%94%A8/"/>
+    <url>/2022/05/26/wireshark%E5%AD%A6%E4%B9%A0%E4%B8%8E%E5%BA%94%E7%94%A8/</url>
+    
+    <content type="html"><![CDATA[<h1 id="wireshark抓包工具使用"><a href="#wireshark抓包工具使用" class="headerlink" title="wireshark抓包工具使用"></a>wireshark抓包工具使用</h1><h2 id="wireshark简介"><a href="#wireshark简介" class="headerlink" title="wireshark简介"></a>wireshark简介</h2><p>wireshark是一个网络封包分析软件，其功能是撷取网络封包，并尽可能显示出最为详细的网络封包资料。Wireshark使用WinPCAP作为借口，直接与网卡进行数据报文交换。</p><h2 id="waireshark快速分析数据包技巧"><a href="#waireshark快速分析数据包技巧" class="headerlink" title="waireshark快速分析数据包技巧"></a>waireshark快速分析数据包技巧</h2><ul><li>确定wireshark的物理位置。</li><li>选择捕获接口。</li><li>使用捕获过滤器</li><li>使用显示过滤器</li><li>使用着色规则</li><li>构建图表</li><li>重组数据</li></ul><h2 id="wireshark抓包及快速定位数据包技巧"><a href="#wireshark抓包及快速定位数据包技巧" class="headerlink" title="wireshark抓包及快速定位数据包技巧"></a>wireshark抓包及快速定位数据包技巧</h2><h3 id="常见协议包"><a href="#常见协议包" class="headerlink" title="常见协议包"></a>常见协议包</h3><ul><li>ARP协议</li><li>ICMP协议</li><li>TCP协议</li><li>UDP协议</li><li>DNS协议</li><li>HTTP协议</li></ul><h2 id="wireshark过滤器使用"><a href="#wireshark过滤器使用" class="headerlink" title="wireshark过滤器使用"></a>wireshark过滤器使用</h2><ul><li><p>其中一例：使用过滤器筛选udp的数据包</p><p>使用过滤器输入“udp”以筛选出udp报文。但输入udp之后出现了多种协议。原因就是oicq以及dns都是基于udp的传输层之上的协议。</p><p>扩展：客户端向DNS服务器查询域名，一般返回的内容都不超过512字节，用UDP传输即可。不用经过三次握手，这样DNS服务器负载更低，响应更快。理论上说，客户端也可以指定向DNS服务器查询时用TCP，但事实上，很多DNS服务器进行配置的时候，仅支持UDP查询包。</p></li><li><p>ip.src_host为源ip地址</p></li><li><p>ip.dst_host为目的ip地址</p></li><li><p>ip.addr不分源和目的ip地址</p></li><li><p>查询条件为或是<code>or</code></p></li><li><p>查询条件为且是<code>and</code></p></li></ul><h2 id="wireshark对常用协议抓包并分析原理"><a href="#wireshark对常用协议抓包并分析原理" class="headerlink" title="wireshark对常用协议抓包并分析原理"></a>wireshark对常用协议抓包并分析原理</h2><p><strong>协议分析的时候关闭混杂模式，避免一些干扰的数据包存在</strong></p><h3 id="常用协议分析-ARP协议"><a href="#常用协议分析-ARP协议" class="headerlink" title="常用协议分析-ARP协议"></a>常用协议分析-ARP协议</h3><ul><li><p>地址解析协议（英语：Address Resolution Protocol，缩写ARP）是一个通过解析网络层地址来找寻数据链路层地址的网络传输协议，它在IPv4中及其重要。ARP是通过网络地址来定位MAC地址。</p></li><li><p>开始抓包—过滤arp</p></li></ul><p>​<img src="https://i.imgur.com/SzNv8iT.png"></p><p>​使用<code>nmap (-sn)</code> （对目标进行ping检测，不进行端口扫描）来基于ARP协议进行扫描</p><ul><li>请求包（<code>Opcode:_request(1)</code>）中，目标mac地址为0，因为不清楚。</li><li>应答包（<code>Opcode:_reply(2)</code>）中，应答包补全了自己的MAC地址，目的地址和源地址做了替换。</li></ul><p>​<img src="https://i.imgur.com/KRNZG8P.png"></p><h3 id="常用协议分析-ICMP协议"><a href="#常用协议分析-ICMP协议" class="headerlink" title="常用协议分析-ICMP协议"></a>常用协议分析-ICMP协议</h3><ul><li>把之前的数据包清空掉然后筛选ICMP协议的数据包</li><li>打开一个终端 ping baidu.com</li><li>基于IP协议</li></ul><h4 id="ICMP协议分析请求包"><a href="#ICMP协议分析请求包" class="headerlink" title="ICMP协议分析请求包"></a>ICMP协议分析请求包</h4><p><img src="https://i.imgur.com/EVF8tfn.png"></p><h4 id="ICMP协议分析应答包"><a href="#ICMP协议分析应答包" class="headerlink" title="ICMP协议分析应答包"></a>ICMP协议分析应答包</h4><p><img src="https://i.imgur.com/0Kgv5ze.png"></p><p><strong>工作过程：</strong></p><ul><li>本机发送一个ICMP Echo Request的包。</li><li>接收方返回一个ICMP Echo Reply，包含了接受到数据拷贝和一些其他命令。</li></ul>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>计算机网络</tag>
+      
+      <tag>wireshark</tag>
+      
+      <tag>抓包</tag>
+      
+      <tag>软件学习</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>解决hexo报错spwan failed</title>
     <link href="/2022/05/26/failed%E8%A7%A3%E5%86%B3%E6%96%B9%E5%BC%8F/"/>
     <url>/2022/05/26/failed%E8%A7%A3%E5%86%B3%E6%96%B9%E5%BC%8F/</url>
