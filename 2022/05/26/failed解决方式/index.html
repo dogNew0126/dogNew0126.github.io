@@ -25,7 +25,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://i.imgur.com/OlW3SBF.jpg">
 <meta property="article:published_time" content="2022-05-26T02:43:29.000Z">
-<meta property="article:modified_time" content="2022-05-26T02:55:09.635Z">
+<meta property="article:modified_time" content="2022-06-07T09:19:01.862Z">
 <meta property="article:author" content="dogNew">
 <meta property="article:tag" content="hexo">
 <meta property="article:tag" content="解决报错">
@@ -297,43 +297,61 @@
               <p class="note note-info">
                 
                   
-                    本文最后更新于：2022年5月26日 上午
+                    本文最后更新于：2022年6月7日 下午
                   
                 
               </p>
             
             <div class="markdown-body">
               
-              <h1 id="Hexo部署出现错误Error-Spawn-failed解决方式"><a href="#Hexo部署出现错误Error-Spawn-failed解决方式" class="headerlink" title="Hexo部署出现错误Error:Spawn failed解决方式"></a>Hexo部署出现错误Error:Spawn failed解决方式</h1><div class="note note-success">
+              <h1>Hexo部署出现错误Error:Spawn failed解决方式</h1>
+<div class="note note-success">
             <p>Hexo部署出现以下错误Error:Spawn failed解决方式</p>
           </div>
-
 <figure class="highlight roboconf"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><code class="hljs roboconf">FATAL &#123;<br>  <span class="hljs-attribute">err</span>: Error: Spawn failed<br>      at ChildProcess.&lt;anonymous&gt; (C:\Users\myosotis\Desktop\Hexo_blog\node_modules\hexo-util\lib\spawn<span class="hljs-variable">.js</span>:51:21)<br>      at ChildProcess<span class="hljs-variable">.emit</span> (events<span class="hljs-variable">.js</span>:315:20)<br>      at ChildProcess<span class="hljs-variable">.cp</span><span class="hljs-variable">.emit</span> (C:\Users\myosotis\Desktop\Hexo_blog\node_modules\cross-spawn\lib\enoent<span class="hljs-variable">.js</span>:34:29)<br>      at Process<span class="hljs-variable">.ChildProcess</span><span class="hljs-variable">._handle</span><span class="hljs-variable">.onexit</span> (internal/child_process<span class="hljs-variable">.js</span>:277:12) &#123;<br>    code: 128<br>  &#125;<br>&#125; Something&#x27;s wrong. Maybe you can find the solution here: %s https://hexo<span class="hljs-variable">.io</span>/docs/troubleshooting<span class="hljs-variable">.html</span><br></code></pre></td></tr></table></figure>
-
 <p>从网上找了几个方法：</p>
-<h2 id="方法一"><a href="#方法一" class="headerlink" title="方法一"></a>方法一</h2><figure class="highlight clean"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><code class="hljs clean">##进入站点根目录<br><br>##删除git提交内容文件夹<br>rm -rf .deploy_git/<br><br>##执行<br>git config --global core.autocrlf false<br><br>##最后<br>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d<br></code></pre></td></tr></table></figure>
-
+<h2 id="方法一">方法一</h2>
+<figure class="highlight clean"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><code class="hljs clean">##进入站点根目录<br><br>##删除git提交内容文件夹<br>rm -rf .deploy_git/<br><br>##执行<br>git config --global core.autocrlf false<br><br>##最后<br>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d<br></code></pre></td></tr></table></figure>
 <p>没能成功，仍然报错。</p>
-<h2 id="方法二"><a href="#方法二" class="headerlink" title="方法二"></a>方法二</h2><div class="note note-success">
+<h2 id="方法二">方法二</h2>
+<div class="note note-success">
             <p>修改_config.yml文件，将配置地址http方式切换成ssh方式</p>
           </div>
-
 <figure class="highlight clean"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><code class="hljs clean">##进入站点根目录<br><br>##删除git提交内容文件夹<br>vim _config.yml<br><br>##修改<br>deploy:<br><br>type: git<br><br>repository: https:<span class="hljs-comment">//github.com/Uninfo/blog.github.io.git </span><br>-&gt; git@github.com:Uninfo/blog.github.io.git<br><br>branch: master<br><br>##最后<br>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d<br></code></pre></td></tr></table></figure>
-
 <p>不习惯用vim，直接用编辑器打开<code>_config.yml</code>文件，将配置地址的http方式换成ssh方式。</p>
 <p>解决，成功部署。</p>
-<h2 id="方法三"><a href="#方法三" class="headerlink" title="方法三"></a>方法三</h2><div class="note note-success">
+<h2 id="方法三">方法三</h2>
+<div class="note note-success">
             <p>强制上传，没试过，网上说不建议</p>
           </div>
-
 <figure class="highlight clean"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><code class="hljs clean">##进入站点根目录<br><br>##进入depoly文件夹<br>cd .deploy_git/<br><br>##强制推送<br>git push -f<br></code></pre></td></tr></table></figure>
-
 
               
             </div>
             <hr/>
             <div>
               <div class="post-metas my-3">
+  
+    <div class="post-meta mr-3 d-flex align-items-center">
+      <i class="iconfont icon-category"></i>
+      
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/hexo/" class="category-chain-item">hexo</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+    </div>
   
   
     <div class="post-meta">
