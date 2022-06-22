@@ -1,0 +1,1303 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" data-default-color-scheme=dark>
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="76x76" href="https://i.imgur.com/CIlWtVm.png">
+  <link rel="icon" href="https://i.imgur.com/CIlWtVm.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="author" content="dogNew">
+  <meta name="keywords" content="">
+  
+    <meta name="description" content="学习JavaWeb的笔记">
+<meta property="og:type" content="article">
+<meta property="og:title" content="JavaWeb学习">
+<meta property="og:url" content="http://example.com/2022/06/14/JavaWeb%E5%AD%A6%E4%B9%A0/index.html">
+<meta property="og:site_name" content="dogNew&#39;s Blog">
+<meta property="og:description" content="学习JavaWeb的笔记">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://i.imgur.com/uuSQfrP.png">
+<meta property="og:image" content="https://i.imgur.com/FSOECYa.png">
+<meta property="og:image" content="https://i.imgur.com/xoXlsJW.png">
+<meta property="og:image" content="https://i.imgur.com/PCmpW47.png">
+<meta property="article:published_time" content="2022-06-14T06:34:18.000Z">
+<meta property="article:modified_time" content="2022-06-15T09:24:33.918Z">
+<meta property="article:author" content="dogNew">
+<meta property="article:tag" content="学习笔记">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://i.imgur.com/uuSQfrP.png">
+  
+  
+  <title>JavaWeb学习 - dogNew&#39;s Blog</title>
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
+
+
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/github-markdown-css/4.0.0/github-markdown.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/hint.css/2.7.0/hint.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.css" />
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+<!-- Do not modify the link that theme dependent icons -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_hj8rtnfg7um.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_lbnruvf0jn.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+
+  <link id="highlight-css" rel="stylesheet" href="/css/highlight.css" />
+  
+    <link id="highlight-css-dark" rel="stylesheet" href="/css/highlight-dark.css" />
+  
+
+
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    Fluid.ctx = Object.assign({}, Fluid.ctx)
+    var CONFIG = {"hostname":"example.com","root":"/","version":"1.8.14","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":true,"follow_dnt":true,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml"};
+
+    if (CONFIG.web_analytics.follow_dnt) {
+      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));
+    }
+  </script>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
+
+  
+<meta name="generator" content="Hexo 6.1.0"></head>
+
+
+<body>
+  
+
+  <header>
+    
+
+<div class="header-inner" style="height: 90vh;">
+  <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <strong>dogNew&#39;s Blog</strong>
+    </a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/">
+                <i class="iconfont icon-home-fill"></i>
+                首页
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/">
+                <i class="iconfont icon-archive-fill"></i>
+                归档
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/">
+                <i class="iconfont icon-category-fill"></i>
+                分类
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/">
+                <i class="iconfont icon-tags-fill"></i>
+                标签
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/">
+                <i class="iconfont icon-user-fill"></i>
+                关于
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/links/">
+                <i class="iconfont icon-link-fill"></i>
+                友链
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              &nbsp;<i class="iconfont icon-search"></i>&nbsp;
+            </a>
+          </li>
+          
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" target="_self" href="javascript:;" aria-label="Color Toggle">&nbsp;<i
+                class="iconfont icon-dark" id="color-toggle-icon"></i>&nbsp;</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  
+
+<div id="banner" class="banner" parallax=true
+     style="background: url('https://i.imgur.com/lbssJZ9.jpg') no-repeat center center; background-size: cover;">
+  <div class="full-bg-img">
+    <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+      <div class="banner-text text-center fade-in-up">
+        <div class="h2">
+          
+            <span id="subtitle" data-typed-text="JavaWeb学习"></span>
+          
+        </div>
+
+        
+          
+  <div class="mt-3">
+    
+    
+      <span class="post-meta">
+        <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+        <time datetime="2022-06-14 14:34" pubdate>
+          2022年6月14日 下午
+        </time>
+      </span>
+    
+  </div>
+
+  <div class="mt-1">
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-chart"></i>
+        
+          6.1k 字
+        
+      </span>
+    
+
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-clock-fill"></i>
+        
+        
+        
+          51 分钟
+        
+      </span>
+    
+
+    
+    
+      
+        <span id="busuanzi_container_page_pv" style="display: none">
+          <i class="iconfont icon-eye" aria-hidden="true"></i>
+          <span id="busuanzi_value_page_pv"></span> 次
+        </span>
+        
+      
+    
+  </div>
+
+
+        
+      </div>
+
+      
+        <div class="scroll-down-bar">
+          <i class="iconfont icon-arrowdown"></i>
+        </div>
+      
+    </div>
+  </div>
+</div>
+
+</div>
+
+  </header>
+
+  <main>
+    
+      
+
+<div class="container-fluid nopadding-x">
+  <div class="row nomargin-x">
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+
+    </div>
+
+    <div class="col-lg-8 nopadding-x-md">
+      <div class="container nopadding-x-md" id="board-ctn">
+        <div id="board">
+          <article class="post-content mx-auto">
+            <!-- SEO header -->
+            <h1 style="display: none">JavaWeb学习</h1>
+            
+              <p class="note note-info">
+                
+                  
+                    本文最后更新于：2022年6月15日 下午
+                  
+                
+              </p>
+            
+            <div class="markdown-body">
+              
+              <h1>JavaWeb学习笔记</h1>
+<h2 id="1-JavaWeb介绍">1. JavaWeb介绍</h2>
+<ul>
+<li>Web：World Wide Web(www),即全球广域网，也成为万维网。</li>
+<li>JavaWeb: 是用Java技术来解决web互联网领域的<strong>技术栈</strong>。</li>
+</ul>
+<p><img src="https://i.imgur.com/uuSQfrP.png" srcset="/img/loading.gif" lazyload alt=""></p>
+<h2 id="2-SQL">2. SQL</h2>
+<h3 id="2-1-SQL分类">2.1 SQL分类</h3>
+<ul>
+<li>DDL(Data Definition Language)数据定义语言，用来定义数据库对象：数据库，表，列等</li>
+<li>DML(Data Manipulation Language)数据操作语言，用来对数据库中的表的数据进行增删改</li>
+<li>DQL(Data Query Language)数据查询语言，用来查询数据库中表的记录(数据)</li>
+<li>DCL(Data Control Language)数据控制语言，用来定义数据库的访问权限和安全级别，及创建用户。</li>
+</ul>
+<h3 id="2-事务">2.* 事务</h3>
+<h4 id="事务简介">事务简介</h4>
+<ul>
+<li>数据库的<strong>事务</strong>(Transaction)是一种机制、一个操作序列，包含了<strong>一组数据库操作命令</strong></li>
+<li>事务把所有的命令作为一个整体一起向系统提交或撤销操作请求，即这一组数据库命令<strong>要么同时成功，要么同时失败</strong></li>
+<li>事务是一个不可分割的工作逻辑单元</li>
+</ul>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><code class="hljs sql"><span class="hljs-comment">-- 开启事务</span><br><span class="hljs-keyword">START</span> TRANSACTION;<br>或者	<span class="hljs-keyword">BEGIN</span>;<br><span class="hljs-comment">-- 提交事务</span><br><span class="hljs-keyword">COMMIT</span>;<br><span class="hljs-comment">-- 回滚事务</span><br><span class="hljs-keyword">ROLLBACK</span>;<br></code></pre></td></tr></table></figure>
+<h4 id="事物四大特征">事物四大特征</h4>
+<ul>
+<li>原子性(<strong>A</strong>tomicity):事务是不可分割的最小操作单位，要么同时成功，要么同时失败</li>
+<li>一致性(<strong>C</strong>onsistency):事务完成时，必须使所有的数据都保持一致状态</li>
+<li>隔离性(<strong>I</strong>solation):多个事务之间，操作的可见性</li>
+<li>持久性(<strong>D</strong>urability):事务一旦提交或回滚，他对数据库中的数据的改变就是永久的</li>
+</ul>
+<p>查询事务的默认提交方式</p>
+<p><code>select @@autocommit</code>值为1自动提交，值为0手动提交</p>
+<h2 id="3-JDBC">3. JDBC</h2>
+<h3 id="3-1-JDBC概念">3.1 JDBC概念:</h3>
+<ul>
+<li>JDBC就是使用Java语言操作关系型数据库的一套API</li>
+<li>全称:(Java DataBase Connectivity) Java数据库连接</li>
+</ul>
+<p><img src="https://i.imgur.com/FSOECYa.png" srcset="/img/loading.gif" lazyload alt=""></p>
+<h3 id="3-2JDBC本质">3.2JDBC本质</h3>
+<ul>
+<li>官方(sun公司)定义的一套操作所有关系型数据库的规则，即接口</li>
+<li>各个数据库厂商去实现这套接口，提供数据库驱动jar包</li>
+<li>我们可以使用这套接口(JDBC)编程，真正执行的代码是驱动jar包中的实现类</li>
+</ul>
+<h3 id="3-3-JDBC好处">3.3 JDBC好处</h3>
+<ul>
+<li>各数据库厂商使用相同的接口，Java代码不需要针对不同数据库分别开发</li>
+<li>可随时替换底层数据库，访问数据库的Java代码基本不变</li>
+</ul>
+<h3 id="3-4-步骤">3.4 步骤</h3>
+<ol start="0">
+<li>创建工程，导入驱动jar包</li>
+<li>注册驱动</li>
+</ol>
+<p>​		<code>Class.forName(&quot;com.mysql.jdbc.Driver&quot;);</code></p>
+<ol start="2">
+<li>
+<p>获取连接</p>
+<p><code>Connection conn = DriverManager.getConnection(url,username,password)</code>;</p>
+</li>
+<li>
+<p>定义SQL语句</p>
+<p><code>String sql = &quot;update...&quot;</code></p>
+</li>
+<li>
+<p>获取执行SQL对象</p>
+<p><code>Statement stmt = conn.createStatement();</code></p>
+</li>
+<li>
+<p>执行SQL</p>
+<p><code>stmt.executeUpdate(sql);</code></p>
+</li>
+<li>
+<p>处理返回结果</p>
+</li>
+<li>
+<p>释放资源</p>
+</li>
+</ol>
+<h3 id="3-5-JDBC-API-详解">3.5 JDBC API 详解</h3>
+<h4 id="DriverManager">DriverManager</h4>
+<ul>
+<li>
+<p>DriverManager(驱动管理类)作用：</p>
+<ol>
+<li>
+<p>注册驱动</p>
+<p>Driver类源码调用<code>DriverManager.registerDriver</code>注册驱动</p>
+</li>
+<li>
+<p>获取数据库连接</p>
+<ul>
+<li>
+<p>参数</p>
+<ol>
+<li>url：连接路径</li>
+</ol>
+<figure class="highlight elixir"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs elixir">语法<span class="hljs-symbol">:jdbc</span><span class="hljs-symbol">:mysql</span><span class="hljs-symbol">://ip</span>地址(域名)<span class="hljs-symbol">:</span>端口号/数据库名称？参数键值对<span class="hljs-number">1</span>&amp;参数键值对<span class="hljs-number">2</span>...<br>实例<span class="hljs-symbol">:jdbc</span><span class="hljs-symbol">:mysql</span><span class="hljs-symbol">://</span><span class="hljs-number">127.0</span>.<span class="hljs-number">0.1</span><span class="hljs-symbol">:</span><span class="hljs-number">3306</span>/db1<br>细节:<br>	<span class="hljs-number">1</span>.如果连接的是本机mysql服务器，并且mysql服务默认端口是<span class="hljs-number">3306</span>，则url可以简写为<span class="hljs-symbol">:jdbc</span><span class="hljs-symbol">:mysql</span><span class="hljs-symbol">:///</span>数据库名称？参数键值对<br>	<span class="hljs-number">2</span>.配置useSSL=<span class="hljs-literal">false</span>参数，禁用安全连接方式，解决警告提示<br></code></pre></td></tr></table></figure>
+<ol start="2">
+<li>
+<p>user：用户名</p>
+</li>
+<li>
+<p>password：密码</p>
+</li>
+</ol>
+</li>
+</ul>
+</li>
+</ol>
+</li>
+</ul>
+<p><strong>提示：</strong></p>
+<ul>
+<li>MySQL 5之后的驱动包，可以省略注册驱动的步骤</li>
+<li>自动加载jar包中META-INF/service/java.sql.Driver文件中的驱动类</li>
+</ul>
+<h4 id="Connection">Connection</h4>
+<ul>
+<li>Connection(数据库连接对象)作用：
+<ol>
+<li>获取执行SQL的对象</li>
+<li>管理事务</li>
+</ol>
+</li>
+</ul>
+<ol>
+<li>
+<p>获取执行SQL的对象</p>
+<ul>
+<li>
+<p>普通执行SQL对象</p>
+<p><code>Statement createStatement()</code></p>
+</li>
+<li>
+<p>预编译SQL的执行SQL对象：防止SQL注入</p>
+<p><code>PreparedStatement prepareStatement(sql)</code></p>
+</li>
+<li>
+<p>执行存储过程的对象</p>
+<p><code>CallableStatement prepareCall(sql)</code></p>
+</li>
+</ul>
+</li>
+<li>
+<p>事务管理</p>
+<ul>
+<li>MySQL事务管理</li>
+</ul>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs sql">开启事务:<span class="hljs-keyword">BEGIN</span>;<span class="hljs-operator">/</span><span class="hljs-keyword">START</span> TRANSCATION;<br>提交事务:<span class="hljs-keyword">COMMIT</span>;<br>回滚事务:<span class="hljs-keyword">ROLLBACK</span>;<br>MySQL默认自动提交事务<br></code></pre></td></tr></table></figure>
+<ul>
+<li>JDBC事务管理:Connection接口中定义了3各对应的方法</li>
+</ul>
+<figure class="highlight isbl"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs isbl">开启事务:<span class="hljs-function"><span class="hljs-title">setAutoCommit</span>(<span class="hljs-variable">boolean</span> <span class="hljs-variable">autoCommit</span>):<span class="hljs-variable"><span class="hljs-literal">true</span></span>为自动提交事务;<span class="hljs-variable"><span class="hljs-literal">false</span></span>为手动提交事务，即为开启事务</span><br><span class="hljs-function">提交事务:<span class="hljs-title">commit</span>()</span><br>回滚事务：<span class="hljs-function"><span class="hljs-title">rollback</span>()</span><br></code></pre></td></tr></table></figure>
+</li>
+</ol>
+<h4 id="Statement">Statement</h4>
+<ul>
+<li>
+<p>Statement作用</p>
+<p>执行SQL语句</p>
+<figure class="highlight reasonml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs reasonml"><span class="hljs-built_in">int</span> execute<span class="hljs-constructor">Update(<span class="hljs-params">sql</span>)</span>:执行DML、DDL语句<br>返回值:(<span class="hljs-number">1</span>)DML语句影响的行数(<span class="hljs-number">2</span>)DDL语句执行后，执行成功也可能返回<span class="hljs-number">0</span><br></code></pre></td></tr></table></figure>
+<figure class="highlight lasso"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs lasso"><span class="hljs-keyword">ResultSet</span> executeQuery(sql)：执行DQL语句<br>返回值:<span class="hljs-keyword">ResultSet</span>结果集对象<br></code></pre></td></tr></table></figure>
+</li>
+</ul>
+<h4 id="ResultSet">ResultSet</h4>
+<ul>
+<li>
+<p>ResultSet(结果集对象)作用</p>
+<ol>
+<li>
+<p>封装了DQL查询语句的结果</p>
+<p><code>ResultSet stmt.executeQuery:执行DQL语句，返回ResultSet对象</code></p>
+</li>
+</ol>
+</li>
+<li>
+<p>获取查询结果</p>
+<figure class="highlight axapta"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs axapta"><span class="hljs-built_in">boolean</span> <span class="hljs-keyword">next</span>():(<span class="hljs-number">1</span>)将光标从当前位置向前移动一行 (<span class="hljs-number">2</span>)判断当前行是否为有效行<br>返回值:<br>	<span class="hljs-literal">true</span>:有效行，当前行有数据<br>	<span class="hljs-literal">false</span>:无效行，当前行没有数据<br></code></pre></td></tr></table></figure>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs java">xxx <span class="hljs-title function_">getXxx</span><span class="hljs-params">(参数)</span>:获取数据<br>xxx:数据类型；如：<span class="hljs-type">int</span> <span class="hljs-title function_">getInt</span><span class="hljs-params">(参数)</span>;String <span class="hljs-title function_">getString</span><span class="hljs-params">(参数)</span><br>参数:<br>	<span class="hljs-type">int</span>:列的编号，从<span class="hljs-number">1</span>开始<br>	String:列的名称<br></code></pre></td></tr></table></figure>
+</li>
+<li>
+<p>使用步骤:</p>
+<ol>
+<li>游标向下移动一行，并判断改行是否有数据:next()</li>
+<li>获取数据:getXxx(参数)</li>
+</ol>
+<figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs awk"><span class="hljs-regexp">//</span>循环判断游标是否是最后一行末尾<br><span class="hljs-keyword">while</span>(rs.<span class="hljs-keyword">next</span>())&#123;<br>	<span class="hljs-regexp">//</span>获取数据<br>	rs.getXxx(参数);<br>&#125;<br></code></pre></td></tr></table></figure>
+</li>
+</ul>
+<h4 id="PreparedStatement">PreparedStatement</h4>
+<ul>
+<li>
+<p>PreparedStatement作用:</p>
+<ol>
+<li>预编译SQL语句并执行:预防SQL注入问题</li>
+</ol>
+</li>
+<li>
+<p>步骤</p>
+<ol>
+<li>
+<p>获取PreparedStatement对象</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs java"><span class="hljs-comment">//SQL语句中的参数值，使用?占位符替代</span><br>String sql=<span class="hljs-string">&quot;select * from user where username = ? and password = ?&quot;</span><span class="hljs-string">&quot;</span><br><span class="hljs-string">//通过Connection对象获取，并传入对应的sql语句</span><br><span class="hljs-string">PreparedStatement pstmt = conn.prepareStatement(sql);</span><br></code></pre></td></tr></table></figure>
+</li>
+<li>
+<p>设置参数值</p>
+<figure class="highlight ruby"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs ruby">PreparedStatement对象<span class="hljs-symbol">:setXxx</span>(参数<span class="hljs-number">1</span>，参数<span class="hljs-number">2</span>)<span class="hljs-symbol">:</span>给？赋值<br><span class="hljs-symbol">Xxx:</span>数据类型;如setInt(参数<span class="hljs-number">1</span>，参数<span class="hljs-number">2</span>)<br>参数:<br>	参数<span class="hljs-number">1</span>: <span class="hljs-string">?的</span>位置编号，从<span class="hljs-number">1</span>开始<br>	参数<span class="hljs-number">2</span>: <span class="hljs-string">?的</span>值 <br></code></pre></td></tr></table></figure>
+</li>
+<li>
+<p>执行SQL</p>
+<figure class="highlight abnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs abnf">executeUpdate()<span class="hljs-comment">;/executeQuery; ： 不需要再传递sql</span><br></code></pre></td></tr></table></figure>
+</li>
+</ol>
+</li>
+<li>
+<p>SQL注入</p>
+<ul>
+<li>SQL注入是通过操作输入来修改事先定义好的SQL语句，用以达到执行代码对服务器进行<strong>攻击</strong>的方法。</li>
+</ul>
+</li>
+<li>
+<p>PreparedStatement好处:</p>
+<ol>
+<li>预编译SQL，性能更高</li>
+<li>防止SQL注入：<strong>将敏感字符进行转义</strong></li>
+</ol>
+</li>
+</ul>
+<ol>
+<li>PreparedStatement预编译功能开启:<code>useServerPrepStmts=true</code>加到url后面</li>
+<li>配置MySQL执行日志(重启mysql服务后生效)</li>
+</ol>
+<figure class="highlight ini"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs ini"><span class="hljs-attr">log-output</span>=FILE<br><span class="hljs-attr">general-log</span>=<span class="hljs-number">1</span><br><span class="hljs-attr">general_log_file</span>=<span class="hljs-string">&quot;D:\mysql.log&quot;</span><br><span class="hljs-attr">slow-query-log</span>=<span class="hljs-number">1</span><br><span class="hljs-attr">slow_query_log_file</span>=<span class="hljs-string">&quot;D:\mysql_slow.log&quot;</span><br><span class="hljs-attr">long_query_time</span>=<span class="hljs-number">2</span><br></code></pre></td></tr></table></figure>
+<ul>
+<li>PreparedStatement原理:
+<ol>
+<li>在获取PreparedStatement对象时，将sql语句发送给mysql服务器进行检查，编译(这些步骤很耗时)</li>
+<li>执行时就不用再进行这些步骤了，速度更快</li>
+<li>如果sql模板一样，则只需要进行一次检查、编译</li>
+</ol>
+</li>
+</ul>
+<p><img src="https://i.imgur.com/xoXlsJW.png" srcset="/img/loading.gif" lazyload alt=""></p>
+<h3 id="3-6-数据库连接池">3.6 数据库连接池</h3>
+<h4 id="数据库连接池简介">数据库连接池简介</h4>
+<ul>
+<li>数据库连接池是个容器，负责分配、管理数据库连接(Connection)</li>
+<li>它允许应用程序重复使用一个现有的数据库连接，而不是再重新建立一个</li>
+<li>释放空闲时间超过最大空闲时间的数据库连接来避免因为没有释放数据库连接而引起的数据库连接遗漏</li>
+<li>好处:
+<ul>
+<li>资源重用</li>
+<li>提升系统响应速度</li>
+<li>避免数据库连接遗漏</li>
+</ul>
+</li>
+</ul>
+<h4 id="数据库连接池实现">数据库连接池实现</h4>
+<ul>
+<li>
+<p>标准接口:DatasSource</p>
+<ul>
+<li>
+<p>官方(SUN)提供的数据库连接池标准接口，由第三方组织实现此接口</p>
+</li>
+<li>
+<p>功能:获取连接</p>
+<p><code>Connection getConnection()</code></p>
+</li>
+</ul>
+</li>
+<li>
+<p>常见的数据库连接池:</p>
+<ul>
+<li>DBCP</li>
+<li>C3P0</li>
+<li>Druid</li>
+</ul>
+</li>
+<li>
+<p>Druid(德鲁伊)</p>
+<ul>
+<li>Druid连接池是阿里巴巴开源的数据库连接池项目</li>
+<li>功能强大，性能优秀，是Java语言最好的数据库连接池之一</li>
+</ul>
+</li>
+</ul>
+<h4 id="Druid使用步骤">Druid使用步骤</h4>
+<ol>
+<li>导入jar包 druid-1.1.12.jar</li>
+<li>定义配置文件</li>
+<li>加载配置文件</li>
+<li>获取数据库连接池对象</li>
+<li>获取连接</li>
+</ol>
+<h3 id="3-7-JDBC练习">3.7 JDBC练习</h3>
+<h4 id="环境准备">环境准备</h4>
+<ul>
+<li>数据库表</li>
+<li>实体类pojo</li>
+<li>测试用例</li>
+</ul>
+<h4 id="操作七个步骤">操作七个步骤</h4>
+<ol>
+<li>获取Connection</li>
+<li><strong>定义SQL</strong></li>
+<li>获取PreparedStatement对象</li>
+<li><strong>设置参数</strong></li>
+<li>执行SQL</li>
+<li><strong>处理结果</strong></li>
+<li>释放资源</li>
+</ol>
+<h2 id="4-Maven">4. Maven</h2>
+<ul>
+<li>Maven是专门用于管理和构建Java项目的工具，它的主要功能有:
+<ul>
+<li>提供了一套标准化的项目结构</li>
+<li>提供了一套标准化的构建流程(编译，测试，打包，发布)</li>
+<li>提供了一套依赖管理机制</li>
+</ul>
+</li>
+</ul>
+<p>不同IDE标准化的项目结构不一样，不通用</p>
+<p>Maven提供了一套标准化的项目结构，所有IDE使用Maven构建的项目结构完全一样，所有IDE创建的Maven项目可以通用</p>
+<h3 id="Maven简介">Maven简介</h3>
+<ul>
+<li>Apache Maven是一个项目管理和构建<strong>工具</strong>，它基于项目对象模型(POM)的概念，通过一小段描述信息来管理项目的构建、报告和文档</li>
+</ul>
+<h3 id="Maven基本使用">Maven基本使用</h3>
+<ul>
+<li>Maven常用命令
+<ul>
+<li>compile:编译</li>
+<li>clean:清理</li>
+<li>test:测试</li>
+<li>package:打包</li>
+<li>install:安装</li>
+</ul>
+</li>
+</ul>
+<h3 id="Maven生命周期">Maven生命周期</h3>
+<ul>
+<li>
+<p>Maven构建项目生命周期描述的是一次构建过程经历了多少个实践</p>
+</li>
+<li>
+<p>Maven对项目构建的生命周期划分为3套</p>
+<ul>
+<li>clean:清理工作</li>
+<li>default:核心工作</li>
+<li>site:产生报告，发布站点等</li>
+</ul>
+<p>同一生命周期内，执行后边的命令，前边的所有命令会自动执行</p>
+</li>
+</ul>
+<h3 id="Maven坐标详解">Maven坐标详解</h3>
+<ul>
+<li>什么是坐标？
+<ul>
+<li>Maven中的坐标是<strong>资源的唯一标识</strong></li>
+<li>使用坐标来定义项目或引入项目中需要的依赖</li>
+</ul>
+</li>
+<li>Maven坐标主要组成
+<ul>
+<li>groupId:定义当前Maven项目隶属组织名称(通常是域名反写)</li>
+<li>artifactId:定义当前Maven项目名称(通常是模块名称)</li>
+<li>version:定义当前项目版本号</li>
+</ul>
+</li>
+</ul>
+<h4 id="依赖范围">依赖范围</h4>
+<ul>
+<li>通过设置坐标的依赖范围(scope),可以设置对应jar包的作用范围：编译环境、测试环境、运行环境</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>依赖范围</th>
+<th style="text-align:center">编译classpath</th>
+<th style="text-align:center">测试classpath</th>
+<th style="text-align:center">运行classpath</th>
+<th>例子</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>compile(默认值)</td>
+<td style="text-align:center">Y</td>
+<td style="text-align:center">Y</td>
+<td style="text-align:center">Y</td>
+<td>logback</td>
+</tr>
+<tr>
+<td>test</td>
+<td style="text-align:center">-</td>
+<td style="text-align:center">Y</td>
+<td style="text-align:center">-</td>
+<td>Junit</td>
+</tr>
+<tr>
+<td>provided</td>
+<td style="text-align:center">Y</td>
+<td style="text-align:center">Y</td>
+<td style="text-align:center">-</td>
+<td>servlet-api</td>
+</tr>
+<tr>
+<td>runtime</td>
+<td style="text-align:center">-</td>
+<td style="text-align:center">Y</td>
+<td style="text-align:center">Y</td>
+<td>jdbc驱动</td>
+</tr>
+<tr>
+<td>system</td>
+<td style="text-align:center">Y</td>
+<td style="text-align:center">Y</td>
+<td style="text-align:center">-</td>
+<td>存储在本地的jar包</td>
+</tr>
+</tbody>
+</table>
+<p>依赖范围:import 引入DependencyManagement</p>
+<h2 id="5-MyBatis">5. MyBatis</h2>
+<h3 id="5-1-MyBatis简介">5.1 MyBatis简介</h3>
+<ul>
+<li>MyBatis是一款优秀的持久层框架，用于简化JDBC开发</li>
+<li>MyBatis本是Apache的一个开源项目iBatis，2010年这个项目由apache software foundation迁移到了google code，并且改名为MyBatis。2013年11月迁移到Github</li>
+</ul>
+<p><strong>持久层</strong></p>
+<ul>
+<li>负责将数据保存到数据库的那一层代码</li>
+<li>JavaEE三层架构：表现层、业务层、持久层</li>
+</ul>
+<p><strong>框架</strong></p>
+<ul>
+<li>框架就是一个半成品软件，是一套可重用的、通用的、软件基础代码模型</li>
+<li>在框架的基础之上构建软件编写更加高效、规范、通用、可扩展</li>
+</ul>
+<p><strong>JDBC缺点</strong></p>
+<ol>
+<li>硬编码
+<ul>
+<li>注册驱动，获取连接</li>
+<li>SQL语句</li>
+</ul>
+</li>
+<li>操作繁琐
+<ul>
+<li>手动设置参数</li>
+<li>手动封装结果集</li>
+</ul>
+</li>
+</ol>
+<p><img src="https://i.imgur.com/PCmpW47.png" srcset="/img/loading.gif" lazyload alt=""></p>
+<ul>
+<li>MyBatis免除了几乎所有的JDBC代码以及设置参数和获取结果集的工作</li>
+</ul>
+<h3 id="5-2-MyBatis快速入门">5.2 MyBatis快速入门</h3>
+<p>举例：查询user表中所有数据</p>
+<ol>
+<li>
+<p>创建user表，添加数据</p>
+</li>
+<li>
+<p>创建模块，导入坐标</p>
+</li>
+<li>
+<p>编写MyBatis核心配置文件 – &gt;替换连接信息 解决硬编码问题</p>
+</li>
+<li>
+<p>编写SQL映射文件 – &gt; 统一管理sql语句，解决硬编码问题</p>
+</li>
+<li>
+<p>编码</p>
+<ol>
+<li>定义POJO类</li>
+<li>加载核心配置文件,获取SqlSessionFactory对象</li>
+</ol>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs java"><span class="hljs-type">String</span> <span class="hljs-variable">resource</span> <span class="hljs-operator">=</span> <span class="hljs-string">&quot;mybatis核心配置文件名&quot;</span>;<br><span class="hljs-type">InputStream</span> <span class="hljs-variable">inputStream</span> <span class="hljs-operator">=</span> Resources.getResourceAsStream(resource);<br><span class="hljs-type">SqlSessionFactory</span> <span class="hljs-variable">sqlSessionFactory</span> <span class="hljs-operator">=</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">SqlSessionFactoryBuilder</span>().build(inputStream);<br></code></pre></td></tr></table></figure>
+<ol start="3">
+<li>获取SqlSession对象，执行SQL语句</li>
+</ol>
+<p><code>SqlSession sqlSession = sqlSessionFactory.openSession();</code></p>
+<p><code>sqlSession.selectList(&quot;命名空间.id&quot;);</code></p>
+<ol start="4">
+<li>释放资源</li>
+</ol>
+</li>
+</ol>
+<h3 id="5-3-解决SQL映射文件的警告提示">5.3 解决SQL映射文件的警告提示</h3>
+<ul>
+<li>产生原因:Idea和数据库没有建立连接，不识别表信息</li>
+<li>解决方式:在dea中配置MySQL数据库连接</li>
+</ul>
+<h3 id="5-4-Mapper代理开发">5.4 Mapper代理开发</h3>
+<ul>
+<li>
+<p>目的</p>
+<ul>
+<li>解决原生方式中的硬编码</li>
+<li>简化后期执行SQL</li>
+</ul>
+</li>
+<li>
+<p>步骤</p>
+<ol>
+<li>定义与SQL映射文件同名的Mapper接口，并且将Mapper接口和SQL映射文件放置在同一目录下</li>
+<li>设置SQL映射文件的namespace属性为Mapper接口全限定名</li>
+<li>在Mapper接口中定义方法，方法名就是SQL映射文件中sql语句的id，并保持参数类型和返回值类型一致</li>
+<li>编码
+<ol>
+<li>通过SqlSession的getMapper方法获取Mapper接口的代理对象</li>
+<li>调用对应方法完成sql的执行</li>
+</ol>
+</li>
+</ol>
+<ul>
+<li>细节：如果Mapper接口名称和SQL映射文件名称相同，并在同一目录下，则可以使用包扫描的方式简化SQL映射文件的加载<code>&lt;package name=&quot;com.it.map&quot;/&gt;</code></li>
+</ul>
+</li>
+</ul>
+<h3 id="5-5-Mybatis核心配置文件">5.5 Mybatis核心配置文件</h3>
+<ul>
+<li>去官网查</li>
+</ul>
+<p>细节：配置各个标签时，需要遵守前后顺序</p>
+<h3 id="5-6-关于映射别名">5.6 关于映射别名</h3>
+<p>实体类属性名和数据库表列明不一致，不能自动封装数据</p>
+<ol>
+<li>起别名：在SQL语句中，对不一样的列名起别名，别名和实体类属性名一样可以定义<code>&lt;sql&gt;</code>片段，提升复用性</li>
+<li>resultMap：定义<code>&lt;resultMap&gt;</code>完成不一致的属性名和列名的映射</li>
+</ol>
+
+              
+            </div>
+            <hr/>
+            <div>
+              <div class="post-metas my-3">
+  
+    <div class="post-meta mr-3 d-flex align-items-center">
+      <i class="iconfont icon-category"></i>
+      
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" class="category-chain-item">学习笔记</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+    </div>
+  
+  
+    <div class="post-meta">
+      <i class="iconfont icon-tags"></i>
+      
+        <a href="/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">#学习笔记</a>
+      
+    </div>
+  
+</div>
+
+
+              
+  
+
+  <div class="license-box my-3">
+    <div class="license-title">
+      <div>JavaWeb学习</div>
+      <div>http://example.com/2022/06/14/JavaWeb学习/</div>
+    </div>
+    <div class="license-meta">
+      
+        <div class="license-meta-item">
+          <div>作者</div>
+          <div>dogNew</div>
+        </div>
+      
+      
+        <div class="license-meta-item license-meta-date">
+          <div>发布于</div>
+          <div>2022年6月14日</div>
+        </div>
+      
+      
+      <div class="license-meta-item">
+        <div>许可协议</div>
+        <div>
+          
+            
+            
+              <a target="_blank" href="https://creativecommons.org/licenses/by/4.0/">
+              <span class="hint--top hint--rounded" aria-label="BY - 署名">
+                <i class="iconfont icon-by"></i>
+              </span>
+              </a>
+            
+          
+        </div>
+      </div>
+    </div>
+    <div class="license-icon iconfont"></div>
+  </div>
+
+
+
+              
+                <div class="post-prevnext my-3">
+                  <article class="post-prev col-6">
+                    
+                    
+                      <a href="/2022/06/21/vue%E5%88%9D%E8%AF%86/" title="vue初识">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">vue初识</span>
+                        <span class="visible-mobile">上一篇</span>
+                      </a>
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                      <a href="/2022/06/13/spring%E5%AD%A6%E4%B9%A0/" title="spring学习">
+                        <span class="hidden-mobile">spring学习</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </article>
+                </div>
+              
+            </div>
+
+            
+  <article id="comments" lazyload>
+    
+  <div id="lv-container" data-id="city" data-uid="MTAyMC81NjM3OC8zMjg0MQ==">
+    <script type="text/javascript">
+      Fluid.utils.loadComments('#lv-container', function() {
+        Fluid.utils.createScript('https://cdn-city.livere.com/js/embed.dist.js');
+      });
+    </script>
+    <noscript>Please enable JavaScript to view the comments</noscript>
+  </div>
+
+
+  </article>
+
+
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+  <aside class="sidebar" style="margin-left: -1rem">
+    <div id="toc">
+  <p class="toc-header"><i class="iconfont icon-list"></i>&nbsp;目录</p>
+  <div class="toc-body" id="toc-body"></div>
+</div>
+
+
+
+  </aside>
+
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+    
+
+    
+      <a id="scroll-top-button" aria-label="TOP" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v" for="local-search-input">关键词</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+  
+    <div class="footer-content">
+       <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
+    </div>
+  
+  
+    <div class="statistics">
+  
+  
+
+  
+    
+      <span id="busuanzi_container_site_pv" style="display: none">
+        总访问量 
+        <span id="busuanzi_value_site_pv"></span>
+         次
+      </span>
+    
+    
+      <span id="busuanzi_container_site_uv" style="display: none">
+        总访客数 
+        <span id="busuanzi_value_site_uv"></span>
+         人
+      </span>
+    
+    
+  
+</div>
+
+  
+  
+  
+</div>
+
+  </footer>
+
+  <!-- Scripts -->
+  
+  <script  src="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://lib.baomitu.com/jquery/3.6.0/jquery.min.js" ></script>
+<script  src="https://lib.baomitu.com/twitter-bootstrap/4.6.1/js/bootstrap.min.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
+
+
+  <script  src="https://lib.baomitu.com/typed.js/2.0.12/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var subtitle = document.getElementById('subtitle');
+      if (!subtitle || !typing) {
+        return;
+      }
+      var text = subtitle.getAttribute('data-typed-text');
+      
+        typing(text);
+      
+    })(window, document);
+  </script>
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+  
+    <script  src="/js/img-lazyload.js" ></script>
+  
+
+
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/tocbot/4.18.0/tocbot.min.js', function() {
+    var toc = jQuery('#toc');
+    if (toc.length === 0 || !window.tocbot) { return; }
+    var boardCtn = jQuery('#board-ctn');
+    var boardTop = boardCtn.offset().top;
+
+    window.tocbot.init({
+      tocSelector     : '#toc-body',
+      contentSelector : '.markdown-body',
+      headingSelector : CONFIG.toc.headingSelector || 'h1,h2,h3,h4,h5,h6',
+      linkClass       : 'tocbot-link',
+      activeLinkClass : 'tocbot-active-link',
+      listClass       : 'tocbot-list',
+      isCollapsedClass: 'tocbot-is-collapsed',
+      collapsibleClass: 'tocbot-is-collapsible',
+      collapseDepth   : CONFIG.toc.collapseDepth || 0,
+      scrollSmooth    : true,
+      headingsOffset  : -boardTop
+    });
+    if (toc.find('.toc-list-item').length > 0) {
+      toc.css('visibility', 'visible');
+    }
+  });
+</script>
+
+
+  <script>
+  (function() {
+    var enableLang = CONFIG.code_language.enable && CONFIG.code_language.default;
+    var enableCopy = CONFIG.copy_btn;
+    if (!enableLang && !enableCopy) {
+      return;
+    }
+
+    function getBgClass(ele) {
+      return Fluid.utils.getBackgroundLightness(ele) >= 0 ? 'code-widget-light' : 'code-widget-dark';
+    }
+
+    var copyTmpl = '';
+    copyTmpl += '<div class="code-widget">';
+    copyTmpl += 'LANG';
+    copyTmpl += '</div>';
+    jQuery('.markdown-body pre').each(function() {
+      var $pre = jQuery(this);
+      if ($pre.find('code.mermaid').length > 0) {
+        return;
+      }
+      if ($pre.find('span.line').length > 0) {
+        return;
+      }
+
+      var lang = '';
+
+      if (enableLang) {
+        lang = CONFIG.code_language.default;
+        if ($pre[0].children.length > 0 && $pre[0].children[0].classList.length >= 2 && $pre.children().hasClass('hljs')) {
+          lang = $pre[0].children[0].classList[1];
+        } else if ($pre[0].getAttribute('data-language')) {
+          lang = $pre[0].getAttribute('data-language');
+        } else if ($pre.parent().hasClass('sourceCode') && $pre[0].children.length > 0 && $pre[0].children[0].classList.length >= 2) {
+          lang = $pre[0].children[0].classList[1];
+          $pre.parent().addClass('code-wrapper');
+        } else if ($pre.parent().hasClass('markdown-body') && $pre[0].classList.length === 0) {
+          $pre.wrap('<div class="code-wrapper"></div>');
+        }
+        lang = lang.toUpperCase().replace('NONE', CONFIG.code_language.default);
+      }
+      $pre.append(copyTmpl.replace('LANG', lang).replace('code-widget">',
+        getBgClass($pre[0]) + (enableCopy ? ' code-widget copy-btn" data-clipboard-snippet><i class="iconfont icon-copy"></i>' : ' code-widget">')));
+
+      if (enableCopy) {
+        Fluid.utils.createScript('https://lib.baomitu.com/clipboard.js/2.0.10/clipboard.min.js', function() {
+          var clipboard = new window.ClipboardJS('.copy-btn', {
+            target: function(trigger) {
+              var nodes = trigger.parentNode.childNodes;
+              for (var i = 0; i < nodes.length; i++) {
+                if (nodes[i].tagName === 'CODE') {
+                  return nodes[i];
+                }
+              }
+            }
+          });
+          clipboard.on('success', function(e) {
+            e.clearSelection();
+            e.trigger.innerHTML = e.trigger.innerHTML.replace('icon-copy', 'icon-success');
+            setTimeout(function() {
+              e.trigger.innerHTML = e.trigger.innerHTML.replace('icon-success', 'icon-copy');
+            }, 2000);
+          });
+        });
+      }
+    });
+  })();
+</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/anchor-js/4.3.1/anchor.min.js', function() {
+    window.anchors.options = {
+      placement: CONFIG.anchorjs.placement,
+      visible  : CONFIG.anchorjs.visible
+    };
+    if (CONFIG.anchorjs.icon) {
+      window.anchors.options.icon = CONFIG.anchorjs.icon;
+    }
+    var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+    var res = [];
+    for (var item of el) {
+      res.push('.markdown-body > ' + item.trim());
+    }
+    if (CONFIG.anchorjs.placement === 'left') {
+      window.anchors.options.class = 'anchorjs-link-left';
+    }
+    window.anchors.add(res.join(', '));
+  });
+</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.js', function() {
+    Fluid.plugins.fancyBox();
+  });
+</script>
+
+
+  <script>Fluid.plugins.imageCaption();</script>
+
+  <script  src="/js/local-search.js" ></script>
+
+  <script defer src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" ></script>
+
+
+
+
+
+<!-- 主题的启动项，将它保持在最底部 -->
+<!-- the boot of the theme, keep it at the bottom -->
+<script  src="/js/boot.js" ></script>
+
+
+  
+
+  <noscript>
+    <div class="noscript-warning">博客在允许 JavaScript 运行的环境下浏览效果更佳</div>
+  </noscript>
+</body>
+</html>
