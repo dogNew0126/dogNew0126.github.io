@@ -1,56 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>SpongeBob_SquarePants_Classic_Quotes</title>
-    <url>/2022/06/01/SpongeBob-SquarePants-Classic-Quotes/</url>
-    <content><![CDATA[<h1>海绵宝宝经典语录</h1>
-<h2 id="前言">前言</h2>
-<div class="note note-success">
-            <p>最近偶然看到了童年的动画回忆，感觉小时候的动画片很经典，蕴藏的知识很符合本人的三观。无意间又逛到了b站up主<code>黄方块和粉星星a</code>，看到了一些海绵宝宝里的经典语录，就想无聊时看一遍海绵宝宝，把那些蕴含哲理的话记录一下。不过当然不能简单地看一遍，毕竟越来越感觉时间不多了🐶，还是得让自己做的事有意义。在b站发现了有英文原版，就想着看一遍英文的吧，就当是学英语了。不过很惨，没有英文字幕，好多生词也听不出来没法去拼写。去YouTube上看海绵宝宝，也没字幕，也确实，中国人看中国剧也不会有字幕😂。不过找到了海绵宝宝的wiki，海绵宝宝的创作者把一整个剧本都写在了里面，可以跟着剧本比对着看。贴个链接：<code>https://spongebob.fandom.com/wiki/List_of_episodes</code>（如果要找剧本，点击<code>Transcripts</code>标签，然后根据你想要的集数选择<code>View Transcript</code>）(也确实明白了海绵宝宝为什么能做的如此成功，因为创作者对自己的作品充满了热情并下了很大的功夫，向他们学习🖖)</p>
-          </div>
-<div class="note note-success">
-            <ul><li>其实最近对保研很难去外校这事儿焦虑了好久，今晚跟球队一拒绝阿里实习的研究生学长一谈，又跟自己的舍友一谈，感觉未来还是很光明的💪。也是对自己要求太高，对自己不满，自己也想像别人那样上岸更好的学校。但我也是没给自己找准定位，大不了就本校，反正还是得靠自己。</li><li>马上要面一个暑期实习，为了能过这两天也是想速成自己一个零基础的技术，黑白颠倒，没日没夜地学，但效果不好，学的东西太多太杂，没梳理好也没打好基础。</li><li>我为啥要说这个，这个跟看海绵宝宝有啥关系。其实就是想让自己放宽心，不想再去为保研和工作过多焦虑。保持快乐学习吧，不要为了达到一个目的而去学习，而是要保持学习，最终会自然而然达到目的。</li><li>哦对了，今天是儿童节嘛，当个儿童吧，就像海绵宝宝里鱼奶奶的一句话：<code>你只会年轻一次，你不会想那么快长大的，那会错过成长的乐趣，快去享受青春活力吧！</code></li></ul>
-          </div>
-<blockquote>
-<p>It’s not the destination, it’s the journey.</p>
-<p>真正重要的不是终点，而是旅途。</p>
-</blockquote>
-<h2 id="Season-1">Season 1</h2>
-<h3 id="Help-Wanted">Help Wanted</h3>
-<blockquote>
-<ul>
-<li>
-<p>I ❤️ pain</p>
-</li>
-<li>
-<p>我爱痛苦</p>
-</li>
-</ul>
-</blockquote>
-<h3 id="Reef-Blower">Reef Blower</h3>
-<ul>
-<li>海绵宝宝唯一一集默片😐。</li>
-</ul>
-<h3 id="Tea-at-the-Treedome">Tea at the Treedome</h3>
-<h2 id="积累单词">积累单词</h2>
-<ul>
-<li>lad 				少年，小伙子</li>
-<li>sea legs        指的是水手在航行的船上适应海浪的颠簸而不摔倒（俚语）
-<ul>
-<li>文中例句：It looks like you don’t even have your sea legs.      -看起来你并没有准备好</li>
-</ul>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>语料积累</category>
-      </categories>
-      <tags>
-        <tag>语料积累</tag>
-        <tag>海绵宝宝</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hexo中使用emoji表情</title>
     <url>/2022/05/22/Hexo%E4%B8%AD%E4%BD%BF%E7%94%A8emoji%E8%A1%A8%E6%83%85/</url>
     <content><![CDATA[<h1>Hexo中使用emoji表情</h1>
@@ -1525,23 +1475,601 @@
       </tags>
   </entry>
   <entry>
-    <title>Hello World</title>
-    <url>/2022/04/22/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start">Quick Start</h2>
-<h3 id="Create-a-new-post">Create a new post</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server">Run server</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files">Generate static files</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites">Deploy to remote sites</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+    <title>JavaWeb学习</title>
+    <url>/2022/06/14/JavaWeb%E5%AD%A6%E4%B9%A0/</url>
+    <content><![CDATA[<h1>JavaWeb学习笔记</h1>
+<h2 id="1-JavaWeb介绍">1. JavaWeb介绍</h2>
+<ul>
+<li>Web：World Wide Web(www),即全球广域网，也成为万维网。</li>
+<li>JavaWeb: 是用Java技术来解决web互联网领域的<strong>技术栈</strong>。</li>
+</ul>
+<p><img src="https://i.imgur.com/uuSQfrP.png" alt=""></p>
+<h2 id="2-SQL">2. SQL</h2>
+<h3 id="2-1-SQL分类">2.1 SQL分类</h3>
+<ul>
+<li>DDL(Data Definition Language)数据定义语言，用来定义数据库对象：数据库，表，列等</li>
+<li>DML(Data Manipulation Language)数据操作语言，用来对数据库中的表的数据进行增删改</li>
+<li>DQL(Data Query Language)数据查询语言，用来查询数据库中表的记录(数据)</li>
+<li>DCL(Data Control Language)数据控制语言，用来定义数据库的访问权限和安全级别，及创建用户。</li>
+</ul>
+<h3 id="2-事务">2.* 事务</h3>
+<h4 id="事务简介">事务简介</h4>
+<ul>
+<li>数据库的<strong>事务</strong>(Transaction)是一种机制、一个操作序列，包含了<strong>一组数据库操作命令</strong></li>
+<li>事务把所有的命令作为一个整体一起向系统提交或撤销操作请求，即这一组数据库命令<strong>要么同时成功，要么同时失败</strong></li>
+<li>事务是一个不可分割的工作逻辑单元</li>
+</ul>
+<figure class="highlight sql"><table><tr><td class="code"><pre><code class="hljs sql"><span class="hljs-comment">-- 开启事务</span><br><span class="hljs-keyword">START</span> TRANSACTION;<br>或者	<span class="hljs-keyword">BEGIN</span>;<br><span class="hljs-comment">-- 提交事务</span><br><span class="hljs-keyword">COMMIT</span>;<br><span class="hljs-comment">-- 回滚事务</span><br><span class="hljs-keyword">ROLLBACK</span>;<br></code></pre></td></tr></table></figure>
+<h4 id="事物四大特征">事物四大特征</h4>
+<ul>
+<li>原子性(<strong>A</strong>tomicity):事务是不可分割的最小操作单位，要么同时成功，要么同时失败</li>
+<li>一致性(<strong>C</strong>onsistency):事务完成时，必须使所有的数据都保持一致状态</li>
+<li>隔离性(<strong>I</strong>solation):多个事务之间，操作的可见性</li>
+<li>持久性(<strong>D</strong>urability):事务一旦提交或回滚，他对数据库中的数据的改变就是永久的</li>
+</ul>
+<p>查询事务的默认提交方式</p>
+<p><code>select @@autocommit</code>值为1自动提交，值为0手动提交</p>
+<h2 id="3-JDBC">3. JDBC</h2>
+<h3 id="3-1-JDBC概念">3.1 JDBC概念:</h3>
+<ul>
+<li>JDBC就是使用Java语言操作关系型数据库的一套API</li>
+<li>全称:(Java DataBase Connectivity) Java数据库连接</li>
+</ul>
+<p><img src="https://i.imgur.com/FSOECYa.png" alt=""></p>
+<h3 id="3-2JDBC本质">3.2JDBC本质</h3>
+<ul>
+<li>官方(sun公司)定义的一套操作所有关系型数据库的规则，即接口</li>
+<li>各个数据库厂商去实现这套接口，提供数据库驱动jar包</li>
+<li>我们可以使用这套接口(JDBC)编程，真正执行的代码是驱动jar包中的实现类</li>
+</ul>
+<h3 id="3-3-JDBC好处">3.3 JDBC好处</h3>
+<ul>
+<li>各数据库厂商使用相同的接口，Java代码不需要针对不同数据库分别开发</li>
+<li>可随时替换底层数据库，访问数据库的Java代码基本不变</li>
+</ul>
+<h3 id="3-4-步骤">3.4 步骤</h3>
+<ol start="0">
+<li>创建工程，导入驱动jar包</li>
+<li>注册驱动</li>
+</ol>
+<p>​		<code>Class.forName(&quot;com.mysql.jdbc.Driver&quot;);</code></p>
+<ol start="2">
+<li>
+<p>获取连接</p>
+<p><code>Connection conn = DriverManager.getConnection(url,username,password)</code>;</p>
+</li>
+<li>
+<p>定义SQL语句</p>
+<p><code>String sql = &quot;update...&quot;</code></p>
+</li>
+<li>
+<p>获取执行SQL对象</p>
+<p><code>Statement stmt = conn.createStatement();</code></p>
+</li>
+<li>
+<p>执行SQL</p>
+<p><code>stmt.executeUpdate(sql);</code></p>
+</li>
+<li>
+<p>处理返回结果</p>
+</li>
+<li>
+<p>释放资源</p>
+</li>
+</ol>
+<h3 id="3-5-JDBC-API-详解">3.5 JDBC API 详解</h3>
+<h4 id="DriverManager">DriverManager</h4>
+<ul>
+<li>
+<p>DriverManager(驱动管理类)作用：</p>
+<ol>
+<li>
+<p>注册驱动</p>
+<p>Driver类源码调用<code>DriverManager.registerDriver</code>注册驱动</p>
+</li>
+<li>
+<p>获取数据库连接</p>
+<ul>
+<li>
+<p>参数</p>
+<ol>
+<li>url：连接路径</li>
+</ol>
+<figure class="highlight elixir"><table><tr><td class="code"><pre><code class="hljs elixir">语法<span class="hljs-symbol">:jdbc</span><span class="hljs-symbol">:mysql</span><span class="hljs-symbol">://ip</span>地址(域名)<span class="hljs-symbol">:</span>端口号/数据库名称？参数键值对<span class="hljs-number">1</span>&amp;参数键值对<span class="hljs-number">2</span>...<br>实例<span class="hljs-symbol">:jdbc</span><span class="hljs-symbol">:mysql</span><span class="hljs-symbol">://</span><span class="hljs-number">127.0</span>.<span class="hljs-number">0.1</span><span class="hljs-symbol">:</span><span class="hljs-number">3306</span>/db1<br>细节:<br>	<span class="hljs-number">1</span>.如果连接的是本机mysql服务器，并且mysql服务默认端口是<span class="hljs-number">3306</span>，则url可以简写为<span class="hljs-symbol">:jdbc</span><span class="hljs-symbol">:mysql</span><span class="hljs-symbol">:///</span>数据库名称？参数键值对<br>	<span class="hljs-number">2</span>.配置useSSL=<span class="hljs-literal">false</span>参数，禁用安全连接方式，解决警告提示<br></code></pre></td></tr></table></figure>
+<ol start="2">
+<li>
+<p>user：用户名</p>
+</li>
+<li>
+<p>password：密码</p>
+</li>
+</ol>
+</li>
+</ul>
+</li>
+</ol>
+</li>
+</ul>
+<p><strong>提示：</strong></p>
+<ul>
+<li>MySQL 5之后的驱动包，可以省略注册驱动的步骤</li>
+<li>自动加载jar包中META-INF/service/java.sql.Driver文件中的驱动类</li>
+</ul>
+<h4 id="Connection">Connection</h4>
+<ul>
+<li>Connection(数据库连接对象)作用：
+<ol>
+<li>获取执行SQL的对象</li>
+<li>管理事务</li>
+</ol>
+</li>
+</ul>
+<ol>
+<li>
+<p>获取执行SQL的对象</p>
+<ul>
+<li>
+<p>普通执行SQL对象</p>
+<p><code>Statement createStatement()</code></p>
+</li>
+<li>
+<p>预编译SQL的执行SQL对象：防止SQL注入</p>
+<p><code>PreparedStatement prepareStatement(sql)</code></p>
+</li>
+<li>
+<p>执行存储过程的对象</p>
+<p><code>CallableStatement prepareCall(sql)</code></p>
+</li>
+</ul>
+</li>
+<li>
+<p>事务管理</p>
+<ul>
+<li>MySQL事务管理</li>
+</ul>
+<figure class="highlight sql"><table><tr><td class="code"><pre><code class="hljs sql">开启事务:<span class="hljs-keyword">BEGIN</span>;<span class="hljs-operator">/</span><span class="hljs-keyword">START</span> TRANSCATION;<br>提交事务:<span class="hljs-keyword">COMMIT</span>;<br>回滚事务:<span class="hljs-keyword">ROLLBACK</span>;<br>MySQL默认自动提交事务<br></code></pre></td></tr></table></figure>
+<ul>
+<li>JDBC事务管理:Connection接口中定义了3各对应的方法</li>
+</ul>
+<figure class="highlight isbl"><table><tr><td class="code"><pre><code class="hljs isbl">开启事务:<span class="hljs-function"><span class="hljs-title">setAutoCommit</span>(<span class="hljs-variable">boolean</span> <span class="hljs-variable">autoCommit</span>):<span class="hljs-variable"><span class="hljs-literal">true</span></span>为自动提交事务;<span class="hljs-variable"><span class="hljs-literal">false</span></span>为手动提交事务，即为开启事务</span><br><span class="hljs-function">提交事务:<span class="hljs-title">commit</span>()</span><br>回滚事务：<span class="hljs-function"><span class="hljs-title">rollback</span>()</span><br></code></pre></td></tr></table></figure>
+</li>
+</ol>
+<h4 id="Statement">Statement</h4>
+<ul>
+<li>
+<p>Statement作用</p>
+<p>执行SQL语句</p>
+<figure class="highlight reasonml"><table><tr><td class="code"><pre><code class="hljs reasonml"><span class="hljs-built_in">int</span> execute<span class="hljs-constructor">Update(<span class="hljs-params">sql</span>)</span>:执行DML、DDL语句<br>返回值:(<span class="hljs-number">1</span>)DML语句影响的行数(<span class="hljs-number">2</span>)DDL语句执行后，执行成功也可能返回<span class="hljs-number">0</span><br></code></pre></td></tr></table></figure>
+<figure class="highlight lasso"><table><tr><td class="code"><pre><code class="hljs lasso"><span class="hljs-keyword">ResultSet</span> executeQuery(sql)：执行DQL语句<br>返回值:<span class="hljs-keyword">ResultSet</span>结果集对象<br></code></pre></td></tr></table></figure>
+</li>
+</ul>
+<h4 id="ResultSet">ResultSet</h4>
+<ul>
+<li>
+<p>ResultSet(结果集对象)作用</p>
+<ol>
+<li>
+<p>封装了DQL查询语句的结果</p>
+<p><code>ResultSet stmt.executeQuery:执行DQL语句，返回ResultSet对象</code></p>
+</li>
+</ol>
+</li>
+<li>
+<p>获取查询结果</p>
+<figure class="highlight axapta"><table><tr><td class="code"><pre><code class="hljs axapta"><span class="hljs-built_in">boolean</span> <span class="hljs-keyword">next</span>():(<span class="hljs-number">1</span>)将光标从当前位置向前移动一行 (<span class="hljs-number">2</span>)判断当前行是否为有效行<br>返回值:<br>	<span class="hljs-literal">true</span>:有效行，当前行有数据<br>	<span class="hljs-literal">false</span>:无效行，当前行没有数据<br></code></pre></td></tr></table></figure>
+<figure class="highlight java"><table><tr><td class="code"><pre><code class="hljs java">xxx <span class="hljs-title function_">getXxx</span><span class="hljs-params">(参数)</span>:获取数据<br>xxx:数据类型；如：<span class="hljs-type">int</span> <span class="hljs-title function_">getInt</span><span class="hljs-params">(参数)</span>;String <span class="hljs-title function_">getString</span><span class="hljs-params">(参数)</span><br>参数:<br>	<span class="hljs-type">int</span>:列的编号，从<span class="hljs-number">1</span>开始<br>	String:列的名称<br></code></pre></td></tr></table></figure>
+</li>
+<li>
+<p>使用步骤:</p>
+<ol>
+<li>游标向下移动一行，并判断改行是否有数据:next()</li>
+<li>获取数据:getXxx(参数)</li>
+</ol>
+<figure class="highlight awk"><table><tr><td class="code"><pre><code class="hljs awk"><span class="hljs-regexp">//</span>循环判断游标是否是最后一行末尾<br><span class="hljs-keyword">while</span>(rs.<span class="hljs-keyword">next</span>())&#123;<br>	<span class="hljs-regexp">//</span>获取数据<br>	rs.getXxx(参数);<br>&#125;<br></code></pre></td></tr></table></figure>
+</li>
+</ul>
+<h4 id="PreparedStatement">PreparedStatement</h4>
+<ul>
+<li>
+<p>PreparedStatement作用:</p>
+<ol>
+<li>预编译SQL语句并执行:预防SQL注入问题</li>
+</ol>
+</li>
+<li>
+<p>步骤</p>
+<ol>
+<li>
+<p>获取PreparedStatement对象</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><code class="hljs java"><span class="hljs-comment">//SQL语句中的参数值，使用?占位符替代</span><br>String sql=<span class="hljs-string">&quot;select * from user where username = ? and password = ?&quot;</span><span class="hljs-string">&quot;</span><br><span class="hljs-string">//通过Connection对象获取，并传入对应的sql语句</span><br><span class="hljs-string">PreparedStatement pstmt = conn.prepareStatement(sql);</span><br></code></pre></td></tr></table></figure>
+</li>
+<li>
+<p>设置参数值</p>
+<figure class="highlight ruby"><table><tr><td class="code"><pre><code class="hljs ruby">PreparedStatement对象<span class="hljs-symbol">:setXxx</span>(参数<span class="hljs-number">1</span>，参数<span class="hljs-number">2</span>)<span class="hljs-symbol">:</span>给？赋值<br><span class="hljs-symbol">Xxx:</span>数据类型;如setInt(参数<span class="hljs-number">1</span>，参数<span class="hljs-number">2</span>)<br>参数:<br>	参数<span class="hljs-number">1</span>: <span class="hljs-string">?的</span>位置编号，从<span class="hljs-number">1</span>开始<br>	参数<span class="hljs-number">2</span>: <span class="hljs-string">?的</span>值 <br></code></pre></td></tr></table></figure>
+</li>
+<li>
+<p>执行SQL</p>
+<figure class="highlight abnf"><table><tr><td class="code"><pre><code class="hljs abnf">executeUpdate()<span class="hljs-comment">;/executeQuery; ： 不需要再传递sql</span><br></code></pre></td></tr></table></figure>
+</li>
+</ol>
+</li>
+<li>
+<p>SQL注入</p>
+<ul>
+<li>SQL注入是通过操作输入来修改事先定义好的SQL语句，用以达到执行代码对服务器进行<strong>攻击</strong>的方法。</li>
+</ul>
+</li>
+<li>
+<p>PreparedStatement好处:</p>
+<ol>
+<li>预编译SQL，性能更高</li>
+<li>防止SQL注入：<strong>将敏感字符进行转义</strong></li>
+</ol>
+</li>
+</ul>
+<ol>
+<li>PreparedStatement预编译功能开启:<code>useServerPrepStmts=true</code>加到url后面</li>
+<li>配置MySQL执行日志(重启mysql服务后生效)</li>
+</ol>
+<figure class="highlight ini"><table><tr><td class="code"><pre><code class="hljs ini"><span class="hljs-attr">log-output</span>=FILE<br><span class="hljs-attr">general-log</span>=<span class="hljs-number">1</span><br><span class="hljs-attr">general_log_file</span>=<span class="hljs-string">&quot;D:\mysql.log&quot;</span><br><span class="hljs-attr">slow-query-log</span>=<span class="hljs-number">1</span><br><span class="hljs-attr">slow_query_log_file</span>=<span class="hljs-string">&quot;D:\mysql_slow.log&quot;</span><br><span class="hljs-attr">long_query_time</span>=<span class="hljs-number">2</span><br></code></pre></td></tr></table></figure>
+<ul>
+<li>PreparedStatement原理:
+<ol>
+<li>在获取PreparedStatement对象时，将sql语句发送给mysql服务器进行检查，编译(这些步骤很耗时)</li>
+<li>执行时就不用再进行这些步骤了，速度更快</li>
+<li>如果sql模板一样，则只需要进行一次检查、编译</li>
+</ol>
+</li>
+</ul>
+<p><img src="https://i.imgur.com/xoXlsJW.png" alt=""></p>
+<h3 id="3-6-数据库连接池">3.6 数据库连接池</h3>
+<h4 id="数据库连接池简介">数据库连接池简介</h4>
+<ul>
+<li>数据库连接池是个容器，负责分配、管理数据库连接(Connection)</li>
+<li>它允许应用程序重复使用一个现有的数据库连接，而不是再重新建立一个</li>
+<li>释放空闲时间超过最大空闲时间的数据库连接来避免因为没有释放数据库连接而引起的数据库连接遗漏</li>
+<li>好处:
+<ul>
+<li>资源重用</li>
+<li>提升系统响应速度</li>
+<li>避免数据库连接遗漏</li>
+</ul>
+</li>
+</ul>
+<h4 id="数据库连接池实现">数据库连接池实现</h4>
+<ul>
+<li>
+<p>标准接口:DatasSource</p>
+<ul>
+<li>
+<p>官方(SUN)提供的数据库连接池标准接口，由第三方组织实现此接口</p>
+</li>
+<li>
+<p>功能:获取连接</p>
+<p><code>Connection getConnection()</code></p>
+</li>
+</ul>
+</li>
+<li>
+<p>常见的数据库连接池:</p>
+<ul>
+<li>DBCP</li>
+<li>C3P0</li>
+<li>Druid</li>
+</ul>
+</li>
+<li>
+<p>Druid(德鲁伊)</p>
+<ul>
+<li>Druid连接池是阿里巴巴开源的数据库连接池项目</li>
+<li>功能强大，性能优秀，是Java语言最好的数据库连接池之一</li>
+</ul>
+</li>
+</ul>
+<h4 id="Druid使用步骤">Druid使用步骤</h4>
+<ol>
+<li>导入jar包 druid-1.1.12.jar</li>
+<li>定义配置文件</li>
+<li>加载配置文件</li>
+<li>获取数据库连接池对象</li>
+<li>获取连接</li>
+</ol>
+<h3 id="3-7-JDBC练习">3.7 JDBC练习</h3>
+<h4 id="环境准备">环境准备</h4>
+<ul>
+<li>数据库表</li>
+<li>实体类pojo</li>
+<li>测试用例</li>
+</ul>
+<h4 id="操作七个步骤">操作七个步骤</h4>
+<ol>
+<li>获取Connection</li>
+<li><strong>定义SQL</strong></li>
+<li>获取PreparedStatement对象</li>
+<li><strong>设置参数</strong></li>
+<li>执行SQL</li>
+<li><strong>处理结果</strong></li>
+<li>释放资源</li>
+</ol>
+<h2 id="4-Maven">4. Maven</h2>
+<ul>
+<li>Maven是专门用于管理和构建Java项目的工具，它的主要功能有:
+<ul>
+<li>提供了一套标准化的项目结构</li>
+<li>提供了一套标准化的构建流程(编译，测试，打包，发布)</li>
+<li>提供了一套依赖管理机制</li>
+</ul>
+</li>
+</ul>
+<p>不同IDE标准化的项目结构不一样，不通用</p>
+<p>Maven提供了一套标准化的项目结构，所有IDE使用Maven构建的项目结构完全一样，所有IDE创建的Maven项目可以通用</p>
+<h3 id="Maven简介">Maven简介</h3>
+<ul>
+<li>Apache Maven是一个项目管理和构建<strong>工具</strong>，它基于项目对象模型(POM)的概念，通过一小段描述信息来管理项目的构建、报告和文档</li>
+</ul>
+<h3 id="Maven基本使用">Maven基本使用</h3>
+<ul>
+<li>Maven常用命令
+<ul>
+<li>compile:编译</li>
+<li>clean:清理</li>
+<li>test:测试</li>
+<li>package:打包</li>
+<li>install:安装</li>
+</ul>
+</li>
+</ul>
+<h3 id="Maven生命周期">Maven生命周期</h3>
+<ul>
+<li>
+<p>Maven构建项目生命周期描述的是一次构建过程经历了多少个实践</p>
+</li>
+<li>
+<p>Maven对项目构建的生命周期划分为3套</p>
+<ul>
+<li>clean:清理工作</li>
+<li>default:核心工作</li>
+<li>site:产生报告，发布站点等</li>
+</ul>
+<p>同一生命周期内，执行后边的命令，前边的所有命令会自动执行</p>
+</li>
+</ul>
+<h3 id="Maven坐标详解">Maven坐标详解</h3>
+<ul>
+<li>什么是坐标？
+<ul>
+<li>Maven中的坐标是<strong>资源的唯一标识</strong></li>
+<li>使用坐标来定义项目或引入项目中需要的依赖</li>
+</ul>
+</li>
+<li>Maven坐标主要组成
+<ul>
+<li>groupId:定义当前Maven项目隶属组织名称(通常是域名反写)</li>
+<li>artifactId:定义当前Maven项目名称(通常是模块名称)</li>
+<li>version:定义当前项目版本号</li>
+</ul>
+</li>
+</ul>
+<h4 id="依赖范围">依赖范围</h4>
+<ul>
+<li>通过设置坐标的依赖范围(scope),可以设置对应jar包的作用范围：编译环境、测试环境、运行环境</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>依赖范围</th>
+<th style="text-align:center">编译classpath</th>
+<th style="text-align:center">测试classpath</th>
+<th style="text-align:center">运行classpath</th>
+<th>例子</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>compile(默认值)</td>
+<td style="text-align:center">Y</td>
+<td style="text-align:center">Y</td>
+<td style="text-align:center">Y</td>
+<td>logback</td>
+</tr>
+<tr>
+<td>test</td>
+<td style="text-align:center">-</td>
+<td style="text-align:center">Y</td>
+<td style="text-align:center">-</td>
+<td>Junit</td>
+</tr>
+<tr>
+<td>provided</td>
+<td style="text-align:center">Y</td>
+<td style="text-align:center">Y</td>
+<td style="text-align:center">-</td>
+<td>servlet-api</td>
+</tr>
+<tr>
+<td>runtime</td>
+<td style="text-align:center">-</td>
+<td style="text-align:center">Y</td>
+<td style="text-align:center">Y</td>
+<td>jdbc驱动</td>
+</tr>
+<tr>
+<td>system</td>
+<td style="text-align:center">Y</td>
+<td style="text-align:center">Y</td>
+<td style="text-align:center">-</td>
+<td>存储在本地的jar包</td>
+</tr>
+</tbody>
+</table>
+<p>依赖范围:import 引入DependencyManagement</p>
+<h2 id="5-MyBatis">5. MyBatis</h2>
+<h3 id="5-1-MyBatis简介">5.1 MyBatis简介</h3>
+<ul>
+<li>MyBatis是一款优秀的持久层框架，用于简化JDBC开发</li>
+<li>MyBatis本是Apache的一个开源项目iBatis，2010年这个项目由apache software foundation迁移到了google code，并且改名为MyBatis。2013年11月迁移到Github</li>
+</ul>
+<p><strong>持久层</strong></p>
+<ul>
+<li>负责将数据保存到数据库的那一层代码</li>
+<li>JavaEE三层架构：表现层、业务层、持久层</li>
+</ul>
+<p><strong>框架</strong></p>
+<ul>
+<li>框架就是一个半成品软件，是一套可重用的、通用的、软件基础代码模型</li>
+<li>在框架的基础之上构建软件编写更加高效、规范、通用、可扩展</li>
+</ul>
+<p><strong>JDBC缺点</strong></p>
+<ol>
+<li>硬编码
+<ul>
+<li>注册驱动，获取连接</li>
+<li>SQL语句</li>
+</ul>
+</li>
+<li>操作繁琐
+<ul>
+<li>手动设置参数</li>
+<li>手动封装结果集</li>
+</ul>
+</li>
+</ol>
+<p><img src="https://i.imgur.com/PCmpW47.png" alt=""></p>
+<ul>
+<li>MyBatis免除了几乎所有的JDBC代码以及设置参数和获取结果集的工作</li>
+</ul>
+<h3 id="5-2-MyBatis快速入门">5.2 MyBatis快速入门</h3>
+<p>举例：查询user表中所有数据</p>
+<ol>
+<li>
+<p>创建user表，添加数据</p>
+</li>
+<li>
+<p>创建模块，导入坐标</p>
+</li>
+<li>
+<p>编写MyBatis核心配置文件 – &gt;替换连接信息 解决硬编码问题</p>
+</li>
+<li>
+<p>编写SQL映射文件 – &gt; 统一管理sql语句，解决硬编码问题</p>
+</li>
+<li>
+<p>编码</p>
+<ol>
+<li>定义POJO类</li>
+<li>加载核心配置文件,获取SqlSessionFactory对象</li>
+</ol>
+<figure class="highlight java"><table><tr><td class="code"><pre><code class="hljs java"><span class="hljs-type">String</span> <span class="hljs-variable">resource</span> <span class="hljs-operator">=</span> <span class="hljs-string">&quot;mybatis核心配置文件名&quot;</span>;<br><span class="hljs-type">InputStream</span> <span class="hljs-variable">inputStream</span> <span class="hljs-operator">=</span> Resources.getResourceAsStream(resource);<br><span class="hljs-type">SqlSessionFactory</span> <span class="hljs-variable">sqlSessionFactory</span> <span class="hljs-operator">=</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">SqlSessionFactoryBuilder</span>().build(inputStream);<br></code></pre></td></tr></table></figure>
+<ol start="3">
+<li>获取SqlSession对象，执行SQL语句</li>
+</ol>
+<p><code>SqlSession sqlSession = sqlSessionFactory.openSession();</code></p>
+<p><code>sqlSession.selectList(&quot;命名空间.id&quot;);</code></p>
+<ol start="4">
+<li>释放资源</li>
+</ol>
+</li>
+</ol>
+<h3 id="5-3-解决SQL映射文件的警告提示">5.3 解决SQL映射文件的警告提示</h3>
+<ul>
+<li>产生原因:Idea和数据库没有建立连接，不识别表信息</li>
+<li>解决方式:在dea中配置MySQL数据库连接</li>
+</ul>
+<h3 id="5-4-Mapper代理开发">5.4 Mapper代理开发</h3>
+<ul>
+<li>
+<p>目的</p>
+<ul>
+<li>解决原生方式中的硬编码</li>
+<li>简化后期执行SQL</li>
+</ul>
+</li>
+<li>
+<p>步骤</p>
+<ol>
+<li>定义与SQL映射文件同名的Mapper接口，并且将Mapper接口和SQL映射文件放置在同一目录下</li>
+<li>设置SQL映射文件的namespace属性为Mapper接口全限定名</li>
+<li>在Mapper接口中定义方法，方法名就是SQL映射文件中sql语句的id，并保持参数类型和返回值类型一致</li>
+<li>编码
+<ol>
+<li>通过SqlSession的getMapper方法获取Mapper接口的代理对象</li>
+<li>调用对应方法完成sql的执行</li>
+</ol>
+</li>
+</ol>
+<ul>
+<li>细节：如果Mapper接口名称和SQL映射文件名称相同，并在同一目录下，则可以使用包扫描的方式简化SQL映射文件的加载<code>&lt;package name=&quot;com.it.map&quot;/&gt;</code></li>
+</ul>
+</li>
+</ul>
+<h3 id="5-5-Mybatis核心配置文件">5.5 Mybatis核心配置文件</h3>
+<ul>
+<li>去官网查</li>
+</ul>
+<p>细节：配置各个标签时，需要遵守前后顺序</p>
+<h3 id="5-6-关于映射别名">5.6 关于映射别名</h3>
+<p>实体类属性名和数据库表列明不一致，不能自动封装数据</p>
+<ol>
+<li>起别名：在SQL语句中，对不一样的列名起别名，别名和实体类属性名一样可以定义<code>&lt;sql&gt;</code>片段，提升复用性</li>
+<li>resultMap：定义<code>&lt;resultMap&gt;</code>完成不一致的属性名和列名的映射</li>
+</ol>
 ]]></content>
+      <categories>
+        <category>学习笔记</category>
+      </categories>
+      <tags>
+        <tag>学习笔记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>SpongeBob_SquarePants_Classic_Quotes</title>
+    <url>/2022/06/01/SpongeBob-SquarePants-Classic-Quotes/</url>
+    <content><![CDATA[<h1>海绵宝宝经典语录</h1>
+<h2 id="前言">前言</h2>
+<div class="note note-success">
+            <p>最近偶然看到了童年的动画回忆，感觉小时候的动画片很经典，蕴藏的知识很符合本人的三观。无意间又逛到了b站up主<code>黄方块和粉星星a</code>，看到了一些海绵宝宝里的经典语录，就想无聊时看一遍海绵宝宝，把那些蕴含哲理的话记录一下。不过当然不能简单地看一遍，毕竟越来越感觉时间不多了🐶，还是得让自己做的事有意义。在b站发现了有英文原版，就想着看一遍英文的吧，就当是学英语了。不过很惨，没有英文字幕，好多生词也听不出来没法去拼写。去YouTube上看海绵宝宝，也没字幕，也确实，中国人看中国剧也不会有字幕😂。不过找到了海绵宝宝的wiki，海绵宝宝的创作者把一整个剧本都写在了里面，可以跟着剧本比对着看。贴个链接：<code>https://spongebob.fandom.com/wiki/List_of_episodes</code>（如果要找剧本，点击<code>Transcripts</code>标签，然后根据你想要的集数选择<code>View Transcript</code>）(也确实明白了海绵宝宝为什么能做的如此成功，因为创作者对自己的作品充满了热情并下了很大的功夫，向他们学习🖖)</p>
+          </div>
+<div class="note note-success">
+            <ul><li>其实最近对保研很难去外校这事儿焦虑了好久，今晚跟球队一拒绝阿里实习的研究生学长一谈，又跟自己的舍友一谈，感觉未来还是很光明的💪。也是对自己要求太高，对自己不满，自己也想像别人那样上岸更好的学校。但我也是没给自己找准定位，大不了就本校，反正还是得靠自己。</li><li>马上要面一个暑期实习，为了能过这两天也是想速成自己一个零基础的技术，黑白颠倒，没日没夜地学，但效果不好，学的东西太多太杂，没梳理好也没打好基础。</li><li>我为啥要说这个，这个跟看海绵宝宝有啥关系。其实就是想让自己放宽心，不想再去为保研和工作过多焦虑。保持快乐学习吧，不要为了达到一个目的而去学习，而是要保持学习，最终会自然而然达到目的。</li><li>哦对了，今天是儿童节嘛，当个儿童吧，就像海绵宝宝里鱼奶奶的一句话：<code>你只会年轻一次，你不会想那么快长大的，那会错过成长的乐趣，快去享受青春活力吧！</code></li></ul>
+          </div>
+<blockquote>
+<p>It’s not the destination, it’s the journey.</p>
+<p>真正重要的不是终点，而是旅途。</p>
+</blockquote>
+<h2 id="Season-1">Season 1</h2>
+<h3 id="Help-Wanted">Help Wanted</h3>
+<blockquote>
+<ul>
+<li>
+<p>I ❤️ pain</p>
+</li>
+<li>
+<p>我爱痛苦</p>
+</li>
+</ul>
+</blockquote>
+<h3 id="Reef-Blower">Reef Blower</h3>
+<ul>
+<li>海绵宝宝唯一一集默片😐。</li>
+</ul>
+<h3 id="Tea-at-the-Treedome">Tea at the Treedome</h3>
+<h2 id="积累单词">积累单词</h2>
+<ul>
+<li>lad 				少年，小伙子</li>
+<li>sea legs        指的是水手在航行的船上适应海浪的颠簸而不摔倒（俚语）
+<ul>
+<li>文中例句：It looks like you don’t even have your sea legs.      -看起来你并没有准备好</li>
+</ul>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>语料积累</category>
+      </categories>
+      <tags>
+        <tag>语料积累</tag>
+        <tag>海绵宝宝</tag>
+      </tags>
   </entry>
   <entry>
     <title>解决hexo报错spwan failed</title>
@@ -1577,50 +2105,23 @@
       </tags>
   </entry>
   <entry>
-    <title>hexo使用笔记</title>
-    <url>/2022/05/10/hexo%E4%BD%BF%E7%94%A8%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<h1>hexo笔记</h1>
-<h2 id="写作命令">写作命令</h2>
-<ol>
-<li>新建分页: <code>hexo new page 名称</code></li>
-<li>新建文章: <code>hexo new 名称</code> 或 <code>hexo n 名称</code></li>
-<li>新建草稿: <code>hexo new draft 名称</code> 或 <code>hexo n draft 名称</code></li>
-<li>草稿生成文章: <code>hexo publish 名称</code> 或 <code>hexo p 名称</code></li>
-<li>草稿生成分页: <code>hexo publish page 名称</code> 或 <code>hexo p 名称</code></li>
-</ol>
-<h2 id="操作命令">操作命令</h2>
-<ol>
-<li>清除已生成文件: <code>hexo clean</code></li>
-<li>运行本地服务器（预览）: <code>hexo s</code></li>
-<li>运行本地服务器（预览草稿）: <code>hexo s --drafts</code></li>
-<li>生成静态文件: <code>hexo g</code></li>
-<li>部署到服务器: <code>hexo d</code></li>
-<li>生成并部署文件: <code>hexo g -d</code> 或 <code>hexo d -g</code></li>
-</ol>
-<h2 id="常见事项">常见事项</h2>
-<ol>
-<li>多标签</li>
-</ol>
-<figure class="highlight subunit"><table><tr><td class="code"><pre><code class="hljs subunit"><span class="hljs-keyword">tags:</span> <br>- 标签1<br>- 标签2<br></code></pre></td></tr></table></figure>
-<p>或<code>tags:[标签1，标签2]</code><br>
-2. 设置阅读全文</p>
-<ul>
-<li>方法1：在文章中使用<code>&lt;!--more--&gt;</code>手动进行截断,Hexo提供的方式（推荐）</li>
-<li>方法2：在文章的front-matter中添加description,并提供文章摘录</li>
-<li>方法3：自动形成摘要,在主题配置文件中修改：</li>
-</ul>
-<figure class="highlight dts"><table><tr><td class="code"><pre><code class="hljs dts"><span class="hljs-symbol">auto_excerpt:</span><br><span class="hljs-symbol">    enable:</span>true<br><span class="hljs-symbol">    length:</span><span class="hljs-number">150</span><br></code></pre></td></tr></table></figure>
-<p>默认截取的长度为150字符，可以根据需要自行设定</p>
-<blockquote>
-<p>建议使用<code>&lt;!--more--&gt;</code>(及第一种方式)，除了可以精确控制需要显示的展露内容以外，这种方式也可以让Hexo中的插件更好的识别</p>
-</blockquote>
+    <title>Hello World</title>
+    <url>/2022/04/22/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start">Quick Start</h2>
+<h3 id="Create-a-new-post">Create a new post</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server">Run server</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files">Generate static files</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites">Deploy to remote sites</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
-      <categories>
-        <category>hexo</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-      </tags>
   </entry>
   <entry>
     <title>WINPCAP编程</title>
@@ -1862,6 +2363,52 @@
       </tags>
   </entry>
   <entry>
+    <title>hexo使用笔记</title>
+    <url>/2022/05/10/hexo%E4%BD%BF%E7%94%A8%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<h1>hexo笔记</h1>
+<h2 id="写作命令">写作命令</h2>
+<ol>
+<li>新建分页: <code>hexo new page 名称</code></li>
+<li>新建文章: <code>hexo new 名称</code> 或 <code>hexo n 名称</code></li>
+<li>新建草稿: <code>hexo new draft 名称</code> 或 <code>hexo n draft 名称</code></li>
+<li>草稿生成文章: <code>hexo publish 名称</code> 或 <code>hexo p 名称</code></li>
+<li>草稿生成分页: <code>hexo publish page 名称</code> 或 <code>hexo p 名称</code></li>
+</ol>
+<h2 id="操作命令">操作命令</h2>
+<ol>
+<li>清除已生成文件: <code>hexo clean</code></li>
+<li>运行本地服务器（预览）: <code>hexo s</code></li>
+<li>运行本地服务器（预览草稿）: <code>hexo s --drafts</code></li>
+<li>生成静态文件: <code>hexo g</code></li>
+<li>部署到服务器: <code>hexo d</code></li>
+<li>生成并部署文件: <code>hexo g -d</code> 或 <code>hexo d -g</code></li>
+</ol>
+<h2 id="常见事项">常见事项</h2>
+<ol>
+<li>多标签</li>
+</ol>
+<figure class="highlight subunit"><table><tr><td class="code"><pre><code class="hljs subunit"><span class="hljs-keyword">tags:</span> <br>- 标签1<br>- 标签2<br></code></pre></td></tr></table></figure>
+<p>或<code>tags:[标签1，标签2]</code><br>
+2. 设置阅读全文</p>
+<ul>
+<li>方法1：在文章中使用<code>&lt;!--more--&gt;</code>手动进行截断,Hexo提供的方式（推荐）</li>
+<li>方法2：在文章的front-matter中添加description,并提供文章摘录</li>
+<li>方法3：自动形成摘要,在主题配置文件中修改：</li>
+</ul>
+<figure class="highlight dts"><table><tr><td class="code"><pre><code class="hljs dts"><span class="hljs-symbol">auto_excerpt:</span><br><span class="hljs-symbol">    enable:</span>true<br><span class="hljs-symbol">    length:</span><span class="hljs-number">150</span><br></code></pre></td></tr></table></figure>
+<p>默认截取的长度为150字符，可以根据需要自行设定</p>
+<blockquote>
+<p>建议使用<code>&lt;!--more--&gt;</code>(及第一种方式)，除了可以精确控制需要显示的展露内容以外，这种方式也可以让Hexo中的插件更好的识别</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>hexo</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>leetcode刷题</title>
     <url>/2022/05/22/leetcode%E5%88%B7%E9%A2%98/</url>
     <content><![CDATA[]]></content>
@@ -1871,6 +2418,453 @@
       <tags>
         <tag>算法</tag>
         <tag>leetcode</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>maven踩坑</title>
+    <url>/2022/06/13/maven%E8%B8%A9%E5%9D%91/</url>
+    <content><![CDATA[<h1>maven踩坑</h1>
+<p>今天专业实训看到之前用的idea自带的maven，仓库保存到了c盘。自己c盘快满了，于是想着自己下一个maven改一下仓库。网上看了下maven版本要下在idea版本发行日期之后发行的版本，没多想直接下了最新版3.8.6。结果pom.xml中的<code>parent</code>以及<code>plugins</code>疯狂的报错:<code>Error injecting constructor, java.lang.NoSuchMethodError: org.apache.maven.model</code>。折磨我了一上午，最后把maven版本换成idea自带的maven版本，错误解决😢。</p>
+]]></content>
+      <categories>
+        <category>bug修复</category>
+      </categories>
+      <tags>
+        <tag>bug修复</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>vue初识</title>
+    <url>/2022/06/21/vue%E5%88%9D%E8%AF%86/</url>
+    <content><![CDATA[<h1>vue学习</h1>
+<h2 id="创建vue项目">创建vue项目</h2>
+<p><code>vue create vue</code></p>
+<h2 id="运行vue项目">运行vue项目</h2>
+<p><code>cd vue</code></p>
+<p><code>npm run serve</code></p>
+]]></content>
+      <categories>
+        <category>前端</category>
+      </categories>
+      <tags>
+        <tag>学习笔记</tag>
+        <tag>前端框架</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>spring学习</title>
+    <url>/2022/06/13/spring%E5%AD%A6%E4%B9%A0/</url>
+    <content><![CDATA[<h1>Spring学习</h1>
+<div class="note note-success">
+            <p>所有知识点都记下来太费时间，简单写点笔记大纲，遇到不会的再查。</p>
+          </div>
+<h2 id="1-Spring简介">1. Spring简介</h2>
+<h3 id="1-1-Spring是什么">1.1 Spring是什么</h3>
+<p>spring是分层的Java SE/EE应用full-stack轻量级开源框架，以<strong>IoC</strong>(Inverse Of Control:反转控制)和<strong>AOP</strong>(Aspect Oriented Programming:面向切面编程)为内核。</p>
+<p>提供了<strong>展现层SpringMVC</strong>和<strong>持久层Spring JDBCTemplate</strong>以及<strong>业务层事务管理</strong>等众多的企业级应用技术，还能整合开源世界众多著名的第三方框架和类库，逐渐成为使用最多的Java EE企业应用开源框架</p>
+<h3 id="1-2-Spring的优势">1.2 Spring的优势</h3>
+<ol>
+<li>
+<p>方便解耦，简化开发</p>
+<ul>
+<li>通过Spring提供的IoC容器，可以将对象间的依赖关系交由Spring进行控制，避免硬编码所造成的过度耦合。用户也不必再为单例模式类、属性文件解析等这些很底层的需求编写代码，可以更专注于上层的应用。</li>
+</ul>
+</li>
+<li>
+<p>AOP变成的支持</p>
+<ul>
+<li>通过Spring的AOP功能，方便进行面向切面编程，许多不容易用传统OOP实现的功能可以通过AOP轻松实现</li>
+</ul>
+</li>
+<li>
+<p>声明式事物的支持</p>
+<ul>
+<li>可以将我们从单调烦闷的事务管理代码中解脱出来，通过声明式方式灵活的进行事务管理，提高开发效率和质量。</li>
+</ul>
+</li>
+<li>
+<p>方便程序的测试</p>
+<ul>
+<li>可以用非容器依赖的编程方式进行几乎所有的测试工作，测试不再是昂贵的操作，而是随手可做的事情。</li>
+</ul>
+</li>
+<li>
+<p>方便继承各种优秀框架</p>
+<ul>
+<li>Spring对各种优秀框架(Struts、Hibernate、Hessian、Quartz等)的支持。</li>
+</ul>
+</li>
+<li>
+<p>降低JavaEE API的使用难度</p>
+<ul>
+<li>Spring对JavaEE API(如JDBC、JavaMail、远程调用等)进行了薄薄的封装层，使这些API的使用难度大大降低。</li>
+</ul>
+</li>
+<li>
+<p>Java源码是经典学习范例</p>
+<ul>
+<li>Spring的源代码设计精妙、结构清晰、匠心独用，处处体现着大师对Java设计模式灵活运用以及对Java技术的高深造诣。它的源代码无意是Java技术的最佳实践的范例。</li>
+</ul>
+</li>
+</ol>
+<h3 id="1-3-Spring的体系结构">1.3 Spring的体系结构</h3>
+<p><img src="https://i.imgur.com/dRRF0lY.png" alt=""></p>
+<h2 id="2-Spring快速入门">2. Spring快速入门</h2>
+<h3 id="2-1-Spring程序开发步骤">2.1 Spring程序开发步骤</h3>
+<p><img src="https://i.imgur.com/ERsHZdA.png" alt=""></p>
+<ol>
+<li>导入Spring开发的基本包坐标</li>
+<li>编写Dao接口和实现类(Bean)</li>
+<li>创建Spring核心配置文件(xml文件)</li>
+<li>在Spring配置文件中配置UserDaoImpl(实现类)</li>
+<li>使用Spring的API获得Bean实例(创建ApplicationContext来getBean，用id号时要用到强制转换，或者可传<code>类名.class</code>)</li>
+</ol>
+<h2 id="3-Spring配置文件">3. Spring配置文件</h2>
+<h3 id="3-1Bean标签基本配置">3.1Bean标签基本配置</h3>
+<p>用于配置对象交由<strong>Spring</strong>来创建。</p>
+<p>默认情况下它调用的使类中的<strong>无参构造函数</strong>，如果没有无参构造函数则不能创建成功</p>
+<p>基本属性:</p>
+<ul>
+<li><strong>id</strong>:Bean实例在Spring容器中的唯一标识</li>
+<li><strong>class</strong>:Bean的全限定名称</li>
+</ul>
+<p><code>&lt;bean id=&quot;id唯一&quot; class=&quot;路径+类名&quot;&gt;&lt;\bean&gt;</code></p>
+<h3 id="3-2Bean标签范围配置">3.2Bean标签范围配置</h3>
+<p>scope:指对象的作用范围，取值如下：</p>
+<table>
+<thead>
+<tr>
+<th>取值范围</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>singleton</td>
+<td>默认值，单例的   （加载配置文件时创建对象）</td>
+</tr>
+<tr>
+<td>prototype</td>
+<td>多例的      （getBean时创建对象）</td>
+</tr>
+<tr>
+<td>request</td>
+<td>WEB项目中，Spring创建一个Bean的对象，将对象存入到request域中</td>
+</tr>
+<tr>
+<td>session</td>
+<td>WEB项目中，Spring创建一个Bean的对象，将对象存入到session域中</td>
+</tr>
+<tr>
+<td>global session</td>
+<td>WEB项目中，应用在Portlet环境，如果没有Portlet环境那么globalSession相当于session</td>
+</tr>
+</tbody>
+</table>
+<ol>
+<li>当scope的取值为<strong>singleton</strong>时
+<ul>
+<li>Bean的实例化个数:1个</li>
+<li>Bean的实例化时机:当Spring核心文件被加载时，实例化配置的Bean实例</li>
+<li>Bean的生命周期：
+<ul>
+<li>对象创建:当应用加载，创建容器时，对象就被创建了</li>
+<li>对象运行:只要容器在，对象一直活着</li>
+<li>对象销毁:当应用卸载，销毁容器时，对象就被销毁了</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>当scope的取值为prototype时
+<ul>
+<li>Bean的实例化个数:多个</li>
+<li>Bean的实例化时机:当调用getBean()方法时实例化Bean
+<ul>
+<li>对象创建:当使用对象时，创建新的对象实例</li>
+<li>对象运行:只要对象在使用中，就一直活着</li>
+<li>对象销毁:当对象长时间不用时，被Java的垃圾回收器回收了</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<h3 id="3-3-Bean的生命周期配置">3.3 Bean的生命周期配置</h3>
+<ul>
+<li><strong>init-method</strong>:指定类中的初始化方法名称</li>
+<li><strong>destroy-method</strong>:指定类中销毁方法名称</li>
+</ul>
+<h3 id="3-4-Bean实例化三种方式">3.4 Bean实例化三种方式</h3>
+<ul>
+<li>
+<p>无参<strong>构造</strong>方法实例化</p>
+</li>
+<li>
+<p>工厂<strong>静态</strong>方法实例化</p>
+<ul>
+<li>新建工厂类，设置<strong>静态</strong>方法返回bean类</li>
+<li>class到工厂类，后面添加属性<code>factory-method=&quot;方法&quot;</code></li>
+<li>例如<code>&lt;bean id=&quot;userDao&quot; class=&quot;com.it.factory.StaticFactory&quot; factory-method=&quot;getUserDao&quot;&gt;&lt;/bean&gt;</code>其中<code>getUserDao()</code>方法为工厂中返回UserDao类型的对象</li>
+</ul>
+</li>
+<li>
+<p>工厂<strong>实例</strong>方法实例化</p>
+<ul>
+<li>
+<p>不再需要static方法</p>
+</li>
+<li>
+<p>举例:</p>
+<figure class="highlight abnf"><table><tr><td class="code"><pre><code class="hljs abnf">//spring帮忙创建工厂对象<br>&lt;bean id<span class="hljs-operator">=</span><span class="hljs-string">&quot;factory&quot;</span> class<span class="hljs-operator">=</span><span class="hljs-string">&quot;com.it.factory.DynamicFactory&quot;</span>&gt;&lt;/bean&gt;<br>//方法获得指定的UserDao类型对象<br>&lt;bean id<span class="hljs-operator">=</span><span class="hljs-string">&quot;userDao&quot;</span> factory-bean<span class="hljs-operator">=</span><span class="hljs-string">&quot;factory&quot;</span> factory-method<span class="hljs-operator">=</span><span class="hljs-string">&quot;getUserDao&quot;</span>/&gt;<br></code></pre></td></tr></table></figure>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="3-5-Bean的依赖注入分析">3.5 Bean的依赖注入分析</h3>
+<p><img src="https://i.imgur.com/h5W0SgN.png" alt=""></p>
+<p>因为UserService和UserDao都在Spring容器中，而最终程序直接使用的时UserService，所以可以在Spring容器中，将UserDao设置到UserService内部。</p>
+<p><img src="https://i.imgur.com/50DlrRN.png" alt=""></p>
+<h3 id="3-6-Bean的依赖注入概念">3.6 Bean的依赖注入概念</h3>
+<p>依赖注入(Dependency Injection): 它是Spring框架核心IOC的具体实现</p>
+<p>在编写程序时，通过控制反转，把对象的创建交给了Spring，但是代码中不可能出现没有以来的情况。</p>
+<p>IOC解耦只是降低他们的依赖关系，但不会消除。例如:业务层仍会调用持久层的方法。</p>
+<p>那这种业务层和持久层的依赖关系，在使用Spring之后，就让Spring来维护了。</p>
+<p>简单地说，就是坐等框架把持久层对象传入业务层，而不用我们自己去获取。</p>
+<h3 id="3-7-Bean的依赖注入方式">3.7 Bean的依赖注入方式</h3>
+<ul>
+<li>构造方法
+<ul>
+<li><code>&lt;constructer-arg&gt;</code>标签 ref属性连接注入类</li>
+</ul>
+</li>
+<li>set方法
+<ul>
+<li><code>&lt;property&gt;</code>标签 ref属性连接注入类</li>
+</ul>
+</li>
+</ul>
+<h3 id="3-8-Bean的依赖注入的数据类型">3.8 Bean的依赖注入的数据类型</h3>
+<p>上面的操作，都是注入的引用Bean，除了对象的引用可以注入，普通数据类型，集合等都可以在容器中进行注入。</p>
+<p>注入数据的三种数据类型:</p>
+<ul>
+<li>普通数据类型 没有ref属性，用value传参</li>
+<li>引用数据类型</li>
+<li>集合数据类型 properties内部加子标签</li>
+</ul>
+<h3 id="3-9-引入其他配置文件-分模块开发">3.9 引入其他配置文件(分模块开发)</h3>
+<p>实际开发中，Spring的配置内容非常多，这就导致Spring配置很繁杂且体积很大，所以，可以将部分配置拆解到其他配置文件中，而在Spring主配置文件通过import标签进行加载</p>
+<p><code>&lt;import resource=&quot;.xml&quot;&gt;</code></p>
+<h3 id="3-10-知识总结">3.10 知识总结</h3>
+<p><strong>Spring的重点配置</strong></p>
+<ul>
+<li><code>&lt;bean&gt;</code>标签
+<ul>
+<li>id属性:在容器中Bean实例的唯一标识，不允许重复</li>
+<li>class属性:要实例化的Bean全限定名</li>
+<li>scope属性:Bean的作用范围，常用是Singleton(默认)和prototype</li>
+<li><code>&lt;property&gt;</code>标签:属性注入
+<ul>
+<li>name属性:属性名称</li>
+<li>value属性:注入的普通属性值</li>
+<li>ref属性:注入的对象引用值</li>
+<li><code>&lt;list&gt;</code>标签</li>
+<li><code>&lt;map&gt;</code>标签</li>
+<li><code>&lt;properties&gt;</code>标签</li>
+</ul>
+</li>
+<li><code>&lt;constructor-arg&gt;</code>标签</li>
+</ul>
+</li>
+<li><code>&lt;import&gt;</code>标签:导入其他的Spring的分文件</li>
+</ul>
+<h2 id="4-SpringAPI">4. SpringAPI</h2>
+<h3 id="4-1-ApplicationContext的继承体系">4.1 ApplicationContext的继承体系</h3>
+<p>applicationContext:接口类型，代表应用上下文，可以通过其实例获得Spring容器中的Bean对象</p>
+<p><img src="https://i.imgur.com/3yIHrhF.png" alt=""></p>
+<h3 id="4-2-ApplicationContext的实现类">4.2 ApplicationContext的实现类</h3>
+<ol>
+<li>
+<p><strong>ClassPathXmlApplicationContext</strong> 传一个xml配置文件</p>
+<p>它是从类的根路径下加载配置文件 推荐使用这种</p>
+</li>
+<li>
+<p><strong>FileSystemXmlApplicationContext</strong></p>
+</li>
+</ol>
+<p>​		它是从磁盘路径上加载配置文件，配置文件可以在磁盘的任意位置</p>
+<ol start="3">
+<li><strong>AnnotationConfigApplicationContext</strong></li>
+</ol>
+<p>​		当使用注解配置容器对象时，需要使用此类来创建spring容器。用它来读取注解</p>
+<h3 id="4-3-getBean-方法使用">4.3 getBean()方法使用</h3>
+<p>可传id和字节码对象</p>
+<p>getBean(“id”)</p>
+<p>getBean(class)</p>
+<h2 id="5-Spring配置数据源">5. Spring配置数据源</h2>
+<h3 id="5-1-数据源-连接池-的作用">5.1 数据源(连接池)的作用</h3>
+<ul>
+<li>数据源(连接池)是提高程序性能出现的</li>
+<li>实现实例化数据源，初始化部分连接资源</li>
+<li>使用连接资源时从数据源中获取</li>
+<li>使用完毕后将连接资源归还给数据源</li>
+</ul>
+<p>常见的数据源(连接池):DBCP、C3P0、BoneCP、Druid等</p>
+<h3 id="5-2-数据源开发步骤">5.2 数据源开发步骤</h3>
+<ol>
+<li>导入数据源的坐标和数据库驱动坐标</li>
+<li>创建数据源对象</li>
+<li>设置数据源的基本连接数据</li>
+<li>使用数据源获取连接资源和归还连接资源</li>
+</ol>
+<h3 id="5-3-数据源的手动创建">5.3 数据源的手动创建</h3>
+<p>解耦合数据库参数到properties配置文件</p>
+<p>采用ResourceBundle中的getBundle方法读取配置文件</p>
+<h3 id="5-4-Spring配置数据源">5.4 Spring配置数据源</h3>
+<p>可以将DataSource的创建权交由Spring容器去完成</p>
+<h3 id="5-5-抽取jdbc配置文件">5.5 抽取jdbc配置文件</h3>
+<p>applicationContext.xml加载jdbc.properties配置文件获得连接信息</p>
+<p>首先，需要引入context命名空间和约束路径:</p>
+<ul>
+<li>命名空间:<code>xmlns:context=&quot;http://www.springframework.org/schema/context&quot;</code></li>
+<li>约束路径:<code>http://www.springframework.org/schema/context</code></li>
+</ul>
+<p>​						<code>http://www.springframework.org/schema/context/spring-context.xsd</code></p>
+<p><img src="https://i.imgur.com/NUti9u7.png" alt=""></p>
+<h3 id="5-6-知识要点">5.6 知识要点</h3>
+<p><strong>Spring容器加载properties文件</strong></p>
+<p><img src="https://i.imgur.com/sMuZn1J.png" alt=""></p>
+<h2 id="6-Spring注解开发">6. Spring注解开发</h2>
+<h3 id="6-1-Spring原始注解">6.1 Spring原始注解</h3>
+<p>spring是轻代码而重配置的框架，配置比较繁重，影响开发效率，所以注解开发是一种趋势，注解代替xml配置文件可以简化配置，提高开发效率。</p>
+<p>Spring原始注解主要是替代<code>&lt;Bean&gt;</code>标签的配置</p>
+<table>
+<thead>
+<tr>
+<th>注解</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>@Component</strong></td>
+<td>使用在类上用于实例化Bean</td>
+</tr>
+<tr>
+<td><strong>@Controller</strong></td>
+<td>使用在web层类上用于实例化Bean</td>
+</tr>
+<tr>
+<td><strong>@Service</strong></td>
+<td>使用在service层类上用于实例化Bean</td>
+</tr>
+<tr>
+<td><strong>@Repository</strong></td>
+<td>使用在dao层类上用于实例化Bean</td>
+</tr>
+<tr>
+<td><strong>@Autowired</strong></td>
+<td>使用在字段上用于根据类型依赖注入</td>
+</tr>
+<tr>
+<td><strong>@Qualifier</strong></td>
+<td>结合@Autowired一起使用用于根据名称进行依赖注入</td>
+</tr>
+<tr>
+<td><strong>@Resource</strong></td>
+<td>相当于@Autowired+@Qualifier,按照名称进行注入</td>
+</tr>
+<tr>
+<td><strong>@Value</strong></td>
+<td>注入普通属性 ${}</td>
+</tr>
+<tr>
+<td><strong>@Scope</strong></td>
+<td>标注Bean的作用范围</td>
+</tr>
+<tr>
+<td>@PostConstruct</td>
+<td>使用在方法上标注该方法是Bean的初始化方法</td>
+</tr>
+<tr>
+<td>@PreDestroy</td>
+<td>使用在方法上标注该方法是Bean的销毁方法</td>
+</tr>
+</tbody>
+</table>
+<p>注意:使用注解进行开发时，需要在applicationContext.xml中配置组件扫描，作用是指定哪个包及其子包下的Bean需要进行扫描以便识别使用注解配置的类、字段和方法。</p>
+<p><img src="https://i.imgur.com/n7NA4Xf.png" alt=""></p>
+<h3 id="6-2-Spring新注解">6.2 Spring新注解</h3>
+<p>使用上面的注解还不能全部替代xml配置文件，还需要使用注解替代的配置如下：</p>
+<ul>
+<li>非自定义的Bean的配置:<code>&lt;bean&gt;</code></li>
+<li>加载properties文件的配置:<code>&lt;context:property-placehoder&gt;</code></li>
+<li>组件扫描的配置:<code>&lt;context:component-scan&gt;</code></li>
+<li>引入其他文件<code>&lt;import&gt;</code></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>注解</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>@Configuration</td>
+<td>用于指定当前类是一个Spring配置类，当创建容器时会从该类上加载注解</td>
+</tr>
+<tr>
+<td>@ComponentScan</td>
+<td>用于指定Spring在初始化容器时要扫描的包。<br />作用和在Spring的xml配置文件中的<br /><code>&lt;contex:component-scan base-package=&quot;com.it&quot;/&gt;一样</code></td>
+</tr>
+<tr>
+<td>@Bean</td>
+<td>使用在方法上，标注将该方法的返回值存储到Spring容器中</td>
+</tr>
+<tr>
+<td>@PropertySource</td>
+<td>用于加载.properties文件中的配置</td>
+</tr>
+<tr>
+<td>@Import</td>
+<td>用于导入其他配置类</td>
+</tr>
+</tbody>
+</table>
+<h2 id="7-Spring集成Junit">7. Spring集成Junit</h2>
+<h3 id="7-1-原始Junit测试Spring的问题">7.1 原始Junit测试Spring的问题</h3>
+<p>在测试类中，每个测试方法都有以下两行代码:</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><code class="hljs java"><span class="hljs-type">ApplicationContext</span> <span class="hljs-variable">ac</span> <span class="hljs-operator">=</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">ClassPathXmlApplicationContext</span>(<span class="hljs-string">&quot;bean.xml&quot;</span>);<br><span class="hljs-type">IAccountService</span> <span class="hljs-variable">as</span> <span class="hljs-operator">=</span> ac.getBean(<span class="hljs-string">&quot;accountService&quot;</span>,IAccountService.class);<br></code></pre></td></tr></table></figure>
+<p>这两行代码的作用是获取容器，每个测试代码里都得有，如果不写的话，直接会提示空指针异常，所以又不能轻易删掉。</p>
+<h3 id="7-2-上述问题解决思路">7.2 上述问题解决思路</h3>
+<ul>
+<li>让SpringJunit负责创建Spring容器，但是需要将配置文件的名称告诉它</li>
+<li>将需要进行测试Bean直接在测试类中进行注入</li>
+</ul>
+<h3 id="7-3-Spring集成Junit步骤">7.3 Spring集成Junit步骤</h3>
+<ul>
+<li>导入spring集成Junit的坐标</li>
+<li>使用@Runwith注解替换原来的运行期</li>
+<li>使用@ContextConfiguration指定配置文件或配置类</li>
+<li>使用@Autowired注入需要测试的对象</li>
+<li>创建测试方法进行测试</li>
+</ul>
+<h2 id="8-Spring集成web环境">8. Spring集成web环境</h2>
+<h3 id="8-1-ApplicationContext应用上下文获取方式">8.1 ApplicationContext应用上下文获取方式</h3>
+<p>应用上下文对象是通过<strong>new ClasspathXmlApplicationContent(spring配置文件)<strong>方式获取的，但是每次从容器中获得Bean时都要编写</strong>new ClasspathXmlApplicationContext(spring配置文件)</strong>，这样的弊端时配置文件加载多次，应用上下文对象创建多次。</p>
+<p>在Web项目中，可以使用<strong>ServletContentListener</strong>监听Web应用的启动，我们可以在Web应用启动时，就加载Spring的配置文件，创建应用上下文对象<strong>ApplicationContext</strong>，在将其存储到最大的域<strong>servletContext</strong>域中，这样就可以在任意位置从域中获得应用上下文<strong>ApplicationContext</strong>对象了。</p>
+<h3 id="8-2-Spring提供获取应用上下文的工具">8.2 Spring提供获取应用上下文的工具</h3>
+<p>Spring提供了一个监听器<strong>ContextLoaderListener</strong>，该监听器内部加载Spring配置文件，创建应用上下文对象，并存储到<strong>ServletContext</strong>域中，提供了一个客户端工具<strong>WebApplicationContextUtils</strong>供使用者获得应用上下文对象。</p>
+<p>需要做的只有两件事:</p>
+<ol>
+<li>在<strong>web.xml</strong>中配置<strong>ContextLoaderListener</strong>监听器(导入spring-web坐标)</li>
+<li>使用<strong>WebApplicationContextUtils</strong>供使用者获得应用上下文对象</li>
+</ol>
+]]></content>
+      <categories>
+        <category>学习笔记</category>
+      </categories>
+      <tags>
+        <tag>学习笔记</tag>
       </tags>
   </entry>
   <entry>
@@ -2176,6 +3170,662 @@
       </tags>
   </entry>
   <entry>
+    <title>现代计算机图形学入门</title>
+    <url>/2022/06/27/%E7%8E%B0%E4%BB%A3%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%BD%A2%E5%AD%A6%E5%85%A5%E9%97%A8/</url>
+    <content><![CDATA[<h1>现代计算机图形学入门</h1>
+<ul>
+<li>可选教材: Fundamentals of Computer Graphics(虎书 tiger book)</li>
+<li>课程网址:<a href="https://sites.cs.ucsb.edu/~lingqi/teaching/games101.html">GAMES101: 现代计算机图形学入门 (ucsb.edu)</a></li>
+<li>计算机图形学与混合现实研讨会BBS:<a href="https://games-cn.org/">计算机图形学与混合现实在线平台 – GAMES: Graphics And Mixed Environment Symposium (games-cn.org)</a></li>
+<li>闫令琪个人主页:<a href="https://sites.cs.ucsb.edu/~lingqi/">Lingqi Yan: Research Homepage (ucsb.edu)</a></li>
+</ul>
+<h2 id="Course-Topics">Course Topics</h2>
+<ul>
+<li>
+<p>Rasterization 光栅化</p>
+</li>
+<li>
+<p>Curves and Meshes 曲线和曲面</p>
+</li>
+<li>
+<p>Ray Tracing 光线追踪</p>
+</li>
+<li>
+<p>Animation / Simulation 动画与模拟</p>
+</li>
+</ul>
+<h2 id="Review-of-Linear-Algebra">Review of Linear Algebra</h2>
+<ul>
+<li>
+<p>判断内外可用叉乘</p>
+</li>
+<li>
+<p>叉乘矩阵表示</p>
+<ul>
+<li>
+<p>$$<br>
+\vec{a}\times\vec{b}=A^*b=<br>
+\left(<br>
+\begin{array}{2}<br>
+0 &amp; -z_a &amp; y_a\<br>
+z_a &amp; 0 &amp; -x_a\<br>
+-y_a &amp; x_a &amp; 0<br>
+\end{array}<br>
+\right)<br>
+\cdot<br>
+\left(<br>
+\begin{array}{3}<br>
+x_b\<br>
+y_b\<br>
+z_b<br>
+\end{array}<br>
+\right)<br>
+$$</p>
+</li>
+<li></li>
+</ul>
+</li>
+</ul>
+<h2 id="引入Homogeneous-Coordinates-齐次坐标">引入Homogeneous Coordinates(齐次坐标)</h2>
+<ul>
+<li>
+<p>目的是消除图像平移的特殊性，将所有变换转换成矩阵乘积形式</p>
+</li>
+<li>
+<p>使用方法：加入第三个维度Add a third coordinite(w-coordinate)</p>
+<ul>
+<li>
+<p>2D point = (x,y,<strong>1</strong>)<sup>T</sup>      (点)</p>
+</li>
+<li>
+<p>2D vector=(x,y,<strong>0</strong>)<sup>T</sup>     (向量)</p>
+</li>
+<li>
+<p>平移：</p>
+</li>
+<li>
+<h1>$$<br>
+\left(<br>
+\begin{array}{1}<br>
+x’\<br>
+y’\<br>
+w’<br>
+\end{array}<br>
+\right)</h1>
+<h1>\left(<br>
+\begin{array}{2}<br>
+1 &amp; 0 &amp; t_x\<br>
+0 &amp; 1 &amp; t_y\<br>
+0 &amp; 0 &amp; 1<br>
+\end{array}<br>
+\right)<br>
+\cdot<br>
+\left(<br>
+\begin{array}{3}<br>
+x\<br>
+y\<br>
+1<br>
+\end{array}<br>
+\right)</h1>
+<p>\left(<br>
+\begin{array}{1}<br>
+x+t_x\<br>
+y+t_y\<br>
+1<br>
+\end{array}<br>
+\right)<br>
+$$</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Valid operation if w-coordinate of result is 1 or 0</p>
+<ul>
+<li>vector + vector = vector</li>
+<li>point - point = vector</li>
+<li>point + vector = point</li>
+<li>point + point = <strong>midpoint</strong></li>
+</ul>
+</li>
+<li>
+<p>In homogeneous coordinates</p>
+<ul>
+<li>$$<br>
+\left(<br>
+\begin{array}{1}<br>
+x\<br>
+y\<br>
+w<br>
+\end{array}<br>
+\right)<br>
+is ; the ; 2D ; point<br>
+\left(<br>
+\begin{array}{2}<br>
+x/w\<br>
+y/w\<br>
+1<br>
+\end{array}<br>
+\right)<br>
+, w \ne 0<br>
+$$</li>
+</ul>
+</li>
+<li>
+<p>Affine map = linear map + translation</p>
+<ul>
+<li>
+<h1>$$<br>
+\left(<br>
+\begin{array}{1}<br>
+x’\<br>
+y’<br>
+\end{array}<br>
+\right)</h1>
+\left(<br>
+\begin{array}{2}<br>
+a &amp; b\<br>
+c &amp; d<br>
+\end{array}<br>
+\right)<br>
+\cdot<br>
+\left(<br>
+\begin{array}{3}<br>
+x\<br>
+y<br>
+\end{array}<br>
+\right)<br>
++<br>
+\left(<br>
+\begin{array}{4}<br>
+t_x\<br>
+t_y<br>
+\end{array}<br>
+\right)<br>
+$$</li>
+</ul>
+</li>
+<li>
+<p>Using homogenous coordinates</p>
+<ul>
+<li>
+<h1>$$<br>
+\left(<br>
+\begin{array}{1}<br>
+x’\<br>
+y’\<br>
+1<br>
+\end{array}<br>
+\right)</h1>
+\left(<br>
+\begin{array}{2}<br>
+a &amp; b &amp; t_x\<br>
+c &amp; d &amp; t_y\<br>
+0 &amp; 0 &amp; 1<br>
+\end{array}<br>
+\right)<br>
+\cdot<br>
+\left(<br>
+\begin{array}{3}<br>
+x\<br>
+y\<br>
+1<br>
+\end{array}<br>
+\right)<br>
+$$</li>
+</ul>
+</li>
+<li>
+<p>对于旋转来说</p>
+<ul>
+<li>
+<p>$$<br>
+R_\theta =<br>
+\left(<br>
+\begin{array}{1}<br>
+cos\theta &amp; -sin\theta\<br>
+sin\theta &amp; cos\theta<br>
+\end{array}<br>
+\right)<br>
+$$</p>
+</li>
+<li>
+<p>$$<br>
+R_{-\theta} =<br>
+\left(<br>
+\begin{array}{1}<br>
+cos\theta &amp; sin\theta\<br>
+-sin\theta &amp; cos\theta<br>
+\end{array}<br>
+\right) =<br>
+R_\theta^T<br>
+$$</p>
+</li>
+<li>
+<p>$$<br>
+R_{-\theta} = R_{\theta}^{-1} \quad(by;definition)<br>
+$$</p>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="3D-Transforms">3D Transforms</h3>
+<ul>
+<li>
+<p>Use homogeneous coordinates again</p>
+<ul>
+<li>3D point = (x,y,z,<strong>1</strong>)<sup>T</sup></li>
+<li>3D vector = (x,y,z,<strong>0</strong>)<sup>T</sup></li>
+</ul>
+</li>
+<li>
+<p>In general, (x,y,z,w)(w!=0) is the 3D point (x/w,y/w,z/w)</p>
+</li>
+<li>
+<p>Use 4*4 matrices for affine transformations</p>
+</li>
+<li>
+<h1>$$<br>
+\left(<br>
+\begin{array}{1}<br>
+x’\<br>
+y’\<br>
+z\<br>
+1<br>
+\end{array}<br>
+\right)</h1>
+<p>\left(<br>
+\begin{array}{2}<br>
+a &amp; b &amp; c &amp; t_x\<br>
+d &amp; e &amp; f &amp; t_y\<br>
+g &amp; h &amp; i &amp; t_z\<br>
+0 &amp; 0 &amp; 0 &amp; 1<br>
+\end{array}<br>
+\right)<br>
+\cdot<br>
+\left(<br>
+\begin{array}{3}<br>
+x\<br>
+y\<br>
+z\<br>
+1<br>
+\end{array}<br>
+\right)<br>
+$$</p>
+</li>
+<li></li>
+</ul>
+<ul>
+<li>
+<p>Rotation around x-, y-, or z-axis</p>
+</li>
+<li>
+<p>$$<br>
+R_x(\alpha)=<br>
+\left(<br>
+\begin{array}{1}<br>
+1 &amp; 0 &amp; 0 &amp; 0\<br>
+0 &amp; cos\alpha &amp; -sin\alpha &amp; 0\<br>
+0 &amp; sin\alpha &amp; cos\alpha &amp; 0\<br>
+0 &amp; 0 &amp; 0 &amp; 1<br>
+\end{array}<br>
+\right)<br>
+$$</p>
+</li>
+<li>
+<p><strong>tips:</strong> There is something strange about R<sub>y</sub></p>
+</li>
+<li>
+<p>$$<br>
+R_y(\alpha)=<br>
+\left(<br>
+\begin{array}{1}<br>
+cos\alpha &amp; 0 &amp; sin\alpha &amp; 0\<br>
+0 &amp; 1 &amp; 0 &amp; 0\<br>
+-sin\alpha &amp; 0 &amp; cos\alpha &amp; 0\<br>
+0 &amp; 0 &amp; 0 &amp; 1<br>
+\end{array}<br>
+\right)<br>
+$$</p>
+</li>
+<li>
+<p>$$<br>
+R_z(\alpha)=<br>
+\left(<br>
+\begin{array}{1}<br>
+cos\alpha &amp; -sin\alpha &amp; 0 &amp; 0\<br>
+sin\alpha &amp; cos\alpha &amp; 0 &amp; 0\<br>
+0 &amp; 0 &amp; 1 &amp; 0\<br>
+0 &amp; 0 &amp; 0 &amp; 1<br>
+\end{array}<br>
+\right)<br>
+$$</p>
+</li>
+</ul>
+<h3 id="Rodrigues’-Rotation-Formula罗德里格斯旋转公式">Rodrigues’ Rotation Formula罗德里格斯旋转公式</h3>
+<h3 id="四元数">四元数</h3>
+<h3 id="Viewing-观测-transformation">Viewing(观测) transformation</h3>
+<ul>
+<li><strong>View(视图)/Camera transformation</strong></li>
+<li>Projection(投影) transformation
+<ul>
+<li>Orthograpgic(正交) projection</li>
+<li>Perspective(透视) projection</li>
+</ul>
+</li>
+</ul>
+<h4 id="View-Camera-Transformation">View/Camera Transformation</h4>
+<ul>
+<li>
+<p>How to take a photo</p>
+<ul>
+<li>Find a good place and arrange people(<strong>mode</strong>l transformation)</li>
+<li>Find a good “angle” to put the camera(<strong>view</strong> transformation)</li>
+<li>Cheese!(<strong>projection</strong> transformation)</li>
+</ul>
+</li>
+<li>
+<p>Define the camera first</p>
+<ul>
+<li>Position $\vec{e}$</li>
+<li>Look-at / gaze direction $\hat{g}$</li>
+<li>Up direction $\hat{t}$ (assuming perp. to look-at)</li>
+</ul>
+</li>
+<li>
+<p>Key observation</p>
+<ul>
+<li>If the camera and all objects move together, the “photo” will be the same</li>
+</ul>
+</li>
+<li>
+<p><img src="https://i.imgur.com/i95DkMC.png" alt=""></p>
+</li>
+<li>
+<p><img src="https://i.imgur.com/p5JRto7.png" alt=""></p>
+</li>
+<li>
+<p>How about that we always transform the camera to</p>
+<ul>
+<li>The origin, up at Y, look at -Z</li>
+<li>And transform the objects along with the camera</li>
+</ul>
+</li>
+<li>
+<p>Transform the camera by M<sub>view</sub></p>
+<ul>
+<li>So it’s located at the origin, up at Y, look at -Z</li>
+</ul>
+</li>
+<li>
+<p><img src="https://i.imgur.com/CqfoSuF.png" alt=""></p>
+</li>
+<li>
+<p>M<sub>view</sub>  in math?</p>
+<ul>
+<li>Translate e to origin</li>
+<li>Rotates g to -Z</li>
+<li>Rotates t to Y</li>
+<li>Rotates (g x t) To X</li>
+<li>Let’s write M<sub>view</sub>=R<sub>view</sub>T<sub>view</sub> 先平移再线性变换</li>
+</ul>
+<p>$$<br>
+T_{view}=<br>
+\left(<br>
+\begin{array}{1}<br>
+1 &amp; 0 &amp; 0 &amp; -x_e\<br>
+0 &amp; 1 &amp; 0 &amp; -y_e\<br>
+0 &amp; 0 &amp; 1 &amp; -z_e\<br>
+0 &amp; 0 &amp; 0 &amp; 1<br>
+\end{array}<br>
+\right)<br>
+$$</p>
+<ul>
+<li>
+<p>Translate e to origin</p>
+</li>
+<li>
+<p>Rotate g to -Z, t to Y, (g $\times$ t) to X</p>
+</li>
+<li>
+<p>Consider its inverse rotation: X to (g $\times$ t), Y to t, Z to -g</p>
+</li>
+<li>
+<p>$R_{view}^{-1}$怎么得到的？</p>
+<ul>
+<li>举例：$X(1,0,0)^T\cdot R_{view}^{-1}=(\vec{g}\times\vec{t})$</li>
+</ul>
+</li>
+<li>
+<p>$$<br>
+R_{view}^{-1}=<br>
+\left(<br>
+\begin{array}{1}<br>
+x_{\hat{g}\times\hat{t}} &amp; x_t &amp; x_{-g} &amp; 0\<br>
+y_{\hat{g}\times\hat{t}} &amp; y_t &amp; y_{-g} &amp; 0\<br>
+z_{\hat{g}\times\hat{t}} &amp; z_t &amp; z_{-g} &amp; 0\<br>
+0 &amp; 0 &amp; 0 &amp; 1<br>
+\end{array}<br>
+\right)<br>
+\rightarrow<br>
+R_{view}=<br>
+\left(<br>
+\begin{array}{1}<br>
+x_{\hat{g}\times\hat{t}} &amp; y_{\hat{g}\times\hat{t}} &amp; z_{\hat{g}\times\hat{t}} &amp; 0\<br>
+x_t &amp; y_t &amp; z_t &amp; 0\<br>
+x_{-g} &amp; y_{-g} &amp; z_{-g} &amp; 0\<br>
+0 &amp; 0 &amp; 0 &amp; 1<br>
+\end{array}<br>
+\right)<br>
+$$</p>
+</li>
+<li>
+<p>旋转矩阵是正交矩阵，所以他的逆就是他的转置。</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Summary</p>
+<ul>
+<li>Transform objects together  with the camera</li>
+<li>Until camera’s at the origin, up at Y, look at -Z</li>
+</ul>
+</li>
+<li>
+<p>Also known as ModelView Transformation</p>
+</li>
+</ul>
+<h4 id="Orthographic-Projection">Orthographic Projection</h4>
+<ul>
+<li>
+<p>A simple way of understanding</p>
+<ul>
+<li>Camera located at origin,looking at -Z, up at Y</li>
+<li>Drop Z coordinate</li>
+<li>Translate and scale the resulting rectangle to [-1,1]<sup>2</sup></li>
+</ul>
+</li>
+<li>
+<p>In general</p>
+<ul>
+<li>
+<p>We want to map a cuboid [l,r]$\times$[b,t]$\times$[<strong>f</strong>,<strong>n</strong>] to the &quot;canonical(正则、规范、标准)&quot;cube [-1,1]<sup>3</sup></p>
+</li>
+<li>
+<p><img src="https://i.imgur.com/LygsZN1.png" alt=""></p>
+</li>
+<li>
+<p>Slightly different orders (to the “simple way”)</p>
+<ul>
+<li>Center cuboid by translation</li>
+<li>Scale into “canonical” cube</li>
+</ul>
+</li>
+<li>
+<p>Translate (center to origin) first, then scale (length/width/height to <strong>2</strong>)</p>
+</li>
+<li>
+<p>$$<br>
+M_{ortho}=<br>
+\left(<br>
+\begin{array}{}<br>
+\frac{2}{r-l} &amp; 0 &amp; 0 &amp; 0\<br>
+0 &amp; \frac{2}{t-b} &amp; 0 &amp; 0\<br>
+0 &amp; 0 &amp; \frac{2}{n-f} &amp; 0\<br>
+0 &amp; 0 &amp; 0 &amp; 1<br>
+\end{array}<br>
+\right)<br>
+\cdot<br>
+\left(<br>
+\begin{array}{}<br>
+1 &amp; 0 &amp; 0 &amp; -\frac{r+l}{2}\<br>
+0 &amp; 1 &amp; 0 &amp; -\frac{t+b}{2}\<br>
+0 &amp; 0 &amp; 1 &amp; -\frac{n+f}{2}\<br>
+0 &amp; 0 &amp; 0 &amp; 1<br>
+\end{array}<br>
+\right)<br>
+$$</p>
+</li>
+</ul>
+</li>
+</ul>
+<h4 id="Perspective-Projection">Perspective Projection</h4>
+<ul>
+<li>
+<p>Most common in Computer Graphics, art, visual system</p>
+</li>
+<li>
+<p>Further objects are smaller</p>
+</li>
+<li>
+<p>Parallel lines not parallel; converge to single point</p>
+</li>
+<li>
+<p>How to perspective projection</p>
+<ul>
+<li>First “squish” the frustum into a cuboid(n-&gt;n,f-&gt;f)($M_{persp-&gt;ortho}$)</li>
+<li>Do orthograpgics projection($M_{ortho}$ ,already know!)</li>
+</ul>
+</li>
+<li>
+<p>In order to find a transform</p>
+<ul>
+<li>Recall the key idea: Find the relationship between transformed points(x’,y’,z’) and the original points(x,y,z)</li>
+<li><img src="https://i.imgur.com/hmUm5UW.png" alt=""></li>
+<li>$x’ = \frac{n}{z}x$     {similar to y’}</li>
+</ul>
+</li>
+<li>
+<p>In homogeneous coordinates</p>
+<ul>
+<li><img src="https://i.imgur.com/gFsy25e.png" alt=""></li>
+</ul>
+</li>
+<li>
+<p>So the “squish” (persp to ortho) projection does this</p>
+<ul>
+<li>$$<br>
+M_{persp\rightarrow ortho}<br>
+\left(<br>
+\begin{array}{1}<br>
+x\<br>
+y\<br>
+z\<br>
+1<br>
+\end{array}<br>
+\right)=<br>
+\left(<br>
+\begin{array}{2}<br>
+nx\<br>
+ny\<br>
+unknown\<br>
+z<br>
+\end{array}<br>
+\right)<br>
+$$</li>
+</ul>
+</li>
+<li>
+<p>Already good enough to figure out part of $M_{persp\rightarrow ortho}$</p>
+<ul>
+<li>
+<p>$$<br>
+M_{persp\rightarrow ortho}=<br>
+\left(<br>
+\begin{array}{}<br>
+n &amp; 0 &amp; 0 &amp; 0\<br>
+0 &amp; n &amp; 0 &amp; 0\<br>
+? &amp; ? &amp; ? &amp; ?\<br>
+0 &amp; 0 &amp; 1 &amp; 0<br>
+\end{array}<br>
+\right)<br>
+$$</p>
+</li>
+<li>
+<p>Any information that we can user?</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Observation: the third row is responsible for z’</p>
+<ul>
+<li>Any point on the near plane will not change</li>
+<li>Any point’s z on the far plane will not change</li>
+<li><img src="https://i.imgur.com/cNCd2j1.png" alt=""></li>
+</ul>
+</li>
+<li>
+<p>So the third row must be of the form(0 0 A B)</p>
+<ul>
+<li><img src="https://i.imgur.com/uDFSpYV.png" alt=""></li>
+</ul>
+</li>
+<li>
+<p>What do we know now?</p>
+<ul>
+<li><img src="https://i.imgur.com/K3YuM5l.png" alt=""></li>
+</ul>
+</li>
+<li>
+<p>Any point’s z on the far plane will not change</p>
+<ul>
+<li><img src="https://i.imgur.com/M1qSaBg.png" alt=""></li>
+</ul>
+</li>
+<li>
+<p>Solve for A and B</p>
+<ul>
+<li><img src="https://i.imgur.com/2fLsHaq.png" alt=""></li>
+</ul>
+</li>
+<li>
+<p>Finally, every thing in $M_{persp\rightarrow ortho}$ is known!</p>
+</li>
+<li>
+<p>What’s next?</p>
+<ul>
+<li>Do orthographic projection(M<sub>ortho</sub>) to finish</li>
+<li>$M_{persp}=M_{ortho}M_{persp\rightarrow ortho}$</li>
+</ul>
+</li>
+</ul>
+<h2 id="一、Rasterization-光栅化">一、Rasterization 光栅化</h2>
+<ul>
+<li>光栅化：
+<ul>
+<li>把三维空间的几何实体显示在屏幕上</li>
+</ul>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>学习笔记</category>
+      </categories>
+      <tags>
+        <tag>学习笔记</tag>
+        <tag>计算机图形学</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>生活杂谈1</title>
     <url>/2022/05/16/%E7%94%9F%E6%B4%BB%E6%9D%82%E8%B0%881/</url>
     <content><![CDATA[<h1>生活杂谈1</h1>
@@ -2195,199 +3845,6 @@
       </categories>
       <tags>
         <tag>生活杂谈</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>计算机游戏设计上机实验1</title>
-    <url>/2022/05/25/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%B8%B8%E6%88%8F%E8%AE%BE%E8%AE%A1%E4%B8%8A%E6%9C%BA%E5%AE%9E%E9%AA%8C1/</url>
-    <content><![CDATA[<h1>《巫师3：狂猎》游戏世界分析</h1>
-<h2 id="《巫师3：狂猎》游戏介绍">《巫师3：狂猎》游戏介绍</h2>
-<p>《巫师3：狂猎》是由CD Projekt RED制作，WB Games（北美地区）、Spike Chunsoft（日本地区）发行的一款RPG游戏（角色扮演类游戏），于2015年5月19日在Windows/Playstation 4/Xbox One平台发行，2019年10月13日登录Nintendo Switch平台。游戏改编自小说《猎魔人》系列，为《<a href="https://baike.baidu.com/item/%E5%B7%AB%E5%B8%88/3816318">巫师</a>》系列的第三部作品，同时也是杰洛特冒险的终曲。该游戏曾获得2015年TGA年度最佳RPG游戏、IGN年度最佳RPG游戏、游民星空年度最佳RPG游戏以及2016年TGA年度最佳RPG游戏等等奖项。</p>
-<p>《巫师3：狂猎》是一款情节驱动的开放世界角色扮演游戏。本作讲述的是猎魔人杰洛特的故事，游戏中玩家也将扮演猎魔人杰洛特进行游戏。故事发生在一个令人目眩神迷的奇幻宇宙里，玩家做出的每一个选择都意义重大，同时也要面对影响深远的后果。游戏中玩家通过完成任务和打败怪物可以获得经验点数，在获得一定的经验点数后就能提升等级，并获得能力点数、解锁技能槽与突变诱发物槽来进行人物设定。</p>
-<h2 id="游戏世界分析">游戏世界分析</h2>
-<p>从物理维度、时间维度、环境维度、感情维度、道德维度以及现实度六个维度分析《巫师：3》游戏世界</p>
-<h3 id="物理维度">物理维度</h3>
-<h4 id="空间维度">空间维度</h4>
-<ul>
-<li>游戏中几乎所有图形素材均为3D建模，因此该游戏是一款3D游戏。</li>
-</ul>
-<h4 id="大小规模">大小规模</h4>
-<ul>
-<li>
-<p>游戏是高仿真游戏，物体之间大小比例比较准确，但有些关键物体会被夸大，比如需要采的药草、需要获取的推动剧情发展的物品（钥匙、人物手镯等等）</p>
-<img src="https://i.imgur.com/F8pReji.png"  width="500"  height = "300" />
-</li>
-<li>
-<p>人、建筑物与地形高度较为符合现实，但也存在某些房屋较矮的情况，玩家甚至能轻易跳上屋顶。或许是游戏厂商有意为之。</p>
-</li>
-<li>
-<p>室内和室外场所比例比较符合逻辑。</p>
-<ul>
-<li>
-<p>室内大小合理，玩家只需要走动或者跑动即可在短时间内走完。</p>
-<p><img src="https://i.imgur.com/Tg7oU5L.png" alt=""></p>
-</li>
-<li>
-<p>城市之间距离在游戏世界中相对来说路程较远，可用现实世界的公里来衡量。玩家要从一个城市到另一个城市往往需要借助其他工具，游戏中体现为马匹和传送门。游戏也设置快速传送点，方便玩家在城市间切换。</p>
-</li>
-</ul>
-<p><img src="https://i.imgur.com/qdrwnv6.png" alt=""></p>
-</li>
-<li>
-<p>物体相对速度合理。人物有走动、跑动状态，马匹有慢走，慢跑与疾驰状态，状态间速度变化明显。人物相对马移动速度满，游戏刻画地非常明显。同时背包中物品数量也会影响人物以及马匹的移动速度。上述设置较为合理且符合现实。</p>
-</li>
-</ul>
-<h4 id="界限">界限</h4>
-<p>不知是否是翻译问题，游戏宣传曾说《巫师3：狂猎》的世界所有“目之所及”的地方都可以到达，没有空气墙和边界。但我测试一下，结果并非完全如此。</p>
-<ul>
-<li>
-<p>游戏世界确实没有空气墙，且玩家确实无法到达边界。但当玩家即将抵达地图边界时，游戏会弹出提示：“超出地图边界，请回头”。此时游戏主角杰洛特也会说：“我不觉得希瑞（推动故事发展的人物）会在那个方向”。但若忽视掉这些提示，继续跑一会儿，屏幕就会突然黑屏然后将人物强制转头，将人物传送回“地图边界”。</p>
-<p><img src="https://i.imgur.com/u3zSRsU.png" alt="到达世界边缘"></p>
-</li>
-<li>
-<p>当人物到达游戏边境时打开ansel摄像头，去探索游戏远景，发现游戏世界确实还是存在边界，只不过被上述方法巧妙掩盖了。</p>
-</li>
-</ul>
-<h3 id="时间维度">时间维度</h3>
-<p>对于这类大型的开放世界RPG游戏中时间流逝是很重要的一个设定。如果是游戏时间流逝过快就会让玩家缺乏游戏的代入感，但要是时间流速过慢又会让游戏的节奏过慢而导致玩家丧失耐心。</p>
-<ul>
-<li>
-<p>对《巫师3：狂猎》中的时间变化，游戏时间中的时间流速是游戏世界中的一天等于现实世界的1小时36分钟。可以测算出现实中过去一秒，游戏中过去15秒。时间是绝对的，无论玩家是否在行动，时间都是在流逝的。不过《巫师3：狂猎》中并不存在季节系统。</p>
-</li>
-<li>
-<p>游戏是存在时间尺度的。游戏有时间单位，用周、天、小时等来度量。部分任务要求一周或者几天后才能开始执行。玩家化身具有某些能力以及部分道具是用小时来衡量的。</p>
-</li>
-<li>
-<p>游戏中存在白天黄昏黑夜等。</p>
-<p><img src="https://i.imgur.com/hJEcXgt.png" alt="日落"></p>
-<ul>
-<li>白天与黑夜不会影响玩家的化身，玩家的化身不会因为时间流逝而感觉到饿或者累。但是黑夜通常会影响玩家的视野，若玩家在黑夜中赶路通常需要一些照明设备。另外有些道具要求必须在白天或在晚上才能做。</li>
-<li>有些任务要求玩家必须在特定的时间段来完成，例如要求玩家在黄昏时完成的任务。</li>
-<li>玩家也可根据时段来做相应任务，以此来降低人物的难度系数。</li>
-<li>许多生物在不同的时间段都会有不同的效果，比如说狼在夜晚会增加攻击力，或是在晴天的时候成群结队等等。</li>
-</ul>
-<p>玩家可以在游戏中把握时间从而更轻易达到自己的目的。因此增加了玩家的可玩性。</p>
-<p><img src="https://i.imgur.com/in0QwcZ.png" alt="黑夜"></p>
-</li>
-<li>
-<p>游戏存在可变时间。玩家有时需要游戏时间快速流逝，来达到自己想要的时间段。游戏提供了一种冥想的功能。玩家可以选择冥想的时间，最久24小时，最少1小时（游戏时间）。玩家可以通过冥想来快速度过时间。</p>
-<img src="https://i.imgur.com/T8AKIcx.png"  width="400"  height = "600" />
-</li>
-<li>
-<p>不允许玩家调整时间。游戏中时间作为绝对的游戏元素不可被玩家手动更改。如上所述，玩家可采用“冥想”快速消耗时间来“调整时间”。</p>
-</li>
-<li>
-<p>游戏中不存在反常时间。</p>
-</li>
-</ul>
-<h3 id="环境维度">环境维度</h3>
-<ul>
-<li>
-<p>游戏延承了《猎魔人》系列小说的世界观。游戏世界观极为宏大，故事发生在“巫师星球”上。巫师星球与另一颗星球交汇，出现了许多魔物。之后巫师星球出现了第一批精灵，后面演化出了人类。过了很多年之后，人类建立起了自己的帝国，版图大致分为两块：北方诸国与南方帝国。</p>
-</li>
-<li>
-<p>在游戏中人类具有一个复杂的、有组织的社会。上面也提到，人类建立起了帝国，包括北方的瑞达尼亚、科德温、泰莫利亚、亚甸以及南方的尼弗迦德。人们社会阶层分明，如同中世纪的欧洲帝国，包括统治者，大臣，贵族，平民等等。行业多种多样，主要包括：商店老板、药草师、猎魔人、工匠、术士、士兵、猎人、诗人、佣兵、农民等等。游戏中存在一种组织叫做“狂猎”，作为与游戏化身矛盾的发起点。</p>
-</li>
-<li>
-<p>游戏中的家具、服装、建筑风格与中世纪的欧洲帝国相似。家具精致而质朴，多为木工手艺；服饰多为样式单调的肥大长衣以及连袖外套为主，色彩素淡；建筑简洁、线条分明、讲究对称、多运用色彩明暗、暗淡对视觉进行冲击。</p>
-<p><img src="https://i.imgur.com/HjbOita.png" alt=""></p>
-</li>
-<li>
-<p>人们多以游牧业与农业为主，崇尚帝国主义以及军事威力，因此战乱较为频繁。</p>
-</li>
-<li>
-<p>巫师的世界中，神的存在并没有像指环王的世界那样重要和严谨，可以被看作是无神论或者自然神论的奇幻世界。巫师的世界中终身被称作‘gods’，带没有明确的神系和神域，其中游戏涉及的主神有女神Melitele，在游戏中拥有教堂和广泛的信徒，神域特征是善良和守护；Lilit女神是恶魔的化身，但被世界的东部居民崇拜，甚于特征是邪恶与毁灭。另外还有一些邪教性质的信仰，包括Coram Agh Tera，信仰某种蜘蛛类的‘邪神’，‘伟大的编织者’；还有永恒之火教团等等。</p>
-<p><img src="https://i.imgur.com/tN8npEF.png" alt="永恒之火教团祭祀"></p>
-</li>
-<li>
-<p>游戏视觉风格统一。角色、用户界面等等符合古代欧洲帝国典雅、朴素但不失壮丽的风格。</p>
-</li>
-<li>
-<p>游戏设计各种自然环境。现实世界中能想到的地形，游戏世界中基本都能涵盖，包括雪山、大海、荒地、森林、平原等等。</p>
-</li>
-<li>
-<p>游戏风格和气氛与物理环境相关。当天气晴朗且人物在安全状态时，游戏气氛无忧无虑且欢快。但当天气作恶或与魔物接触时游戏气氛紧张刺激。</p>
-</li>
-<li>
-<p>游戏细节处理极为丰富。游戏对细节刻画极为重视，人类的尸骨，魔物的血迹甚至脚步都能看到。当然，有些任务也需要玩家仔细寻找发现这些细节才能继续执行。</p>
-<p><img src="https://i.imgur.com/UIUhDqv.png" alt="羊的脚印"></p>
-</li>
-</ul>
-<h3 id="感情维度">感情维度</h3>
-<ul>
-<li>
-<p>游戏感情极为丰富，甚至可以说游戏剧情是以感情为线索发展的。</p>
-<ul>
-<li>
-<p>主角杰洛特与叶奈法（女术士）的感情始于一场关于迪精的冒险，随着这场冒险，他们二人的命运纠缠在了一起。二人也同时养育着杰洛特意外获得的养女（希里）。</p>
-<p><img src="https://i.imgur.com/cQkP5jw.png" alt="杰洛特与叶奈法"></p>
-</li>
-<li>
-<p>杰洛特与叶奈法在经历了一场意外后失忆。杰洛特在失忆后于叶奈法的好友特莉丝（女术士）还有一段坎坷的恋情。</p>
-<p><img src="https://i.imgur.com/FEESNf9.png" alt="杰洛特与特莉丝"></p>
-</li>
-<li>
-<p>后面杰洛特恢复了记忆，使得特莉丝无法接受自己爱上了好友爱人的事实，但在感性上又无法割舍对杰洛特的爱，这就产生了矛盾。</p>
-</li>
-<li>
-<p>而叶奈法先于杰洛特恢复了记忆。因此他早已得知恋人和曾经的好友在一起的事实，与杰洛特有着很深羁绊的她无疑时十分痛苦的。</p>
-</li>
-</ul>
-</li>
-<li>
-<p>感情作为剧情推动。从开始杰洛特要去寻找旧爱叶奈法与好友来到白果园，后面要与希里生父合作找寻自己疼爱的养女希里等等，正是因为玩家化身具备丰富的感情，才使得游戏剧情顺利推进。</p>
-</li>
-<li>
-<p>游戏给玩家设立了很多抉择，不同抉择下的剧情推动不同，玩家必须为游戏化身做出选择。比如杰洛特在恢复记忆后是否拒绝特莉丝的表白等等。这样玩家通常会出于同情或其他心里难以抉择，或是对其中一方本就嗤之以鼻而爽快抉择两种方式。玩家基于对剧情走向的理解做出选择，则增加了玩家的沉浸感，容易引起玩家感情的共鸣。</p>
-</li>
-<li>
-<p>玩家的抉择一般有善恶两种。比如完成任务后是否收取农民来之不易的钱。这与玩家的价值观相互辉映，容易激发玩家的情感，使玩家更易沉浸其中。</p>
-</li>
-</ul>
-<h3 id="道德维度">道德维度</h3>
-<ul>
-<li>
-<p>从游戏大局以及现在人们的价值观来看，游戏中存在一个绝对的反派艾瑞汀。他抓走杰洛特的养女希里是为了获得其长者之血以及时空导航能力，从而在各个世界之间跳跃，侵略。</p>
-<p><img src="https://i.imgur.com/TxVg9V8.png" alt="艾瑞汀"></p>
-</li>
-<li>
-<p>然而分析其他人物时并没有绝对的对错。比如还有人想要带走希里，叫做阿瓦拉克。它来自艾恩艾尔世界，其白霜将在不久的将来吞噬整个世界。而阿瓦拉克的目的是用希里的能力拯救家乡，让其免遭白霜的吞噬；再比如杰洛特在游戏开始时曾与不满新帝国暴政的平民意外起了冲突，便将所有暴乱的平民全部杀掉。这些并不能判定究竟谁对谁错，这种道德的模棱两可也是游戏成功的原因之一。</p>
-</li>
-<li>
-<p>游戏并未太过解释自身世界的道德维度，总体都是让玩家自己判断。而对玩家正确的判断通常会得到额外的奖励，比如金币、经验等等。这也算是一种给玩家解释道德维度的方式。</p>
-<p><img src="https://i.imgur.com/Y1KW3G4.png" alt="玩家具有不同的抉择"></p>
-</li>
-<li>
-<p>游戏世界充斥着冲突与暴力。玩家需要与其他人或怪物打斗来赢得奖励。玩家有两把剑，一把铁剑一把银剑。虽然玩家经常与其他人冲突，但通常都是用铁剑斩恶，银剑斩妖。且基本都是出于正向原因而与他人冲突。</p>
-</li>
-<li>
-<p>游戏中有些抉择给玩家对暴力的选择范围。有个剧情提到玩家攻下了一座城墙，而玩家可以选择饶城主一命或是杀掉。但似乎并没有因为选择非暴力而奖励，也没有因为选择暴力而惩罚。选择不同的抉择一般只会影响后续的剧情发展。</p>
-</li>
-<li>
-<p>游戏里也有偷盗、掠夺、或是不遵守诺言的问题。但这些行为通常会有消极的后果。比如玩家若在城墙中偷拿走一些物资，会使得本中立的士兵对玩家刀剑相向。还有不向雇佣者缴纳物资之类不遵守诺言的问题，往往使得玩家不能获得应有的奖励。</p>
-</li>
-</ul>
-<h3 id="现实度">现实度</h3>
-<ul>
-<li>
-<p>游戏比较符合显示规律。比如人物背包中物资过多无法长时间快跑，装备具有耐久度，马匹具有耐力。</p>
-<p><img src="https://i.imgur.com/CtRABZI.png" alt=""></p>
-</li>
-<li>
-<p>但游戏也去掉了某些现实。比如玩家化身虽然可以进食，但没有饥饿感，食物主要用来回复生命值；玩家化身虽然会因装备多无法长时间快跑，但并无角色疲劳感的数值面板；角色没有情绪上的变化，至少没有对应的数值面板；角色的马匹可在几乎任何时候召唤到自己身边，这也不太符合现实。</p>
-<p><img src="https://i.imgur.com/6RKlroe.png" alt=""></p>
-</li>
-<li>
-<p>但游戏中这些现实与“非现实”都是为可玩性服务的。人物背包物资过多就要求玩家去寻求npc交易或将装备存储；装备需要经常找工匠维护才能维持耐久度；马匹耐力有限，当马匹快跑时间过长时需要时间休息；角色可以进食但没有饥饿感、没有设置角色情绪上的变化也会减轻玩家对游戏的“不耐烦”；玩家几乎可以随时随地召唤自己的马匹也是为了方便玩家执行任务等等。综上所述，这些现实与“非现实”更增加了玩家的代入感，增加了游戏的可玩性。</p>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>课程作业</category>
-      </categories>
-      <tags>
-        <tag>游戏分析</tag>
-        <tag>课程作业</tag>
       </tags>
   </entry>
   <entry>
@@ -2629,8 +4086,201 @@
         <category>计算机网络</category>
       </categories>
       <tags>
-        <tag>计算机网络</tag>
         <tag>学习笔记</tag>
+        <tag>计算机网络</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>计算机游戏设计上机实验1</title>
+    <url>/2022/05/25/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%B8%B8%E6%88%8F%E8%AE%BE%E8%AE%A1%E4%B8%8A%E6%9C%BA%E5%AE%9E%E9%AA%8C1/</url>
+    <content><![CDATA[<h1>《巫师3：狂猎》游戏世界分析</h1>
+<h2 id="《巫师3：狂猎》游戏介绍">《巫师3：狂猎》游戏介绍</h2>
+<p>《巫师3：狂猎》是由CD Projekt RED制作，WB Games（北美地区）、Spike Chunsoft（日本地区）发行的一款RPG游戏（角色扮演类游戏），于2015年5月19日在Windows/Playstation 4/Xbox One平台发行，2019年10月13日登录Nintendo Switch平台。游戏改编自小说《猎魔人》系列，为《<a href="https://baike.baidu.com/item/%E5%B7%AB%E5%B8%88/3816318">巫师</a>》系列的第三部作品，同时也是杰洛特冒险的终曲。该游戏曾获得2015年TGA年度最佳RPG游戏、IGN年度最佳RPG游戏、游民星空年度最佳RPG游戏以及2016年TGA年度最佳RPG游戏等等奖项。</p>
+<p>《巫师3：狂猎》是一款情节驱动的开放世界角色扮演游戏。本作讲述的是猎魔人杰洛特的故事，游戏中玩家也将扮演猎魔人杰洛特进行游戏。故事发生在一个令人目眩神迷的奇幻宇宙里，玩家做出的每一个选择都意义重大，同时也要面对影响深远的后果。游戏中玩家通过完成任务和打败怪物可以获得经验点数，在获得一定的经验点数后就能提升等级，并获得能力点数、解锁技能槽与突变诱发物槽来进行人物设定。</p>
+<h2 id="游戏世界分析">游戏世界分析</h2>
+<p>从物理维度、时间维度、环境维度、感情维度、道德维度以及现实度六个维度分析《巫师：3》游戏世界</p>
+<h3 id="物理维度">物理维度</h3>
+<h4 id="空间维度">空间维度</h4>
+<ul>
+<li>游戏中几乎所有图形素材均为3D建模，因此该游戏是一款3D游戏。</li>
+</ul>
+<h4 id="大小规模">大小规模</h4>
+<ul>
+<li>
+<p>游戏是高仿真游戏，物体之间大小比例比较准确，但有些关键物体会被夸大，比如需要采的药草、需要获取的推动剧情发展的物品（钥匙、人物手镯等等）</p>
+<img src="https://i.imgur.com/F8pReji.png"  width="500"  height = "300" />
+</li>
+<li>
+<p>人、建筑物与地形高度较为符合现实，但也存在某些房屋较矮的情况，玩家甚至能轻易跳上屋顶。或许是游戏厂商有意为之。</p>
+</li>
+<li>
+<p>室内和室外场所比例比较符合逻辑。</p>
+<ul>
+<li>
+<p>室内大小合理，玩家只需要走动或者跑动即可在短时间内走完。</p>
+<p><img src="https://i.imgur.com/Tg7oU5L.png" alt=""></p>
+</li>
+<li>
+<p>城市之间距离在游戏世界中相对来说路程较远，可用现实世界的公里来衡量。玩家要从一个城市到另一个城市往往需要借助其他工具，游戏中体现为马匹和传送门。游戏也设置快速传送点，方便玩家在城市间切换。</p>
+</li>
+</ul>
+<p><img src="https://i.imgur.com/qdrwnv6.png" alt=""></p>
+</li>
+<li>
+<p>物体相对速度合理。人物有走动、跑动状态，马匹有慢走，慢跑与疾驰状态，状态间速度变化明显。人物相对马移动速度满，游戏刻画地非常明显。同时背包中物品数量也会影响人物以及马匹的移动速度。上述设置较为合理且符合现实。</p>
+</li>
+</ul>
+<h4 id="界限">界限</h4>
+<p>不知是否是翻译问题，游戏宣传曾说《巫师3：狂猎》的世界所有“目之所及”的地方都可以到达，没有空气墙和边界。但我测试一下，结果并非完全如此。</p>
+<ul>
+<li>
+<p>游戏世界确实没有空气墙，且玩家确实无法到达边界。但当玩家即将抵达地图边界时，游戏会弹出提示：“超出地图边界，请回头”。此时游戏主角杰洛特也会说：“我不觉得希瑞（推动故事发展的人物）会在那个方向”。但若忽视掉这些提示，继续跑一会儿，屏幕就会突然黑屏然后将人物强制转头，将人物传送回“地图边界”。</p>
+<p><img src="https://i.imgur.com/u3zSRsU.png" alt="到达世界边缘"></p>
+</li>
+<li>
+<p>当人物到达游戏边境时打开ansel摄像头，去探索游戏远景，发现游戏世界确实还是存在边界，只不过被上述方法巧妙掩盖了。</p>
+</li>
+</ul>
+<h3 id="时间维度">时间维度</h3>
+<p>对于这类大型的开放世界RPG游戏中时间流逝是很重要的一个设定。如果是游戏时间流逝过快就会让玩家缺乏游戏的代入感，但要是时间流速过慢又会让游戏的节奏过慢而导致玩家丧失耐心。</p>
+<ul>
+<li>
+<p>对《巫师3：狂猎》中的时间变化，游戏时间中的时间流速是游戏世界中的一天等于现实世界的1小时36分钟。可以测算出现实中过去一秒，游戏中过去15秒。时间是绝对的，无论玩家是否在行动，时间都是在流逝的。不过《巫师3：狂猎》中并不存在季节系统。</p>
+</li>
+<li>
+<p>游戏是存在时间尺度的。游戏有时间单位，用周、天、小时等来度量。部分任务要求一周或者几天后才能开始执行。玩家化身具有某些能力以及部分道具是用小时来衡量的。</p>
+</li>
+<li>
+<p>游戏中存在白天黄昏黑夜等。</p>
+<p><img src="https://i.imgur.com/hJEcXgt.png" alt="日落"></p>
+<ul>
+<li>白天与黑夜不会影响玩家的化身，玩家的化身不会因为时间流逝而感觉到饿或者累。但是黑夜通常会影响玩家的视野，若玩家在黑夜中赶路通常需要一些照明设备。另外有些道具要求必须在白天或在晚上才能做。</li>
+<li>有些任务要求玩家必须在特定的时间段来完成，例如要求玩家在黄昏时完成的任务。</li>
+<li>玩家也可根据时段来做相应任务，以此来降低人物的难度系数。</li>
+<li>许多生物在不同的时间段都会有不同的效果，比如说狼在夜晚会增加攻击力，或是在晴天的时候成群结队等等。</li>
+</ul>
+<p>玩家可以在游戏中把握时间从而更轻易达到自己的目的。因此增加了玩家的可玩性。</p>
+<p><img src="https://i.imgur.com/in0QwcZ.png" alt="黑夜"></p>
+</li>
+<li>
+<p>游戏存在可变时间。玩家有时需要游戏时间快速流逝，来达到自己想要的时间段。游戏提供了一种冥想的功能。玩家可以选择冥想的时间，最久24小时，最少1小时（游戏时间）。玩家可以通过冥想来快速度过时间。</p>
+<img src="https://i.imgur.com/T8AKIcx.png"  width="400"  height = "600" />
+</li>
+<li>
+<p>不允许玩家调整时间。游戏中时间作为绝对的游戏元素不可被玩家手动更改。如上所述，玩家可采用“冥想”快速消耗时间来“调整时间”。</p>
+</li>
+<li>
+<p>游戏中不存在反常时间。</p>
+</li>
+</ul>
+<h3 id="环境维度">环境维度</h3>
+<ul>
+<li>
+<p>游戏延承了《猎魔人》系列小说的世界观。游戏世界观极为宏大，故事发生在“巫师星球”上。巫师星球与另一颗星球交汇，出现了许多魔物。之后巫师星球出现了第一批精灵，后面演化出了人类。过了很多年之后，人类建立起了自己的帝国，版图大致分为两块：北方诸国与南方帝国。</p>
+</li>
+<li>
+<p>在游戏中人类具有一个复杂的、有组织的社会。上面也提到，人类建立起了帝国，包括北方的瑞达尼亚、科德温、泰莫利亚、亚甸以及南方的尼弗迦德。人们社会阶层分明，如同中世纪的欧洲帝国，包括统治者，大臣，贵族，平民等等。行业多种多样，主要包括：商店老板、药草师、猎魔人、工匠、术士、士兵、猎人、诗人、佣兵、农民等等。游戏中存在一种组织叫做“狂猎”，作为与游戏化身矛盾的发起点。</p>
+</li>
+<li>
+<p>游戏中的家具、服装、建筑风格与中世纪的欧洲帝国相似。家具精致而质朴，多为木工手艺；服饰多为样式单调的肥大长衣以及连袖外套为主，色彩素淡；建筑简洁、线条分明、讲究对称、多运用色彩明暗、暗淡对视觉进行冲击。</p>
+<p><img src="https://i.imgur.com/HjbOita.png" alt=""></p>
+</li>
+<li>
+<p>人们多以游牧业与农业为主，崇尚帝国主义以及军事威力，因此战乱较为频繁。</p>
+</li>
+<li>
+<p>巫师的世界中，神的存在并没有像指环王的世界那样重要和严谨，可以被看作是无神论或者自然神论的奇幻世界。巫师的世界中终身被称作‘gods’，带没有明确的神系和神域，其中游戏涉及的主神有女神Melitele，在游戏中拥有教堂和广泛的信徒，神域特征是善良和守护；Lilit女神是恶魔的化身，但被世界的东部居民崇拜，甚于特征是邪恶与毁灭。另外还有一些邪教性质的信仰，包括Coram Agh Tera，信仰某种蜘蛛类的‘邪神’，‘伟大的编织者’；还有永恒之火教团等等。</p>
+<p><img src="https://i.imgur.com/tN8npEF.png" alt="永恒之火教团祭祀"></p>
+</li>
+<li>
+<p>游戏视觉风格统一。角色、用户界面等等符合古代欧洲帝国典雅、朴素但不失壮丽的风格。</p>
+</li>
+<li>
+<p>游戏设计各种自然环境。现实世界中能想到的地形，游戏世界中基本都能涵盖，包括雪山、大海、荒地、森林、平原等等。</p>
+</li>
+<li>
+<p>游戏风格和气氛与物理环境相关。当天气晴朗且人物在安全状态时，游戏气氛无忧无虑且欢快。但当天气作恶或与魔物接触时游戏气氛紧张刺激。</p>
+</li>
+<li>
+<p>游戏细节处理极为丰富。游戏对细节刻画极为重视，人类的尸骨，魔物的血迹甚至脚步都能看到。当然，有些任务也需要玩家仔细寻找发现这些细节才能继续执行。</p>
+<p><img src="https://i.imgur.com/UIUhDqv.png" alt="羊的脚印"></p>
+</li>
+</ul>
+<h3 id="感情维度">感情维度</h3>
+<ul>
+<li>
+<p>游戏感情极为丰富，甚至可以说游戏剧情是以感情为线索发展的。</p>
+<ul>
+<li>
+<p>主角杰洛特与叶奈法（女术士）的感情始于一场关于迪精的冒险，随着这场冒险，他们二人的命运纠缠在了一起。二人也同时养育着杰洛特意外获得的养女（希里）。</p>
+<p><img src="https://i.imgur.com/cQkP5jw.png" alt="杰洛特与叶奈法"></p>
+</li>
+<li>
+<p>杰洛特与叶奈法在经历了一场意外后失忆。杰洛特在失忆后于叶奈法的好友特莉丝（女术士）还有一段坎坷的恋情。</p>
+<p><img src="https://i.imgur.com/FEESNf9.png" alt="杰洛特与特莉丝"></p>
+</li>
+<li>
+<p>后面杰洛特恢复了记忆，使得特莉丝无法接受自己爱上了好友爱人的事实，但在感性上又无法割舍对杰洛特的爱，这就产生了矛盾。</p>
+</li>
+<li>
+<p>而叶奈法先于杰洛特恢复了记忆。因此他早已得知恋人和曾经的好友在一起的事实，与杰洛特有着很深羁绊的她无疑时十分痛苦的。</p>
+</li>
+</ul>
+</li>
+<li>
+<p>感情作为剧情推动。从开始杰洛特要去寻找旧爱叶奈法与好友来到白果园，后面要与希里生父合作找寻自己疼爱的养女希里等等，正是因为玩家化身具备丰富的感情，才使得游戏剧情顺利推进。</p>
+</li>
+<li>
+<p>游戏给玩家设立了很多抉择，不同抉择下的剧情推动不同，玩家必须为游戏化身做出选择。比如杰洛特在恢复记忆后是否拒绝特莉丝的表白等等。这样玩家通常会出于同情或其他心里难以抉择，或是对其中一方本就嗤之以鼻而爽快抉择两种方式。玩家基于对剧情走向的理解做出选择，则增加了玩家的沉浸感，容易引起玩家感情的共鸣。</p>
+</li>
+<li>
+<p>玩家的抉择一般有善恶两种。比如完成任务后是否收取农民来之不易的钱。这与玩家的价值观相互辉映，容易激发玩家的情感，使玩家更易沉浸其中。</p>
+</li>
+</ul>
+<h3 id="道德维度">道德维度</h3>
+<ul>
+<li>
+<p>从游戏大局以及现在人们的价值观来看，游戏中存在一个绝对的反派艾瑞汀。他抓走杰洛特的养女希里是为了获得其长者之血以及时空导航能力，从而在各个世界之间跳跃，侵略。</p>
+<p><img src="https://i.imgur.com/TxVg9V8.png" alt="艾瑞汀"></p>
+</li>
+<li>
+<p>然而分析其他人物时并没有绝对的对错。比如还有人想要带走希里，叫做阿瓦拉克。它来自艾恩艾尔世界，其白霜将在不久的将来吞噬整个世界。而阿瓦拉克的目的是用希里的能力拯救家乡，让其免遭白霜的吞噬；再比如杰洛特在游戏开始时曾与不满新帝国暴政的平民意外起了冲突，便将所有暴乱的平民全部杀掉。这些并不能判定究竟谁对谁错，这种道德的模棱两可也是游戏成功的原因之一。</p>
+</li>
+<li>
+<p>游戏并未太过解释自身世界的道德维度，总体都是让玩家自己判断。而对玩家正确的判断通常会得到额外的奖励，比如金币、经验等等。这也算是一种给玩家解释道德维度的方式。</p>
+<p><img src="https://i.imgur.com/Y1KW3G4.png" alt="玩家具有不同的抉择"></p>
+</li>
+<li>
+<p>游戏世界充斥着冲突与暴力。玩家需要与其他人或怪物打斗来赢得奖励。玩家有两把剑，一把铁剑一把银剑。虽然玩家经常与其他人冲突，但通常都是用铁剑斩恶，银剑斩妖。且基本都是出于正向原因而与他人冲突。</p>
+</li>
+<li>
+<p>游戏中有些抉择给玩家对暴力的选择范围。有个剧情提到玩家攻下了一座城墙，而玩家可以选择饶城主一命或是杀掉。但似乎并没有因为选择非暴力而奖励，也没有因为选择暴力而惩罚。选择不同的抉择一般只会影响后续的剧情发展。</p>
+</li>
+<li>
+<p>游戏里也有偷盗、掠夺、或是不遵守诺言的问题。但这些行为通常会有消极的后果。比如玩家若在城墙中偷拿走一些物资，会使得本中立的士兵对玩家刀剑相向。还有不向雇佣者缴纳物资之类不遵守诺言的问题，往往使得玩家不能获得应有的奖励。</p>
+</li>
+</ul>
+<h3 id="现实度">现实度</h3>
+<ul>
+<li>
+<p>游戏比较符合显示规律。比如人物背包中物资过多无法长时间快跑，装备具有耐久度，马匹具有耐力。</p>
+<p><img src="https://i.imgur.com/CtRABZI.png" alt=""></p>
+</li>
+<li>
+<p>但游戏也去掉了某些现实。比如玩家化身虽然可以进食，但没有饥饿感，食物主要用来回复生命值；玩家化身虽然会因装备多无法长时间快跑，但并无角色疲劳感的数值面板；角色没有情绪上的变化，至少没有对应的数值面板；角色的马匹可在几乎任何时候召唤到自己身边，这也不太符合现实。</p>
+<p><img src="https://i.imgur.com/6RKlroe.png" alt=""></p>
+</li>
+<li>
+<p>但游戏中这些现实与“非现实”都是为可玩性服务的。人物背包物资过多就要求玩家去寻求npc交易或将装备存储；装备需要经常找工匠维护才能维持耐久度；马匹耐力有限，当马匹快跑时间过长时需要时间休息；角色可以进食但没有饥饿感、没有设置角色情绪上的变化也会减轻玩家对游戏的“不耐烦”；玩家几乎可以随时随地召唤自己的马匹也是为了方便玩家执行任务等等。综上所述，这些现实与“非现实”更增加了玩家的代入感，增加了游戏的可玩性。</p>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>课程作业</category>
+      </categories>
+      <tags>
+        <tag>游戏分析</tag>
+        <tag>课程作业</tag>
       </tags>
   </entry>
   <entry>
@@ -3199,1002 +4849,8 @@ RTT越大，在收到确认之前，可以发送的数据越多</p>
         <category>计算机网络</category>
       </categories>
       <tags>
+        <tag>学习笔记</tag>
         <tag>计算机网络</tag>
-        <tag>学习笔记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>JavaWeb学习</title>
-    <url>/2022/06/14/JavaWeb%E5%AD%A6%E4%B9%A0/</url>
-    <content><![CDATA[<h1>JavaWeb学习笔记</h1>
-<h2 id="1-JavaWeb介绍">1. JavaWeb介绍</h2>
-<ul>
-<li>Web：World Wide Web(www),即全球广域网，也成为万维网。</li>
-<li>JavaWeb: 是用Java技术来解决web互联网领域的<strong>技术栈</strong>。</li>
-</ul>
-<p><img src="https://i.imgur.com/uuSQfrP.png" alt=""></p>
-<h2 id="2-SQL">2. SQL</h2>
-<h3 id="2-1-SQL分类">2.1 SQL分类</h3>
-<ul>
-<li>DDL(Data Definition Language)数据定义语言，用来定义数据库对象：数据库，表，列等</li>
-<li>DML(Data Manipulation Language)数据操作语言，用来对数据库中的表的数据进行增删改</li>
-<li>DQL(Data Query Language)数据查询语言，用来查询数据库中表的记录(数据)</li>
-<li>DCL(Data Control Language)数据控制语言，用来定义数据库的访问权限和安全级别，及创建用户。</li>
-</ul>
-<h3 id="2-事务">2.* 事务</h3>
-<h4 id="事务简介">事务简介</h4>
-<ul>
-<li>数据库的<strong>事务</strong>(Transaction)是一种机制、一个操作序列，包含了<strong>一组数据库操作命令</strong></li>
-<li>事务把所有的命令作为一个整体一起向系统提交或撤销操作请求，即这一组数据库命令<strong>要么同时成功，要么同时失败</strong></li>
-<li>事务是一个不可分割的工作逻辑单元</li>
-</ul>
-<figure class="highlight sql"><table><tr><td class="code"><pre><code class="hljs sql"><span class="hljs-comment">-- 开启事务</span><br><span class="hljs-keyword">START</span> TRANSACTION;<br>或者	<span class="hljs-keyword">BEGIN</span>;<br><span class="hljs-comment">-- 提交事务</span><br><span class="hljs-keyword">COMMIT</span>;<br><span class="hljs-comment">-- 回滚事务</span><br><span class="hljs-keyword">ROLLBACK</span>;<br></code></pre></td></tr></table></figure>
-<h4 id="事物四大特征">事物四大特征</h4>
-<ul>
-<li>原子性(<strong>A</strong>tomicity):事务是不可分割的最小操作单位，要么同时成功，要么同时失败</li>
-<li>一致性(<strong>C</strong>onsistency):事务完成时，必须使所有的数据都保持一致状态</li>
-<li>隔离性(<strong>I</strong>solation):多个事务之间，操作的可见性</li>
-<li>持久性(<strong>D</strong>urability):事务一旦提交或回滚，他对数据库中的数据的改变就是永久的</li>
-</ul>
-<p>查询事务的默认提交方式</p>
-<p><code>select @@autocommit</code>值为1自动提交，值为0手动提交</p>
-<h2 id="3-JDBC">3. JDBC</h2>
-<h3 id="3-1-JDBC概念">3.1 JDBC概念:</h3>
-<ul>
-<li>JDBC就是使用Java语言操作关系型数据库的一套API</li>
-<li>全称:(Java DataBase Connectivity) Java数据库连接</li>
-</ul>
-<p><img src="https://i.imgur.com/FSOECYa.png" alt=""></p>
-<h3 id="3-2JDBC本质">3.2JDBC本质</h3>
-<ul>
-<li>官方(sun公司)定义的一套操作所有关系型数据库的规则，即接口</li>
-<li>各个数据库厂商去实现这套接口，提供数据库驱动jar包</li>
-<li>我们可以使用这套接口(JDBC)编程，真正执行的代码是驱动jar包中的实现类</li>
-</ul>
-<h3 id="3-3-JDBC好处">3.3 JDBC好处</h3>
-<ul>
-<li>各数据库厂商使用相同的接口，Java代码不需要针对不同数据库分别开发</li>
-<li>可随时替换底层数据库，访问数据库的Java代码基本不变</li>
-</ul>
-<h3 id="3-4-步骤">3.4 步骤</h3>
-<ol start="0">
-<li>创建工程，导入驱动jar包</li>
-<li>注册驱动</li>
-</ol>
-<p>​		<code>Class.forName(&quot;com.mysql.jdbc.Driver&quot;);</code></p>
-<ol start="2">
-<li>
-<p>获取连接</p>
-<p><code>Connection conn = DriverManager.getConnection(url,username,password)</code>;</p>
-</li>
-<li>
-<p>定义SQL语句</p>
-<p><code>String sql = &quot;update...&quot;</code></p>
-</li>
-<li>
-<p>获取执行SQL对象</p>
-<p><code>Statement stmt = conn.createStatement();</code></p>
-</li>
-<li>
-<p>执行SQL</p>
-<p><code>stmt.executeUpdate(sql);</code></p>
-</li>
-<li>
-<p>处理返回结果</p>
-</li>
-<li>
-<p>释放资源</p>
-</li>
-</ol>
-<h3 id="3-5-JDBC-API-详解">3.5 JDBC API 详解</h3>
-<h4 id="DriverManager">DriverManager</h4>
-<ul>
-<li>
-<p>DriverManager(驱动管理类)作用：</p>
-<ol>
-<li>
-<p>注册驱动</p>
-<p>Driver类源码调用<code>DriverManager.registerDriver</code>注册驱动</p>
-</li>
-<li>
-<p>获取数据库连接</p>
-<ul>
-<li>
-<p>参数</p>
-<ol>
-<li>url：连接路径</li>
-</ol>
-<figure class="highlight elixir"><table><tr><td class="code"><pre><code class="hljs elixir">语法<span class="hljs-symbol">:jdbc</span><span class="hljs-symbol">:mysql</span><span class="hljs-symbol">://ip</span>地址(域名)<span class="hljs-symbol">:</span>端口号/数据库名称？参数键值对<span class="hljs-number">1</span>&amp;参数键值对<span class="hljs-number">2</span>...<br>实例<span class="hljs-symbol">:jdbc</span><span class="hljs-symbol">:mysql</span><span class="hljs-symbol">://</span><span class="hljs-number">127.0</span>.<span class="hljs-number">0.1</span><span class="hljs-symbol">:</span><span class="hljs-number">3306</span>/db1<br>细节:<br>	<span class="hljs-number">1</span>.如果连接的是本机mysql服务器，并且mysql服务默认端口是<span class="hljs-number">3306</span>，则url可以简写为<span class="hljs-symbol">:jdbc</span><span class="hljs-symbol">:mysql</span><span class="hljs-symbol">:///</span>数据库名称？参数键值对<br>	<span class="hljs-number">2</span>.配置useSSL=<span class="hljs-literal">false</span>参数，禁用安全连接方式，解决警告提示<br></code></pre></td></tr></table></figure>
-<ol start="2">
-<li>
-<p>user：用户名</p>
-</li>
-<li>
-<p>password：密码</p>
-</li>
-</ol>
-</li>
-</ul>
-</li>
-</ol>
-</li>
-</ul>
-<p><strong>提示：</strong></p>
-<ul>
-<li>MySQL 5之后的驱动包，可以省略注册驱动的步骤</li>
-<li>自动加载jar包中META-INF/service/java.sql.Driver文件中的驱动类</li>
-</ul>
-<h4 id="Connection">Connection</h4>
-<ul>
-<li>Connection(数据库连接对象)作用：
-<ol>
-<li>获取执行SQL的对象</li>
-<li>管理事务</li>
-</ol>
-</li>
-</ul>
-<ol>
-<li>
-<p>获取执行SQL的对象</p>
-<ul>
-<li>
-<p>普通执行SQL对象</p>
-<p><code>Statement createStatement()</code></p>
-</li>
-<li>
-<p>预编译SQL的执行SQL对象：防止SQL注入</p>
-<p><code>PreparedStatement prepareStatement(sql)</code></p>
-</li>
-<li>
-<p>执行存储过程的对象</p>
-<p><code>CallableStatement prepareCall(sql)</code></p>
-</li>
-</ul>
-</li>
-<li>
-<p>事务管理</p>
-<ul>
-<li>MySQL事务管理</li>
-</ul>
-<figure class="highlight sql"><table><tr><td class="code"><pre><code class="hljs sql">开启事务:<span class="hljs-keyword">BEGIN</span>;<span class="hljs-operator">/</span><span class="hljs-keyword">START</span> TRANSCATION;<br>提交事务:<span class="hljs-keyword">COMMIT</span>;<br>回滚事务:<span class="hljs-keyword">ROLLBACK</span>;<br>MySQL默认自动提交事务<br></code></pre></td></tr></table></figure>
-<ul>
-<li>JDBC事务管理:Connection接口中定义了3各对应的方法</li>
-</ul>
-<figure class="highlight isbl"><table><tr><td class="code"><pre><code class="hljs isbl">开启事务:<span class="hljs-function"><span class="hljs-title">setAutoCommit</span>(<span class="hljs-variable">boolean</span> <span class="hljs-variable">autoCommit</span>):<span class="hljs-variable"><span class="hljs-literal">true</span></span>为自动提交事务;<span class="hljs-variable"><span class="hljs-literal">false</span></span>为手动提交事务，即为开启事务</span><br><span class="hljs-function">提交事务:<span class="hljs-title">commit</span>()</span><br>回滚事务：<span class="hljs-function"><span class="hljs-title">rollback</span>()</span><br></code></pre></td></tr></table></figure>
-</li>
-</ol>
-<h4 id="Statement">Statement</h4>
-<ul>
-<li>
-<p>Statement作用</p>
-<p>执行SQL语句</p>
-<figure class="highlight reasonml"><table><tr><td class="code"><pre><code class="hljs reasonml"><span class="hljs-built_in">int</span> execute<span class="hljs-constructor">Update(<span class="hljs-params">sql</span>)</span>:执行DML、DDL语句<br>返回值:(<span class="hljs-number">1</span>)DML语句影响的行数(<span class="hljs-number">2</span>)DDL语句执行后，执行成功也可能返回<span class="hljs-number">0</span><br></code></pre></td></tr></table></figure>
-<figure class="highlight lasso"><table><tr><td class="code"><pre><code class="hljs lasso"><span class="hljs-keyword">ResultSet</span> executeQuery(sql)：执行DQL语句<br>返回值:<span class="hljs-keyword">ResultSet</span>结果集对象<br></code></pre></td></tr></table></figure>
-</li>
-</ul>
-<h4 id="ResultSet">ResultSet</h4>
-<ul>
-<li>
-<p>ResultSet(结果集对象)作用</p>
-<ol>
-<li>
-<p>封装了DQL查询语句的结果</p>
-<p><code>ResultSet stmt.executeQuery:执行DQL语句，返回ResultSet对象</code></p>
-</li>
-</ol>
-</li>
-<li>
-<p>获取查询结果</p>
-<figure class="highlight axapta"><table><tr><td class="code"><pre><code class="hljs axapta"><span class="hljs-built_in">boolean</span> <span class="hljs-keyword">next</span>():(<span class="hljs-number">1</span>)将光标从当前位置向前移动一行 (<span class="hljs-number">2</span>)判断当前行是否为有效行<br>返回值:<br>	<span class="hljs-literal">true</span>:有效行，当前行有数据<br>	<span class="hljs-literal">false</span>:无效行，当前行没有数据<br></code></pre></td></tr></table></figure>
-<figure class="highlight java"><table><tr><td class="code"><pre><code class="hljs java">xxx <span class="hljs-title function_">getXxx</span><span class="hljs-params">(参数)</span>:获取数据<br>xxx:数据类型；如：<span class="hljs-type">int</span> <span class="hljs-title function_">getInt</span><span class="hljs-params">(参数)</span>;String <span class="hljs-title function_">getString</span><span class="hljs-params">(参数)</span><br>参数:<br>	<span class="hljs-type">int</span>:列的编号，从<span class="hljs-number">1</span>开始<br>	String:列的名称<br></code></pre></td></tr></table></figure>
-</li>
-<li>
-<p>使用步骤:</p>
-<ol>
-<li>游标向下移动一行，并判断改行是否有数据:next()</li>
-<li>获取数据:getXxx(参数)</li>
-</ol>
-<figure class="highlight awk"><table><tr><td class="code"><pre><code class="hljs awk"><span class="hljs-regexp">//</span>循环判断游标是否是最后一行末尾<br><span class="hljs-keyword">while</span>(rs.<span class="hljs-keyword">next</span>())&#123;<br>	<span class="hljs-regexp">//</span>获取数据<br>	rs.getXxx(参数);<br>&#125;<br></code></pre></td></tr></table></figure>
-</li>
-</ul>
-<h4 id="PreparedStatement">PreparedStatement</h4>
-<ul>
-<li>
-<p>PreparedStatement作用:</p>
-<ol>
-<li>预编译SQL语句并执行:预防SQL注入问题</li>
-</ol>
-</li>
-<li>
-<p>步骤</p>
-<ol>
-<li>
-<p>获取PreparedStatement对象</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><code class="hljs java"><span class="hljs-comment">//SQL语句中的参数值，使用?占位符替代</span><br>String sql=<span class="hljs-string">&quot;select * from user where username = ? and password = ?&quot;</span><span class="hljs-string">&quot;</span><br><span class="hljs-string">//通过Connection对象获取，并传入对应的sql语句</span><br><span class="hljs-string">PreparedStatement pstmt = conn.prepareStatement(sql);</span><br></code></pre></td></tr></table></figure>
-</li>
-<li>
-<p>设置参数值</p>
-<figure class="highlight ruby"><table><tr><td class="code"><pre><code class="hljs ruby">PreparedStatement对象<span class="hljs-symbol">:setXxx</span>(参数<span class="hljs-number">1</span>，参数<span class="hljs-number">2</span>)<span class="hljs-symbol">:</span>给？赋值<br><span class="hljs-symbol">Xxx:</span>数据类型;如setInt(参数<span class="hljs-number">1</span>，参数<span class="hljs-number">2</span>)<br>参数:<br>	参数<span class="hljs-number">1</span>: <span class="hljs-string">?的</span>位置编号，从<span class="hljs-number">1</span>开始<br>	参数<span class="hljs-number">2</span>: <span class="hljs-string">?的</span>值 <br></code></pre></td></tr></table></figure>
-</li>
-<li>
-<p>执行SQL</p>
-<figure class="highlight abnf"><table><tr><td class="code"><pre><code class="hljs abnf">executeUpdate()<span class="hljs-comment">;/executeQuery; ： 不需要再传递sql</span><br></code></pre></td></tr></table></figure>
-</li>
-</ol>
-</li>
-<li>
-<p>SQL注入</p>
-<ul>
-<li>SQL注入是通过操作输入来修改事先定义好的SQL语句，用以达到执行代码对服务器进行<strong>攻击</strong>的方法。</li>
-</ul>
-</li>
-<li>
-<p>PreparedStatement好处:</p>
-<ol>
-<li>预编译SQL，性能更高</li>
-<li>防止SQL注入：<strong>将敏感字符进行转义</strong></li>
-</ol>
-</li>
-</ul>
-<ol>
-<li>PreparedStatement预编译功能开启:<code>useServerPrepStmts=true</code>加到url后面</li>
-<li>配置MySQL执行日志(重启mysql服务后生效)</li>
-</ol>
-<figure class="highlight ini"><table><tr><td class="code"><pre><code class="hljs ini"><span class="hljs-attr">log-output</span>=FILE<br><span class="hljs-attr">general-log</span>=<span class="hljs-number">1</span><br><span class="hljs-attr">general_log_file</span>=<span class="hljs-string">&quot;D:\mysql.log&quot;</span><br><span class="hljs-attr">slow-query-log</span>=<span class="hljs-number">1</span><br><span class="hljs-attr">slow_query_log_file</span>=<span class="hljs-string">&quot;D:\mysql_slow.log&quot;</span><br><span class="hljs-attr">long_query_time</span>=<span class="hljs-number">2</span><br></code></pre></td></tr></table></figure>
-<ul>
-<li>PreparedStatement原理:
-<ol>
-<li>在获取PreparedStatement对象时，将sql语句发送给mysql服务器进行检查，编译(这些步骤很耗时)</li>
-<li>执行时就不用再进行这些步骤了，速度更快</li>
-<li>如果sql模板一样，则只需要进行一次检查、编译</li>
-</ol>
-</li>
-</ul>
-<p><img src="https://i.imgur.com/xoXlsJW.png" alt=""></p>
-<h3 id="3-6-数据库连接池">3.6 数据库连接池</h3>
-<h4 id="数据库连接池简介">数据库连接池简介</h4>
-<ul>
-<li>数据库连接池是个容器，负责分配、管理数据库连接(Connection)</li>
-<li>它允许应用程序重复使用一个现有的数据库连接，而不是再重新建立一个</li>
-<li>释放空闲时间超过最大空闲时间的数据库连接来避免因为没有释放数据库连接而引起的数据库连接遗漏</li>
-<li>好处:
-<ul>
-<li>资源重用</li>
-<li>提升系统响应速度</li>
-<li>避免数据库连接遗漏</li>
-</ul>
-</li>
-</ul>
-<h4 id="数据库连接池实现">数据库连接池实现</h4>
-<ul>
-<li>
-<p>标准接口:DatasSource</p>
-<ul>
-<li>
-<p>官方(SUN)提供的数据库连接池标准接口，由第三方组织实现此接口</p>
-</li>
-<li>
-<p>功能:获取连接</p>
-<p><code>Connection getConnection()</code></p>
-</li>
-</ul>
-</li>
-<li>
-<p>常见的数据库连接池:</p>
-<ul>
-<li>DBCP</li>
-<li>C3P0</li>
-<li>Druid</li>
-</ul>
-</li>
-<li>
-<p>Druid(德鲁伊)</p>
-<ul>
-<li>Druid连接池是阿里巴巴开源的数据库连接池项目</li>
-<li>功能强大，性能优秀，是Java语言最好的数据库连接池之一</li>
-</ul>
-</li>
-</ul>
-<h4 id="Druid使用步骤">Druid使用步骤</h4>
-<ol>
-<li>导入jar包 druid-1.1.12.jar</li>
-<li>定义配置文件</li>
-<li>加载配置文件</li>
-<li>获取数据库连接池对象</li>
-<li>获取连接</li>
-</ol>
-<h3 id="3-7-JDBC练习">3.7 JDBC练习</h3>
-<h4 id="环境准备">环境准备</h4>
-<ul>
-<li>数据库表</li>
-<li>实体类pojo</li>
-<li>测试用例</li>
-</ul>
-<h4 id="操作七个步骤">操作七个步骤</h4>
-<ol>
-<li>获取Connection</li>
-<li><strong>定义SQL</strong></li>
-<li>获取PreparedStatement对象</li>
-<li><strong>设置参数</strong></li>
-<li>执行SQL</li>
-<li><strong>处理结果</strong></li>
-<li>释放资源</li>
-</ol>
-<h2 id="4-Maven">4. Maven</h2>
-<ul>
-<li>Maven是专门用于管理和构建Java项目的工具，它的主要功能有:
-<ul>
-<li>提供了一套标准化的项目结构</li>
-<li>提供了一套标准化的构建流程(编译，测试，打包，发布)</li>
-<li>提供了一套依赖管理机制</li>
-</ul>
-</li>
-</ul>
-<p>不同IDE标准化的项目结构不一样，不通用</p>
-<p>Maven提供了一套标准化的项目结构，所有IDE使用Maven构建的项目结构完全一样，所有IDE创建的Maven项目可以通用</p>
-<h3 id="Maven简介">Maven简介</h3>
-<ul>
-<li>Apache Maven是一个项目管理和构建<strong>工具</strong>，它基于项目对象模型(POM)的概念，通过一小段描述信息来管理项目的构建、报告和文档</li>
-</ul>
-<h3 id="Maven基本使用">Maven基本使用</h3>
-<ul>
-<li>Maven常用命令
-<ul>
-<li>compile:编译</li>
-<li>clean:清理</li>
-<li>test:测试</li>
-<li>package:打包</li>
-<li>install:安装</li>
-</ul>
-</li>
-</ul>
-<h3 id="Maven生命周期">Maven生命周期</h3>
-<ul>
-<li>
-<p>Maven构建项目生命周期描述的是一次构建过程经历了多少个实践</p>
-</li>
-<li>
-<p>Maven对项目构建的生命周期划分为3套</p>
-<ul>
-<li>clean:清理工作</li>
-<li>default:核心工作</li>
-<li>site:产生报告，发布站点等</li>
-</ul>
-<p>同一生命周期内，执行后边的命令，前边的所有命令会自动执行</p>
-</li>
-</ul>
-<h3 id="Maven坐标详解">Maven坐标详解</h3>
-<ul>
-<li>什么是坐标？
-<ul>
-<li>Maven中的坐标是<strong>资源的唯一标识</strong></li>
-<li>使用坐标来定义项目或引入项目中需要的依赖</li>
-</ul>
-</li>
-<li>Maven坐标主要组成
-<ul>
-<li>groupId:定义当前Maven项目隶属组织名称(通常是域名反写)</li>
-<li>artifactId:定义当前Maven项目名称(通常是模块名称)</li>
-<li>version:定义当前项目版本号</li>
-</ul>
-</li>
-</ul>
-<h4 id="依赖范围">依赖范围</h4>
-<ul>
-<li>通过设置坐标的依赖范围(scope),可以设置对应jar包的作用范围：编译环境、测试环境、运行环境</li>
-</ul>
-<table>
-<thead>
-<tr>
-<th>依赖范围</th>
-<th style="text-align:center">编译classpath</th>
-<th style="text-align:center">测试classpath</th>
-<th style="text-align:center">运行classpath</th>
-<th>例子</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>compile(默认值)</td>
-<td style="text-align:center">Y</td>
-<td style="text-align:center">Y</td>
-<td style="text-align:center">Y</td>
-<td>logback</td>
-</tr>
-<tr>
-<td>test</td>
-<td style="text-align:center">-</td>
-<td style="text-align:center">Y</td>
-<td style="text-align:center">-</td>
-<td>Junit</td>
-</tr>
-<tr>
-<td>provided</td>
-<td style="text-align:center">Y</td>
-<td style="text-align:center">Y</td>
-<td style="text-align:center">-</td>
-<td>servlet-api</td>
-</tr>
-<tr>
-<td>runtime</td>
-<td style="text-align:center">-</td>
-<td style="text-align:center">Y</td>
-<td style="text-align:center">Y</td>
-<td>jdbc驱动</td>
-</tr>
-<tr>
-<td>system</td>
-<td style="text-align:center">Y</td>
-<td style="text-align:center">Y</td>
-<td style="text-align:center">-</td>
-<td>存储在本地的jar包</td>
-</tr>
-</tbody>
-</table>
-<p>依赖范围:import 引入DependencyManagement</p>
-<h2 id="5-MyBatis">5. MyBatis</h2>
-<h3 id="5-1-MyBatis简介">5.1 MyBatis简介</h3>
-<ul>
-<li>MyBatis是一款优秀的持久层框架，用于简化JDBC开发</li>
-<li>MyBatis本是Apache的一个开源项目iBatis，2010年这个项目由apache software foundation迁移到了google code，并且改名为MyBatis。2013年11月迁移到Github</li>
-</ul>
-<p><strong>持久层</strong></p>
-<ul>
-<li>负责将数据保存到数据库的那一层代码</li>
-<li>JavaEE三层架构：表现层、业务层、持久层</li>
-</ul>
-<p><strong>框架</strong></p>
-<ul>
-<li>框架就是一个半成品软件，是一套可重用的、通用的、软件基础代码模型</li>
-<li>在框架的基础之上构建软件编写更加高效、规范、通用、可扩展</li>
-</ul>
-<p><strong>JDBC缺点</strong></p>
-<ol>
-<li>硬编码
-<ul>
-<li>注册驱动，获取连接</li>
-<li>SQL语句</li>
-</ul>
-</li>
-<li>操作繁琐
-<ul>
-<li>手动设置参数</li>
-<li>手动封装结果集</li>
-</ul>
-</li>
-</ol>
-<p><img src="https://i.imgur.com/PCmpW47.png" alt=""></p>
-<ul>
-<li>MyBatis免除了几乎所有的JDBC代码以及设置参数和获取结果集的工作</li>
-</ul>
-<h3 id="5-2-MyBatis快速入门">5.2 MyBatis快速入门</h3>
-<p>举例：查询user表中所有数据</p>
-<ol>
-<li>
-<p>创建user表，添加数据</p>
-</li>
-<li>
-<p>创建模块，导入坐标</p>
-</li>
-<li>
-<p>编写MyBatis核心配置文件 – &gt;替换连接信息 解决硬编码问题</p>
-</li>
-<li>
-<p>编写SQL映射文件 – &gt; 统一管理sql语句，解决硬编码问题</p>
-</li>
-<li>
-<p>编码</p>
-<ol>
-<li>定义POJO类</li>
-<li>加载核心配置文件,获取SqlSessionFactory对象</li>
-</ol>
-<figure class="highlight java"><table><tr><td class="code"><pre><code class="hljs java"><span class="hljs-type">String</span> <span class="hljs-variable">resource</span> <span class="hljs-operator">=</span> <span class="hljs-string">&quot;mybatis核心配置文件名&quot;</span>;<br><span class="hljs-type">InputStream</span> <span class="hljs-variable">inputStream</span> <span class="hljs-operator">=</span> Resources.getResourceAsStream(resource);<br><span class="hljs-type">SqlSessionFactory</span> <span class="hljs-variable">sqlSessionFactory</span> <span class="hljs-operator">=</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">SqlSessionFactoryBuilder</span>().build(inputStream);<br></code></pre></td></tr></table></figure>
-<ol start="3">
-<li>获取SqlSession对象，执行SQL语句</li>
-</ol>
-<p><code>SqlSession sqlSession = sqlSessionFactory.openSession();</code></p>
-<p><code>sqlSession.selectList(&quot;命名空间.id&quot;);</code></p>
-<ol start="4">
-<li>释放资源</li>
-</ol>
-</li>
-</ol>
-<h3 id="5-3-解决SQL映射文件的警告提示">5.3 解决SQL映射文件的警告提示</h3>
-<ul>
-<li>产生原因:Idea和数据库没有建立连接，不识别表信息</li>
-<li>解决方式:在dea中配置MySQL数据库连接</li>
-</ul>
-<h3 id="5-4-Mapper代理开发">5.4 Mapper代理开发</h3>
-<ul>
-<li>
-<p>目的</p>
-<ul>
-<li>解决原生方式中的硬编码</li>
-<li>简化后期执行SQL</li>
-</ul>
-</li>
-<li>
-<p>步骤</p>
-<ol>
-<li>定义与SQL映射文件同名的Mapper接口，并且将Mapper接口和SQL映射文件放置在同一目录下</li>
-<li>设置SQL映射文件的namespace属性为Mapper接口全限定名</li>
-<li>在Mapper接口中定义方法，方法名就是SQL映射文件中sql语句的id，并保持参数类型和返回值类型一致</li>
-<li>编码
-<ol>
-<li>通过SqlSession的getMapper方法获取Mapper接口的代理对象</li>
-<li>调用对应方法完成sql的执行</li>
-</ol>
-</li>
-</ol>
-<ul>
-<li>细节：如果Mapper接口名称和SQL映射文件名称相同，并在同一目录下，则可以使用包扫描的方式简化SQL映射文件的加载<code>&lt;package name=&quot;com.it.map&quot;/&gt;</code></li>
-</ul>
-</li>
-</ul>
-<h3 id="5-5-Mybatis核心配置文件">5.5 Mybatis核心配置文件</h3>
-<ul>
-<li>去官网查</li>
-</ul>
-<p>细节：配置各个标签时，需要遵守前后顺序</p>
-<h3 id="5-6-关于映射别名">5.6 关于映射别名</h3>
-<p>实体类属性名和数据库表列明不一致，不能自动封装数据</p>
-<ol>
-<li>起别名：在SQL语句中，对不一样的列名起别名，别名和实体类属性名一样可以定义<code>&lt;sql&gt;</code>片段，提升复用性</li>
-<li>resultMap：定义<code>&lt;resultMap&gt;</code>完成不一致的属性名和列名的映射</li>
-</ol>
-]]></content>
-      <categories>
-        <category>学习笔记</category>
-      </categories>
-      <tags>
-        <tag>学习笔记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>maven踩坑</title>
-    <url>/2022/06/13/maven%E8%B8%A9%E5%9D%91/</url>
-    <content><![CDATA[<h1>maven踩坑</h1>
-<p>今天专业实训看到之前用的idea自带的maven，仓库保存到了c盘。自己c盘快满了，于是想着自己下一个maven改一下仓库。网上看了下maven版本要下在idea版本发行日期之后发行的版本，没多想直接下了最新版3.8.6。结果pom.xml中的<code>parent</code>以及<code>plugins</code>疯狂的报错:<code>Error injecting constructor, java.lang.NoSuchMethodError: org.apache.maven.model</code>。折磨我了一上午，最后把maven版本换成idea自带的maven版本，错误解决😢。</p>
-]]></content>
-      <categories>
-        <category>bug修复</category>
-      </categories>
-      <tags>
-        <tag>bug修复</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>spring学习</title>
-    <url>/2022/06/13/spring%E5%AD%A6%E4%B9%A0/</url>
-    <content><![CDATA[<h1>Spring学习</h1>
-<div class="note note-success">
-            <p>所有知识点都记下来太费时间，简单写点笔记大纲，遇到不会的再查。</p>
-          </div>
-<h2 id="1-Spring简介">1. Spring简介</h2>
-<h3 id="1-1-Spring是什么">1.1 Spring是什么</h3>
-<p>spring是分层的Java SE/EE应用full-stack轻量级开源框架，以<strong>IoC</strong>(Inverse Of Control:反转控制)和<strong>AOP</strong>(Aspect Oriented Programming:面向切面编程)为内核。</p>
-<p>提供了<strong>展现层SpringMVC</strong>和<strong>持久层Spring JDBCTemplate</strong>以及<strong>业务层事务管理</strong>等众多的企业级应用技术，还能整合开源世界众多著名的第三方框架和类库，逐渐成为使用最多的Java EE企业应用开源框架</p>
-<h3 id="1-2-Spring的优势">1.2 Spring的优势</h3>
-<ol>
-<li>
-<p>方便解耦，简化开发</p>
-<ul>
-<li>通过Spring提供的IoC容器，可以将对象间的依赖关系交由Spring进行控制，避免硬编码所造成的过度耦合。用户也不必再为单例模式类、属性文件解析等这些很底层的需求编写代码，可以更专注于上层的应用。</li>
-</ul>
-</li>
-<li>
-<p>AOP变成的支持</p>
-<ul>
-<li>通过Spring的AOP功能，方便进行面向切面编程，许多不容易用传统OOP实现的功能可以通过AOP轻松实现</li>
-</ul>
-</li>
-<li>
-<p>声明式事物的支持</p>
-<ul>
-<li>可以将我们从单调烦闷的事务管理代码中解脱出来，通过声明式方式灵活的进行事务管理，提高开发效率和质量。</li>
-</ul>
-</li>
-<li>
-<p>方便程序的测试</p>
-<ul>
-<li>可以用非容器依赖的编程方式进行几乎所有的测试工作，测试不再是昂贵的操作，而是随手可做的事情。</li>
-</ul>
-</li>
-<li>
-<p>方便继承各种优秀框架</p>
-<ul>
-<li>Spring对各种优秀框架(Struts、Hibernate、Hessian、Quartz等)的支持。</li>
-</ul>
-</li>
-<li>
-<p>降低JavaEE API的使用难度</p>
-<ul>
-<li>Spring对JavaEE API(如JDBC、JavaMail、远程调用等)进行了薄薄的封装层，使这些API的使用难度大大降低。</li>
-</ul>
-</li>
-<li>
-<p>Java源码是经典学习范例</p>
-<ul>
-<li>Spring的源代码设计精妙、结构清晰、匠心独用，处处体现着大师对Java设计模式灵活运用以及对Java技术的高深造诣。它的源代码无意是Java技术的最佳实践的范例。</li>
-</ul>
-</li>
-</ol>
-<h3 id="1-3-Spring的体系结构">1.3 Spring的体系结构</h3>
-<p><img src="https://i.imgur.com/dRRF0lY.png" alt=""></p>
-<h2 id="2-Spring快速入门">2. Spring快速入门</h2>
-<h3 id="2-1-Spring程序开发步骤">2.1 Spring程序开发步骤</h3>
-<p><img src="https://i.imgur.com/ERsHZdA.png" alt=""></p>
-<ol>
-<li>导入Spring开发的基本包坐标</li>
-<li>编写Dao接口和实现类(Bean)</li>
-<li>创建Spring核心配置文件(xml文件)</li>
-<li>在Spring配置文件中配置UserDaoImpl(实现类)</li>
-<li>使用Spring的API获得Bean实例(创建ApplicationContext来getBean，用id号时要用到强制转换，或者可传<code>类名.class</code>)</li>
-</ol>
-<h2 id="3-Spring配置文件">3. Spring配置文件</h2>
-<h3 id="3-1Bean标签基本配置">3.1Bean标签基本配置</h3>
-<p>用于配置对象交由<strong>Spring</strong>来创建。</p>
-<p>默认情况下它调用的使类中的<strong>无参构造函数</strong>，如果没有无参构造函数则不能创建成功</p>
-<p>基本属性:</p>
-<ul>
-<li><strong>id</strong>:Bean实例在Spring容器中的唯一标识</li>
-<li><strong>class</strong>:Bean的全限定名称</li>
-</ul>
-<p><code>&lt;bean id=&quot;id唯一&quot; class=&quot;路径+类名&quot;&gt;&lt;\bean&gt;</code></p>
-<h3 id="3-2Bean标签范围配置">3.2Bean标签范围配置</h3>
-<p>scope:指对象的作用范围，取值如下：</p>
-<table>
-<thead>
-<tr>
-<th>取值范围</th>
-<th>说明</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>singleton</td>
-<td>默认值，单例的   （加载配置文件时创建对象）</td>
-</tr>
-<tr>
-<td>prototype</td>
-<td>多例的      （getBean时创建对象）</td>
-</tr>
-<tr>
-<td>request</td>
-<td>WEB项目中，Spring创建一个Bean的对象，将对象存入到request域中</td>
-</tr>
-<tr>
-<td>session</td>
-<td>WEB项目中，Spring创建一个Bean的对象，将对象存入到session域中</td>
-</tr>
-<tr>
-<td>global session</td>
-<td>WEB项目中，应用在Portlet环境，如果没有Portlet环境那么globalSession相当于session</td>
-</tr>
-</tbody>
-</table>
-<ol>
-<li>当scope的取值为<strong>singleton</strong>时
-<ul>
-<li>Bean的实例化个数:1个</li>
-<li>Bean的实例化时机:当Spring核心文件被加载时，实例化配置的Bean实例</li>
-<li>Bean的生命周期：
-<ul>
-<li>对象创建:当应用加载，创建容器时，对象就被创建了</li>
-<li>对象运行:只要容器在，对象一直活着</li>
-<li>对象销毁:当应用卸载，销毁容器时，对象就被销毁了</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>当scope的取值为prototype时
-<ul>
-<li>Bean的实例化个数:多个</li>
-<li>Bean的实例化时机:当调用getBean()方法时实例化Bean
-<ul>
-<li>对象创建:当使用对象时，创建新的对象实例</li>
-<li>对象运行:只要对象在使用中，就一直活着</li>
-<li>对象销毁:当对象长时间不用时，被Java的垃圾回收器回收了</li>
-</ul>
-</li>
-</ul>
-</li>
-</ol>
-<h3 id="3-3-Bean的生命周期配置">3.3 Bean的生命周期配置</h3>
-<ul>
-<li><strong>init-method</strong>:指定类中的初始化方法名称</li>
-<li><strong>destroy-method</strong>:指定类中销毁方法名称</li>
-</ul>
-<h3 id="3-4-Bean实例化三种方式">3.4 Bean实例化三种方式</h3>
-<ul>
-<li>
-<p>无参<strong>构造</strong>方法实例化</p>
-</li>
-<li>
-<p>工厂<strong>静态</strong>方法实例化</p>
-<ul>
-<li>新建工厂类，设置<strong>静态</strong>方法返回bean类</li>
-<li>class到工厂类，后面添加属性<code>factory-method=&quot;方法&quot;</code></li>
-<li>例如<code>&lt;bean id=&quot;userDao&quot; class=&quot;com.it.factory.StaticFactory&quot; factory-method=&quot;getUserDao&quot;&gt;&lt;/bean&gt;</code>其中<code>getUserDao()</code>方法为工厂中返回UserDao类型的对象</li>
-</ul>
-</li>
-<li>
-<p>工厂<strong>实例</strong>方法实例化</p>
-<ul>
-<li>
-<p>不再需要static方法</p>
-</li>
-<li>
-<p>举例:</p>
-<figure class="highlight abnf"><table><tr><td class="code"><pre><code class="hljs abnf">//spring帮忙创建工厂对象<br>&lt;bean id<span class="hljs-operator">=</span><span class="hljs-string">&quot;factory&quot;</span> class<span class="hljs-operator">=</span><span class="hljs-string">&quot;com.it.factory.DynamicFactory&quot;</span>&gt;&lt;/bean&gt;<br>//方法获得指定的UserDao类型对象<br>&lt;bean id<span class="hljs-operator">=</span><span class="hljs-string">&quot;userDao&quot;</span> factory-bean<span class="hljs-operator">=</span><span class="hljs-string">&quot;factory&quot;</span> factory-method<span class="hljs-operator">=</span><span class="hljs-string">&quot;getUserDao&quot;</span>/&gt;<br></code></pre></td></tr></table></figure>
-</li>
-</ul>
-</li>
-</ul>
-<h3 id="3-5-Bean的依赖注入分析">3.5 Bean的依赖注入分析</h3>
-<p><img src="https://i.imgur.com/h5W0SgN.png" alt=""></p>
-<p>因为UserService和UserDao都在Spring容器中，而最终程序直接使用的时UserService，所以可以在Spring容器中，将UserDao设置到UserService内部。</p>
-<p><img src="https://i.imgur.com/50DlrRN.png" alt=""></p>
-<h3 id="3-6-Bean的依赖注入概念">3.6 Bean的依赖注入概念</h3>
-<p>依赖注入(Dependency Injection): 它是Spring框架核心IOC的具体实现</p>
-<p>在编写程序时，通过控制反转，把对象的创建交给了Spring，但是代码中不可能出现没有以来的情况。</p>
-<p>IOC解耦只是降低他们的依赖关系，但不会消除。例如:业务层仍会调用持久层的方法。</p>
-<p>那这种业务层和持久层的依赖关系，在使用Spring之后，就让Spring来维护了。</p>
-<p>简单地说，就是坐等框架把持久层对象传入业务层，而不用我们自己去获取。</p>
-<h3 id="3-7-Bean的依赖注入方式">3.7 Bean的依赖注入方式</h3>
-<ul>
-<li>构造方法
-<ul>
-<li><code>&lt;constructer-arg&gt;</code>标签 ref属性连接注入类</li>
-</ul>
-</li>
-<li>set方法
-<ul>
-<li><code>&lt;property&gt;</code>标签 ref属性连接注入类</li>
-</ul>
-</li>
-</ul>
-<h3 id="3-8-Bean的依赖注入的数据类型">3.8 Bean的依赖注入的数据类型</h3>
-<p>上面的操作，都是注入的引用Bean，除了对象的引用可以注入，普通数据类型，集合等都可以在容器中进行注入。</p>
-<p>注入数据的三种数据类型:</p>
-<ul>
-<li>普通数据类型 没有ref属性，用value传参</li>
-<li>引用数据类型</li>
-<li>集合数据类型 properties内部加子标签</li>
-</ul>
-<h3 id="3-9-引入其他配置文件-分模块开发">3.9 引入其他配置文件(分模块开发)</h3>
-<p>实际开发中，Spring的配置内容非常多，这就导致Spring配置很繁杂且体积很大，所以，可以将部分配置拆解到其他配置文件中，而在Spring主配置文件通过import标签进行加载</p>
-<p><code>&lt;import resource=&quot;.xml&quot;&gt;</code></p>
-<h3 id="3-10-知识总结">3.10 知识总结</h3>
-<p><strong>Spring的重点配置</strong></p>
-<ul>
-<li><code>&lt;bean&gt;</code>标签
-<ul>
-<li>id属性:在容器中Bean实例的唯一标识，不允许重复</li>
-<li>class属性:要实例化的Bean全限定名</li>
-<li>scope属性:Bean的作用范围，常用是Singleton(默认)和prototype</li>
-<li><code>&lt;property&gt;</code>标签:属性注入
-<ul>
-<li>name属性:属性名称</li>
-<li>value属性:注入的普通属性值</li>
-<li>ref属性:注入的对象引用值</li>
-<li><code>&lt;list&gt;</code>标签</li>
-<li><code>&lt;map&gt;</code>标签</li>
-<li><code>&lt;properties&gt;</code>标签</li>
-</ul>
-</li>
-<li><code>&lt;constructor-arg&gt;</code>标签</li>
-</ul>
-</li>
-<li><code>&lt;import&gt;</code>标签:导入其他的Spring的分文件</li>
-</ul>
-<h2 id="4-SpringAPI">4. SpringAPI</h2>
-<h3 id="4-1-ApplicationContext的继承体系">4.1 ApplicationContext的继承体系</h3>
-<p>applicationContext:接口类型，代表应用上下文，可以通过其实例获得Spring容器中的Bean对象</p>
-<p><img src="https://i.imgur.com/3yIHrhF.png" alt=""></p>
-<h3 id="4-2-ApplicationContext的实现类">4.2 ApplicationContext的实现类</h3>
-<ol>
-<li>
-<p><strong>ClassPathXmlApplicationContext</strong> 传一个xml配置文件</p>
-<p>它是从类的根路径下加载配置文件 推荐使用这种</p>
-</li>
-<li>
-<p><strong>FileSystemXmlApplicationContext</strong></p>
-</li>
-</ol>
-<p>​		它是从磁盘路径上加载配置文件，配置文件可以在磁盘的任意位置</p>
-<ol start="3">
-<li><strong>AnnotationConfigApplicationContext</strong></li>
-</ol>
-<p>​		当使用注解配置容器对象时，需要使用此类来创建spring容器。用它来读取注解</p>
-<h3 id="4-3-getBean-方法使用">4.3 getBean()方法使用</h3>
-<p>可传id和字节码对象</p>
-<p>getBean(“id”)</p>
-<p>getBean(class)</p>
-<h2 id="5-Spring配置数据源">5. Spring配置数据源</h2>
-<h3 id="5-1-数据源-连接池-的作用">5.1 数据源(连接池)的作用</h3>
-<ul>
-<li>数据源(连接池)是提高程序性能出现的</li>
-<li>实现实例化数据源，初始化部分连接资源</li>
-<li>使用连接资源时从数据源中获取</li>
-<li>使用完毕后将连接资源归还给数据源</li>
-</ul>
-<p>常见的数据源(连接池):DBCP、C3P0、BoneCP、Druid等</p>
-<h3 id="5-2-数据源开发步骤">5.2 数据源开发步骤</h3>
-<ol>
-<li>导入数据源的坐标和数据库驱动坐标</li>
-<li>创建数据源对象</li>
-<li>设置数据源的基本连接数据</li>
-<li>使用数据源获取连接资源和归还连接资源</li>
-</ol>
-<h3 id="5-3-数据源的手动创建">5.3 数据源的手动创建</h3>
-<p>解耦合数据库参数到properties配置文件</p>
-<p>采用ResourceBundle中的getBundle方法读取配置文件</p>
-<h3 id="5-4-Spring配置数据源">5.4 Spring配置数据源</h3>
-<p>可以将DataSource的创建权交由Spring容器去完成</p>
-<h3 id="5-5-抽取jdbc配置文件">5.5 抽取jdbc配置文件</h3>
-<p>applicationContext.xml加载jdbc.properties配置文件获得连接信息</p>
-<p>首先，需要引入context命名空间和约束路径:</p>
-<ul>
-<li>命名空间:<code>xmlns:context=&quot;http://www.springframework.org/schema/context&quot;</code></li>
-<li>约束路径:<code>http://www.springframework.org/schema/context</code></li>
-</ul>
-<p>​						<code>http://www.springframework.org/schema/context/spring-context.xsd</code></p>
-<p><img src="https://i.imgur.com/NUti9u7.png" alt=""></p>
-<h3 id="5-6-知识要点">5.6 知识要点</h3>
-<p><strong>Spring容器加载properties文件</strong></p>
-<p><img src="https://i.imgur.com/sMuZn1J.png" alt=""></p>
-<h2 id="6-Spring注解开发">6. Spring注解开发</h2>
-<h3 id="6-1-Spring原始注解">6.1 Spring原始注解</h3>
-<p>spring是轻代码而重配置的框架，配置比较繁重，影响开发效率，所以注解开发是一种趋势，注解代替xml配置文件可以简化配置，提高开发效率。</p>
-<p>Spring原始注解主要是替代<code>&lt;Bean&gt;</code>标签的配置</p>
-<table>
-<thead>
-<tr>
-<th>注解</th>
-<th>说明</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>@Component</strong></td>
-<td>使用在类上用于实例化Bean</td>
-</tr>
-<tr>
-<td><strong>@Controller</strong></td>
-<td>使用在web层类上用于实例化Bean</td>
-</tr>
-<tr>
-<td><strong>@Service</strong></td>
-<td>使用在service层类上用于实例化Bean</td>
-</tr>
-<tr>
-<td><strong>@Repository</strong></td>
-<td>使用在dao层类上用于实例化Bean</td>
-</tr>
-<tr>
-<td><strong>@Autowired</strong></td>
-<td>使用在字段上用于根据类型依赖注入</td>
-</tr>
-<tr>
-<td><strong>@Qualifier</strong></td>
-<td>结合@Autowired一起使用用于根据名称进行依赖注入</td>
-</tr>
-<tr>
-<td><strong>@Resource</strong></td>
-<td>相当于@Autowired+@Qualifier,按照名称进行注入</td>
-</tr>
-<tr>
-<td><strong>@Value</strong></td>
-<td>注入普通属性 ${}</td>
-</tr>
-<tr>
-<td><strong>@Scope</strong></td>
-<td>标注Bean的作用范围</td>
-</tr>
-<tr>
-<td>@PostConstruct</td>
-<td>使用在方法上标注该方法是Bean的初始化方法</td>
-</tr>
-<tr>
-<td>@PreDestroy</td>
-<td>使用在方法上标注该方法是Bean的销毁方法</td>
-</tr>
-</tbody>
-</table>
-<p>注意:使用注解进行开发时，需要在applicationContext.xml中配置组件扫描，作用是指定哪个包及其子包下的Bean需要进行扫描以便识别使用注解配置的类、字段和方法。</p>
-<p><img src="https://i.imgur.com/n7NA4Xf.png" alt=""></p>
-<h3 id="6-2-Spring新注解">6.2 Spring新注解</h3>
-<p>使用上面的注解还不能全部替代xml配置文件，还需要使用注解替代的配置如下：</p>
-<ul>
-<li>非自定义的Bean的配置:<code>&lt;bean&gt;</code></li>
-<li>加载properties文件的配置:<code>&lt;context:property-placehoder&gt;</code></li>
-<li>组件扫描的配置:<code>&lt;context:component-scan&gt;</code></li>
-<li>引入其他文件<code>&lt;import&gt;</code></li>
-</ul>
-<table>
-<thead>
-<tr>
-<th>注解</th>
-<th>说明</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>@Configuration</td>
-<td>用于指定当前类是一个Spring配置类，当创建容器时会从该类上加载注解</td>
-</tr>
-<tr>
-<td>@ComponentScan</td>
-<td>用于指定Spring在初始化容器时要扫描的包。<br />作用和在Spring的xml配置文件中的<br /><code>&lt;contex:component-scan base-package=&quot;com.it&quot;/&gt;一样</code></td>
-</tr>
-<tr>
-<td>@Bean</td>
-<td>使用在方法上，标注将该方法的返回值存储到Spring容器中</td>
-</tr>
-<tr>
-<td>@PropertySource</td>
-<td>用于加载.properties文件中的配置</td>
-</tr>
-<tr>
-<td>@Import</td>
-<td>用于导入其他配置类</td>
-</tr>
-</tbody>
-</table>
-<h2 id="7-Spring集成Junit">7. Spring集成Junit</h2>
-<h3 id="7-1-原始Junit测试Spring的问题">7.1 原始Junit测试Spring的问题</h3>
-<p>在测试类中，每个测试方法都有以下两行代码:</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><code class="hljs java"><span class="hljs-type">ApplicationContext</span> <span class="hljs-variable">ac</span> <span class="hljs-operator">=</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">ClassPathXmlApplicationContext</span>(<span class="hljs-string">&quot;bean.xml&quot;</span>);<br><span class="hljs-type">IAccountService</span> <span class="hljs-variable">as</span> <span class="hljs-operator">=</span> ac.getBean(<span class="hljs-string">&quot;accountService&quot;</span>,IAccountService.class);<br></code></pre></td></tr></table></figure>
-<p>这两行代码的作用是获取容器，每个测试代码里都得有，如果不写的话，直接会提示空指针异常，所以又不能轻易删掉。</p>
-<h3 id="7-2-上述问题解决思路">7.2 上述问题解决思路</h3>
-<ul>
-<li>让SpringJunit负责创建Spring容器，但是需要将配置文件的名称告诉它</li>
-<li>将需要进行测试Bean直接在测试类中进行注入</li>
-</ul>
-<h3 id="7-3-Spring集成Junit步骤">7.3 Spring集成Junit步骤</h3>
-<ul>
-<li>导入spring集成Junit的坐标</li>
-<li>使用@Runwith注解替换原来的运行期</li>
-<li>使用@ContextConfiguration指定配置文件或配置类</li>
-<li>使用@Autowired注入需要测试的对象</li>
-<li>创建测试方法进行测试</li>
-</ul>
-<h2 id="8-Spring集成web环境">8. Spring集成web环境</h2>
-<h3 id="8-1-ApplicationContext应用上下文获取方式">8.1 ApplicationContext应用上下文获取方式</h3>
-<p>应用上下文对象是通过<strong>new ClasspathXmlApplicationContent(spring配置文件)<strong>方式获取的，但是每次从容器中获得Bean时都要编写</strong>new ClasspathXmlApplicationContext(spring配置文件)</strong>，这样的弊端时配置文件加载多次，应用上下文对象创建多次。</p>
-<p>在Web项目中，可以使用<strong>ServletContentListener</strong>监听Web应用的启动，我们可以在Web应用启动时，就加载Spring的配置文件，创建应用上下文对象<strong>ApplicationContext</strong>，在将其存储到最大的域<strong>servletContext</strong>域中，这样就可以在任意位置从域中获得应用上下文<strong>ApplicationContext</strong>对象了。</p>
-<h3 id="8-2-Spring提供获取应用上下文的工具">8.2 Spring提供获取应用上下文的工具</h3>
-<p>Spring提供了一个监听器<strong>ContextLoaderListener</strong>，该监听器内部加载Spring配置文件，创建应用上下文对象，并存储到<strong>ServletContext</strong>域中，提供了一个客户端工具<strong>WebApplicationContextUtils</strong>供使用者获得应用上下文对象。</p>
-<p>需要做的只有两件事:</p>
-<ol>
-<li>在<strong>web.xml</strong>中配置<strong>ContextLoaderListener</strong>监听器(导入spring-web坐标)</li>
-<li>使用<strong>WebApplicationContextUtils</strong>供使用者获得应用上下文对象</li>
-</ol>
-]]></content>
-      <categories>
-        <category>学习笔记</category>
-      </categories>
-      <tags>
-        <tag>学习笔记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>vue初识</title>
-    <url>/2022/06/21/vue%E5%88%9D%E8%AF%86/</url>
-    <content><![CDATA[<h1>vue学习</h1>
-<h2 id="创建vue项目">创建vue项目</h2>
-<p><code>vue create vue</code></p>
-<h2 id="运行vue项目">运行vue项目</h2>
-<p><code>cd vue</code></p>
-<p><code>npm run serve</code></p>
-]]></content>
-      <categories>
-        <category>前端</category>
-      </categories>
-      <tags>
-        <tag>学习笔记</tag>
-        <tag>前端框架</tag>
       </tags>
   </entry>
 </search>
