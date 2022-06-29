@@ -79,7 +79,11 @@
   <script  src="/js/color-schema.js" ></script>
 
   
-<meta name="generator" content="Hexo 6.1.0"></head>
+<!-- hexo injector head_end start -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hexo-math@4.0.0/dist/style.css">
+<!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.1.0"></head>
 
 
 <body>
@@ -301,8 +305,8 @@
             
             <div class="markdown-body">
               
-              <h1>hexo笔记</h1>
-<h2 id="写作命令">写作命令</h2>
+              <h1 id="hexo笔记"><a class="markdownIt-Anchor" href="#hexo笔记"></a> hexo笔记</h1>
+<h2 id="写作命令"><a class="markdownIt-Anchor" href="#写作命令"></a> 写作命令</h2>
 <ol>
 <li>新建分页: <code>hexo new page 名称</code></li>
 <li>新建文章: <code>hexo new 名称</code> 或 <code>hexo n 名称</code></li>
@@ -310,7 +314,7 @@
 <li>草稿生成文章: <code>hexo publish 名称</code> 或 <code>hexo p 名称</code></li>
 <li>草稿生成分页: <code>hexo publish page 名称</code> 或 <code>hexo p 名称</code></li>
 </ol>
-<h2 id="操作命令">操作命令</h2>
+<h2 id="操作命令"><a class="markdownIt-Anchor" href="#操作命令"></a> 操作命令</h2>
 <ol>
 <li>清除已生成文件: <code>hexo clean</code></li>
 <li>运行本地服务器（预览）: <code>hexo s</code></li>
@@ -319,12 +323,12 @@
 <li>部署到服务器: <code>hexo d</code></li>
 <li>生成并部署文件: <code>hexo g -d</code> 或 <code>hexo d -g</code></li>
 </ol>
-<h2 id="常见事项">常见事项</h2>
+<h2 id="常见事项"><a class="markdownIt-Anchor" href="#常见事项"></a> 常见事项</h2>
 <ol>
 <li>多标签</li>
 </ol>
 <figure class="highlight subunit"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs subunit"><span class="hljs-keyword">tags:</span> <br>- 标签1<br>- 标签2<br></code></pre></td></tr></table></figure>
-<p>或<code>tags:[标签1，标签2]</code><br>
+<p>或<code>tags:[标签1，标签2]</code><br />
 2. 设置阅读全文</p>
 <ul>
 <li>方法1：在文章中使用<code>&lt;!--more--&gt;</code>手动进行截断,Hexo提供的方式（推荐）</li>

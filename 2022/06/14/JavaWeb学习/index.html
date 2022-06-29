@@ -84,7 +84,11 @@
   <script  src="/js/color-schema.js" ></script>
 
   
-<meta name="generator" content="Hexo 6.1.0"></head>
+<!-- hexo injector head_end start -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hexo-math@4.0.0/dist/style.css">
+<!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.1.0"></head>
 
 
 <body>
@@ -306,30 +310,30 @@
             
             <div class="markdown-body">
               
-              <h1>JavaWeb学习笔记</h1>
-<h2 id="1-JavaWeb介绍">1. JavaWeb介绍</h2>
+              <h1 id="javaweb学习笔记"><a class="markdownIt-Anchor" href="#javaweb学习笔记"></a> JavaWeb学习笔记</h1>
+<h2 id="1-javaweb介绍"><a class="markdownIt-Anchor" href="#1-javaweb介绍"></a> 1. JavaWeb介绍</h2>
 <ul>
 <li>Web：World Wide Web(www),即全球广域网，也成为万维网。</li>
 <li>JavaWeb: 是用Java技术来解决web互联网领域的<strong>技术栈</strong>。</li>
 </ul>
-<p><img src="https://i.imgur.com/uuSQfrP.png" srcset="/img/loading.gif" lazyload alt=""></p>
-<h2 id="2-SQL">2. SQL</h2>
-<h3 id="2-1-SQL分类">2.1 SQL分类</h3>
+<p><img src="https://i.imgur.com/uuSQfrP.png" srcset="/img/loading.gif" lazyload alt="" /></p>
+<h2 id="2-sql"><a class="markdownIt-Anchor" href="#2-sql"></a> 2. SQL</h2>
+<h3 id="21-sql分类"><a class="markdownIt-Anchor" href="#21-sql分类"></a> 2.1 SQL分类</h3>
 <ul>
 <li>DDL(Data Definition Language)数据定义语言，用来定义数据库对象：数据库，表，列等</li>
 <li>DML(Data Manipulation Language)数据操作语言，用来对数据库中的表的数据进行增删改</li>
 <li>DQL(Data Query Language)数据查询语言，用来查询数据库中表的记录(数据)</li>
 <li>DCL(Data Control Language)数据控制语言，用来定义数据库的访问权限和安全级别，及创建用户。</li>
 </ul>
-<h3 id="2-事务">2.* 事务</h3>
-<h4 id="事务简介">事务简介</h4>
+<h3 id="2-事务"><a class="markdownIt-Anchor" href="#2-事务"></a> 2.* 事务</h3>
+<h4 id="事务简介"><a class="markdownIt-Anchor" href="#事务简介"></a> 事务简介</h4>
 <ul>
 <li>数据库的<strong>事务</strong>(Transaction)是一种机制、一个操作序列，包含了<strong>一组数据库操作命令</strong></li>
 <li>事务把所有的命令作为一个整体一起向系统提交或撤销操作请求，即这一组数据库命令<strong>要么同时成功，要么同时失败</strong></li>
 <li>事务是一个不可分割的工作逻辑单元</li>
 </ul>
 <figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><code class="hljs sql"><span class="hljs-comment">-- 开启事务</span><br><span class="hljs-keyword">START</span> TRANSACTION;<br>或者	<span class="hljs-keyword">BEGIN</span>;<br><span class="hljs-comment">-- 提交事务</span><br><span class="hljs-keyword">COMMIT</span>;<br><span class="hljs-comment">-- 回滚事务</span><br><span class="hljs-keyword">ROLLBACK</span>;<br></code></pre></td></tr></table></figure>
-<h4 id="事物四大特征">事物四大特征</h4>
+<h4 id="事物四大特征"><a class="markdownIt-Anchor" href="#事物四大特征"></a> 事物四大特征</h4>
 <ul>
 <li>原子性(<strong>A</strong>tomicity):事务是不可分割的最小操作单位，要么同时成功，要么同时失败</li>
 <li>一致性(<strong>C</strong>onsistency):事务完成时，必须使所有的数据都保持一致状态</li>
@@ -338,25 +342,25 @@
 </ul>
 <p>查询事务的默认提交方式</p>
 <p><code>select @@autocommit</code>值为1自动提交，值为0手动提交</p>
-<h2 id="3-JDBC">3. JDBC</h2>
-<h3 id="3-1-JDBC概念">3.1 JDBC概念:</h3>
+<h2 id="3-jdbc"><a class="markdownIt-Anchor" href="#3-jdbc"></a> 3. JDBC</h2>
+<h3 id="31-jdbc概念"><a class="markdownIt-Anchor" href="#31-jdbc概念"></a> 3.1 JDBC概念:</h3>
 <ul>
 <li>JDBC就是使用Java语言操作关系型数据库的一套API</li>
 <li>全称:(Java DataBase Connectivity) Java数据库连接</li>
 </ul>
-<p><img src="https://i.imgur.com/FSOECYa.png" srcset="/img/loading.gif" lazyload alt=""></p>
-<h3 id="3-2JDBC本质">3.2JDBC本质</h3>
+<p><img src="https://i.imgur.com/FSOECYa.png" srcset="/img/loading.gif" lazyload alt="" /></p>
+<h3 id="32jdbc本质"><a class="markdownIt-Anchor" href="#32jdbc本质"></a> 3.2JDBC本质</h3>
 <ul>
 <li>官方(sun公司)定义的一套操作所有关系型数据库的规则，即接口</li>
 <li>各个数据库厂商去实现这套接口，提供数据库驱动jar包</li>
 <li>我们可以使用这套接口(JDBC)编程，真正执行的代码是驱动jar包中的实现类</li>
 </ul>
-<h3 id="3-3-JDBC好处">3.3 JDBC好处</h3>
+<h3 id="33-jdbc好处"><a class="markdownIt-Anchor" href="#33-jdbc好处"></a> 3.3 JDBC好处</h3>
 <ul>
 <li>各数据库厂商使用相同的接口，Java代码不需要针对不同数据库分别开发</li>
 <li>可随时替换底层数据库，访问数据库的Java代码基本不变</li>
 </ul>
-<h3 id="3-4-步骤">3.4 步骤</h3>
+<h3 id="34-步骤"><a class="markdownIt-Anchor" href="#34-步骤"></a> 3.4 步骤</h3>
 <ol start="0">
 <li>创建工程，导入驱动jar包</li>
 <li>注册驱动</li>
@@ -386,8 +390,8 @@
 <p>释放资源</p>
 </li>
 </ol>
-<h3 id="3-5-JDBC-API-详解">3.5 JDBC API 详解</h3>
-<h4 id="DriverManager">DriverManager</h4>
+<h3 id="35-jdbc-api-详解"><a class="markdownIt-Anchor" href="#35-jdbc-api-详解"></a> 3.5 JDBC API 详解</h3>
+<h4 id="drivermanager"><a class="markdownIt-Anchor" href="#drivermanager"></a> DriverManager</h4>
 <ul>
 <li>
 <p>DriverManager(驱动管理类)作用：</p>
@@ -424,7 +428,7 @@
 <li>MySQL 5之后的驱动包，可以省略注册驱动的步骤</li>
 <li>自动加载jar包中META-INF/service/java.sql.Driver文件中的驱动类</li>
 </ul>
-<h4 id="Connection">Connection</h4>
+<h4 id="connection"><a class="markdownIt-Anchor" href="#connection"></a> Connection</h4>
 <ul>
 <li>Connection(数据库连接对象)作用：
 <ol>
@@ -463,7 +467,7 @@
 <figure class="highlight isbl"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs isbl">开启事务:<span class="hljs-function"><span class="hljs-title">setAutoCommit</span>(<span class="hljs-variable">boolean</span> <span class="hljs-variable">autoCommit</span>):<span class="hljs-variable"><span class="hljs-literal">true</span></span>为自动提交事务;<span class="hljs-variable"><span class="hljs-literal">false</span></span>为手动提交事务，即为开启事务</span><br><span class="hljs-function">提交事务:<span class="hljs-title">commit</span>()</span><br>回滚事务：<span class="hljs-function"><span class="hljs-title">rollback</span>()</span><br></code></pre></td></tr></table></figure>
 </li>
 </ol>
-<h4 id="Statement">Statement</h4>
+<h4 id="statement"><a class="markdownIt-Anchor" href="#statement"></a> Statement</h4>
 <ul>
 <li>
 <p>Statement作用</p>
@@ -472,7 +476,7 @@
 <figure class="highlight lasso"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs lasso"><span class="hljs-keyword">ResultSet</span> executeQuery(sql)：执行DQL语句<br>返回值:<span class="hljs-keyword">ResultSet</span>结果集对象<br></code></pre></td></tr></table></figure>
 </li>
 </ul>
-<h4 id="ResultSet">ResultSet</h4>
+<h4 id="resultset"><a class="markdownIt-Anchor" href="#resultset"></a> ResultSet</h4>
 <ul>
 <li>
 <p>ResultSet(结果集对象)作用</p>
@@ -497,7 +501,7 @@
 <figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs awk"><span class="hljs-regexp">//</span>循环判断游标是否是最后一行末尾<br><span class="hljs-keyword">while</span>(rs.<span class="hljs-keyword">next</span>())&#123;<br>	<span class="hljs-regexp">//</span>获取数据<br>	rs.getXxx(参数);<br>&#125;<br></code></pre></td></tr></table></figure>
 </li>
 </ul>
-<h4 id="PreparedStatement">PreparedStatement</h4>
+<h4 id="preparedstatement"><a class="markdownIt-Anchor" href="#preparedstatement"></a> PreparedStatement</h4>
 <ul>
 <li>
 <p>PreparedStatement作用:</p>
@@ -550,9 +554,9 @@
 </ol>
 </li>
 </ul>
-<p><img src="https://i.imgur.com/xoXlsJW.png" srcset="/img/loading.gif" lazyload alt=""></p>
-<h3 id="3-6-数据库连接池">3.6 数据库连接池</h3>
-<h4 id="数据库连接池简介">数据库连接池简介</h4>
+<p><img src="https://i.imgur.com/xoXlsJW.png" srcset="/img/loading.gif" lazyload alt="" /></p>
+<h3 id="36-数据库连接池"><a class="markdownIt-Anchor" href="#36-数据库连接池"></a> 3.6 数据库连接池</h3>
+<h4 id="数据库连接池简介"><a class="markdownIt-Anchor" href="#数据库连接池简介"></a> 数据库连接池简介</h4>
 <ul>
 <li>数据库连接池是个容器，负责分配、管理数据库连接(Connection)</li>
 <li>它允许应用程序重复使用一个现有的数据库连接，而不是再重新建立一个</li>
@@ -565,7 +569,7 @@
 </ul>
 </li>
 </ul>
-<h4 id="数据库连接池实现">数据库连接池实现</h4>
+<h4 id="数据库连接池实现"><a class="markdownIt-Anchor" href="#数据库连接池实现"></a> 数据库连接池实现</h4>
 <ul>
 <li>
 <p>标准接口:DatasSource</p>
@@ -595,7 +599,7 @@
 </ul>
 </li>
 </ul>
-<h4 id="Druid使用步骤">Druid使用步骤</h4>
+<h4 id="druid使用步骤"><a class="markdownIt-Anchor" href="#druid使用步骤"></a> Druid使用步骤</h4>
 <ol>
 <li>导入jar包 druid-1.1.12.jar</li>
 <li>定义配置文件</li>
@@ -603,14 +607,14 @@
 <li>获取数据库连接池对象</li>
 <li>获取连接</li>
 </ol>
-<h3 id="3-7-JDBC练习">3.7 JDBC练习</h3>
-<h4 id="环境准备">环境准备</h4>
+<h3 id="37-jdbc练习"><a class="markdownIt-Anchor" href="#37-jdbc练习"></a> 3.7 JDBC练习</h3>
+<h4 id="环境准备"><a class="markdownIt-Anchor" href="#环境准备"></a> 环境准备</h4>
 <ul>
 <li>数据库表</li>
 <li>实体类pojo</li>
 <li>测试用例</li>
 </ul>
-<h4 id="操作七个步骤">操作七个步骤</h4>
+<h4 id="操作七个步骤"><a class="markdownIt-Anchor" href="#操作七个步骤"></a> 操作七个步骤</h4>
 <ol>
 <li>获取Connection</li>
 <li><strong>定义SQL</strong></li>
@@ -620,7 +624,7 @@
 <li><strong>处理结果</strong></li>
 <li>释放资源</li>
 </ol>
-<h2 id="4-Maven">4. Maven</h2>
+<h2 id="4-maven"><a class="markdownIt-Anchor" href="#4-maven"></a> 4. Maven</h2>
 <ul>
 <li>Maven是专门用于管理和构建Java项目的工具，它的主要功能有:
 <ul>
@@ -632,11 +636,11 @@
 </ul>
 <p>不同IDE标准化的项目结构不一样，不通用</p>
 <p>Maven提供了一套标准化的项目结构，所有IDE使用Maven构建的项目结构完全一样，所有IDE创建的Maven项目可以通用</p>
-<h3 id="Maven简介">Maven简介</h3>
+<h3 id="maven简介"><a class="markdownIt-Anchor" href="#maven简介"></a> Maven简介</h3>
 <ul>
 <li>Apache Maven是一个项目管理和构建<strong>工具</strong>，它基于项目对象模型(POM)的概念，通过一小段描述信息来管理项目的构建、报告和文档</li>
 </ul>
-<h3 id="Maven基本使用">Maven基本使用</h3>
+<h3 id="maven基本使用"><a class="markdownIt-Anchor" href="#maven基本使用"></a> Maven基本使用</h3>
 <ul>
 <li>Maven常用命令
 <ul>
@@ -648,7 +652,7 @@
 </ul>
 </li>
 </ul>
-<h3 id="Maven生命周期">Maven生命周期</h3>
+<h3 id="maven生命周期"><a class="markdownIt-Anchor" href="#maven生命周期"></a> Maven生命周期</h3>
 <ul>
 <li>
 <p>Maven构建项目生命周期描述的是一次构建过程经历了多少个实践</p>
@@ -663,7 +667,7 @@
 <p>同一生命周期内，执行后边的命令，前边的所有命令会自动执行</p>
 </li>
 </ul>
-<h3 id="Maven坐标详解">Maven坐标详解</h3>
+<h3 id="maven坐标详解"><a class="markdownIt-Anchor" href="#maven坐标详解"></a> Maven坐标详解</h3>
 <ul>
 <li>什么是坐标？
 <ul>
@@ -679,7 +683,7 @@
 </ul>
 </li>
 </ul>
-<h4 id="依赖范围">依赖范围</h4>
+<h4 id="依赖范围"><a class="markdownIt-Anchor" href="#依赖范围"></a> 依赖范围</h4>
 <ul>
 <li>通过设置坐标的依赖范围(scope),可以设置对应jar包的作用范围：编译环境、测试环境、运行环境</li>
 </ul>
@@ -732,8 +736,8 @@
 </tbody>
 </table>
 <p>依赖范围:import 引入DependencyManagement</p>
-<h2 id="5-MyBatis">5. MyBatis</h2>
-<h3 id="5-1-MyBatis简介">5.1 MyBatis简介</h3>
+<h2 id="5-mybatis"><a class="markdownIt-Anchor" href="#5-mybatis"></a> 5. MyBatis</h2>
+<h3 id="51-mybatis简介"><a class="markdownIt-Anchor" href="#51-mybatis简介"></a> 5.1 MyBatis简介</h3>
 <ul>
 <li>MyBatis是一款优秀的持久层框架，用于简化JDBC开发</li>
 <li>MyBatis本是Apache的一个开源项目iBatis，2010年这个项目由apache software foundation迁移到了google code，并且改名为MyBatis。2013年11月迁移到Github</li>
@@ -763,11 +767,11 @@
 </ul>
 </li>
 </ol>
-<p><img src="https://i.imgur.com/PCmpW47.png" srcset="/img/loading.gif" lazyload alt=""></p>
+<p><img src="https://i.imgur.com/PCmpW47.png" srcset="/img/loading.gif" lazyload alt="" /></p>
 <ul>
 <li>MyBatis免除了几乎所有的JDBC代码以及设置参数和获取结果集的工作</li>
 </ul>
-<h3 id="5-2-MyBatis快速入门">5.2 MyBatis快速入门</h3>
+<h3 id="52-mybatis快速入门"><a class="markdownIt-Anchor" href="#52-mybatis快速入门"></a> 5.2 MyBatis快速入门</h3>
 <p>举例：查询user表中所有数据</p>
 <ol>
 <li>
@@ -799,12 +803,12 @@
 </ol>
 </li>
 </ol>
-<h3 id="5-3-解决SQL映射文件的警告提示">5.3 解决SQL映射文件的警告提示</h3>
+<h3 id="53-解决sql映射文件的警告提示"><a class="markdownIt-Anchor" href="#53-解决sql映射文件的警告提示"></a> 5.3 解决SQL映射文件的警告提示</h3>
 <ul>
 <li>产生原因:Idea和数据库没有建立连接，不识别表信息</li>
 <li>解决方式:在dea中配置MySQL数据库连接</li>
 </ul>
-<h3 id="5-4-Mapper代理开发">5.4 Mapper代理开发</h3>
+<h3 id="54-mapper代理开发"><a class="markdownIt-Anchor" href="#54-mapper代理开发"></a> 5.4 Mapper代理开发</h3>
 <ul>
 <li>
 <p>目的</p>
@@ -831,12 +835,12 @@
 </ul>
 </li>
 </ul>
-<h3 id="5-5-Mybatis核心配置文件">5.5 Mybatis核心配置文件</h3>
+<h3 id="55-mybatis核心配置文件"><a class="markdownIt-Anchor" href="#55-mybatis核心配置文件"></a> 5.5 Mybatis核心配置文件</h3>
 <ul>
 <li>去官网查</li>
 </ul>
 <p>细节：配置各个标签时，需要遵守前后顺序</p>
-<h3 id="5-6-关于映射别名">5.6 关于映射别名</h3>
+<h3 id="56-关于映射别名"><a class="markdownIt-Anchor" href="#56-关于映射别名"></a> 5.6 关于映射别名</h3>
 <p>实体类属性名和数据库表列明不一致，不能自动封装数据</p>
 <ol>
 <li>起别名：在SQL语句中，对不一样的列名起别名，别名和实体类属性名一样可以定义<code>&lt;sql&gt;</code>片段，提升复用性</li>

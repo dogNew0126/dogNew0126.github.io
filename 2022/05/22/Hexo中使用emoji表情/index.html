@@ -82,7 +82,11 @@
   <script  src="/js/color-schema.js" ></script>
 
   
-<meta name="generator" content="Hexo 6.1.0"></head>
+<!-- hexo injector head_end start -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hexo-math@4.0.0/dist/style.css">
+<!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.1.0"></head>
 
 
 <body>
@@ -304,22 +308,22 @@
             
             <div class="markdown-body">
               
-              <h1>Hexo中使用emoji表情</h1>
+              <h1 id="hexo中使用emoji表情"><a class="markdownIt-Anchor" href="#hexo中使用emoji表情"></a> Hexo中使用emoji表情</h1>
 <p>Hexo默认的markdown渲染引擎不支持将Github emoji渲染到静态的html页面中，我们换一个支持emoji的引擎，再增加一个emoji插件即可。</p>
-<h2 id="安装">安装</h2>
+<h2 id="安装"><a class="markdownIt-Anchor" href="#安装"></a> 安装</h2>
 <p>命令行如下：</p>
 <figure class="highlight applescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs applescript">npm un hexo-renderer-marked <span class="hljs-comment">--save</span><br><br>npm i hexo-renderer-markdown-<span class="hljs-keyword">it</span> <span class="hljs-comment">--save</span><br><br>npm install markdown-<span class="hljs-keyword">it</span>-emoji <span class="hljs-comment">--save</span><br></code></pre></td></tr></table></figure>
-<h2 id="配置">配置</h2>
+<h2 id="配置"><a class="markdownIt-Anchor" href="#配置"></a> 配置</h2>
 <p>完成插件安装后还需要修改Hexo站点配置文件<code>_config.yml</code>(不是主题配置)</p>
 <p>加入下列代码：</p>
 <figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><code class="hljs yaml"><span class="hljs-comment">## markdown 渲染引擎配置，默认是hexo-renderer-marked，这个插件渲染速度更快，且有新特性</span><br><span class="hljs-attr">markdown:</span><br>  <span class="hljs-attr">render:</span><br>    <span class="hljs-attr">html:</span> <span class="hljs-literal">true</span><br>    <span class="hljs-attr">xhtmlOut:</span> <span class="hljs-literal">false</span><br>    <span class="hljs-attr">breaks:</span> <span class="hljs-literal">true</span><br>    <span class="hljs-attr">linkify:</span> <span class="hljs-literal">true</span><br>    <span class="hljs-attr">typographer:</span> <span class="hljs-literal">true</span><br>    <span class="hljs-attr">quotes:</span> <span class="hljs-string">&#x27;“”‘’&#x27;</span><br>  <span class="hljs-attr">plugins:</span><br>    <span class="hljs-bullet">-</span> <span class="hljs-string">markdown-it-footnote</span><br>    <span class="hljs-bullet">-</span> <span class="hljs-string">markdown-it-sup</span><br>    <span class="hljs-bullet">-</span> <span class="hljs-string">markdown-it-sub</span><br>    <span class="hljs-bullet">-</span> <span class="hljs-string">markdown-it-abbr</span><br>    <span class="hljs-bullet">-</span> <span class="hljs-string">markdown-it-emoji</span><br>  <span class="hljs-attr">anchors:</span><br>    <span class="hljs-attr">level:</span> <span class="hljs-number">2</span><br>    <span class="hljs-attr">collisionSuffix:</span> <span class="hljs-string">&#x27;v&#x27;</span><br>    <span class="hljs-attr">permalink:</span> <span class="hljs-literal">false</span><br>    <span class="hljs-attr">permalinkClass:</span> <span class="hljs-string">header-anchor</span><br>    <span class="hljs-attr">permalinkSymbol:</span> <span class="hljs-string">¶</span><br></code></pre></td></tr></table></figure>
 <p>这里需要注意<code>render:</code>下的<code>html:</code>配置项，它的作用是控制<code>Markdown</code>渲染引擎是否转移文档中出现的<code>html</code>标签，默认为<code>false</code>，这里要设置为<code>true</code>，否则会导致<code>&lt;!--more--&gt;</code>渲染失败。</p>
 <figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs yaml"><span class="hljs-attr">html:</span> <span class="hljs-literal">true</span> <span class="hljs-comment"># 不转义 HTML 内容，即允许 HTML</span><br>    <span class="hljs-comment">## OR</span><br><span class="hljs-attr">html:</span> <span class="hljs-literal">false</span> <span class="hljs-comment"># 转义 HTML，&lt; &gt; 尖括号会被转义成 &amp;lt; &amp;gt;等</span><br></code></pre></td></tr></table></figure>
 <p><code>plugins:</code>中的最后一项<code>- markdown-it-emoji</code>是手动添加的，官方Github Wiki中给出的配置不包含这一项，其他配置参照的Github Wiki中的默认配置。</p>
-<h2 id="使用方法">使用方法</h2>
+<h2 id="使用方法"><a class="markdownIt-Anchor" href="#使用方法"></a> 使用方法</h2>
 <p>输入对应的emoji编码</p>
 <p>例如：输入笑脸对应的emoji编码<code>:smile:</code>就可以得到😄</p>
-<h2 id="emoji编码合集">emoji编码合集</h2>
+<h2 id="emoji编码合集"><a class="markdownIt-Anchor" href="#emoji编码合集"></a> emoji编码合集</h2>
 <p>People</p>
 <table>
 <thead>
@@ -551,7 +555,7 @@
 <td>🙇 <code>:bow:</code></td>
 </tr>
 <tr>
-<td>💏 <code>:couplekiss:</code></td>
+<td>:couplekiss: <code>:couplekiss:</code></td>
 <td>💑 <code>:couple_with_heart:</code></td>
 <td>💆 <code>:massage:</code></td>
 </tr>

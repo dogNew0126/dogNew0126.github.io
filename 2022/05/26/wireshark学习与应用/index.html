@@ -84,7 +84,11 @@
   <script  src="/js/color-schema.js" ></script>
 
   
-<meta name="generator" content="Hexo 6.1.0"></head>
+<!-- hexo injector head_end start -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hexo-math@4.0.0/dist/style.css">
+<!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.1.0"></head>
 
 
 <body>
@@ -306,17 +310,17 @@
             
             <div class="markdown-body">
               
-              <h1>wireshark抓包工具使用</h1>
-<h2 id="wireshark简介">wireshark简介</h2>
+              <h1 id="wireshark抓包工具使用"><a class="markdownIt-Anchor" href="#wireshark抓包工具使用"></a> wireshark抓包工具使用</h1>
+<h2 id="wireshark简介"><a class="markdownIt-Anchor" href="#wireshark简介"></a> wireshark简介</h2>
 <p>wireshark是一个网络封包分析软件，其功能是撷取网络封包，并尽可能显示出最为详细的网络封包资料。Wireshark使用WinPCAP作为借口，直接与网卡进行数据报文交换。</p>
-<h2 id="wireshark主要应用">wireshark主要应用</h2>
+<h2 id="wireshark主要应用"><a class="markdownIt-Anchor" href="#wireshark主要应用"></a> wireshark主要应用</h2>
 <ul>
 <li>网络管理员用来解决网络问题</li>
 <li>网络安全工程师用来检测安全隐患</li>
 <li>开发人员用来测试协议执行情况</li>
 <li>用来学习网络协议</li>
 </ul>
-<h2 id="waireshark快速分析数据包技巧">waireshark快速分析数据包技巧</h2>
+<h2 id="waireshark快速分析数据包技巧"><a class="markdownIt-Anchor" href="#waireshark快速分析数据包技巧"></a> waireshark快速分析数据包技巧</h2>
 <ul>
 <li>确定wireshark的物理位置。</li>
 <li>选择捕获接口。</li>
@@ -326,8 +330,8 @@
 <li>构建图表</li>
 <li>重组数据</li>
 </ul>
-<h2 id="wireshark抓包及快速定位数据包技巧">wireshark抓包及快速定位数据包技巧</h2>
-<h3 id="常见协议包">常见协议包</h3>
+<h2 id="wireshark抓包及快速定位数据包技巧"><a class="markdownIt-Anchor" href="#wireshark抓包及快速定位数据包技巧"></a> wireshark抓包及快速定位数据包技巧</h2>
+<h3 id="常见协议包"><a class="markdownIt-Anchor" href="#常见协议包"></a> 常见协议包</h3>
 <ul>
 <li>ARP协议</li>
 <li>ICMP协议</li>
@@ -336,7 +340,7 @@
 <li>DNS协议</li>
 <li>HTTP协议</li>
 </ul>
-<h2 id="wireshark过滤器使用">wireshark过滤器使用</h2>
+<h2 id="wireshark过滤器使用"><a class="markdownIt-Anchor" href="#wireshark过滤器使用"></a> wireshark过滤器使用</h2>
 <ul>
 <li>
 <p>其中一例：使用过滤器筛选udp的数据包</p>
@@ -359,9 +363,9 @@
 <p>查询条件为且是<code>and</code></p>
 </li>
 </ul>
-<h2 id="wireshark对常用协议抓包并分析原理">wireshark对常用协议抓包并分析原理</h2>
+<h2 id="wireshark对常用协议抓包并分析原理"><a class="markdownIt-Anchor" href="#wireshark对常用协议抓包并分析原理"></a> wireshark对常用协议抓包并分析原理</h2>
 <p><strong>协议分析的时候关闭混杂模式，避免一些干扰的数据包存在</strong></p>
-<h3 id="常用协议分析-ARP协议">常用协议分析-ARP协议</h3>
+<h3 id="常用协议分析-arp协议"><a class="markdownIt-Anchor" href="#常用协议分析-arp协议"></a> 常用协议分析-ARP协议</h3>
 <ul>
 <li>
 <p>地址解析协议（英语：Address Resolution Protocol，缩写ARP）是一个通过解析网络层地址来找寻数据链路层地址的网络传输协议，它在IPv4中及其重要。ARP是通过网络地址来定位MAC地址。</p>
@@ -370,29 +374,29 @@
 <p>开始抓包—过滤arp</p>
 </li>
 </ul>
-<p>​		<img src="https://i.imgur.com/SzNv8iT.png" srcset="/img/loading.gif" lazyload alt=""></p>
+<p>​		<img src="https://i.imgur.com/SzNv8iT.png" srcset="/img/loading.gif" lazyload alt="" /></p>
 <p>​		使用<code>nmap (-sn)</code> （对目标进行ping检测，不进行端口扫描）来基于ARP协议进行扫描</p>
 <ul>
 <li>请求包（<code>Opcode:_request(1)</code>）中，目标mac地址为0，因为不清楚。</li>
 <li>应答包（<code>Opcode:_reply(2)</code>）中，应答包补全了自己的MAC地址，目的地址和源地址做了替换。</li>
 </ul>
-<p>​		<img src="https://i.imgur.com/KRNZG8P.png" srcset="/img/loading.gif" lazyload alt=""></p>
-<h3 id="常用协议分析-ICMP协议">常用协议分析-ICMP协议</h3>
+<p>​		<img src="https://i.imgur.com/KRNZG8P.png" srcset="/img/loading.gif" lazyload alt="" /></p>
+<h3 id="常用协议分析-icmp协议"><a class="markdownIt-Anchor" href="#常用协议分析-icmp协议"></a> 常用协议分析-ICMP协议</h3>
 <ul>
 <li>把之前的数据包清空掉然后筛选ICMP协议的数据包</li>
 <li>打开一个终端 ping <a target="_blank" rel="noopener" href="http://baidu.com">baidu.com</a></li>
 <li>基于IP协议</li>
 </ul>
-<h4 id="ICMP协议分析请求包">ICMP协议分析请求包</h4>
-<p><img src="https://i.imgur.com/EVF8tfn.png" srcset="/img/loading.gif" lazyload alt=""></p>
-<h4 id="ICMP协议分析应答包">ICMP协议分析应答包</h4>
-<p><img src="https://i.imgur.com/0Kgv5ze.png" srcset="/img/loading.gif" lazyload alt=""></p>
+<h4 id="icmp协议分析请求包"><a class="markdownIt-Anchor" href="#icmp协议分析请求包"></a> ICMP协议分析请求包</h4>
+<p><img src="https://i.imgur.com/EVF8tfn.png" srcset="/img/loading.gif" lazyload alt="" /></p>
+<h4 id="icmp协议分析应答包"><a class="markdownIt-Anchor" href="#icmp协议分析应答包"></a> ICMP协议分析应答包</h4>
+<p><img src="https://i.imgur.com/0Kgv5ze.png" srcset="/img/loading.gif" lazyload alt="" /></p>
 <p><strong>工作过程：</strong></p>
 <ul>
 <li>本机发送一个ICMP Echo Request的包。</li>
 <li>接收方返回一个ICMP Echo Reply，包含了接受到数据拷贝和一些其他命令。</li>
 </ul>
-<h3 id="常用协议分析-TCP协议">常用协议分析-TCP协议</h3>
+<h3 id="常用协议分析-tcp协议"><a class="markdownIt-Anchor" href="#常用协议分析-tcp协议"></a> 常用协议分析-TCP协议</h3>
 <ul>
 <li>
 <p>启动抓包。选择http://www.sina.com.cn作为目标地址</p>
@@ -407,60 +411,60 @@
 <p>连接三次握手，断开连接四次挥手</p>
 </li>
 </ul>
-<h4 id="三次握手">三次握手</h4>
-<h5 id="第一次握手">第一次握手</h5>
+<h4 id="三次握手"><a class="markdownIt-Anchor" href="#三次握手"></a> 三次握手</h4>
+<h5 id="第一次握手"><a class="markdownIt-Anchor" href="#第一次握手"></a> 第一次握手</h5>
 <ul>
 <li>
-<h5 id="客户端给服务器发送一个SYN段，该段中也包含客户端的初始序列号-Sequence-number">客户端给服务器发送一个SYN段，该段中也包含客户端的初始序列号(Sequence number)</h5>
-<p><img src="https://i.imgur.com/5MX78iG.png" srcset="/img/loading.gif" lazyload alt=""></p>
+<h5 id="客户端给服务器发送一个syn段该段中也包含客户端的初始序列号sequence-number"><a class="markdownIt-Anchor" href="#客户端给服务器发送一个syn段该段中也包含客户端的初始序列号sequence-number"></a> 客户端给服务器发送一个SYN段，该段中也包含客户端的初始序列号(Sequence number)</h5>
+<p><img src="https://i.imgur.com/5MX78iG.png" srcset="/img/loading.gif" lazyload alt="" /></p>
 </li>
 </ul>
-<h5 id="第二次握手">第二次握手</h5>
+<h5 id="第二次握手"><a class="markdownIt-Anchor" href="#第二次握手"></a> 第二次握手</h5>
 <ul>
 <li>
 <p>服务器返回客户端SYN+ACK段，该段中包含服务器的初始序列号(Sequence number = J);同时使Acknowledgment number = J + 1来表示确认已收到客户端的SYN段。</p>
-<p><img src="https://i.imgur.com/ydQ9DoP.png" srcset="/img/loading.gif" lazyload alt=""></p>
+<p><img src="https://i.imgur.com/ydQ9DoP.png" srcset="/img/loading.gif" lazyload alt="" /></p>
 </li>
 </ul>
-<h5 id="第三次握手">第三次握手</h5>
+<h5 id="第三次握手"><a class="markdownIt-Anchor" href="#第三次握手"></a> 第三次握手</h5>
 <ul>
 <li>
 <p>客户端给服务器相应一个ACK段，该段中使Acknowledgment number = K + 1来表示确认已收到服务器的SYN段(Sequence number = K)</p>
-<p><img src="https://i.imgur.com/frRzNZS.png" srcset="/img/loading.gif" lazyload alt=""></p>
+<p><img src="https://i.imgur.com/frRzNZS.png" srcset="/img/loading.gif" lazyload alt="" /></p>
 </li>
 </ul>
-<h4 id="四次挥手">四次挥手</h4>
-<p><img src="https://i.imgur.com/zxOkltZ.png" srcset="/img/loading.gif" lazyload alt=""></p>
+<h4 id="四次挥手"><a class="markdownIt-Anchor" href="#四次挥手"></a> 四次挥手</h4>
+<p><img src="https://i.imgur.com/zxOkltZ.png" srcset="/img/loading.gif" lazyload alt="" /></p>
 <p>wireshark卡退了，下面几张图和端口对不上，但不影响</p>
-<h5 id="第一次挥手">第一次挥手</h5>
+<h5 id="第一次挥手"><a class="markdownIt-Anchor" href="#第一次挥手"></a> 第一次挥手</h5>
 <ul>
 <li>
 <p>客户端打算断开连接，向服务器发送FIN报文，FIN报文中会指定一个序列号，之后客户端进入FIN_WAIT_1状态。也就是客户端发出连接释放报文段(FIN报文)，指定序列号seq = u，主动关闭TCP连接，等待服务器的确认。</p>
-<p><img src="https://i.imgur.com/6BqFDbA.png" srcset="/img/loading.gif" lazyload alt=""></p>
+<p><img src="https://i.imgur.com/6BqFDbA.png" srcset="/img/loading.gif" lazyload alt="" /></p>
 </li>
 </ul>
-<h5 id="第二次挥手">第二次挥手</h5>
+<h5 id="第二次挥手"><a class="markdownIt-Anchor" href="#第二次挥手"></a> 第二次挥手</h5>
 <ul>
 <li>
 <p>服务器收到连接释放报文段(FIN报文)后，就向客户端发送ACK应答报文，以客户端的FIN报文的序列号 seq+1 作为ACK应答报文段的确认序列号ack = seq+1 = u + 1。接着服务器进入CLOSE_WAIT(等待关闭)状态，此时的TCP处于半关闭状态，客户端到服务器的连接释放。客户端收到来自服务器的ACK应答报文段后，进入FIN_WAIT_2状态。</p>
-<p><img src="https://i.imgur.com/jRYYGkm.png" srcset="/img/loading.gif" lazyload alt=""></p>
+<p><img src="https://i.imgur.com/jRYYGkm.png" srcset="/img/loading.gif" lazyload alt="" /></p>
 </li>
 </ul>
-<h5 id="第三次挥手">第三次挥手</h5>
+<h5 id="第三次挥手"><a class="markdownIt-Anchor" href="#第三次挥手"></a> 第三次挥手</h5>
 <ul>
 <li>
 <p>服务器也打算断开连接，向客户端发送<strong>连接释放(FIN)报文段</strong>，之后服务器进入<strong>LASK_ACK(最后确认)状态</strong>，等待客户端的确认。服务器的连接释放(FIN)报文段的FIN=1，ACK=1，序列号seq=m，确认序列号ack=u+1。</p>
-<p><img src="https://i.imgur.com/FTERgJ4.png" srcset="/img/loading.gif" lazyload alt=""></p>
+<p><img src="https://i.imgur.com/FTERgJ4.png" srcset="/img/loading.gif" lazyload alt="" /></p>
 </li>
 </ul>
-<h5 id="第四次挥手">第四次挥手</h5>
+<h5 id="第四次挥手"><a class="markdownIt-Anchor" href="#第四次挥手"></a> 第四次挥手</h5>
 <ul>
 <li>
 <p>客户端收到来自服务器的连接释放(FIN)报文段后，会向服务器发送一个ACK应答报文段，以连接释放(FIN)报文段的确认序号 ack 作为ACK应答报文段的序列号 seq，以连接释放(FIN)报文段的序列号 seq+1作为确认序号ack。之后客户端进入TIME_WAIT(时间等待)状态，服务器收到ACK应答报文段后，服务器就进入CLOSE(关闭)状态，到此服务器的连接已经完成关闭。客户端处于TIME_WAIT状态时，此时的TCP还未释放掉，需要等待2MSL后，客户端才进入CLOSE状态。</p>
-<p><img src="https://i.imgur.com/gFP1ulp.png" srcset="/img/loading.gif" lazyload alt=""></p>
+<p><img src="https://i.imgur.com/gFP1ulp.png" srcset="/img/loading.gif" lazyload alt="" /></p>
 </li>
 </ul>
-<h3 id="常用协议分析-HTTP协议">常用协议分析-HTTP协议</h3>
+<h3 id="常用协议分析-http协议"><a class="markdownIt-Anchor" href="#常用协议分析-http协议"></a> 常用协议分析-HTTP协议</h3>
 <ul>
 <li>
 <p>还是筛选TCP协议因为HTTP是TCP的上层协议，所以过滤TCP的数据会包含HTTP协议的数据包</p>
@@ -472,7 +476,7 @@
 <p>curl是一个在命令行下工作的文件传输工具，这里用来发送http请求 -I标识仅返回头部信息 看tcp协议时也可用此方法</p>
 </li>
 </ul>
-<p>​		<img src="https://i.imgur.com/GqXXPLH.png" srcset="/img/loading.gif" lazyload alt=""></p>
+<p>​		<img src="https://i.imgur.com/GqXXPLH.png" srcset="/img/loading.gif" lazyload alt="" /></p>
 <ul>
 <li>
 <p>第一步：发送了一个HTTP的HEAD请求</p>
@@ -488,10 +492,10 @@
 </li>
 <li>
 <p>发送完成之后客户端就会发送FIN/ACK来进行关闭链接的请求</p>
-<p><img src="https://i.imgur.com/xUuVOxl.png" srcset="/img/loading.gif" lazyload alt=""></p>
+<p><img src="https://i.imgur.com/xUuVOxl.png" srcset="/img/loading.gif" lazyload alt="" /></p>
 </li>
 </ul>
-<h2 id="习题与思考题-v2">习题与思考题</h2>
+<h2 id="习题与思考题"><a class="markdownIt-Anchor" href="#习题与思考题"></a> 习题与思考题</h2>
 <p><strong>网络工程师能通过WIRESHARK做哪些工作</strong></p>
 <ul>
 <li>检擦网络协议的执行情况。</li>
