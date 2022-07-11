@@ -4,6 +4,31 @@
   
   
   <entry>
+    <title>在VScode中用js写webgl显示代码提示</title>
+    <link href="/2022/07/11/%E5%9C%A8VScode%E4%B8%AD%E7%94%A8js%E5%86%99webgl%E6%98%BE%E7%A4%BA%E4%BB%A3%E7%A0%81%E6%8F%90%E7%A4%BA/"/>
+    <url>/2022/07/11/%E5%9C%A8VScode%E4%B8%AD%E7%94%A8js%E5%86%99webgl%E6%98%BE%E7%A4%BA%E4%BB%A3%E7%A0%81%E6%8F%90%E7%A4%BA/</url>
+    
+    <content type="html"><![CDATA[<h1 id="在vscode中用js写webgl显示代码提示"><a class="markdownIt-Anchor" href="#在vscode中用js写webgl显示代码提示"></a> 在VScode中用js写webgl显示代码提示</h1><p>用VSCode写WebGL时发现缺少提示信息，没有代码补全。在网上看到一篇博客说是使用document.getElementById获取的对象vscode不知道是什么类型，提示为any类型。</p><p>如果在document.getElementById的上一行加入</p><p><code>/** @type &#123;HTMLCanvasElement&#125; */</code></p><p>这样再看canvas的类型就显示出来了，也有代码补全功能。</p><p>另外如果在函数中想使用传入的参数，给这个参数加入代码提示，则在对应的函数前加上：</p><p><code>/** @param &#123;!WebGLRenderingContext&#125; gl */</code></p><p>这样在函数中使用gl的时候也会有正确的代码提示。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>WebGL</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>WebGL</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>现代计算机图形学入门</title>
     <link href="/2022/06/27/%E7%8E%B0%E4%BB%A3%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%BD%A2%E5%AD%A6%E5%85%A5%E9%97%A8/"/>
     <url>/2022/06/27/%E7%8E%B0%E4%BB%A3%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%BD%A2%E5%AD%A6%E5%85%A5%E9%97%A8/</url>
