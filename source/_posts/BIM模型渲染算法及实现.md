@@ -2,6 +2,7 @@
 title: BIM模型渲染算法及实现
 date: 2022-11-28 15:47:49
 tags:
+index_img: https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E5%8A%A8%E7%89%A9/%E7%8C%9E%E7%8C%81/67c644aa57667a2087ec3c3729134678222f2e13.jpg%401295w.webp?q-sign-algorithm=sha1&q-ak=AKID80ZfiBYyypEmrDt7HPG37qRUcvvt_rkfrsFUn0LWFUpkLpJUztaa91sXI83lRBCR&q-sign-time=1693270221;1693273821&q-key-time=1693270221;1693273821&q-header-list=host&q-url-param-list=ci-process&q-signature=e181319c83e1061686b68dc52929fd06dcd9349c&x-cos-security-token=A9aMPFvM3Hz6Z4Z1wOck7Kkw3ySNKYRac6177f2d67f02a6f8dbc6d58e7c8942aa-ArzDvussFJBIltuZUF4aZ9dnIxKooQkbCVQbQrjRyePIjhZq3Y739k5Cz1tMbDOFmp42v18yjuVbsyXlk7vFQ8fiW6S-tvX0CT8I4l9_iUURUSndVyK0Z0NuUjpz-wcnbE8Zw8kBHEHaQAZuj1jHacAyczrDFNpP98fQugaXSn2RPvU1s4-mTfYj4LL33d&ci-process=originImage
 ---
 
 # BIM模型渲染算法及实现
@@ -52,10 +53,10 @@ CSM的具体流程如下:
 
 ![img](https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/v2-9dd397c609a3881ccbc70b09e02a5978_r.jpg)
 
-2. **计算每个小的subfrustum的包围盒。**我们可以发现光锥体要包裹相机视锥体。光锥体就像一个包围盒。但仅仅包裹分割后的相机视锥体是不够的，如果在光源和分割后的相机视锥体之间存在可以投射阴影的遮挡物，我们应该扩展光锥体的大小将遮挡物包裹在光锥体中。此外，通常光锥体包含了很大一部分不可见的区域，造成了阴影贴图的大量浪费。我们可以将分割后的相机视锥体的顶点映射到光源的齐次空间，得到一个与光锥体对齐的包围盒。根据这个包围盒，我们可以使用缩放和平移构造出更加精确的光锥体。我们确实也可以让光锥体和分割后的相机视锥体完全一致，但这可能会改变光源的方向。
+2. **计算每个小的subfrustum的包围盒。** 我们可以发现光锥体要包裹相机视锥体。光锥体就像一个包围盒。但仅仅包裹分割后的相机视锥体是不够的，如果在光源和分割后的相机视锥体之间存在可以投射阴影的遮挡物，我们应该扩展光锥体的大小将遮挡物包裹在光锥体中。此外，通常光锥体包含了很大一部分不可见的区域，造成了阴影贴图的大量浪费。我们可以将分割后的相机视锥体的顶点映射到光源的齐次空间，得到一个与光锥体对齐的包围盒。根据这个包围盒，我们可以使用缩放和平移构造出更加精确的光锥体。我们确实也可以让光锥体和分割后的相机视锥体完全一致，但这可能会改变光源的方向。
 
 ![](https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/v2-e3525fcf48b0b35f643426f6560b9436_r.jpg)
 
-3. **重复操作，对每个subfrustum生成一张shadow map。**N一般取1到4之间的整数值。
-4. **对每一个像素选择合适的shadow map生成阴影。**我们需要计算片段对应的阴影贴图的坐标，我们首先使用相机的模型视图矩阵的逆矩阵将片段坐标变换到世界坐标系下，然后将变换后的坐标乘以片段对应的果园矩阵。接着将坐标从[-1,1]线性缩放到[0,1]的范围，即映射到深度贴图上。现在，我们就可以使用这个坐标访问片段对应深度贴图。如果坐标的z值比深度贴图对应的z值小，说明片段被光源照亮，否则，说明片段处于阴影中。
+3. **重复操作，对每个subfrustum生成一张shadow map。** N一般取1到4之间的整数值。
+4. **对每一个像素选择合适的shadow map生成阴影。** 我们需要计算片段对应的阴影贴图的坐标，我们首先使用相机的模型视图矩阵的逆矩阵将片段坐标变换到世界坐标系下，然后将变换后的坐标乘以片段对应的果园矩阵。接着将坐标从[-1,1]线性缩放到[0,1]的范围，即映射到深度贴图上。现在，我们就可以使用这个坐标访问片段对应深度贴图。如果坐标的z值比深度贴图对应的z值小，说明片段被光源照亮，否则，说明片段处于阴影中。
 
