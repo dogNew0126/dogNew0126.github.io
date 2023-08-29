@@ -1,56 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>SpongeBob_SquarePants_Classic_Quotes</title>
-    <url>/2022/06/01/SpongeBob-SquarePants-Classic-Quotes/</url>
-    <content><![CDATA[<h1 id="海绵宝宝经典语录"><a class="markdownIt-Anchor" href="#海绵宝宝经典语录"></a> 海绵宝宝经典语录</h1>
-<h2 id="前言"><a class="markdownIt-Anchor" href="#前言"></a> 前言</h2>
-<div class="note note-success">
-            <p>最近偶然看到了童年的动画回忆，感觉小时候的动画片很经典，蕴藏的知识很符合本人的三观。无意间又逛到了b站up主<code>黄方块和粉星星a</code>，看到了一些海绵宝宝里的经典语录，就想无聊时看一遍海绵宝宝，把那些蕴含哲理的话记录一下。不过当然不能简单地看一遍，毕竟越来越感觉时间不多了🐶，还是得让自己做的事有意义。在b站发现了有英文原版，就想着看一遍英文的吧，就当是学英语了。不过很惨，没有英文字幕，好多生词也听不出来没法去拼写。去YouTube上看海绵宝宝，也没字幕，也确实，中国人看中国剧也不会有字幕😂。不过找到了海绵宝宝的wiki，海绵宝宝的创作者把一整个剧本都写在了里面，可以跟着剧本比对着看。贴个链接：<code>https://spongebob.fandom.com/wiki/List_of_episodes</code>（如果要找剧本，点击<code>Transcripts</code>标签，然后根据你想要的集数选择<code>View Transcript</code>）(也确实明白了海绵宝宝为什么能做的如此成功，因为创作者对自己的作品充满了热情并下了很大的功夫，向他们学习🖖)</p>
-          </div>
-<div class="note note-success">
-            <ul><li>其实最近对保研很难去外校这事儿焦虑了好久，今晚跟球队一拒绝阿里实习的研究生学长一谈，又跟自己的舍友一谈，感觉未来还是很光明的💪。也是对自己要求太高，对自己不满，自己也想像别人那样上岸更好的学校。但我也是没给自己找准定位，大不了就本校，反正还是得靠自己。</li><li>马上要面一个暑期实习，为了能过这两天也是想速成自己一个零基础的技术，黑白颠倒，没日没夜地学，但效果不好，学的东西太多太杂，没梳理好也没打好基础。</li><li>我为啥要说这个，这个跟看海绵宝宝有啥关系。其实就是想让自己放宽心，不想再去为保研和工作过多焦虑。保持快乐学习吧，不要为了达到一个目的而去学习，而是要保持学习，最终会自然而然达到目的。</li><li>哦对了，今天是儿童节嘛，当个儿童吧，就像海绵宝宝里鱼奶奶的一句话：<code>你只会年轻一次，你不会想那么快长大的，那会错过成长的乐趣，快去享受青春活力吧！</code></li></ul>
-          </div>
-<blockquote>
-<p>It’s not the destination, it’s the journey.</p>
-<p>真正重要的不是终点，而是旅途。</p>
-</blockquote>
-<h2 id="season-1"><a class="markdownIt-Anchor" href="#season-1"></a> Season 1</h2>
-<h3 id="help-wanted"><a class="markdownIt-Anchor" href="#help-wanted"></a> Help Wanted</h3>
-<blockquote>
-<ul>
-<li>
-<p>I ❤️ pain</p>
-</li>
-<li>
-<p>我爱痛苦</p>
-</li>
-</ul>
-</blockquote>
-<h3 id="reef-blower"><a class="markdownIt-Anchor" href="#reef-blower"></a> Reef Blower</h3>
-<ul>
-<li>海绵宝宝唯一一集默片😐。</li>
-</ul>
-<h3 id="tea-at-the-treedome"><a class="markdownIt-Anchor" href="#tea-at-the-treedome"></a> Tea at the Treedome</h3>
-<h2 id="积累单词"><a class="markdownIt-Anchor" href="#积累单词"></a> 积累单词</h2>
-<ul>
-<li>lad 				少年，小伙子</li>
-<li>sea legs        指的是水手在航行的船上适应海浪的颠簸而不摔倒（俚语）
-<ul>
-<li>文中例句：It looks like you don’t even have your sea legs.      -看起来你并没有准备好</li>
-</ul>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>语料积累</category>
-      </categories>
-      <tags>
-        <tag>语料积累</tag>
-        <tag>海绵宝宝</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>BIM模型渲染算法及实现</title>
     <url>/2022/11/28/BIM%E6%A8%A1%E5%9E%8B%E6%B8%B2%E6%9F%93%E7%AE%97%E6%B3%95%E5%8F%8A%E5%AE%9E%E7%8E%B0/</url>
     <content><![CDATA[<h1 id="bim模型渲染算法及实现"><a class="markdownIt-Anchor" href="#bim模型渲染算法及实现"></a> BIM模型渲染算法及实现</h1>
@@ -80,12 +30,12 @@
 </ol>
 <p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/v2-9dd397c609a3881ccbc70b09e02a5978_r.jpg" alt="img" /></p>
 <ol start="2">
-<li>**计算每个小的subfrustum的包围盒。**我们可以发现光锥体要包裹相机视锥体。光锥体就像一个包围盒。但仅仅包裹分割后的相机视锥体是不够的，如果在光源和分割后的相机视锥体之间存在可以投射阴影的遮挡物，我们应该扩展光锥体的大小将遮挡物包裹在光锥体中。此外，通常光锥体包含了很大一部分不可见的区域，造成了阴影贴图的大量浪费。我们可以将分割后的相机视锥体的顶点映射到光源的齐次空间，得到一个与光锥体对齐的包围盒。根据这个包围盒，我们可以使用缩放和平移构造出更加精确的光锥体。我们确实也可以让光锥体和分割后的相机视锥体完全一致，但这可能会改变光源的方向。</li>
+<li><strong>计算每个小的subfrustum的包围盒。</strong> 我们可以发现光锥体要包裹相机视锥体。光锥体就像一个包围盒。但仅仅包裹分割后的相机视锥体是不够的，如果在光源和分割后的相机视锥体之间存在可以投射阴影的遮挡物，我们应该扩展光锥体的大小将遮挡物包裹在光锥体中。此外，通常光锥体包含了很大一部分不可见的区域，造成了阴影贴图的大量浪费。我们可以将分割后的相机视锥体的顶点映射到光源的齐次空间，得到一个与光锥体对齐的包围盒。根据这个包围盒，我们可以使用缩放和平移构造出更加精确的光锥体。我们确实也可以让光锥体和分割后的相机视锥体完全一致，但这可能会改变光源的方向。</li>
 </ol>
 <p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/v2-e3525fcf48b0b35f643426f6560b9436_r.jpg" alt="" /></p>
 <ol start="3">
-<li>**重复操作，对每个subfrustum生成一张shadow map。**N一般取1到4之间的整数值。</li>
-<li>**对每一个像素选择合适的shadow map生成阴影。**我们需要计算片段对应的阴影贴图的坐标，我们首先使用相机的模型视图矩阵的逆矩阵将片段坐标变换到世界坐标系下，然后将变换后的坐标乘以片段对应的果园矩阵。接着将坐标从[-1,1]线性缩放到[0,1]的范围，即映射到深度贴图上。现在，我们就可以使用这个坐标访问片段对应深度贴图。如果坐标的z值比深度贴图对应的z值小，说明片段被光源照亮，否则，说明片段处于阴影中。</li>
+<li><strong>重复操作，对每个subfrustum生成一张shadow map。</strong> N一般取1到4之间的整数值。</li>
+<li><strong>对每一个像素选择合适的shadow map生成阴影。</strong> 我们需要计算片段对应的阴影贴图的坐标，我们首先使用相机的模型视图矩阵的逆矩阵将片段坐标变换到世界坐标系下，然后将变换后的坐标乘以片段对应的果园矩阵。接着将坐标从[-1,1]线性缩放到[0,1]的范围，即映射到深度贴图上。现在，我们就可以使用这个坐标访问片段对应深度贴图。如果坐标的z值比深度贴图对应的z值小，说明片段被光源照亮，否则，说明片段处于阴影中。</li>
 </ol>
 ]]></content>
   </entry>
@@ -1564,6 +1514,56 @@
       </tags>
   </entry>
   <entry>
+    <title>SpongeBob_SquarePants_Classic_Quotes</title>
+    <url>/2022/06/01/SpongeBob-SquarePants-Classic-Quotes/</url>
+    <content><![CDATA[<h1 id="海绵宝宝经典语录"><a class="markdownIt-Anchor" href="#海绵宝宝经典语录"></a> 海绵宝宝经典语录</h1>
+<h2 id="前言"><a class="markdownIt-Anchor" href="#前言"></a> 前言</h2>
+<div class="note note-success">
+            <p>最近偶然看到了童年的动画回忆，感觉小时候的动画片很经典，蕴藏的知识很符合本人的三观。无意间又逛到了b站up主<code>黄方块和粉星星a</code>，看到了一些海绵宝宝里的经典语录，就想无聊时看一遍海绵宝宝，把那些蕴含哲理的话记录一下。不过当然不能简单地看一遍，毕竟越来越感觉时间不多了🐶，还是得让自己做的事有意义。在b站发现了有英文原版，就想着看一遍英文的吧，就当是学英语了。不过很惨，没有英文字幕，好多生词也听不出来没法去拼写。去YouTube上看海绵宝宝，也没字幕，也确实，中国人看中国剧也不会有字幕😂。不过找到了海绵宝宝的wiki，海绵宝宝的创作者把一整个剧本都写在了里面，可以跟着剧本比对着看。贴个链接：<code>https://spongebob.fandom.com/wiki/List_of_episodes</code>（如果要找剧本，点击<code>Transcripts</code>标签，然后根据你想要的集数选择<code>View Transcript</code>）(也确实明白了海绵宝宝为什么能做的如此成功，因为创作者对自己的作品充满了热情并下了很大的功夫，向他们学习🖖)</p>
+          </div>
+<div class="note note-success">
+            <ul><li>其实最近对保研很难去外校这事儿焦虑了好久，今晚跟球队一拒绝阿里实习的研究生学长一谈，又跟自己的舍友一谈，感觉未来还是很光明的💪。也是对自己要求太高，对自己不满，自己也想像别人那样上岸更好的学校。但我也是没给自己找准定位，大不了就本校，反正还是得靠自己。</li><li>马上要面一个暑期实习，为了能过这两天也是想速成自己一个零基础的技术，黑白颠倒，没日没夜地学，但效果不好，学的东西太多太杂，没梳理好也没打好基础。</li><li>我为啥要说这个，这个跟看海绵宝宝有啥关系。其实就是想让自己放宽心，不想再去为保研和工作过多焦虑。保持快乐学习吧，不要为了达到一个目的而去学习，而是要保持学习，最终会自然而然达到目的。</li><li>哦对了，今天是儿童节嘛，当个儿童吧，就像海绵宝宝里鱼奶奶的一句话：<code>你只会年轻一次，你不会想那么快长大的，那会错过成长的乐趣，快去享受青春活力吧！</code></li></ul>
+          </div>
+<blockquote>
+<p>It’s not the destination, it’s the journey.</p>
+<p>真正重要的不是终点，而是旅途。</p>
+</blockquote>
+<h2 id="season-1"><a class="markdownIt-Anchor" href="#season-1"></a> Season 1</h2>
+<h3 id="help-wanted"><a class="markdownIt-Anchor" href="#help-wanted"></a> Help Wanted</h3>
+<blockquote>
+<ul>
+<li>
+<p>I ❤️ pain</p>
+</li>
+<li>
+<p>我爱痛苦</p>
+</li>
+</ul>
+</blockquote>
+<h3 id="reef-blower"><a class="markdownIt-Anchor" href="#reef-blower"></a> Reef Blower</h3>
+<ul>
+<li>海绵宝宝唯一一集默片😐。</li>
+</ul>
+<h3 id="tea-at-the-treedome"><a class="markdownIt-Anchor" href="#tea-at-the-treedome"></a> Tea at the Treedome</h3>
+<h2 id="积累单词"><a class="markdownIt-Anchor" href="#积累单词"></a> 积累单词</h2>
+<ul>
+<li>lad 				少年，小伙子</li>
+<li>sea legs        指的是水手在航行的船上适应海浪的颠簸而不摔倒（俚语）
+<ul>
+<li>文中例句：It looks like you don’t even have your sea legs.      -看起来你并没有准备好</li>
+</ul>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>语料积累</category>
+      </categories>
+      <tags>
+        <tag>语料积累</tag>
+        <tag>海绵宝宝</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>WINPCAP编程</title>
     <url>/2022/05/28/WINPCAP%E7%BC%96%E7%A8%8B/</url>
     <content><![CDATA[<h1 id="winpcap编程"><a class="markdownIt-Anchor" href="#winpcap编程"></a> WINPCAP编程</h1>
@@ -1852,52 +1852,6 @@
 <figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
-  </entry>
-  <entry>
-    <title>hexo使用笔记</title>
-    <url>/2022/05/10/hexo%E4%BD%BF%E7%94%A8%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<h1 id="hexo笔记"><a class="markdownIt-Anchor" href="#hexo笔记"></a> hexo笔记</h1>
-<h2 id="写作命令"><a class="markdownIt-Anchor" href="#写作命令"></a> 写作命令</h2>
-<ol>
-<li>新建分页: <code>hexo new page 名称</code></li>
-<li>新建文章: <code>hexo new 名称</code> 或 <code>hexo n 名称</code></li>
-<li>新建草稿: <code>hexo new draft 名称</code> 或 <code>hexo n draft 名称</code></li>
-<li>草稿生成文章: <code>hexo publish 名称</code> 或 <code>hexo p 名称</code></li>
-<li>草稿生成分页: <code>hexo publish page 名称</code> 或 <code>hexo p 名称</code></li>
-</ol>
-<h2 id="操作命令"><a class="markdownIt-Anchor" href="#操作命令"></a> 操作命令</h2>
-<ol>
-<li>清除已生成文件: <code>hexo clean</code></li>
-<li>运行本地服务器（预览）: <code>hexo s</code></li>
-<li>运行本地服务器（预览草稿）: <code>hexo s --drafts</code></li>
-<li>生成静态文件: <code>hexo g</code></li>
-<li>部署到服务器: <code>hexo d</code></li>
-<li>生成并部署文件: <code>hexo g -d</code> 或 <code>hexo d -g</code></li>
-</ol>
-<h2 id="常见事项"><a class="markdownIt-Anchor" href="#常见事项"></a> 常见事项</h2>
-<ol>
-<li>多标签</li>
-</ol>
-<figure class="highlight subunit"><table><tr><td class="code"><pre><code class="hljs subunit"><span class="hljs-keyword">tags:</span> <br>- 标签1<br>- 标签2<br></code></pre></td></tr></table></figure>
-<p>或<code>tags:[标签1，标签2]</code><br />
-2. 设置阅读全文</p>
-<ul>
-<li>方法1：在文章中使用<code>&lt;!--more--&gt;</code>手动进行截断,Hexo提供的方式（推荐）</li>
-<li>方法2：在文章的front-matter中添加description,并提供文章摘录</li>
-<li>方法3：自动形成摘要,在主题配置文件中修改：</li>
-</ul>
-<figure class="highlight dts"><table><tr><td class="code"><pre><code class="hljs dts"><span class="hljs-symbol">auto_excerpt:</span><br><span class="hljs-symbol">    enable:</span>true<br><span class="hljs-symbol">    length:</span><span class="hljs-number">150</span><br></code></pre></td></tr></table></figure>
-<p>默认截取的长度为150字符，可以根据需要自行设定</p>
-<blockquote>
-<p>建议使用<code>&lt;!--more--&gt;</code>(及第一种方式)，除了可以精确控制需要显示的展露内容以外，这种方式也可以让Hexo中的插件更好的识别</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>hexo</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-      </tags>
   </entry>
   <entry>
     <title>leetcode刷题</title>
@@ -2523,209 +2477,49 @@
       </tags>
   </entry>
   <entry>
-    <title>wireshark学习与应用</title>
-    <url>/2022/05/26/wireshark%E5%AD%A6%E4%B9%A0%E4%B8%8E%E5%BA%94%E7%94%A8/</url>
-    <content><![CDATA[<h1 id="wireshark抓包工具使用"><a class="markdownIt-Anchor" href="#wireshark抓包工具使用"></a> wireshark抓包工具使用</h1>
-<h2 id="wireshark简介"><a class="markdownIt-Anchor" href="#wireshark简介"></a> wireshark简介</h2>
-<p>wireshark是一个网络封包分析软件，其功能是撷取网络封包，并尽可能显示出最为详细的网络封包资料。Wireshark使用WinPCAP作为借口，直接与网卡进行数据报文交换。</p>
-<h2 id="wireshark主要应用"><a class="markdownIt-Anchor" href="#wireshark主要应用"></a> wireshark主要应用</h2>
+    <title>hexo使用笔记</title>
+    <url>/2022/05/10/hexo%E4%BD%BF%E7%94%A8%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<h1 id="hexo笔记"><a class="markdownIt-Anchor" href="#hexo笔记"></a> hexo笔记</h1>
+<h2 id="写作命令"><a class="markdownIt-Anchor" href="#写作命令"></a> 写作命令</h2>
+<ol>
+<li>新建分页: <code>hexo new page 名称</code></li>
+<li>新建文章: <code>hexo new 名称</code> 或 <code>hexo n 名称</code></li>
+<li>新建草稿: <code>hexo new draft 名称</code> 或 <code>hexo n draft 名称</code></li>
+<li>草稿生成文章: <code>hexo publish 名称</code> 或 <code>hexo p 名称</code></li>
+<li>草稿生成分页: <code>hexo publish page 名称</code> 或 <code>hexo p 名称</code></li>
+</ol>
+<h2 id="操作命令"><a class="markdownIt-Anchor" href="#操作命令"></a> 操作命令</h2>
+<ol>
+<li>清除已生成文件: <code>hexo clean</code></li>
+<li>运行本地服务器（预览）: <code>hexo s</code></li>
+<li>运行本地服务器（预览草稿）: <code>hexo s --drafts</code></li>
+<li>生成静态文件: <code>hexo g</code></li>
+<li>部署到服务器: <code>hexo d</code></li>
+<li>生成并部署文件: <code>hexo g -d</code> 或 <code>hexo d -g</code></li>
+</ol>
+<h2 id="常见事项"><a class="markdownIt-Anchor" href="#常见事项"></a> 常见事项</h2>
+<ol>
+<li>多标签</li>
+</ol>
+<figure class="highlight subunit"><table><tr><td class="code"><pre><code class="hljs subunit"><span class="hljs-keyword">tags:</span> <br>- 标签1<br>- 标签2<br></code></pre></td></tr></table></figure>
+<p>或<code>tags:[标签1，标签2]</code><br />
+2. 设置阅读全文</p>
 <ul>
-<li>网络管理员用来解决网络问题</li>
-<li>网络安全工程师用来检测安全隐患</li>
-<li>开发人员用来测试协议执行情况</li>
-<li>用来学习网络协议</li>
+<li>方法1：在文章中使用<code>&lt;!--more--&gt;</code>手动进行截断,Hexo提供的方式（推荐）</li>
+<li>方法2：在文章的front-matter中添加description,并提供文章摘录</li>
+<li>方法3：自动形成摘要,在主题配置文件中修改：</li>
 </ul>
-<h2 id="waireshark快速分析数据包技巧"><a class="markdownIt-Anchor" href="#waireshark快速分析数据包技巧"></a> waireshark快速分析数据包技巧</h2>
-<ul>
-<li>确定wireshark的物理位置。</li>
-<li>选择捕获接口。</li>
-<li>使用捕获过滤器</li>
-<li>使用显示过滤器</li>
-<li>使用着色规则</li>
-<li>构建图表</li>
-<li>重组数据</li>
-</ul>
-<h2 id="wireshark抓包及快速定位数据包技巧"><a class="markdownIt-Anchor" href="#wireshark抓包及快速定位数据包技巧"></a> wireshark抓包及快速定位数据包技巧</h2>
-<h3 id="常见协议包"><a class="markdownIt-Anchor" href="#常见协议包"></a> 常见协议包</h3>
-<ul>
-<li>ARP协议</li>
-<li>ICMP协议</li>
-<li>TCP协议</li>
-<li>UDP协议</li>
-<li>DNS协议</li>
-<li>HTTP协议</li>
-</ul>
-<h2 id="wireshark过滤器使用"><a class="markdownIt-Anchor" href="#wireshark过滤器使用"></a> wireshark过滤器使用</h2>
-<ul>
-<li>
-<p>其中一例：使用过滤器筛选udp的数据包</p>
-<p>使用过滤器输入“udp”以筛选出udp报文。但输入udp之后出现了多种协议。原因就是oicq以及dns都是基于udp的传输层之上的协议。</p>
-<p>扩展：客户端向DNS服务器查询域名，一般返回的内容都不超过512字节，用UDP传输即可。不用经过三次握手，这样DNS服务器负载更低，响应更快。理论上说，客户端也可以指定向DNS服务器查询时用TCP，但事实上，很多DNS服务器进行配置的时候，仅支持UDP查询包。</p>
-</li>
-<li>
-<p>ip.src_host为源ip地址</p>
-</li>
-<li>
-<p>ip.dst_host为目的ip地址</p>
-</li>
-<li>
-<p>ip.addr不分源和目的ip地址</p>
-</li>
-<li>
-<p>查询条件为或是<code>or</code></p>
-</li>
-<li>
-<p>查询条件为且是<code>and</code></p>
-</li>
-</ul>
-<h2 id="wireshark对常用协议抓包并分析原理"><a class="markdownIt-Anchor" href="#wireshark对常用协议抓包并分析原理"></a> wireshark对常用协议抓包并分析原理</h2>
-<p><strong>协议分析的时候关闭混杂模式，避免一些干扰的数据包存在</strong></p>
-<h3 id="常用协议分析-arp协议"><a class="markdownIt-Anchor" href="#常用协议分析-arp协议"></a> 常用协议分析-ARP协议</h3>
-<ul>
-<li>
-<p>地址解析协议（英语：Address Resolution Protocol，缩写ARP）是一个通过解析网络层地址来找寻数据链路层地址的网络传输协议，它在IPv4中及其重要。ARP是通过网络地址来定位MAC地址。</p>
-</li>
-<li>
-<p>开始抓包—过滤arp</p>
-</li>
-</ul>
-<p>​		<img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%2Fwireshark%2F66%20-%20SzNv8iT.png" alt="" /></p>
-<p>​		使用<code>nmap (-sn)</code> （对目标进行ping检测，不进行端口扫描）来基于ARP协议进行扫描</p>
-<ul>
-<li>请求包（<code>Opcode:_request(1)</code>）中，目标mac地址为0，因为不清楚。</li>
-<li>应答包（<code>Opcode:_reply(2)</code>）中，应答包补全了自己的MAC地址，目的地址和源地址做了替换。</li>
-</ul>
-<p>​		<img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%2Fwireshark%2F67%20-%20KRNZG8P.png" alt="" /></p>
-<h3 id="常用协议分析-icmp协议"><a class="markdownIt-Anchor" href="#常用协议分析-icmp协议"></a> 常用协议分析-ICMP协议</h3>
-<ul>
-<li>把之前的数据包清空掉然后筛选ICMP协议的数据包</li>
-<li>打开一个终端 ping <a href="http://baidu.com">baidu.com</a></li>
-<li>基于IP协议</li>
-</ul>
-<h4 id="icmp协议分析请求包"><a class="markdownIt-Anchor" href="#icmp协议分析请求包"></a> ICMP协议分析请求包</h4>
-<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%2Fwireshark%2F69%20-%20EVF8tfn.png" alt="" /></p>
-<h4 id="icmp协议分析应答包"><a class="markdownIt-Anchor" href="#icmp协议分析应答包"></a> ICMP协议分析应答包</h4>
-<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%2Fwireshark%2F68%20-%200Kgv5ze.png" alt="" /></p>
-<p><strong>工作过程：</strong></p>
-<ul>
-<li>本机发送一个ICMP Echo Request的包。</li>
-<li>接收方返回一个ICMP Echo Reply，包含了接受到数据拷贝和一些其他命令。</li>
-</ul>
-<h3 id="常用协议分析-tcp协议"><a class="markdownIt-Anchor" href="#常用协议分析-tcp协议"></a> 常用协议分析-TCP协议</h3>
-<ul>
-<li>
-<p>启动抓包。选择http://www.sina.com.cn作为目标地址</p>
-</li>
-<li>
-<p>打开命令夫，通过ipconfig查看本机IP地址</p>
-</li>
-<li>
-<p>Filter对话框中填入过滤条件：tcp and ip.addr == 10.19.129.113,得到过滤结果。</p>
-</li>
-<li>
-<p>连接三次握手，断开连接四次挥手</p>
-</li>
-</ul>
-<h4 id="三次握手"><a class="markdownIt-Anchor" href="#三次握手"></a> 三次握手</h4>
-<h5 id="第一次握手"><a class="markdownIt-Anchor" href="#第一次握手"></a> 第一次握手</h5>
-<ul>
-<li>
-<h5 id="客户端给服务器发送一个syn段该段中也包含客户端的初始序列号sequence-number"><a class="markdownIt-Anchor" href="#客户端给服务器发送一个syn段该段中也包含客户端的初始序列号sequence-number"></a> 客户端给服务器发送一个SYN段，该段中也包含客户端的初始序列号(Sequence number)</h5>
-<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%2Fwireshark%2F71%20-%205MX78iG.png" alt="" /></p>
-</li>
-</ul>
-<h5 id="第二次握手"><a class="markdownIt-Anchor" href="#第二次握手"></a> 第二次握手</h5>
-<ul>
-<li>
-<p>服务器返回客户端SYN+ACK段，该段中包含服务器的初始序列号(Sequence number = J);同时使Acknowledgment number = J + 1来表示确认已收到客户端的SYN段。</p>
-<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%2Fwireshark%2F72%20-%20ydQ9DoP.png" alt="" /></p>
-</li>
-</ul>
-<h5 id="第三次握手"><a class="markdownIt-Anchor" href="#第三次握手"></a> 第三次握手</h5>
-<ul>
-<li>
-<p>客户端给服务器相应一个ACK段，该段中使Acknowledgment number = K + 1来表示确认已收到服务器的SYN段(Sequence number = K)</p>
-<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%2Fwireshark%2F73%20-%20frRzNZS.png" alt="" /></p>
-</li>
-</ul>
-<h4 id="四次挥手"><a class="markdownIt-Anchor" href="#四次挥手"></a> 四次挥手</h4>
-<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%2Fwireshark%2F74%20-%20zxOkltZ.png" alt="" /></p>
-<p>wireshark卡退了，下面几张图和端口对不上，但不影响</p>
-<h5 id="第一次挥手"><a class="markdownIt-Anchor" href="#第一次挥手"></a> 第一次挥手</h5>
-<ul>
-<li>
-<p>客户端打算断开连接，向服务器发送FIN报文，FIN报文中会指定一个序列号，之后客户端进入FIN_WAIT_1状态。也就是客户端发出连接释放报文段(FIN报文)，指定序列号seq = u，主动关闭TCP连接，等待服务器的确认。</p>
-<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%2Fwireshark%2F75%20-%206BqFDbA.png" alt="" /></p>
-</li>
-</ul>
-<h5 id="第二次挥手"><a class="markdownIt-Anchor" href="#第二次挥手"></a> 第二次挥手</h5>
-<ul>
-<li>
-<p>服务器收到连接释放报文段(FIN报文)后，就向客户端发送ACK应答报文，以客户端的FIN报文的序列号 seq+1 作为ACK应答报文段的确认序列号ack = seq+1 = u + 1。接着服务器进入CLOSE_WAIT(等待关闭)状态，此时的TCP处于半关闭状态，客户端到服务器的连接释放。客户端收到来自服务器的ACK应答报文段后，进入FIN_WAIT_2状态。</p>
-<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%2Fwireshark%2F76%20-%20jRYYGkm.png" alt="" /></p>
-</li>
-</ul>
-<h5 id="第三次挥手"><a class="markdownIt-Anchor" href="#第三次挥手"></a> 第三次挥手</h5>
-<ul>
-<li>
-<p>服务器也打算断开连接，向客户端发送<strong>连接释放(FIN)报文段</strong>，之后服务器进入<strong>LASK_ACK(最后确认)状态</strong>，等待客户端的确认。服务器的连接释放(FIN)报文段的FIN=1，ACK=1，序列号seq=m，确认序列号ack=u+1。</p>
-<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%2Fwireshark%2F77%20-%20FTERgJ4.png" alt="" /></p>
-</li>
-</ul>
-<h5 id="第四次挥手"><a class="markdownIt-Anchor" href="#第四次挥手"></a> 第四次挥手</h5>
-<ul>
-<li>
-<p>客户端收到来自服务器的连接释放(FIN)报文段后，会向服务器发送一个ACK应答报文段，以连接释放(FIN)报文段的确认序号 ack 作为ACK应答报文段的序列号 seq，以连接释放(FIN)报文段的序列号 seq+1作为确认序号ack。之后客户端进入TIME_WAIT(时间等待)状态，服务器收到ACK应答报文段后，服务器就进入CLOSE(关闭)状态，到此服务器的连接已经完成关闭。客户端处于TIME_WAIT状态时，此时的TCP还未释放掉，需要等待2MSL后，客户端才进入CLOSE状态。</p>
-<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%2Fwireshark%2F78%20-%20gFP1ulp.png" alt="" /></p>
-</li>
-</ul>
-<h3 id="常用协议分析-http协议"><a class="markdownIt-Anchor" href="#常用协议分析-http协议"></a> 常用协议分析-HTTP协议</h3>
-<ul>
-<li>
-<p>还是筛选TCP协议因为HTTP是TCP的上层协议，所以过滤TCP的数据会包含HTTP协议的数据包</p>
-</li>
-<li>
-<p>使用curl -I <a href="http://baidu.com">baidu.com</a></p>
-</li>
-<li>
-<p>curl是一个在命令行下工作的文件传输工具，这里用来发送http请求 -I标识仅返回头部信息 看tcp协议时也可用此方法</p>
-</li>
-</ul>
-<p>​		<img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%2Fwireshark%2F79%20-%20GqXXPLH.png" alt="" /></p>
-<ul>
-<li>
-<p>第一步：发送了一个HTTP的HEAD请求</p>
-</li>
-<li>
-<p>第二步：服务器收到我们的请求返回了一个Seq/ACK进行确认</p>
-</li>
-<li>
-<p>第三步：服务器将HTTP的头部信息返回给我们客户端 <strong>状态码为200标识页面正常</strong></p>
-</li>
-<li>
-<p>第四步：客户端收到服务器返回的头部信息向服务器发送Seq/ACK进行确认</p>
-</li>
-<li>
-<p>发送完成之后客户端就会发送FIN/ACK来进行关闭链接的请求</p>
-<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%2Fwireshark%2F80%20-%20xUuVOxl.png" alt="" /></p>
-</li>
-</ul>
-<h2 id="习题与思考题"><a class="markdownIt-Anchor" href="#习题与思考题"></a> 习题与思考题</h2>
-<p><strong>网络工程师能通过WIRESHARK做哪些工作</strong></p>
-<ul>
-<li>检擦网络协议的执行情况。</li>
-<li>排查网络故障，解决网络问题。</li>
-<li>网络攻防，检测网络安全隐患。</li>
-</ul>
+<figure class="highlight dts"><table><tr><td class="code"><pre><code class="hljs dts"><span class="hljs-symbol">auto_excerpt:</span><br><span class="hljs-symbol">    enable:</span>true<br><span class="hljs-symbol">    length:</span><span class="hljs-number">150</span><br></code></pre></td></tr></table></figure>
+<p>默认截取的长度为150字符，可以根据需要自行设定</p>
+<blockquote>
+<p>建议使用<code>&lt;!--more--&gt;</code>(及第一种方式)，除了可以精确控制需要显示的展露内容以外，这种方式也可以让Hexo中的插件更好的识别</p>
+</blockquote>
 ]]></content>
       <categories>
-        <category>计算机网络</category>
+        <category>hexo</category>
       </categories>
       <tags>
-        <tag>计算机网络</tag>
-        <tag>wireshark</tag>
-        <tag>抓包</tag>
-        <tag>软件学习</tag>
+        <tag>hexo</tag>
       </tags>
   </entry>
   <entry>
@@ -3102,6 +2896,212 @@ http
       </tags>
   </entry>
   <entry>
+    <title>wireshark学习与应用</title>
+    <url>/2022/05/26/wireshark%E5%AD%A6%E4%B9%A0%E4%B8%8E%E5%BA%94%E7%94%A8/</url>
+    <content><![CDATA[<h1 id="wireshark抓包工具使用"><a class="markdownIt-Anchor" href="#wireshark抓包工具使用"></a> wireshark抓包工具使用</h1>
+<h2 id="wireshark简介"><a class="markdownIt-Anchor" href="#wireshark简介"></a> wireshark简介</h2>
+<p>wireshark是一个网络封包分析软件，其功能是撷取网络封包，并尽可能显示出最为详细的网络封包资料。Wireshark使用WinPCAP作为借口，直接与网卡进行数据报文交换。</p>
+<h2 id="wireshark主要应用"><a class="markdownIt-Anchor" href="#wireshark主要应用"></a> wireshark主要应用</h2>
+<ul>
+<li>网络管理员用来解决网络问题</li>
+<li>网络安全工程师用来检测安全隐患</li>
+<li>开发人员用来测试协议执行情况</li>
+<li>用来学习网络协议</li>
+</ul>
+<h2 id="waireshark快速分析数据包技巧"><a class="markdownIt-Anchor" href="#waireshark快速分析数据包技巧"></a> waireshark快速分析数据包技巧</h2>
+<ul>
+<li>确定wireshark的物理位置。</li>
+<li>选择捕获接口。</li>
+<li>使用捕获过滤器</li>
+<li>使用显示过滤器</li>
+<li>使用着色规则</li>
+<li>构建图表</li>
+<li>重组数据</li>
+</ul>
+<h2 id="wireshark抓包及快速定位数据包技巧"><a class="markdownIt-Anchor" href="#wireshark抓包及快速定位数据包技巧"></a> wireshark抓包及快速定位数据包技巧</h2>
+<h3 id="常见协议包"><a class="markdownIt-Anchor" href="#常见协议包"></a> 常见协议包</h3>
+<ul>
+<li>ARP协议</li>
+<li>ICMP协议</li>
+<li>TCP协议</li>
+<li>UDP协议</li>
+<li>DNS协议</li>
+<li>HTTP协议</li>
+</ul>
+<h2 id="wireshark过滤器使用"><a class="markdownIt-Anchor" href="#wireshark过滤器使用"></a> wireshark过滤器使用</h2>
+<ul>
+<li>
+<p>其中一例：使用过滤器筛选udp的数据包</p>
+<p>使用过滤器输入“udp”以筛选出udp报文。但输入udp之后出现了多种协议。原因就是oicq以及dns都是基于udp的传输层之上的协议。</p>
+<p>扩展：客户端向DNS服务器查询域名，一般返回的内容都不超过512字节，用UDP传输即可。不用经过三次握手，这样DNS服务器负载更低，响应更快。理论上说，客户端也可以指定向DNS服务器查询时用TCP，但事实上，很多DNS服务器进行配置的时候，仅支持UDP查询包。</p>
+</li>
+<li>
+<p>ip.src_host为源ip地址</p>
+</li>
+<li>
+<p>ip.dst_host为目的ip地址</p>
+</li>
+<li>
+<p>ip.addr不分源和目的ip地址</p>
+</li>
+<li>
+<p>查询条件为或是<code>or</code></p>
+</li>
+<li>
+<p>查询条件为且是<code>and</code></p>
+</li>
+</ul>
+<h2 id="wireshark对常用协议抓包并分析原理"><a class="markdownIt-Anchor" href="#wireshark对常用协议抓包并分析原理"></a> wireshark对常用协议抓包并分析原理</h2>
+<p><strong>协议分析的时候关闭混杂模式，避免一些干扰的数据包存在</strong></p>
+<h3 id="常用协议分析-arp协议"><a class="markdownIt-Anchor" href="#常用协议分析-arp协议"></a> 常用协议分析-ARP协议</h3>
+<ul>
+<li>
+<p>地址解析协议（英语：Address Resolution Protocol，缩写ARP）是一个通过解析网络层地址来找寻数据链路层地址的网络传输协议，它在IPv4中及其重要。ARP是通过网络地址来定位MAC地址。</p>
+</li>
+<li>
+<p>开始抓包—过滤arp</p>
+</li>
+</ul>
+<p>​		<img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%2Fwireshark%2F66%20-%20SzNv8iT.png" alt="" /></p>
+<p>​		使用<code>nmap (-sn)</code> （对目标进行ping检测，不进行端口扫描）来基于ARP协议进行扫描</p>
+<ul>
+<li>请求包（<code>Opcode:_request(1)</code>）中，目标mac地址为0，因为不清楚。</li>
+<li>应答包（<code>Opcode:_reply(2)</code>）中，应答包补全了自己的MAC地址，目的地址和源地址做了替换。</li>
+</ul>
+<p>​		<img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%2Fwireshark%2F67%20-%20KRNZG8P.png" alt="" /></p>
+<h3 id="常用协议分析-icmp协议"><a class="markdownIt-Anchor" href="#常用协议分析-icmp协议"></a> 常用协议分析-ICMP协议</h3>
+<ul>
+<li>把之前的数据包清空掉然后筛选ICMP协议的数据包</li>
+<li>打开一个终端 ping <a href="http://baidu.com">baidu.com</a></li>
+<li>基于IP协议</li>
+</ul>
+<h4 id="icmp协议分析请求包"><a class="markdownIt-Anchor" href="#icmp协议分析请求包"></a> ICMP协议分析请求包</h4>
+<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%2Fwireshark%2F69%20-%20EVF8tfn.png" alt="" /></p>
+<h4 id="icmp协议分析应答包"><a class="markdownIt-Anchor" href="#icmp协议分析应答包"></a> ICMP协议分析应答包</h4>
+<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%2Fwireshark%2F68%20-%200Kgv5ze.png" alt="" /></p>
+<p><strong>工作过程：</strong></p>
+<ul>
+<li>本机发送一个ICMP Echo Request的包。</li>
+<li>接收方返回一个ICMP Echo Reply，包含了接受到数据拷贝和一些其他命令。</li>
+</ul>
+<h3 id="常用协议分析-tcp协议"><a class="markdownIt-Anchor" href="#常用协议分析-tcp协议"></a> 常用协议分析-TCP协议</h3>
+<ul>
+<li>
+<p>启动抓包。选择http://www.sina.com.cn作为目标地址</p>
+</li>
+<li>
+<p>打开命令夫，通过ipconfig查看本机IP地址</p>
+</li>
+<li>
+<p>Filter对话框中填入过滤条件：tcp and ip.addr == 10.19.129.113,得到过滤结果。</p>
+</li>
+<li>
+<p>连接三次握手，断开连接四次挥手</p>
+</li>
+</ul>
+<h4 id="三次握手"><a class="markdownIt-Anchor" href="#三次握手"></a> 三次握手</h4>
+<h5 id="第一次握手"><a class="markdownIt-Anchor" href="#第一次握手"></a> 第一次握手</h5>
+<ul>
+<li>
+<h5 id="客户端给服务器发送一个syn段该段中也包含客户端的初始序列号sequence-number"><a class="markdownIt-Anchor" href="#客户端给服务器发送一个syn段该段中也包含客户端的初始序列号sequence-number"></a> 客户端给服务器发送一个SYN段，该段中也包含客户端的初始序列号(Sequence number)</h5>
+<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%2Fwireshark%2F71%20-%205MX78iG.png" alt="" /></p>
+</li>
+</ul>
+<h5 id="第二次握手"><a class="markdownIt-Anchor" href="#第二次握手"></a> 第二次握手</h5>
+<ul>
+<li>
+<p>服务器返回客户端SYN+ACK段，该段中包含服务器的初始序列号(Sequence number = J);同时使Acknowledgment number = J + 1来表示确认已收到客户端的SYN段。</p>
+<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%2Fwireshark%2F72%20-%20ydQ9DoP.png" alt="" /></p>
+</li>
+</ul>
+<h5 id="第三次握手"><a class="markdownIt-Anchor" href="#第三次握手"></a> 第三次握手</h5>
+<ul>
+<li>
+<p>客户端给服务器相应一个ACK段，该段中使Acknowledgment number = K + 1来表示确认已收到服务器的SYN段(Sequence number = K)</p>
+<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%2Fwireshark%2F73%20-%20frRzNZS.png" alt="" /></p>
+</li>
+</ul>
+<h4 id="四次挥手"><a class="markdownIt-Anchor" href="#四次挥手"></a> 四次挥手</h4>
+<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%2Fwireshark%2F74%20-%20zxOkltZ.png" alt="" /></p>
+<p>wireshark卡退了，下面几张图和端口对不上，但不影响</p>
+<h5 id="第一次挥手"><a class="markdownIt-Anchor" href="#第一次挥手"></a> 第一次挥手</h5>
+<ul>
+<li>
+<p>客户端打算断开连接，向服务器发送FIN报文，FIN报文中会指定一个序列号，之后客户端进入FIN_WAIT_1状态。也就是客户端发出连接释放报文段(FIN报文)，指定序列号seq = u，主动关闭TCP连接，等待服务器的确认。</p>
+<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%2Fwireshark%2F75%20-%206BqFDbA.png" alt="" /></p>
+</li>
+</ul>
+<h5 id="第二次挥手"><a class="markdownIt-Anchor" href="#第二次挥手"></a> 第二次挥手</h5>
+<ul>
+<li>
+<p>服务器收到连接释放报文段(FIN报文)后，就向客户端发送ACK应答报文，以客户端的FIN报文的序列号 seq+1 作为ACK应答报文段的确认序列号ack = seq+1 = u + 1。接着服务器进入CLOSE_WAIT(等待关闭)状态，此时的TCP处于半关闭状态，客户端到服务器的连接释放。客户端收到来自服务器的ACK应答报文段后，进入FIN_WAIT_2状态。</p>
+<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%2Fwireshark%2F76%20-%20jRYYGkm.png" alt="" /></p>
+</li>
+</ul>
+<h5 id="第三次挥手"><a class="markdownIt-Anchor" href="#第三次挥手"></a> 第三次挥手</h5>
+<ul>
+<li>
+<p>服务器也打算断开连接，向客户端发送<strong>连接释放(FIN)报文段</strong>，之后服务器进入<strong>LASK_ACK(最后确认)状态</strong>，等待客户端的确认。服务器的连接释放(FIN)报文段的FIN=1，ACK=1，序列号seq=m，确认序列号ack=u+1。</p>
+<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%2Fwireshark%2F77%20-%20FTERgJ4.png" alt="" /></p>
+</li>
+</ul>
+<h5 id="第四次挥手"><a class="markdownIt-Anchor" href="#第四次挥手"></a> 第四次挥手</h5>
+<ul>
+<li>
+<p>客户端收到来自服务器的连接释放(FIN)报文段后，会向服务器发送一个ACK应答报文段，以连接释放(FIN)报文段的确认序号 ack 作为ACK应答报文段的序列号 seq，以连接释放(FIN)报文段的序列号 seq+1作为确认序号ack。之后客户端进入TIME_WAIT(时间等待)状态，服务器收到ACK应答报文段后，服务器就进入CLOSE(关闭)状态，到此服务器的连接已经完成关闭。客户端处于TIME_WAIT状态时，此时的TCP还未释放掉，需要等待2MSL后，客户端才进入CLOSE状态。</p>
+<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%2Fwireshark%2F78%20-%20gFP1ulp.png" alt="" /></p>
+</li>
+</ul>
+<h3 id="常用协议分析-http协议"><a class="markdownIt-Anchor" href="#常用协议分析-http协议"></a> 常用协议分析-HTTP协议</h3>
+<ul>
+<li>
+<p>还是筛选TCP协议因为HTTP是TCP的上层协议，所以过滤TCP的数据会包含HTTP协议的数据包</p>
+</li>
+<li>
+<p>使用curl -I <a href="http://baidu.com">baidu.com</a></p>
+</li>
+<li>
+<p>curl是一个在命令行下工作的文件传输工具，这里用来发送http请求 -I标识仅返回头部信息 看tcp协议时也可用此方法</p>
+</li>
+</ul>
+<p>​		<img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%2Fwireshark%2F79%20-%20GqXXPLH.png" alt="" /></p>
+<ul>
+<li>
+<p>第一步：发送了一个HTTP的HEAD请求</p>
+</li>
+<li>
+<p>第二步：服务器收到我们的请求返回了一个Seq/ACK进行确认</p>
+</li>
+<li>
+<p>第三步：服务器将HTTP的头部信息返回给我们客户端 <strong>状态码为200标识页面正常</strong></p>
+</li>
+<li>
+<p>第四步：客户端收到服务器返回的头部信息向服务器发送Seq/ACK进行确认</p>
+</li>
+<li>
+<p>发送完成之后客户端就会发送FIN/ACK来进行关闭链接的请求</p>
+<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%2Fwireshark%2F80%20-%20xUuVOxl.png" alt="" /></p>
+</li>
+</ul>
+<h2 id="习题与思考题"><a class="markdownIt-Anchor" href="#习题与思考题"></a> 习题与思考题</h2>
+<p><strong>网络工程师能通过WIRESHARK做哪些工作</strong></p>
+<ul>
+<li>检擦网络协议的执行情况。</li>
+<li>排查网络故障，解决网络问题。</li>
+<li>网络攻防，检测网络安全隐患。</li>
+</ul>
+]]></content>
+      <categories>
+        <category>计算机网络</category>
+      </categories>
+      <tags>
+        <tag>计算机网络</tag>
+        <tag>wireshark</tag>
+        <tag>抓包</tag>
+        <tag>软件学习</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>关于本博客访问的一点说明</title>
     <url>/2022/05/16/%E5%85%B3%E4%BA%8E%E6%9C%AC%E5%8D%9A%E5%AE%A2%E8%AE%BF%E9%97%AE%E7%9A%84%E4%B8%80%E7%82%B9%E8%AF%B4%E6%98%8E/</url>
     <content><![CDATA[<p>之前使用舍友推荐采用免费图床<a href="https://imgur.com/">imgur</a>,因此图片需链接代理后才可完整显示。后面感觉太麻烦，购买了腾讯的cos对象存储，不是很贵，但用户体验很好，现在查看图片已经不需要代理了。</p>
@@ -3111,25 +3111,6 @@ http
       </categories>
       <tags>
         <tag>杂</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>在VScode中用js写webgl显示代码提示</title>
-    <url>/2022/07/11/%E5%9C%A8VScode%E4%B8%AD%E7%94%A8js%E5%86%99webgl%E6%98%BE%E7%A4%BA%E4%BB%A3%E7%A0%81%E6%8F%90%E7%A4%BA/</url>
-    <content><![CDATA[<h1 id="在vscode中用js写webgl显示代码提示"><a class="markdownIt-Anchor" href="#在vscode中用js写webgl显示代码提示"></a> 在VScode中用js写webgl显示代码提示</h1>
-<p>用VSCode写WebGL时发现缺少提示信息，没有代码补全。在网上看到一篇博客说是使用document.getElementById获取的对象vscode不知道是什么类型，提示为any类型。</p>
-<p>如果在document.getElementById的上一行加入</p>
-<p><code>/** @type &#123;HTMLCanvasElement&#125; */</code></p>
-<p>这样再看canvas的类型就显示出来了，也有代码补全功能。</p>
-<p>另外如果在函数中想使用传入的参数，给这个参数加入代码提示，则在对应的函数前加上：</p>
-<p><code>/** @param &#123;!WebGLRenderingContext&#125; gl */</code></p>
-<p>这样在函数中使用gl的时候也会有正确的代码提示。</p>
-]]></content>
-      <categories>
-        <category>WebGL</category>
-      </categories>
-      <tags>
-        <tag>WebGL</tag>
       </tags>
   </entry>
   <entry>
@@ -3184,25 +3165,22 @@ http
       </tags>
   </entry>
   <entry>
-    <title>生活杂谈1</title>
-    <url>/2022/05/16/%E7%94%9F%E6%B4%BB%E6%9D%82%E8%B0%881/</url>
-    <content><![CDATA[<h1 id="生活杂谈1"><a class="markdownIt-Anchor" href="#生活杂谈1"></a> 生活杂谈1</h1>
-<div class="note note-success">
-            <p>其实我也不知道说些什么，但又觉得总有点什么，可能有那么一股埋藏在心里很久的情绪，有一天见了光，突然发了芽。</p>
-          </div>  
-<p>到了深夜，可能多愁善感的人会变得更多愁善感，优柔寡断的人也更优柔寡断了。</p>
-<p>早从外地回来老朱就喊我出去吃夜宵。但最近确实忙，鸽了老朱好多次，今晚终于抽出时间了。</p>
-<p>随便喝了点。喝到尽兴处，老朱跟我说了最近的情感经历。看来这段时间也不止我经历了些不好的事情呀。老朱说的这些话也引起了我的很多思绪。有些事情很难说得清，很多事情也很难做到感同身受。可能经历的故事不一样，遇到的人也不一样。我不知道是不是自己做错了，但我要学会把别人往坏处想。</p>
-<p>聊了很多。我们都想家了。时间和空间真的会改变一个人的性情，一个人在外面呆久了便会特别惧怕一切抒情的东西。就像突然看到New朝我撒欢的照片视频，思绪便会拉扯到远方。当初说以后死活不留在家乡的豪言壮志，没想到在外面只过了三年就想食言了。我总拿着担当的名义来掩盖自己的没出息。但我不后悔出来，这三年我经历了很多，学到了很多，我相信这些是在家乡里学不来的。借用一位巾帼英雄的话：“大丈夫之志应如长江，东奔大海，何苦怀恋于温柔之乡？”</p>
-<p>真的感谢那些倾听我负面情绪的人。不是每个人都愿意承担我的负能量，在乎我的种种情绪。我高兴时他们也感到高兴，我难过时他们也会对我百般安慰。就像我写这篇文章，他们看到的不只是我的文字，更多的是我写这篇文章时的心情。感谢生在这样一个小家庭，感谢遇见了这么多的好朋友。希望我也能早日成长起来，好好的报答你们。</p>
-<p>这篇文章也是在看到一位大佬的博客有感而发，感觉我们的经历有点类似。本人文笔很差，很多句子也是照搬照抄。我也不放链接了，希望您看到可以理解。</p>
-<p>时候不早了，明天还得继续做大作业。晚安好梦。</p>
+    <title>在VScode中用js写webgl显示代码提示</title>
+    <url>/2022/07/11/%E5%9C%A8VScode%E4%B8%AD%E7%94%A8js%E5%86%99webgl%E6%98%BE%E7%A4%BA%E4%BB%A3%E7%A0%81%E6%8F%90%E7%A4%BA/</url>
+    <content><![CDATA[<h1 id="在vscode中用js写webgl显示代码提示"><a class="markdownIt-Anchor" href="#在vscode中用js写webgl显示代码提示"></a> 在VScode中用js写webgl显示代码提示</h1>
+<p>用VSCode写WebGL时发现缺少提示信息，没有代码补全。在网上看到一篇博客说是使用document.getElementById获取的对象vscode不知道是什么类型，提示为any类型。</p>
+<p>如果在document.getElementById的上一行加入</p>
+<p><code>/** @type &#123;HTMLCanvasElement&#125; */</code></p>
+<p>这样再看canvas的类型就显示出来了，也有代码补全功能。</p>
+<p>另外如果在函数中想使用传入的参数，给这个参数加入代码提示，则在对应的函数前加上：</p>
+<p><code>/** @param &#123;!WebGLRenderingContext&#125; gl */</code></p>
+<p>这样在函数中使用gl的时候也会有正确的代码提示。</p>
 ]]></content>
       <categories>
-        <category>生活杂谈</category>
+        <category>WebGL</category>
       </categories>
       <tags>
-        <tag>生活杂谈</tag>
+        <tag>WebGL</tag>
       </tags>
   </entry>
   <entry>
@@ -4319,6 +4297,28 @@ n &amp; 0 &amp; 0 &amp; 0\\
       <tags>
         <tag>学习笔记</tag>
         <tag>计算机图形学</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>生活杂谈1</title>
+    <url>/2022/05/16/%E7%94%9F%E6%B4%BB%E6%9D%82%E8%B0%881/</url>
+    <content><![CDATA[<h1 id="生活杂谈1"><a class="markdownIt-Anchor" href="#生活杂谈1"></a> 生活杂谈1</h1>
+<div class="note note-success">
+            <p>其实我也不知道说些什么，但又觉得总有点什么，可能有那么一股埋藏在心里很久的情绪，有一天见了光，突然发了芽。</p>
+          </div>  
+<p>到了深夜，可能多愁善感的人会变得更多愁善感，优柔寡断的人也更优柔寡断了。</p>
+<p>早从外地回来老朱就喊我出去吃夜宵。但最近确实忙，鸽了老朱好多次，今晚终于抽出时间了。</p>
+<p>随便喝了点。喝到尽兴处，老朱跟我说了最近的情感经历。看来这段时间也不止我经历了些不好的事情呀。老朱说的这些话也引起了我的很多思绪。有些事情很难说得清，很多事情也很难做到感同身受。可能经历的故事不一样，遇到的人也不一样。我不知道是不是自己做错了，但我要学会把别人往坏处想。</p>
+<p>聊了很多。我们都想家了。时间和空间真的会改变一个人的性情，一个人在外面呆久了便会特别惧怕一切抒情的东西。就像突然看到New朝我撒欢的照片视频，思绪便会拉扯到远方。当初说以后死活不留在家乡的豪言壮志，没想到在外面只过了三年就想食言了。我总拿着担当的名义来掩盖自己的没出息。但我不后悔出来，这三年我经历了很多，学到了很多，我相信这些是在家乡里学不来的。借用一位巾帼英雄的话：“大丈夫之志应如长江，东奔大海，何苦怀恋于温柔之乡？”</p>
+<p>真的感谢那些倾听我负面情绪的人。不是每个人都愿意承担我的负能量，在乎我的种种情绪。我高兴时他们也感到高兴，我难过时他们也会对我百般安慰。就像我写这篇文章，他们看到的不只是我的文字，更多的是我写这篇文章时的心情。感谢生在这样一个小家庭，感谢遇见了这么多的好朋友。希望我也能早日成长起来，好好的报答你们。</p>
+<p>这篇文章也是在看到一位大佬的博客有感而发，感觉我们的经历有点类似。本人文笔很差，很多句子也是照搬照抄。我也不放链接了，希望您看到可以理解。</p>
+<p>时候不早了，明天还得继续做大作业。晚安好梦。</p>
+]]></content>
+      <categories>
+        <category>生活杂谈</category>
+      </categories>
+      <tags>
+        <tag>生活杂谈</tag>
       </tags>
   </entry>
   <entry>
