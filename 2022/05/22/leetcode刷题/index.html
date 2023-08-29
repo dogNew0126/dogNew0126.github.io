@@ -1,0 +1,1382 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" data-default-color-scheme=dark>
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="76x76" href="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E7%8B%97%E5%AD%90%2F8%20-%20CIlWtVm.png">
+  <link rel="icon" href="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E7%8B%97%E5%AD%90%2F8%20-%20CIlWtVm.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="author" content="dogNew">
+  <meta name="keywords" content="">
+  
+    <meta name="description" content="leetcode刷题经历">
+<meta property="og:type" content="article">
+<meta property="og:title" content="leetcode刷题">
+<meta property="og:url" content="http://example.com/2022/05/22/leetcode%E5%88%B7%E9%A2%98/index.html">
+<meta property="og:site_name" content="dogNew&#39;s Blog">
+<meta property="og:description" content="leetcode刷题经历">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E7%94%B5%E5%BD%B1%2F%E6%B4%9B%E5%A5%87%2FCA13A5BDEE8695096042C5DF2E1E6A3C.png">
+<meta property="article:published_time" content="2022-05-22T12:21:23.000Z">
+<meta property="article:modified_time" content="2023-06-07T15:40:30.736Z">
+<meta property="article:author" content="dogNew">
+<meta property="article:tag" content="算法">
+<meta property="article:tag" content="leetcode">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E7%94%B5%E5%BD%B1%2F%E6%B4%9B%E5%A5%87%2FCA13A5BDEE8695096042C5DF2E1E6A3C.png">
+  
+  
+  <title>leetcode刷题 - dogNew&#39;s Blog</title>
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
+
+
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/github-markdown-css/4.0.0/github-markdown.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/hint.css/2.7.0/hint.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.css" />
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+<!-- Do not modify the link that theme dependent icons -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_hj8rtnfg7um.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_lbnruvf0jn.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+
+  <link id="highlight-css" rel="stylesheet" href="/css/highlight.css" />
+  
+    <link id="highlight-css-dark" rel="stylesheet" href="/css/highlight-dark.css" />
+  
+
+
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    Fluid.ctx = Object.assign({}, Fluid.ctx)
+    var CONFIG = {"hostname":"example.com","root":"/","version":"1.8.14","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E5%8A%A8%E7%89%A9%2Faff94718292d468a9b57a0eef845d932cd62c3f1.gif%401295w.webp","onlypost":false,"offset_factor":2},"web_analytics":{"enable":true,"follow_dnt":true,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml"};
+
+    if (CONFIG.web_analytics.follow_dnt) {
+      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));
+    }
+  </script>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
+
+  
+<!-- hexo injector head_end start -->
+<link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hexo-math@4.0.0/dist/style.css">
+<!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.1.0"></head>
+
+
+<body>
+  
+
+  <header>
+    
+
+<div class="header-inner" style="height: 90vh;">
+  <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <strong>dogNew&#39;s Blog</strong>
+    </a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/">
+                <i class="iconfont icon-home-fill"></i>
+                首页
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/">
+                <i class="iconfont icon-archive-fill"></i>
+                归档
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/">
+                <i class="iconfont icon-category-fill"></i>
+                分类
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/">
+                <i class="iconfont icon-tags-fill"></i>
+                标签
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/">
+                <i class="iconfont icon-user-fill"></i>
+                关于
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/links/">
+                <i class="iconfont icon-link-fill"></i>
+                友链
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              &nbsp;<i class="iconfont icon-search"></i>&nbsp;
+            </a>
+          </li>
+          
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" target="_self" href="javascript:;" aria-label="Color Toggle">&nbsp;<i
+                class="iconfont icon-dark" id="color-toggle-icon"></i>&nbsp;</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  
+
+<div id="banner" class="banner" parallax=true
+     style="background: url('https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E6%99%AF%E8%89%B2%2F1%20-%20lbssJZ9.jpg') no-repeat center center; background-size: cover;">
+  <div class="full-bg-img">
+    <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+      <div class="banner-text text-center fade-in-up">
+        <div class="h2">
+          
+            <span id="subtitle" data-typed-text="leetcode刷题"></span>
+          
+        </div>
+
+        
+          
+  <div class="mt-3">
+    
+    
+      <span class="post-meta">
+        <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+        <time datetime="2022-05-22 20:21" pubdate>
+          2022年5月22日 晚上
+        </time>
+      </span>
+    
+  </div>
+
+  <div class="mt-1">
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-chart"></i>
+        
+          9.4k 字
+        
+      </span>
+    
+
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-clock-fill"></i>
+        
+        
+        
+          79 分钟
+        
+      </span>
+    
+
+    
+    
+      
+        <span id="busuanzi_container_page_pv" style="display: none">
+          <i class="iconfont icon-eye" aria-hidden="true"></i>
+          <span id="busuanzi_value_page_pv"></span> 次
+        </span>
+        
+      
+    
+  </div>
+
+
+        
+      </div>
+
+      
+        <div class="scroll-down-bar">
+          <i class="iconfont icon-arrowdown"></i>
+        </div>
+      
+    </div>
+  </div>
+</div>
+
+</div>
+
+  </header>
+
+  <main>
+    
+      
+
+<div class="container-fluid nopadding-x">
+  <div class="row nomargin-x">
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+
+    </div>
+
+    <div class="col-lg-8 nopadding-x-md">
+      <div class="container nopadding-x-md" id="board-ctn">
+        <div id="board">
+          <article class="post-content mx-auto">
+            <!-- SEO header -->
+            <h1 style="display: none">leetcode刷题</h1>
+            
+              <p class="note note-info">
+                
+                  
+                    本文最后更新于：2023年6月7日 晚上
+                  
+                
+              </p>
+            
+            <div class="markdown-body">
+              
+              <h1 id="leetcode刷题经历"><a class="markdownIt-Anchor" href="#leetcode刷题经历"></a> leetcode刷题经历</h1>
+<h2 id="一-数组"><a class="markdownIt-Anchor" href="#一-数组"></a> 一、数组</h2>
+<h3 id="简单题"><a class="markdownIt-Anchor" href="#简单题"></a> 简单题</h3>
+<h4 id="1-两数之和"><a class="markdownIt-Anchor" href="#1-两数之和"></a> 1. 两数之和</h4>
+<ul>
+<li>暴力解法，时间复杂度O(n<sup>2</sup>)</li>
+<li>哈希表，寻找差的时候O(1)，总时间复杂度O(n)</li>
+</ul>
+<h4 id="26-删除有序数组中的重复项"><a class="markdownIt-Anchor" href="#26-删除有序数组中的重复项"></a> 26. 删除有序数组中的重复项</h4>
+<ul>
+<li>快慢指针，快指针检测不同来更换慢指针。时间复杂度O(n)</li>
+</ul>
+<h4 id="27-移除元素"><a class="markdownIt-Anchor" href="#27-移除元素"></a> 27. 移除元素</h4>
+<ul>
+<li>快慢指针，快指针检测不同来更换慢指针。时间复杂度O(n)</li>
+<li>双指针优化，一个从左边向右遍历，一个从右边向左遍历。时间复杂度O(n)，不过数组总共只遍历一次。
+<ul>
+<li>小细节:为了防止更换过来相同的元素，可以让左指针指的元素不等于指定元素再移动(放在else语句中)</li>
+</ul>
+</li>
+</ul>
+<h4 id="35-搜索插入位置"><a class="markdownIt-Anchor" href="#35-搜索插入位置"></a> 35. 搜索插入位置</h4>
+<ul>
+<li>二分法查找:时间复杂度：O(log<sub>n</sub>)</li>
+</ul>
+<h4 id="69-x的平方根"><a class="markdownIt-Anchor" href="#69-x的平方根"></a> 69. x的平方根</h4>
+<ul>
+<li>二分法查找:时间复杂度O(log<sub>n</sub>)</li>
+</ul>
+<h4 id="283-移动零"><a class="markdownIt-Anchor" href="#283-移动零"></a> 283. 移动零</h4>
+<ul>
+<li>双指针：用非零快指针交换零慢指针，时间复杂度O(log<sub>n</sub>)</li>
+</ul>
+<h4 id="367-有效的完全平方数"><a class="markdownIt-Anchor" href="#367-有效的完全平方数"></a> 367. 有效的完全平方数</h4>
+<ul>
+<li>二分查找:时间复杂度O(log<sub>n</sub>)</li>
+</ul>
+<h4 id="704-二分查找"><a class="markdownIt-Anchor" href="#704-二分查找"></a> 704. 二分查找</h4>
+<ul>
+<li>注意区间开闭</li>
+</ul>
+<h4 id="977-有序数组的平方"><a class="markdownIt-Anchor" href="#977-有序数组的平方"></a> 977. 有序数组的平方</h4>
+<ul>
+<li>
+<p>暴力解法，先平方后排序</p>
+</li>
+<li>
+<p>双指针法</p>
+<p>由于数组有序，数组平方后最大值只能在数组两端，那么可以定义一个同等大小数组，指向新数组最后一个元素，然后一个一个向里面填</p>
+</li>
+</ul>
+<h3 id="中等题"><a class="markdownIt-Anchor" href="#中等题"></a> 中等题</h3>
+<h4 id="54-螺旋矩阵"><a class="markdownIt-Anchor" href="#54-螺旋矩阵"></a> 54. 螺旋矩阵</h4>
+<ul>
+<li>将矩阵看成若干层，首先输出最外层的元素，其次输出次外层的元素，知道输出最内层的元素。</li>
+<li>对于每层更新top,left,right,bottom</li>
+<li>从左到右遍历上侧元素，依次为(top,left)到(top,right)</li>
+<li>从上到下便利右侧元素，依次为(top+1,right)到(bottom,right)</li>
+<li>如果left&lt;right且top&lt;bottom，则从右到左遍历下侧元素，依次为</li>
+<li>(bottom,right−1) 到(bottom,left+1)，以及从下到上遍历左侧元素，依次为(bottom,left)到(top+1,left)</li>
+<li>遍历完当前层的元素之后，将left和top分别增加1，将right和bottom分别减少1，进入下一层继续遍历，直到遍历完所有元素为止。</li>
+<li>时间复杂度为O(mn)</li>
+</ul>
+<h4 id="59-螺旋矩阵-ii"><a class="markdownIt-Anchor" href="#59-螺旋矩阵-ii"></a> 59. 螺旋矩阵 II</h4>
+<ul>
+<li>顺时针画矩阵，填充上行从左到右、填充右列从上到下、填充下行从右到左、填充左列从下到上</li>
+<li>每一层填充，填充n/2层，每层更新startx，starty</li>
+<li>统一左闭右开</li>
+<li>时间复杂度O(n<sup>2</sup>)</li>
+</ul>
+<h4 id="209-长度最小的子数组"><a class="markdownIt-Anchor" href="#209-长度最小的子数组"></a> 209. 长度最小的子数组</h4>
+<ul>
+<li>暴力解法：时间复杂度O(n<sup>n^2</sup>)</li>
+<li>滑动窗口：时间复杂度O(n)，动态调整滑动窗口的起始位置是精髓</li>
+</ul>
+<h4 id="904-水果成篮"><a class="markdownIt-Anchor" href="#904-水果成篮"></a> 904. 水果成篮</h4>
+<ul>
+<li>滑动窗口，是用哈希表unordered_map存储非重复数，当超过两个果篮时，从左边缩小滑动窗口，时间复杂度为O(log<sub>n</sub>)</li>
+</ul>
+<h3 id="困难题"><a class="markdownIt-Anchor" href="#困难题"></a> 困难题</h3>
+<h4 id="93-最小覆盖字串havent-done-it-yet"><a class="markdownIt-Anchor" href="#93-最小覆盖字串havent-done-it-yet"></a> 93. 最小覆盖字串(Haven’t done it yet)</h4>
+<h2 id="二-链表"><a class="markdownIt-Anchor" href="#二-链表"></a> 二、链表</h2>
+<h3 id="简单题-2"><a class="markdownIt-Anchor" href="#简单题-2"></a> 简单题</h3>
+<h4 id="160-相交链表"><a class="markdownIt-Anchor" href="#160-相交链表"></a> 160. 相交链表</h4>
+<ul>
+<li>先求出两链表长度的插值，然后让curA移动到和curB对其的位置。然后二者一起动，判断指向节点是否相同。</li>
+</ul>
+<h4 id="203-移除链表元素"><a class="markdownIt-Anchor" href="#203-移除链表元素"></a> 203. 移除链表元素</h4>
+<h4 id="206-反转链表"><a class="markdownIt-Anchor" href="#206-反转链表"></a> 206. 反转链表</h4>
+<ul>
+<li>注意存储节点</li>
+<li>双指针法</li>
+<li>递归法</li>
+</ul>
+<h3 id="中等题-2"><a class="markdownIt-Anchor" href="#中等题-2"></a> 中等题</h3>
+<h4 id="19-删除链表的倒数第n个节点"><a class="markdownIt-Anchor" href="#19-删除链表的倒数第n个节点"></a> 19. 删除链表的倒数第N个节点</h4>
+<ul>
+<li>快慢指针，快指针提前移动N次，然后同时移动，删除慢指针指向的节点。</li>
+</ul>
+<h4 id="24-两两交换链表中的节点"><a class="markdownIt-Anchor" href="#24-两两交换链表中的节点"></a> 24. 两两交换链表中的节点</h4>
+<ul>
+<li>注意存储节点以及更换next的顺序</li>
+</ul>
+<h4 id="142-环形列表ii"><a class="markdownIt-Anchor" href="#142-环形列表ii"></a> 142. 环形列表II</h4>
+<ul>
+<li>一种直观思路是：遍历链表中的每个节点，并将它记录下来；一旦遇到了此前遍历过的节点，就可以判定链表中存在环。借助哈希表可以实现。时间、空间复杂度都为O(N).</li>
+<li>快慢指针：让快指针每次移动两个位置，慢指针移动一个位置，若存在环，则两指针必定相遇。从起始位置设一个指针ptr，同时移动slow和ptr，两者会在环入口处相遇</li>
+</ul>
+<h4 id="707-设计链表"><a class="markdownIt-Anchor" href="#707-设计链表"></a> 707. 设计链表</h4>
+<h3 id="困难题-2"><a class="markdownIt-Anchor" href="#困难题-2"></a> 困难题</h3>
+<h2 id="三-哈希表"><a class="markdownIt-Anchor" href="#三-哈希表"></a> 三、哈希表</h2>
+<h3 id="简单题-3"><a class="markdownIt-Anchor" href="#简单题-3"></a> 简单题</h3>
+<h4 id="202-快乐数"><a class="markdownIt-Anchor" href="#202-快乐数"></a> 202. 快乐数</h4>
+<ul>
+<li>使用哈希表unordered_set来判断sum是否重复出现，如果重复了就是return false，否则一直找到sum为1为止。</li>
+</ul>
+<h4 id="242-有效的字母异位词"><a class="markdownIt-Anchor" href="#242-有效的字母异位词"></a> 242. 有效的字母异位词</h4>
+<ul>
+<li>records记录字符串里字符出现的次数，再遍历目标字符串，每个字符都减一，最后若records中有元素不为0，则return false ,反之，return true</li>
+</ul>
+<h4 id="349-两个数组的交集"><a class="markdownIt-Anchor" href="#349-两个数组的交集"></a> 349. 两个数组的交集</h4>
+<ul>
+<li>要求去重且不要求有顺序，可以使用unordered_set，如果字符串二中的字符存在set中，则取出。</li>
+</ul>
+<h4 id="350-两个数组的交集-ii"><a class="markdownIt-Anchor" href="#350-两个数组的交集-ii"></a> 350. 两个数组的交集 II</h4>
+<ul>
+<li>哈希表：将属性多的数组存入map，记录每个元素出现的次数，遍历另一个数组，若map中出现则插入结果数组中，若有元素数量减为0，则记得在map中erase元素</li>
+<li>排序和双指针：将两个数组排好序，两个指针分别遍历两个数组，数值小的移动，相同时则插入结果数组并同时移动。</li>
+</ul>
+<h4 id="383-赎金信"><a class="markdownIt-Anchor" href="#383-赎金信"></a> 383. 赎金信</h4>
+<ul>
+<li>和242. 有效的字母异位词思路相同</li>
+</ul>
+<h3 id="中等题-3"><a class="markdownIt-Anchor" href="#中等题-3"></a> 中等题</h3>
+<h4 id="15-三数之和"><a class="markdownIt-Anchor" href="#15-三数之和"></a> 15. 三数之和</h4>
+<ul>
+<li>哈希法：两层循环确定a与b的数值，使用哈希发来确定0-(a+b)，先排序，如果第一个数大于零，则不可能凑成三元组。对a去重只用比较相邻两数，对b去重则需要对相邻三数，如果只判断相邻两数则会相同数指利用一次，如果更多则会造成重复。</li>
+<li>双指针：先排序，遍历数组，定一个下表left在i+1上的位置，定义下表right在数组结尾的位置上，若三数之和大于0，说明三数之和大了，right向左移动，若三数之和小于0，left向右移动，直到left与right相遇，期间注意去重。</li>
+</ul>
+<h4 id="18-四数之和"><a class="markdownIt-Anchor" href="#18-四数之和"></a> 18. 四数之和</h4>
+<ul>
+<li>与三数之和相同思路，多一重循环。存在一些其他剪枝
+<ul>
+<li>确定第一个数后，如果nums[i]+nums[i+1]+nums[i+2]+nums[i+3]&gt;target，则无论剩下三个数取什么值，四个数和一定大于target，退出第一重循环</li>
+<li>确定第一个数后，如果nums[i]+nums[n-3]+nums[n-2]+nums[n-1]&gt;target，则无论剩下三个数取什么值，四个数和一定大于target，第一重循环直接进入下一轮</li>
+<li>确定前两个数之后，如果nums[i]+nums[j]+nums[j+1]+nums[j+2]&gt;target，则无论剩下两个数去什么值，和一定大于target，退出第二重循环</li>
+<li>确定前两个术后，如果nums[i]+nums[j]+nums[n-2]+nums[n-1]&lt;target,则无论剩下两个数取什么值，四数之和一定小于target，二重循环进入下一轮。</li>
+</ul>
+</li>
+</ul>
+<h4 id="49-字母异位词分组"><a class="markdownIt-Anchor" href="#49-字母异位词分组"></a> 49. 字母异位词分组</h4>
+<ul>
+<li>排序：互为字母异位词的两个字符串包含的字母相同，因此对两个字符串分别进行排序之后得到的字符串一定相同，因此将排序之后的字符串作为哈希表的键，值为字符串数组。</li>
+</ul>
+<h4 id="438-找到字符串中所有字母异位词"><a class="markdownIt-Anchor" href="#438-找到字符串中所有字母异位词"></a> 438. 找到字符串中所有字母异位词</h4>
+<ul>
+<li>滑动窗口，判断构成的两组vector是否相等，而不必去判断是否为零数组</li>
+</ul>
+<h4 id="454-四数相加-ii"><a class="markdownIt-Anchor" href="#454-四数相加-ii"></a> 454. 四数相加 II</h4>
+<ul>
+<li>首先定义一个unordered_map,key放a和b两数之和，value放a和b两数之和出现的次数，遍历AB两数组，统计两数组元素之和和出现的次数放到map中，定义int变量count同济四数之和为0出现的次数，遍历CD数组，如果0-(c+d)在map中出现过，则统计出到count.</li>
+</ul>
+<h3 id="困难题-3"><a class="markdownIt-Anchor" href="#困难题-3"></a> 困难题</h3>
+<h2 id="四-字符串"><a class="markdownIt-Anchor" href="#四-字符串"></a> 四、字符串</h2>
+<h3 id="简单题-4"><a class="markdownIt-Anchor" href="#简单题-4"></a> 简单题</h3>
+<h4 id="344-反转字符串"><a class="markdownIt-Anchor" href="#344-反转字符串"></a> 344. 反转字符串</h4>
+<ul>
+<li>双指针</li>
+</ul>
+<h4 id="459-重复的子字符串"><a class="markdownIt-Anchor" href="#459-重复的子字符串"></a> 459. 重复的子字符串</h4>
+<ul>
+<li>暴力，外层循环从开始到字符串一半遍历作为子串结束位置，采用一重循环判断s[i]是否等于s[j-i]，字符串肯定是子串的整数倍。</li>
+<li>若由重复的子字符串组成则两个字符串连起来其中必有原字符串，掐头去尾 return (s+s).find(s,1) != s.size()</li>
+<li>KMP</li>
+</ul>
+<h4 id="541-反转字符串-ii"><a class="markdownIt-Anchor" href="#541-反转字符串-ii"></a> 541. 反转字符串 II</h4>
+<ul>
+<li>反转i到i+k，每次增加2k，注意最后剩余小于k时反转全部。</li>
+</ul>
+<h4 id="剑指offer-05-替换空格"><a class="markdownIt-Anchor" href="#剑指offer-05-替换空格"></a> 剑指Offer 05. 替换空格</h4>
+<ul>
+<li>首先扩充数组到每个空格替换成“%20”之后的大小，然后从后向前替换空格，用双指针法，i指向旧长度的末尾，j指向新长度的末尾。</li>
+</ul>
+<h4 id="剑指offer-58-ii-左旋转字符串"><a class="markdownIt-Anchor" href="#剑指offer-58-ii-左旋转字符串"></a> 剑指Offer 58 - II. 左旋转字符串</h4>
+<ul>
+<li>使用整体反转+局部反转。先反转前n个字符，再反转剩下字符，再反转整个字符串。</li>
+</ul>
+<h3 id="中等题-4"><a class="markdownIt-Anchor" href="#中等题-4"></a> 中等题</h3>
+<h4 id="28-实现strstr"><a class="markdownIt-Anchor" href="#28-实现strstr"></a> 28. 实现strStr()</h4>
+<ul>
+<li>KMP算法，关键计算最大相等前后缀长度，构建next数组
+<ul>
+<li>
+<ol>
+<li>初始化：两个指针i和j，j指向前缀末尾位置，i指向后缀末尾位置</li>
+<li>处理前后缀不相同的情况：前缀向前回退j=next[j-1]</li>
+<li>处理前后缀相同的情况：向后移动i和j，同时还要将j赋给next[i]。</li>
+</ol>
+</li>
+</ul>
+</li>
+</ul>
+<h4 id="151-反转字符串中的单词"><a class="markdownIt-Anchor" href="#151-反转字符串中的单词"></a> 151. 反转字符串中的单词</h4>
+<ul>
+<li>
+<p>解题思路：</p>
+<ul>
+<li>
+<p>移除多余空格</p>
+<p>使用双指针</p>
+</li>
+<li>
+<p>将整个字符串反转</p>
+<p>自己写反转函数，双指针</p>
+</li>
+<li>
+<p>将每个单词反转</p>
+<p>同上</p>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="困难题-4"><a class="markdownIt-Anchor" href="#困难题-4"></a> 困难题</h3>
+<h2 id="五-栈与队列"><a class="markdownIt-Anchor" href="#五-栈与队列"></a> 五、栈与队列</h2>
+<h3 id="简单题-5"><a class="markdownIt-Anchor" href="#简单题-5"></a> 简单题</h3>
+<h4 id="20-有效的括号"><a class="markdownIt-Anchor" href="#20-有效的括号"></a> 20. 有效的括号</h4>
+<ul>
+<li>遍历字符串，如果是左括号就push对应的右括号，如果是右括号且和栈顶相等就pop，如果遍历完栈不为空或者遍历右括号的时候发现已经空了则为错，否则为对。</li>
+</ul>
+<h4 id="225-用队列实现栈"><a class="markdownIt-Anchor" href="#225-用队列实现栈"></a> 225. 用队列实现栈</h4>
+<ul>
+<li>初始化两个队列，其中一个是辅助队列。pop时将其他元素push进第辅助队列中，再pop剩下的那个元素。最后将辅助队列赋值给主队列，然后清空辅助队列。</li>
+<li>或者只用一个队列，将元素push进辅助队列的操作可以改为push到队尾。</li>
+</ul>
+<h4 id="232-用栈实现队列"><a class="markdownIt-Anchor" href="#232-用栈实现队列"></a> 232. 用栈实现队列</h4>
+<ul>
+<li>一个输入栈，一个输出栈。pop时当输出栈为空时将输入栈pop到输出栈，再从输出栈pop</li>
+</ul>
+<h4 id="1047-删除字符串中的所有相邻重复项"><a class="markdownIt-Anchor" href="#1047-删除字符串中的所有相邻重复项"></a> 1047. 删除字符串中的所有相邻重复项</h4>
+<ul>
+<li>思路同20.有效的括号</li>
+</ul>
+<h3 id="中等题-5"><a class="markdownIt-Anchor" href="#中等题-5"></a> 中等题</h3>
+<h4 id="150-逆波兰表达式求值"><a class="markdownIt-Anchor" href="#150-逆波兰表达式求值"></a> 150. 逆波兰表达式求值</h4>
+<ul>
+<li>和1047.删除字符串中的所有相邻重复项思路一样，只不过这里不需要做消除，而是做运算。</li>
+</ul>
+<h4 id="347-前k个高频元素"><a class="markdownIt-Anchor" href="#347-前k个高频元素"></a> 347. 前K个高频元素</h4>
+<ul>
+<li>首先使用unorderer_map统计元素出现频率，定义一个小顶堆，每次将元素push进去。当堆中元素超过k时pop（即小顶堆固定大小为K）。找出前K个高频元素，因为小顶堆先弹出的是最小的，所以倒序输出到数组。</li>
+</ul>
+<h3 id="困难题-5"><a class="markdownIt-Anchor" href="#困难题-5"></a> 困难题</h3>
+<h4 id="239-滑动窗口最大值"><a class="markdownIt-Anchor" href="#239-滑动窗口最大值"></a> 239. 滑动窗口最大值</h4>
+<ul>
+<li>我们自己实现一个单调队列，只维护有可能成为创就里最大值的元素，并保证队列里的元素数值由大到小。使用dequeue双向队列，封住一边。其实就是stack和queue默认的底层实现容器。
+<ul>
+<li>定义方法pop(value):如果窗口移除的元素value等于单调队列的出口元素，那么队列弹出元素，否则不用任何操作。</li>
+<li>定义方法push(value):如果push的元素value大于入口元素的数值，那么就将队列入口的元素弹出，知道push元素的数值小于等于队列入口元素的数值为止。</li>
+</ul>
+</li>
+<li>先将前k元素放进队列，记录下前k元素的最大值，然后不断滑动窗口移除最前面的元素、加入最后面的元素，并记录对应的最大值。</li>
+</ul>
+<h2 id="六-二叉树"><a class="markdownIt-Anchor" href="#六-二叉树"></a> 六、二叉树</h2>
+<h3 id="简单题-6"><a class="markdownIt-Anchor" href="#简单题-6"></a> 简单题</h3>
+<h4 id="100-相同的树"><a class="markdownIt-Anchor" href="#100-相同的树"></a> 100. 相同的树</h4>
+<ul>
+<li>类似101，先剪枝，然后递归比较左子树的左节点与右子树的左节点，以及左子树的右节点以及右子树的右节点。</li>
+</ul>
+<h4 id="101-对称二叉树"><a class="markdownIt-Anchor" href="#101-对称二叉树"></a> 101. 对称二叉树</h4>
+<ul>
+<li>先剪枝，左右空不对称或值不对称都返回false。再递归比较左子树的左节点与右子树的右节点，以及左子树的右节点与右子树的左节点。</li>
+</ul>
+<h4 id="104-二叉树的最大深度"><a class="markdownIt-Anchor" href="#104-二叉树的最大深度"></a> 104. 二叉树的最大深度</h4>
+<ul>
+<li>深度搜索，</li>
+<li>层序遍历，每一层计数器加1.</li>
+<li>递归，1+左右子树深度的最大值。</li>
+</ul>
+<h4 id="110-平衡二叉树"><a class="markdownIt-Anchor" href="#110-平衡二叉树"></a> 110. 平衡二叉树</h4>
+<ul>
+<li>递归。获取左右子树的高度，如果左右子树高度之差大于1，返回false，否则返回true。</li>
+</ul>
+<h4 id="111-二叉树的最小深度"><a class="markdownIt-Anchor" href="#111-二叉树的最小深度"></a> 111. 二叉树的最小深度</h4>
+<ul>
+<li>深度搜索</li>
+<li>层序遍历，叶子结点的话返回，不是的话继续遍历。</li>
+</ul>
+<h4 id="112-路经总和"><a class="markdownIt-Anchor" href="#112-路经总和"></a> 112. 路经总和</h4>
+<ul>
+<li>递归。回溯。确定递归返回类型及参数。确定终止条件。不好统计路径总和可以从targetSum向下减，直到叶子节点判断sum是否为0.</li>
+</ul>
+<h4 id="144-二叉树的前序遍历"><a class="markdownIt-Anchor" href="#144-二叉树的前序遍历"></a> 144. 二叉树的前序遍历</h4>
+<ul>
+<li>第一种解法：递归遍历，中左右</li>
+<li>第二种解法：借助栈不递归，先压根节点，弹出后再压右节点，再压左节点。这样保证中间节点之后先左再右。</li>
+<li>第三种解法：标记法，要处理的节点放入栈之后，紧接着放入一个空指针作为标记。</li>
+</ul>
+<h4 id="94-二叉树的中序遍历"><a class="markdownIt-Anchor" href="#94-二叉树的中序遍历"></a> 94. 二叉树的中序遍历</h4>
+<ul>
+<li>第一种解法：递归遍历，左中右</li>
+<li>第二种解法：因为访问元素和要处理的元素顺序不一致，因此类似前序遍历的迭代方法不行。可以借助指针来访问节点。节点先找到最左侧节点，并将中间访问到的元素压栈。直到找到叶子节点后开始弹出中间节点，后接着迭代右节点。</li>
+<li>第三种解法：标记法，要处理的节点放入栈之后，紧接着放入一个空指针作为标记。</li>
+</ul>
+<h4 id="145-二叉树的后序遍历"><a class="markdownIt-Anchor" href="#145-二叉树的后序遍历"></a> 145. 二叉树的后序遍历</h4>
+<ul>
+<li>第一种解法：递归遍历，左右中</li>
+<li>第二种解法：与前序遍历差不多。先压根节点，弹出后再压左节点，再压右节点，之后对结果倒序，就得到左右中。</li>
+<li>第三种解法：标记法，要处理的节点放入栈之后，紧接着放入一个空指针作为标记。</li>
+</ul>
+<h4 id="226-反转二叉树"><a class="markdownIt-Anchor" href="#226-反转二叉树"></a> 226. 反转二叉树</h4>
+<ul>
+<li>递归法，确定返回值，确定终止条件，确定单层递归的逻辑</li>
+<li>深度遍历，</li>
+<li>层序遍历，每个节点都反转两个字节点。</li>
+</ul>
+<h4 id="257-二叉树的所有路径"><a class="markdownIt-Anchor" href="#257-二叉树的所有路径"></a> 257. 二叉树的所有路径</h4>
+<ul>
+<li>递归。终止条件为叶子节点，对叶子节点进行处理，将路径变为string值传入result结果集中。单次调用首先把当前节点push进路径，然后找左子树路径，之后pop回当前节点，再找右子树路径，pop回当前节点，最后返回得到的结果集。</li>
+</ul>
+<h4 id="404-左叶子之和"><a class="markdownIt-Anchor" href="#404-左叶子之和"></a> 404. 左叶子之和</h4>
+<ul>
+<li>递归。终止条件为空节点和叶子节点；递归左叶子节点以及右叶子节点。</li>
+<li>迭代。遍历的时候判断是不是左叶子。</li>
+</ul>
+<h4 id="501-二叉搜索树中的众数"><a class="markdownIt-Anchor" href="#501-二叉搜索树中的众数"></a> 501. 二叉搜索树中的众数</h4>
+<ul>
+<li>将整棵树遍历，用map统计概率。将map存储成vector，按照频率进行排序。然后取前面高频的元素存入result；</li>
+<li>双指针，定义一个指针指向前面遍历的节点。每两两相同便将count加1，当count等于maxCount时直接存入结果数组；当count大于maxCount时更新maxCount，清空结果数组，并将当前节点推入结果数组。</li>
+</ul>
+<h4 id="530-二叉搜索树的最小绝对差"><a class="markdownIt-Anchor" href="#530-二叉搜索树的最小绝对差"></a> 530. 二叉搜索树的最小绝对差</h4>
+<ul>
+<li>中序遍历二叉搜索树，构造一个递增数组。求相邻元素之间最小绝对差。</li>
+</ul>
+<h4 id="572-另一棵树的子树"><a class="markdownIt-Anchor" href="#572-另一棵树的子树"></a> 572. 另一棵树的子树</h4>
+<ul>
+<li>第一种解法：层序遍历，每个节点都和子树比较是否相同。</li>
+</ul>
+<h4 id="589-n叉树的前序遍历"><a class="markdownIt-Anchor" href="#589-n叉树的前序遍历"></a> 589. N叉树的前序遍历</h4>
+<ul>
+<li>深度遍历，借助栈，每次取出后从后往前放子节点。</li>
+</ul>
+<h4 id="590-n叉树的后序遍历"><a class="markdownIt-Anchor" href="#590-n叉树的后序遍历"></a> 590. N叉树的后序遍历</h4>
+<ul>
+<li>深度遍历，借助栈，借助前序遍历然后反转结果。</li>
+</ul>
+<h4 id="617-合并二叉树"><a class="markdownIt-Anchor" href="#617-合并二叉树"></a> 617. 合并二叉树</h4>
+<ul>
+<li>迭代。使用队列模拟层序遍历。如果两个节点的左节点都不为空，都入队列；如果两个节点的右节点都不为空，都入队列；如果第一棵树左节点为空第二棵树左节点不为空，直接赋值；右节点同理。</li>
+<li>递归。确定返回值和参数；确定终止条件，确定单层调用逻辑。</li>
+</ul>
+<h4 id="637-二叉树的层平均值"><a class="markdownIt-Anchor" href="#637-二叉树的层平均值"></a> 637. 二叉树的层平均值</h4>
+<ul>
+<li>第一种解法，层序遍历，每层求平均。</li>
+<li>第二种解法，深度优先，记录每个level的个数以及总和，最后求平均。</li>
+</ul>
+<h4 id="669-修剪二叉搜索树"><a class="markdownIt-Anchor" href="#669-修剪二叉搜索树"></a> 669. 修剪二叉搜索树</h4>
+<ul>
+<li>递归。三部曲。单层递归逻辑：如果当前节点小于low，去找右子树；如果当前节点大于high，去找左子树。如果当前符合，就去让左右子树都符合，最后return当前节点。</li>
+</ul>
+<h4 id="700-二叉搜索树中的搜索"><a class="markdownIt-Anchor" href="#700-二叉搜索树中的搜索"></a> 700. 二叉搜索树中的搜索</h4>
+<ul>
+<li>递归。确定返回值以及参数；确定终止条件；确定单层调用逻辑。</li>
+<li>迭代。如果节点数值大于val，向左找；反之，向右找。找到空值为止。</li>
+</ul>
+<h3 id="中等题-6"><a class="markdownIt-Anchor" href="#中等题-6"></a> 中等题</h3>
+<h4 id="98-验证二叉搜索树"><a class="markdownIt-Anchor" href="#98-验证二叉搜索树"></a> 98. 验证二叉搜索树</h4>
+<ul>
+<li>中序遍历得到数组，比较数组是不是递增。</li>
+<li>递归。中序遍历，取一个全局变量记录最大值，若在遍历途中发现有最大值大于后面节点，返回false。</li>
+<li>递归。中序遍历，取一个全局节点用来记录前一个节点，若出现前一个节点比当前节点大，则返回false。</li>
+</ul>
+<h4 id="102-二叉树的层序遍历"><a class="markdownIt-Anchor" href="#102-二叉树的层序遍历"></a> 102. 二叉树的层序遍历</h4>
+<ul>
+<li>第一种解法：借用辅助数据结构即队列来实现，队列先进先出，符合一层一层遍历的逻辑。</li>
+<li>第二种解法：递归法，并不是层序遍历，借助二级数组按索引存放。</li>
+</ul>
+<h4 id="105-从前序与中序遍历序列构造二叉树"><a class="markdownIt-Anchor" href="#105-从前序与中序遍历序列构造二叉树"></a> 105. 从前序与中序遍历序列构造二叉树</h4>
+<ul>
+<li>同106. 注意区间的左闭右开。</li>
+</ul>
+<h4 id="106-从中序与后序遍历序列构造二叉树"><a class="markdownIt-Anchor" href="#106-从中序与后序遍历序列构造二叉树"></a> 106. 从中序与后序遍历序列构造二叉树</h4>
+<ul>
+<li>递归。
+<ul>
+<li>先确定递归结束条件。</li>
+<li>后序遍历数组最后一个元素，就是当前的中间节点。</li>
+<li>找中序遍历的切割点。</li>
+<li>切割中序数组，得到中序左数组和中序右数组。</li>
+<li>根据长度切割后序数组，得到后序左数组和后序右数组。</li>
+<li>递归，左节点传中序左，后序左。</li>
+<li>递归，右节点传中序右，后序右。</li>
+</ul>
+</li>
+</ul>
+<h4 id="107-二叉树的层序遍历ii"><a class="markdownIt-Anchor" href="#107-二叉树的层序遍历ii"></a> 107. 二叉树的层序遍历II</h4>
+<ul>
+<li>与102解法相同，最后return前做一次reverse。</li>
+</ul>
+<h4 id="108-将有序数组转换为二叉搜索树"><a class="markdownIt-Anchor" href="#108-将有序数组转换为二叉搜索树"></a> 108. 将有序数组转换为二叉搜索树</h4>
+<ul>
+<li>递归。三部曲。递归终止条件，left&gt;right。单层递归逻辑：找中间节点存入树节点，对树左子树用左边数组构造；对树右子树用右边数组构造。</li>
+</ul>
+<h4 id="116-填充每个节点的下一个右侧节点指针"><a class="markdownIt-Anchor" href="#116-填充每个节点的下一个右侧节点指针"></a> 116. 填充每个节点的下一个右侧节点指针</h4>
+<ul>
+<li>层序遍历，每一层使用cur存该层前一个遍历的节点，令其next指针指向当前节点。</li>
+</ul>
+<h4 id="117-填充每个节点的下一个右侧节点指针"><a class="markdownIt-Anchor" href="#117-填充每个节点的下一个右侧节点指针"></a> 117. 填充每个节点的下一个右侧节点指针</h4>
+<ul>
+<li>与116一样。116有待优化。</li>
+</ul>
+<h4 id="199-二叉树的右视图"><a class="markdownIt-Anchor" href="#199-二叉树的右视图"></a> 199. 二叉树的右视图</h4>
+<ul>
+<li>层序遍历，使用队列。与102不同的是只需一维数组，每次只用把最右面的数加进数组即可。</li>
+</ul>
+<h4 id="222-完全二叉树的节点个数"><a class="markdownIt-Anchor" href="#222-完全二叉树的节点个数"></a> 222. 完全二叉树的节点个数</h4>
+<ul>
+<li>层序遍历，使用队列。遍历每个节点计数器+1.</li>
+<li>递归。每次调用计算左右子树节点数之和再加1.注意剪枝，因为是完全二叉树，所以递归前可先判断最左侧深度与最右侧深度是否相等。</li>
+</ul>
+<h4 id="235-二叉搜索树的最近公共祖先"><a class="markdownIt-Anchor" href="#235-二叉搜索树的最近公共祖先"></a> 235. 二叉搜索树的最近公共祖先</h4>
+<ul>
+<li>回溯。从上往下遍历到的第一个在[p,q]区间内的值就是p，q的最近公共祖先。</li>
+</ul>
+<h4 id="236-二叉树的最近公共祖先"><a class="markdownIt-Anchor" href="#236-二叉树的最近公共祖先"></a> 236. 二叉树的最近公共祖先</h4>
+<ul>
+<li>回溯。需要从底向上遍历，那么便使用后序遍历。单层遍历逻辑：
+<ul>
+<li>如果root和p或q相等，或root为空，返回root(终止条件)</li>
+<li>如果左节点和右节点都不为空，返回根节点。</li>
+<li>如果左子树为空右子树不为空，返回右节点。</li>
+<li>如果左子树不为空右子树为空，返回左节点。</li>
+<li>若都为空，返回空节点。</li>
+</ul>
+</li>
+</ul>
+<h4 id="429-n叉树的层序遍历"><a class="markdownIt-Anchor" href="#429-n叉树的层序遍历"></a> 429. N叉树的层序遍历</h4>
+<ul>
+<li>层序遍历，每次往队列里面push子节点个数的节点。</li>
+</ul>
+<h4 id="450-删除二叉搜索树中的节点"><a class="markdownIt-Anchor" href="#450-删除二叉搜索树中的节点"></a> 450. 删除二叉搜索树中的节点</h4>
+<ul>
+<li>递归
+<ul>
+<li>三部曲。</li>
+<li>单层递归逻辑有五种
+<ul>
+<li>第一种情况：没找到删除的节点，遍历到空节点直接返回了</li>
+<li>找到删除的节点
+<ul>
+<li>第二种情况：左右孩子都为空，直接删除节点，返回NULL为根节点。</li>
+<li>第三种情况：删除节点的左孩子为空，右孩子不为空，删除节点，右孩子补位，返回有孩子为根节点。</li>
+<li>第四种情况：删除节点的右孩子为空，左孩子不为空，删除节点，左孩子补位，返回左孩子为根节点。</li>
+<li>第五种情况：左右孩子节点都不为空，则将删除节点的左子树头节点放到删除节点的右子树的最左面节点的左孩子上，返回删除节点右孩子为新的根节点。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h4 id="513-找树左下角的值"><a class="markdownIt-Anchor" href="#513-找树左下角的值"></a> 513. 找树左下角的值</h4>
+<ul>
+<li>层序遍历，每次遍历记录每层最左边节点数值，当跳出循环时便是树左下角的值。</li>
+</ul>
+<h4 id="515-在每个树行中找最大值"><a class="markdownIt-Anchor" href="#515-在每个树行中找最大值"></a> 515. 在每个树行中找最大值</h4>
+<ul>
+<li>层序遍历，每行中取最大值输出。</li>
+</ul>
+<h4 id="538-把二叉搜索树转换为累加树"><a class="markdownIt-Anchor" href="#538-把二叉搜索树转换为累加树"></a> 538. 把二叉搜索树转换为累加树</h4>
+<ul>
+<li>递归。需要一个全局变量pre，用来保存cur节点的前一个节点的数值。单层递归的逻辑：用右中左遍历二叉树。中节点的处理逻辑就是让cur的数值加上前一个节点的数值。</li>
+</ul>
+<h4 id="654-最大二叉树"><a class="markdownIt-Anchor" href="#654-最大二叉树"></a> 654. 最大二叉树</h4>
+<ul>
+<li>递归。确定终止条件。获得数组最大值，进行分割，构造左子树数组以及右子树数组。用两个数组递归调用函数构造左子树以及右子树。</li>
+</ul>
+<h4 id="701-二叉搜索树中的插入操作"><a class="markdownIt-Anchor" href="#701-二叉搜索树中的插入操作"></a> 701.  二叉搜索树中的插入操作</h4>
+<ul>
+<li>递归。终止条件，当前节点为空。单层调用逻辑：当前值小于val，去右子树添加；当前值大于val，去左子树添加。最后返回root。</li>
+</ul>
+<h3 id="困难题-6"><a class="markdownIt-Anchor" href="#困难题-6"></a> 困难题</h3>
+<h2 id="七-回溯"><a class="markdownIt-Anchor" href="#七-回溯"></a> 七、回溯</h2>
+<h3 id="简单题-7"><a class="markdownIt-Anchor" href="#简单题-7"></a> 简单题</h3>
+<h3 id="中等题-7"><a class="markdownIt-Anchor" href="#中等题-7"></a> 中等题</h3>
+<h4 id="17-电话号码的字母组合"><a class="markdownIt-Anchor" href="#17-电话号码的字母组合"></a> 17. 电话号码的字母组合</h4>
+<ul>
+<li>回溯。首先确定数字字符串对应关系。终止条件为长度相等。for循环条件为对应字符串长度。处理当前节点后，递归调用，再撤销处理结果。</li>
+</ul>
+<h4 id="39-组合总和"><a class="markdownIt-Anchor" href="#39-组合总和"></a> 39. 组合总和</h4>
+<ul>
+<li>回溯。与其他组合回溯思想一样。本题数字可重复，每次回溯不必增加startIndex。此外多了一个结束条件为path之和大于target。</li>
+</ul>
+<h4 id="40-组合总和ii"><a class="markdownIt-Anchor" href="#40-组合总和ii"></a> 40. 组合总和II</h4>
+<ul>
+<li>总体思路相同，不过此题给的candidates数组又重复元素，但每个元素只能取一次并且结果也不能重复。首先对数组排序，使相同的元素挨在一起。去重操作可以将i大于startIndex并且candidates[i] == candidates[i-1]的结果去掉，直接continue。</li>
+</ul>
+<h4 id="46-全排列"><a class="markdownIt-Anchor" href="#46-全排列"></a> 46. 全排列</h4>
+<ul>
+<li>回溯。使用used数组来记录path里有哪些元素使用了，一个排列里一个元素只能使用一次。</li>
+</ul>
+<h4 id="47-全排列ii"><a class="markdownIt-Anchor" href="#47-全排列ii"></a> 47. 全排列II</h4>
+<ul>
+<li>回溯。类似46，不过需要进一步去重。并且在回溯前需要先对数组进行排序。</li>
+</ul>
+<h4 id="77-组合"><a class="markdownIt-Anchor" href="#77-组合"></a> 77. 组合</h4>
+<ul>
+<li>回溯。同递归三部曲。不过在单层上用for循环横向处理，用回溯纵向处理。先处理当前节点，进行递归，然后撤销处理结果。</li>
+</ul>
+<h4 id="90-子集ii"><a class="markdownIt-Anchor" href="#90-子集ii"></a> 90. 子集II</h4>
+<ul>
+<li>回溯。此时没有终止条件，需要遍历整个数组。每个分支可以重复，每层树不可重复。使用set来去重，写在循环体外面。去重首先需要对数组进行排序。</li>
+</ul>
+<h4 id="93-复原ip地址"><a class="markdownIt-Anchor" href="#93-复原ip地址"></a> 93. 复原IP地址</h4>
+<ul>
+<li>回溯，类似于131，可以根据点个数来写回溯结束条件。每次判断分割是否合适，如果合适就加入点，然后从点后面继续判断。</li>
+</ul>
+<h4 id="131-分割回文串"><a class="markdownIt-Anchor" href="#131-分割回文串"></a> 131. 分割回文串</h4>
+<ul>
+<li>切割问题类似组合问题
+<ul>
+<li>组合问题：选取一个a之后，在bcdef中再去选取第二个，选取b之后在cdef中再选取第三个…</li>
+<li>切割问题：切割一个a之后，在bcdef中再去切割第二段，切割b之后在cdef中再切割第三段…。</li>
+</ul>
+</li>
+</ul>
+<h4 id="216-组合总和iii"><a class="markdownIt-Anchor" href="#216-组合总和iii"></a> 216. 组合总和III</h4>
+<ul>
+<li>回溯。同77题。在处理结束条件时多了一层path中和为sum的逻辑。</li>
+</ul>
+<h4 id="491-递增子序列"><a class="markdownIt-Anchor" href="#491-递增子序列"></a> 491. 递增子序列</h4>
+<ul>
+<li>回溯。同90.此处去重不用排序，排序就全为递增数列了。</li>
+</ul>
+<h3 id="困难题-7"><a class="markdownIt-Anchor" href="#困难题-7"></a> 困难题</h3>
+<h4 id="37-解数独"><a class="markdownIt-Anchor" href="#37-解数独"></a> 37. 解数独</h4>
+<ul>
+<li>回溯。类似N皇后。</li>
+</ul>
+<h4 id="51-n皇后"><a class="markdownIt-Anchor" href="#51-n皇后"></a> 51. N皇后</h4>
+<ul>
+<li>回溯。传递参数chessboard，用row来记录当前遍历到棋盘的第几层，用n来传递棋盘的大小 。注意写isValid函数。</li>
+</ul>
+<h4 id="332-重新安排行程"><a class="markdownIt-Anchor" href="#332-重新安排行程"></a> 332. 重新安排行程</h4>
+<ul>
+<li>回溯。使用unordered_map&lt;string,map&lt;string,int&gt;&gt;（起飞航班，&lt;落地航班，落地次数&gt;）来记录。</li>
+</ul>
+<h2 id="八-贪心算法"><a class="markdownIt-Anchor" href="#八-贪心算法"></a> 八、贪心算法</h2>
+<h3 id="简单题-8"><a class="markdownIt-Anchor" href="#简单题-8"></a> 简单题</h3>
+<h4 id="455-分发饼干"><a class="markdownIt-Anchor" href="#455-分发饼干"></a> 455. 分发饼干</h4>
+<ul>
+<li>贪心算法。对胃口和饼干排序。饼干从小到大向孩子投喂，如果满足便加一。</li>
+</ul>
+<h4 id="860-柠檬水找零"><a class="markdownIt-Anchor" href="#860-柠檬水找零"></a> 860. 柠檬水找零</h4>
+<ul>
+<li>贪心算法。维护5，10，20。局部最优：如果是二十先找零10，因为5更加万能。局部最优可以推出全局最优。</li>
+</ul>
+<h4 id="1005-k次取反后最大化的数组和"><a class="markdownIt-Anchor" href="#1005-k次取反后最大化的数组和"></a> 1005. K次取反后最大化的数组和</h4>
+<ul>
+<li>贪心算法。先按照绝对值从大到小排序。k尽可能给绝对值大的负数变正。对k有剩余的情况。如果k是单数，对绝对值最小的数取反；如果k是双数，则不变。</li>
+</ul>
+<h3 id="中等题-8"><a class="markdownIt-Anchor" href="#中等题-8"></a> 中等题</h3>
+<h4 id="45-跳跃游戏ii"><a class="markdownIt-Anchor" href="#45-跳跃游戏ii"></a> 45. 跳跃游戏II</h4>
+<ul>
+<li>贪心算法。遍历数组，每次更新下一步可覆盖最大范围。当遍历到当前可覆盖最大范围还没到达终点时，步数+1，更新当前可覆盖最大范围为下一步可覆盖最大范围。</li>
+</ul>
+<h4 id="53-最大子数组和"><a class="markdownIt-Anchor" href="#53-最大子数组和"></a> 53. 最大子数组和</h4>
+<ul>
+<li>贪心算法。每次子数组和为0时便丢弃重新计算。因为加上负数只会越来越小。</li>
+</ul>
+<h4 id="55-跳跃游戏"><a class="markdownIt-Anchor" href="#55-跳跃游戏"></a> 55. 跳跃游戏</h4>
+<ul>
+<li>贪心算法。每次找能覆盖最大的cover，循环终止条件为cover。</li>
+</ul>
+<h4 id="122-买卖股票的最佳时机ii"><a class="markdownIt-Anchor" href="#122-买卖股票的最佳时机ii"></a> 122. 买卖股票的最佳时机II</h4>
+<ul>
+<li>贪心算法。算出每两天的差值，把正数统计起来。</li>
+</ul>
+<h4 id="134-加油站"><a class="markdownIt-Anchor" href="#134-加油站"></a> 134. 加油站</h4>
+<ul>
+<li>暴力。用两层循环模拟汽车行驶过程。外层循环为初始车站，内层循环为当前车站。</li>
+<li>从全局贪心。分为三种情况：
+<ul>
+<li>情况一：如果gas的综合小于cost总和，那么无论从哪里出发，一定跑不下来。</li>
+<li>情况二：rest[i] = gas[i] - cost[i]为一天剩下的油，i从0开始计算累加到最后一战，如果累加没有出现负数，说明从0出发，油就没有断过，说明0就是起点。</li>
+<li>情况三：如果累加的最小值是负数，汽车就要从非零结点出发，从后向前，看哪个节点能把这个负数填平，能把这个负数填平的节点就是出发节点。</li>
+</ul>
+</li>
+<li>贪心(解法二)：局部最优：当前累加rest[i]的和curSum一旦小于0，起始位置至少要是i+1，因为从i之前开始一定不行。全局最优：找到可以跑一圈的起始位置。</li>
+</ul>
+<h4 id="376-摆动序列"><a class="markdownIt-Anchor" href="#376-摆动序列"></a> 376. 摆动序列</h4>
+<ul>
+<li>贪心算法。删除（可以不管）单调坡度上的节点，使整个序列有最多的局部峰值。</li>
+</ul>
+<h4 id="406-根据身高重建队列"><a class="markdownIt-Anchor" href="#406-根据身高重建队列"></a> 406. 根据身高重建队列</h4>
+<ul>
+<li>贪心。先按照身高排序。局部最优：优先按身高高的people的k来插入。插入操作过后的people满足队列属性；全局最优：最后都做完插入操作，整个队列满足题目队列属性。</li>
+</ul>
+<h4 id="452-用最少数量的箭引爆气球"><a class="markdownIt-Anchor" href="#452-用最少数量的箭引爆气球"></a> 452. 用最少数量的箭引爆气球</h4>
+<ul>
+<li>贪心。局部最优：当气球出现重叠，一起射，所用弓箭最少。全局最优：把所有气球射爆所用弓箭最少。为了让气球尽可能的重叠，需要对数组进行排序。射中的气球我们对其“进行标记”，具体实现是将重叠气球的右边界统一设置成重叠气球中的最小右边界。</li>
+</ul>
+<h3 id="困难题-8"><a class="markdownIt-Anchor" href="#困难题-8"></a> 困难题</h3>
+<h4 id="135-分发糖果"><a class="markdownIt-Anchor" href="#135-分发糖果"></a> 135. 分发糖果</h4>
+<ul>
+<li>两次贪心。从局部最优推出了全局最优。
+<ul>
+<li>一次是从左到右遍历，只比较右边孩子评分比左边大的情况。</li>
+<li>一次是从右到左遍历，只比较左边孩子评分比右边大的情况。</li>
+</ul>
+</li>
+</ul>
+
+              
+            </div>
+            <hr/>
+            <div>
+              <div class="post-metas my-3">
+  
+    <div class="post-meta mr-3 d-flex align-items-center">
+      <i class="iconfont icon-category"></i>
+      
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/%E7%AE%97%E6%B3%95/" class="category-chain-item">算法</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+    </div>
+  
+  
+    <div class="post-meta">
+      <i class="iconfont icon-tags"></i>
+      
+        <a href="/tags/%E7%AE%97%E6%B3%95/">#算法</a>
+      
+        <a href="/tags/leetcode/">#leetcode</a>
+      
+    </div>
+  
+</div>
+
+
+              
+  
+
+  <div class="license-box my-3">
+    <div class="license-title">
+      <div>leetcode刷题</div>
+      <div>http://example.com/2022/05/22/leetcode刷题/</div>
+    </div>
+    <div class="license-meta">
+      
+        <div class="license-meta-item">
+          <div>作者</div>
+          <div>dogNew</div>
+        </div>
+      
+      
+        <div class="license-meta-item license-meta-date">
+          <div>发布于</div>
+          <div>2022年5月22日</div>
+        </div>
+      
+      
+      <div class="license-meta-item">
+        <div>许可协议</div>
+        <div>
+          
+            
+            
+              <a target="_blank" href="https://creativecommons.org/licenses/by/4.0/">
+              <span class="hint--top hint--rounded" aria-label="BY - 署名">
+                <i class="iconfont icon-by"></i>
+              </span>
+              </a>
+            
+          
+        </div>
+      </div>
+    </div>
+    <div class="license-icon iconfont"></div>
+  </div>
+
+
+
+              
+                <div class="post-prevnext my-3">
+                  <article class="post-prev col-6">
+                    
+                    
+                      <a href="/2022/05/22/Hexo%E4%B8%AD%E4%BD%BF%E7%94%A8emoji%E8%A1%A8%E6%83%85/" title="Hexo中使用emoji表情">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">Hexo中使用emoji表情</span>
+                        <span class="visible-mobile">上一篇</span>
+                      </a>
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                      <a href="/2022/05/16/%E5%85%B3%E4%BA%8E%E6%9C%AC%E5%8D%9A%E5%AE%A2%E8%AE%BF%E9%97%AE%E7%9A%84%E4%B8%80%E7%82%B9%E8%AF%B4%E6%98%8E/" title="关于本博客访问的一点说明">
+                        <span class="hidden-mobile">关于本博客访问的一点说明</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </article>
+                </div>
+              
+            </div>
+
+            
+  <article id="comments" lazyload>
+    
+  <div id="lv-container" data-id="city" data-uid="MTAyMC81NjM3OC8zMjg0MQ==">
+    <script type="text/javascript">
+      Fluid.utils.loadComments('#lv-container', function() {
+        Fluid.utils.createScript('https://cdn-city.livere.com/js/embed.dist.js');
+      });
+    </script>
+    <noscript>Please enable JavaScript to view the comments</noscript>
+  </div>
+
+
+  </article>
+
+
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+  <aside class="sidebar" style="margin-left: -1rem">
+    <div id="toc">
+  <p class="toc-header"><i class="iconfont icon-list"></i>&nbsp;目录</p>
+  <div class="toc-body" id="toc-body"></div>
+</div>
+
+
+
+  </aside>
+
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+    
+
+    
+      <a id="scroll-top-button" aria-label="TOP" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v" for="local-search-input">关键词</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+  
+    <div class="footer-content">
+       <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
+    </div>
+  
+  
+    <div class="statistics">
+  
+  
+
+  
+    
+      <span id="busuanzi_container_site_pv" style="display: none">
+        总访问量 
+        <span id="busuanzi_value_site_pv"></span>
+         次
+      </span>
+    
+    
+      <span id="busuanzi_container_site_uv" style="display: none">
+        总访客数 
+        <span id="busuanzi_value_site_uv"></span>
+         人
+      </span>
+    
+    
+  
+</div>
+
+  
+  
+  
+</div>
+
+  </footer>
+
+  <!-- Scripts -->
+  
+  <script  src="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://lib.baomitu.com/jquery/3.6.0/jquery.min.js" ></script>
+<script  src="https://lib.baomitu.com/twitter-bootstrap/4.6.1/js/bootstrap.min.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
+
+
+  <script  src="https://lib.baomitu.com/typed.js/2.0.12/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var subtitle = document.getElementById('subtitle');
+      if (!subtitle || !typing) {
+        return;
+      }
+      var text = subtitle.getAttribute('data-typed-text');
+      
+        typing(text);
+      
+    })(window, document);
+  </script>
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+  
+    <script  src="/js/img-lazyload.js" ></script>
+  
+
+
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/tocbot/4.18.0/tocbot.min.js', function() {
+    var toc = jQuery('#toc');
+    if (toc.length === 0 || !window.tocbot) { return; }
+    var boardCtn = jQuery('#board-ctn');
+    var boardTop = boardCtn.offset().top;
+
+    window.tocbot.init({
+      tocSelector     : '#toc-body',
+      contentSelector : '.markdown-body',
+      headingSelector : CONFIG.toc.headingSelector || 'h1,h2,h3,h4,h5,h6',
+      linkClass       : 'tocbot-link',
+      activeLinkClass : 'tocbot-active-link',
+      listClass       : 'tocbot-list',
+      isCollapsedClass: 'tocbot-is-collapsed',
+      collapsibleClass: 'tocbot-is-collapsible',
+      collapseDepth   : CONFIG.toc.collapseDepth || 0,
+      scrollSmooth    : true,
+      headingsOffset  : -boardTop
+    });
+    if (toc.find('.toc-list-item').length > 0) {
+      toc.css('visibility', 'visible');
+    }
+  });
+</script>
+
+
+  <script>
+  (function() {
+    var enableLang = CONFIG.code_language.enable && CONFIG.code_language.default;
+    var enableCopy = CONFIG.copy_btn;
+    if (!enableLang && !enableCopy) {
+      return;
+    }
+
+    function getBgClass(ele) {
+      return Fluid.utils.getBackgroundLightness(ele) >= 0 ? 'code-widget-light' : 'code-widget-dark';
+    }
+
+    var copyTmpl = '';
+    copyTmpl += '<div class="code-widget">';
+    copyTmpl += 'LANG';
+    copyTmpl += '</div>';
+    jQuery('.markdown-body pre').each(function() {
+      var $pre = jQuery(this);
+      if ($pre.find('code.mermaid').length > 0) {
+        return;
+      }
+      if ($pre.find('span.line').length > 0) {
+        return;
+      }
+
+      var lang = '';
+
+      if (enableLang) {
+        lang = CONFIG.code_language.default;
+        if ($pre[0].children.length > 0 && $pre[0].children[0].classList.length >= 2 && $pre.children().hasClass('hljs')) {
+          lang = $pre[0].children[0].classList[1];
+        } else if ($pre[0].getAttribute('data-language')) {
+          lang = $pre[0].getAttribute('data-language');
+        } else if ($pre.parent().hasClass('sourceCode') && $pre[0].children.length > 0 && $pre[0].children[0].classList.length >= 2) {
+          lang = $pre[0].children[0].classList[1];
+          $pre.parent().addClass('code-wrapper');
+        } else if ($pre.parent().hasClass('markdown-body') && $pre[0].classList.length === 0) {
+          $pre.wrap('<div class="code-wrapper"></div>');
+        }
+        lang = lang.toUpperCase().replace('NONE', CONFIG.code_language.default);
+      }
+      $pre.append(copyTmpl.replace('LANG', lang).replace('code-widget">',
+        getBgClass($pre[0]) + (enableCopy ? ' code-widget copy-btn" data-clipboard-snippet><i class="iconfont icon-copy"></i>' : ' code-widget">')));
+
+      if (enableCopy) {
+        Fluid.utils.createScript('https://lib.baomitu.com/clipboard.js/2.0.10/clipboard.min.js', function() {
+          var clipboard = new window.ClipboardJS('.copy-btn', {
+            target: function(trigger) {
+              var nodes = trigger.parentNode.childNodes;
+              for (var i = 0; i < nodes.length; i++) {
+                if (nodes[i].tagName === 'CODE') {
+                  return nodes[i];
+                }
+              }
+            }
+          });
+          clipboard.on('success', function(e) {
+            e.clearSelection();
+            e.trigger.innerHTML = e.trigger.innerHTML.replace('icon-copy', 'icon-success');
+            setTimeout(function() {
+              e.trigger.innerHTML = e.trigger.innerHTML.replace('icon-success', 'icon-copy');
+            }, 2000);
+          });
+        });
+      }
+    });
+  })();
+</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/anchor-js/4.3.1/anchor.min.js', function() {
+    window.anchors.options = {
+      placement: CONFIG.anchorjs.placement,
+      visible  : CONFIG.anchorjs.visible
+    };
+    if (CONFIG.anchorjs.icon) {
+      window.anchors.options.icon = CONFIG.anchorjs.icon;
+    }
+    var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+    var res = [];
+    for (var item of el) {
+      res.push('.markdown-body > ' + item.trim());
+    }
+    if (CONFIG.anchorjs.placement === 'left') {
+      window.anchors.options.class = 'anchorjs-link-left';
+    }
+    window.anchors.add(res.join(', '));
+  });
+</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.js', function() {
+    Fluid.plugins.fancyBox();
+  });
+</script>
+
+
+  <script>Fluid.plugins.imageCaption();</script>
+
+  <script  src="/js/local-search.js" ></script>
+
+  <script defer src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" ></script>
+
+
+
+
+
+<!-- 主题的启动项，将它保持在最底部 -->
+<!-- the boot of the theme, keep it at the bottom -->
+<script  src="/js/boot.js" ></script>
+
+
+  
+
+  <noscript>
+    <div class="noscript-warning">博客在允许 JavaScript 运行的环境下浏览效果更佳</div>
+  </noscript>
+</body>
+</html>
