@@ -25,7 +25,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E7%94%B5%E5%BD%B1%2F%E6%B4%9B%E5%A5%87%2FCA13A5BDEE8695096042C5DF2E1E6A3C.png">
 <meta property="article:published_time" content="2022-05-22T12:21:23.000Z">
-<meta property="article:modified_time" content="2023-06-07T15:40:30.736Z">
+<meta property="article:modified_time" content="2023-09-04T01:17:47.695Z">
 <meta property="article:author" content="dogNew">
 <meta property="article:tag" content="算法">
 <meta property="article:tag" content="leetcode">
@@ -235,7 +235,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          9.4k 字
+          9.5k 字
         
       </span>
     
@@ -246,7 +246,7 @@
         
         
         
-          79 分钟
+          80 分钟
         
       </span>
     
@@ -301,7 +301,7 @@
               <p class="note note-info">
                 
                   
-                    本文最后更新于：2023年6月7日 晚上
+                    本文最后更新于：2023年9月4日 上午
                   
                 
               </p>
@@ -881,6 +881,10 @@
 <ul>
 <li>贪心算法。每次找能覆盖最大的cover，循环终止条件为cover。</li>
 </ul>
+<h4 id="56-合并区间"><a class="markdownIt-Anchor" href="#56-合并区间"></a> 56. 合并区间</h4>
+<ul>
+<li>类似435以及452.</li>
+</ul>
 <h4 id="122-买卖股票的最佳时机ii"><a class="markdownIt-Anchor" href="#122-买卖股票的最佳时机ii"></a> 122. 买卖股票的最佳时机II</h4>
 <ul>
 <li>贪心算法。算出每两天的差值，把正数统计起来。</li>
@@ -905,9 +909,22 @@
 <ul>
 <li>贪心。先按照身高排序。局部最优：优先按身高高的people的k来插入。插入操作过后的people满足队列属性；全局最优：最后都做完插入操作，整个队列满足题目队列属性。</li>
 </ul>
+<h4 id="435-无重叠区间"><a class="markdownIt-Anchor" href="#435-无重叠区间"></a> 435. 无重叠区间</h4>
+<ul>
+<li>贪心。类似452.</li>
+</ul>
 <h4 id="452-用最少数量的箭引爆气球"><a class="markdownIt-Anchor" href="#452-用最少数量的箭引爆气球"></a> 452. 用最少数量的箭引爆气球</h4>
 <ul>
 <li>贪心。局部最优：当气球出现重叠，一起射，所用弓箭最少。全局最优：把所有气球射爆所用弓箭最少。为了让气球尽可能的重叠，需要对数组进行排序。射中的气球我们对其“进行标记”，具体实现是将重叠气球的右边界统一设置成重叠气球中的最小右边界。</li>
+</ul>
+<h4 id="763-划分字母区间"><a class="markdownIt-Anchor" href="#763-划分字母区间"></a> 763. 划分字母区间</h4>
+<ul>
+<li>分为两步
+<ul>
+<li>统计每一个字符最后出现的位置</li>
+<li>从头遍历字符，并更新字符的最远出现下标，如果找到字符最远出现位置下标和当前下标相等了，则找到了分割点。</li>
+</ul>
+</li>
 </ul>
 <h3 id="困难题-8"><a class="markdownIt-Anchor" href="#困难题-8"></a> 困难题</h3>
 <h4 id="135-分发糖果"><a class="markdownIt-Anchor" href="#135-分发糖果"></a> 135. 分发糖果</h4>
