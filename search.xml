@@ -40,75 +40,6 @@
 ]]></content>
   </entry>
   <entry>
-    <title>SpongeBob_SquarePants_Classic_Quotes</title>
-    <url>/2022/06/01/SpongeBob-SquarePants-Classic-Quotes/</url>
-    <content><![CDATA[<h1 id="海绵宝宝经典语录"><a class="markdownIt-Anchor" href="#海绵宝宝经典语录"></a> 海绵宝宝经典语录</h1>
-<h2 id="前言"><a class="markdownIt-Anchor" href="#前言"></a> 前言</h2>
-<div class="note note-success">
-            <p>最近偶然看到了童年的动画回忆，感觉小时候的动画片很经典，蕴藏的知识很符合本人的三观。无意间又逛到了b站up主<code>黄方块和粉星星a</code>，看到了一些海绵宝宝里的经典语录，就想无聊时看一遍海绵宝宝，把那些蕴含哲理的话记录一下。不过当然不能简单地看一遍，毕竟越来越感觉时间不多了🐶，还是得让自己做的事有意义。在b站发现了有英文原版，就想着看一遍英文的吧，就当是学英语了。不过很惨，没有英文字幕，好多生词也听不出来没法去拼写。去YouTube上看海绵宝宝，也没字幕，也确实，中国人看中国剧也不会有字幕😂。不过找到了海绵宝宝的wiki，海绵宝宝的创作者把一整个剧本都写在了里面，可以跟着剧本比对着看。贴个链接：<code>https://spongebob.fandom.com/wiki/List_of_episodes</code>（如果要找剧本，点击<code>Transcripts</code>标签，然后根据你想要的集数选择<code>View Transcript</code>）(也确实明白了海绵宝宝为什么能做的如此成功，因为创作者对自己的作品充满了热情并下了很大的功夫，向他们学习🖖)</p>
-          </div>
-<div class="note note-success">
-            <ul><li>其实最近对保研很难去外校这事儿焦虑了好久，今晚跟球队一拒绝阿里实习的研究生学长一谈，又跟自己的舍友一谈，感觉未来还是很光明的💪。也是对自己要求太高，对自己不满，自己也想像别人那样上岸更好的学校。但我也是没给自己找准定位，大不了就本校，反正还是得靠自己。</li><li>马上要面一个暑期实习，为了能过这两天也是想速成自己一个零基础的技术，黑白颠倒，没日没夜地学，但效果不好，学的东西太多太杂，没梳理好也没打好基础。</li><li>我为啥要说这个，这个跟看海绵宝宝有啥关系。其实就是想让自己放宽心，不想再去为保研和工作过多焦虑。保持快乐学习吧，不要为了达到一个目的而去学习，而是要保持学习，最终会自然而然达到目的。</li><li>哦对了，今天是儿童节嘛，当个儿童吧，就像海绵宝宝里鱼奶奶的一句话：<code>你只会年轻一次，你不会想那么快长大的，那会错过成长的乐趣，快去享受青春活力吧！</code></li></ul>
-          </div>
-<blockquote>
-<p>It’s not the destination, it’s the journey.</p>
-<p>真正重要的不是终点，而是旅途。</p>
-</blockquote>
-<h2 id="season-1"><a class="markdownIt-Anchor" href="#season-1"></a> Season 1</h2>
-<h3 id="help-wanted"><a class="markdownIt-Anchor" href="#help-wanted"></a> Help Wanted</h3>
-<blockquote>
-<ul>
-<li>
-<p>I ❤️ pain</p>
-</li>
-<li>
-<p>我爱痛苦</p>
-</li>
-</ul>
-</blockquote>
-<h3 id="reef-blower"><a class="markdownIt-Anchor" href="#reef-blower"></a> Reef Blower</h3>
-<ul>
-<li>海绵宝宝唯一一集默片😐。</li>
-</ul>
-<h3 id="tea-at-the-treedome"><a class="markdownIt-Anchor" href="#tea-at-the-treedome"></a> Tea at the Treedome</h3>
-<h2 id="积累单词"><a class="markdownIt-Anchor" href="#积累单词"></a> 积累单词</h2>
-<ul>
-<li>lad 				少年，小伙子</li>
-<li>sea legs        指的是水手在航行的船上适应海浪的颠簸而不摔倒（俚语）
-<ul>
-<li>文中例句：It looks like you don’t even have your sea legs.      -看起来你并没有准备好</li>
-</ul>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>语料积累</category>
-      </categories>
-      <tags>
-        <tag>语料积累</tag>
-        <tag>海绵宝宝</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2023/08/29/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="quick-start"><a class="markdownIt-Anchor" href="#quick-start"></a> Quick Start</h2>
-<h3 id="create-a-new-post"><a class="markdownIt-Anchor" href="#create-a-new-post"></a> Create a new post</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="run-server"><a class="markdownIt-Anchor" href="#run-server"></a> Run server</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="generate-static-files"><a class="markdownIt-Anchor" href="#generate-static-files"></a> Generate static files</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="deploy-to-remote-sites"><a class="markdownIt-Anchor" href="#deploy-to-remote-sites"></a> Deploy to remote sites</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
     <title>Hexo中使用emoji表情</title>
     <url>/2022/05/22/Hexo%E4%B8%AD%E4%BD%BF%E7%94%A8emoji%E8%A1%A8%E6%83%85/</url>
     <content><![CDATA[<h1 id="hexo中使用emoji表情"><a class="markdownIt-Anchor" href="#hexo中使用emoji表情"></a> Hexo中使用emoji表情</h1>
@@ -1583,82 +1514,53 @@
       </tags>
   </entry>
   <entry>
-    <title>解决hexo报错spwan failed</title>
-    <url>/2022/05/26/failed%E8%A7%A3%E5%86%B3%E6%96%B9%E5%BC%8F/</url>
-    <content><![CDATA[<h1 id="hexo部署出现错误errorspawn-failed解决方式"><a class="markdownIt-Anchor" href="#hexo部署出现错误errorspawn-failed解决方式"></a> Hexo部署出现错误Error:Spawn failed解决方式</h1>
+    <title>SpongeBob_SquarePants_Classic_Quotes</title>
+    <url>/2022/06/01/SpongeBob-SquarePants-Classic-Quotes/</url>
+    <content><![CDATA[<h1 id="海绵宝宝经典语录"><a class="markdownIt-Anchor" href="#海绵宝宝经典语录"></a> 海绵宝宝经典语录</h1>
+<h2 id="前言"><a class="markdownIt-Anchor" href="#前言"></a> 前言</h2>
 <div class="note note-success">
-            <p>Hexo部署出现以下错误Error:Spawn failed解决方式</p>
+            <p>最近偶然看到了童年的动画回忆，感觉小时候的动画片很经典，蕴藏的知识很符合本人的三观。无意间又逛到了b站up主<code>黄方块和粉星星a</code>，看到了一些海绵宝宝里的经典语录，就想无聊时看一遍海绵宝宝，把那些蕴含哲理的话记录一下。不过当然不能简单地看一遍，毕竟越来越感觉时间不多了🐶，还是得让自己做的事有意义。在b站发现了有英文原版，就想着看一遍英文的吧，就当是学英语了。不过很惨，没有英文字幕，好多生词也听不出来没法去拼写。去YouTube上看海绵宝宝，也没字幕，也确实，中国人看中国剧也不会有字幕😂。不过找到了海绵宝宝的wiki，海绵宝宝的创作者把一整个剧本都写在了里面，可以跟着剧本比对着看。贴个链接：<code>https://spongebob.fandom.com/wiki/List_of_episodes</code>（如果要找剧本，点击<code>Transcripts</code>标签，然后根据你想要的集数选择<code>View Transcript</code>）(也确实明白了海绵宝宝为什么能做的如此成功，因为创作者对自己的作品充满了热情并下了很大的功夫，向他们学习🖖)</p>
           </div>
-<figure class="highlight roboconf"><table><tr><td class="code"><pre><code class="hljs roboconf">FATAL &#123;<br>  <span class="hljs-attribute">err</span>: Error: Spawn failed<br>      at ChildProcess.&lt;anonymous&gt; (C:\Users\myosotis\Desktop\Hexo_blog\node_modules\hexo-util\lib\spawn<span class="hljs-variable">.js</span>:51:21)<br>      at ChildProcess<span class="hljs-variable">.emit</span> (events<span class="hljs-variable">.js</span>:315:20)<br>      at ChildProcess<span class="hljs-variable">.cp</span><span class="hljs-variable">.emit</span> (C:\Users\myosotis\Desktop\Hexo_blog\node_modules\cross-spawn\lib\enoent<span class="hljs-variable">.js</span>:34:29)<br>      at Process<span class="hljs-variable">.ChildProcess</span><span class="hljs-variable">._handle</span><span class="hljs-variable">.onexit</span> (internal/child_process<span class="hljs-variable">.js</span>:277:12) &#123;<br>    code: 128<br>  &#125;<br>&#125; Something&#x27;s wrong. Maybe you can find the solution here: %s https://hexo<span class="hljs-variable">.io</span>/docs/troubleshooting<span class="hljs-variable">.html</span><br></code></pre></td></tr></table></figure>
-<p>从网上找了几个方法：</p>
-<h2 id="方法一"><a class="markdownIt-Anchor" href="#方法一"></a> 方法一</h2>
-<figure class="highlight clean"><table><tr><td class="code"><pre><code class="hljs clean">##进入站点根目录<br><br>##删除git提交内容文件夹<br>rm -rf .deploy_git/<br><br>##执行<br>git config --global core.autocrlf false<br><br>##最后<br>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d<br></code></pre></td></tr></table></figure>
-<p>没能成功，仍然报错。</p>
-<h2 id="方法二"><a class="markdownIt-Anchor" href="#方法二"></a> 方法二</h2>
 <div class="note note-success">
-            <p>修改_config.yml文件，将配置地址http方式切换成ssh方式</p>
+            <ul><li>其实最近对保研很难去外校这事儿焦虑了好久，今晚跟球队一拒绝阿里实习的研究生学长一谈，又跟自己的舍友一谈，感觉未来还是很光明的💪。也是对自己要求太高，对自己不满，自己也想像别人那样上岸更好的学校。但我也是没给自己找准定位，大不了就本校，反正还是得靠自己。</li><li>马上要面一个暑期实习，为了能过这两天也是想速成自己一个零基础的技术，黑白颠倒，没日没夜地学，但效果不好，学的东西太多太杂，没梳理好也没打好基础。</li><li>我为啥要说这个，这个跟看海绵宝宝有啥关系。其实就是想让自己放宽心，不想再去为保研和工作过多焦虑。保持快乐学习吧，不要为了达到一个目的而去学习，而是要保持学习，最终会自然而然达到目的。</li><li>哦对了，今天是儿童节嘛，当个儿童吧，就像海绵宝宝里鱼奶奶的一句话：<code>你只会年轻一次，你不会想那么快长大的，那会错过成长的乐趣，快去享受青春活力吧！</code></li></ul>
           </div>
-<figure class="highlight clean"><table><tr><td class="code"><pre><code class="hljs clean">##进入站点根目录<br><br>##删除git提交内容文件夹<br>vim _config.yml<br><br>##修改<br>deploy:<br><br>type: git<br><br>repository: https:<span class="hljs-comment">//github.com/Uninfo/blog.github.io.git </span><br>-&gt; git@github.com:Uninfo/blog.github.io.git<br><br>branch: master<br><br>##最后<br>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d<br></code></pre></td></tr></table></figure>
-<p>不习惯用vim，直接用编辑器打开<code>_config.yml</code>文件，将配置地址的http方式换成ssh方式。</p>
-<p>解决，成功部署。</p>
-<h2 id="方法三"><a class="markdownIt-Anchor" href="#方法三"></a> 方法三</h2>
-<div class="note note-success">
-            <p>强制上传，没试过，网上说不建议</p>
-          </div>
-<figure class="highlight clean"><table><tr><td class="code"><pre><code class="hljs clean">##进入站点根目录<br><br>##进入depoly文件夹<br>cd .deploy_git/<br><br>##强制推送<br>git push -f<br></code></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>hexo</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-        <tag>解决报错</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>hexo使用笔记</title>
-    <url>/2022/05/10/hexo%E4%BD%BF%E7%94%A8%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<h1 id="hexo笔记"><a class="markdownIt-Anchor" href="#hexo笔记"></a> hexo笔记</h1>
-<h2 id="写作命令"><a class="markdownIt-Anchor" href="#写作命令"></a> 写作命令</h2>
-<ol>
-<li>新建分页: <code>hexo new page 名称</code></li>
-<li>新建文章: <code>hexo new 名称</code> 或 <code>hexo n 名称</code></li>
-<li>新建草稿: <code>hexo new draft 名称</code> 或 <code>hexo n draft 名称</code></li>
-<li>草稿生成文章: <code>hexo publish 名称</code> 或 <code>hexo p 名称</code></li>
-<li>草稿生成分页: <code>hexo publish page 名称</code> 或 <code>hexo p 名称</code></li>
-</ol>
-<h2 id="操作命令"><a class="markdownIt-Anchor" href="#操作命令"></a> 操作命令</h2>
-<ol>
-<li>清除已生成文件: <code>hexo clean</code></li>
-<li>运行本地服务器（预览）: <code>hexo s</code></li>
-<li>运行本地服务器（预览草稿）: <code>hexo s --drafts</code></li>
-<li>生成静态文件: <code>hexo g</code></li>
-<li>部署到服务器: <code>hexo d</code></li>
-<li>生成并部署文件: <code>hexo g -d</code> 或 <code>hexo d -g</code></li>
-</ol>
-<h2 id="常见事项"><a class="markdownIt-Anchor" href="#常见事项"></a> 常见事项</h2>
-<ol>
-<li>多标签</li>
-</ol>
-<figure class="highlight subunit"><table><tr><td class="code"><pre><code class="hljs subunit"><span class="hljs-keyword">tags:</span> <br>- 标签1<br>- 标签2<br></code></pre></td></tr></table></figure>
-<p>或<code>tags:[标签1，标签2]</code><br />
-2. 设置阅读全文</p>
-<ul>
-<li>方法1：在文章中使用<code>&lt;!--more--&gt;</code>手动进行截断,Hexo提供的方式（推荐）</li>
-<li>方法2：在文章的front-matter中添加description,并提供文章摘录</li>
-<li>方法3：自动形成摘要,在主题配置文件中修改：</li>
-</ul>
-<figure class="highlight dts"><table><tr><td class="code"><pre><code class="hljs dts"><span class="hljs-symbol">auto_excerpt:</span><br><span class="hljs-symbol">    enable:</span>true<br><span class="hljs-symbol">    length:</span><span class="hljs-number">150</span><br></code></pre></td></tr></table></figure>
-<p>默认截取的长度为150字符，可以根据需要自行设定</p>
 <blockquote>
-<p>建议使用<code>&lt;!--more--&gt;</code>(及第一种方式)，除了可以精确控制需要显示的展露内容以外，这种方式也可以让Hexo中的插件更好的识别</p>
+<p>It’s not the destination, it’s the journey.</p>
+<p>真正重要的不是终点，而是旅途。</p>
 </blockquote>
+<h2 id="season-1"><a class="markdownIt-Anchor" href="#season-1"></a> Season 1</h2>
+<h3 id="help-wanted"><a class="markdownIt-Anchor" href="#help-wanted"></a> Help Wanted</h3>
+<blockquote>
+<ul>
+<li>
+<p>I ❤️ pain</p>
+</li>
+<li>
+<p>我爱痛苦</p>
+</li>
+</ul>
+</blockquote>
+<h3 id="reef-blower"><a class="markdownIt-Anchor" href="#reef-blower"></a> Reef Blower</h3>
+<ul>
+<li>海绵宝宝唯一一集默片😐。</li>
+</ul>
+<h3 id="tea-at-the-treedome"><a class="markdownIt-Anchor" href="#tea-at-the-treedome"></a> Tea at the Treedome</h3>
+<h2 id="积累单词"><a class="markdownIt-Anchor" href="#积累单词"></a> 积累单词</h2>
+<ul>
+<li>lad 				少年，小伙子</li>
+<li>sea legs        指的是水手在航行的船上适应海浪的颠簸而不摔倒（俚语）
+<ul>
+<li>文中例句：It looks like you don’t even have your sea legs.      -看起来你并没有准备好</li>
+</ul>
+</li>
+</ul>
 ]]></content>
       <categories>
-        <category>hexo</category>
+        <category>语料积累</category>
       </categories>
       <tags>
-        <tag>hexo</tag>
+        <tag>语料积累</tag>
+        <tag>海绵宝宝</tag>
       </tags>
   </entry>
   <entry>
@@ -1900,221 +1802,82 @@
       </tags>
   </entry>
   <entry>
-    <title>关于本博客访问的一点说明</title>
-    <url>/2022/05/16/%E5%85%B3%E4%BA%8E%E6%9C%AC%E5%8D%9A%E5%AE%A2%E8%AE%BF%E9%97%AE%E7%9A%84%E4%B8%80%E7%82%B9%E8%AF%B4%E6%98%8E/</url>
-    <content><![CDATA[<p>之前使用舍友推荐采用免费图床<a href="https://imgur.com/">imgur</a>,因此图片需链接代理后才可完整显示。后面感觉太麻烦，购买了腾讯的cos对象存储，不是很贵，但用户体验很好，现在查看图片已经不需要代理了。</p>
+    <title>解决hexo报错spwan failed</title>
+    <url>/2022/05/26/failed%E8%A7%A3%E5%86%B3%E6%96%B9%E5%BC%8F/</url>
+    <content><![CDATA[<h1 id="hexo部署出现错误errorspawn-failed解决方式"><a class="markdownIt-Anchor" href="#hexo部署出现错误errorspawn-failed解决方式"></a> Hexo部署出现错误Error:Spawn failed解决方式</h1>
+<div class="note note-success">
+            <p>Hexo部署出现以下错误Error:Spawn failed解决方式</p>
+          </div>
+<figure class="highlight roboconf"><table><tr><td class="code"><pre><code class="hljs roboconf">FATAL &#123;<br>  <span class="hljs-attribute">err</span>: Error: Spawn failed<br>      at ChildProcess.&lt;anonymous&gt; (C:\Users\myosotis\Desktop\Hexo_blog\node_modules\hexo-util\lib\spawn<span class="hljs-variable">.js</span>:51:21)<br>      at ChildProcess<span class="hljs-variable">.emit</span> (events<span class="hljs-variable">.js</span>:315:20)<br>      at ChildProcess<span class="hljs-variable">.cp</span><span class="hljs-variable">.emit</span> (C:\Users\myosotis\Desktop\Hexo_blog\node_modules\cross-spawn\lib\enoent<span class="hljs-variable">.js</span>:34:29)<br>      at Process<span class="hljs-variable">.ChildProcess</span><span class="hljs-variable">._handle</span><span class="hljs-variable">.onexit</span> (internal/child_process<span class="hljs-variable">.js</span>:277:12) &#123;<br>    code: 128<br>  &#125;<br>&#125; Something&#x27;s wrong. Maybe you can find the solution here: %s https://hexo<span class="hljs-variable">.io</span>/docs/troubleshooting<span class="hljs-variable">.html</span><br></code></pre></td></tr></table></figure>
+<p>从网上找了几个方法：</p>
+<h2 id="方法一"><a class="markdownIt-Anchor" href="#方法一"></a> 方法一</h2>
+<figure class="highlight clean"><table><tr><td class="code"><pre><code class="hljs clean">##进入站点根目录<br><br>##删除git提交内容文件夹<br>rm -rf .deploy_git/<br><br>##执行<br>git config --global core.autocrlf false<br><br>##最后<br>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d<br></code></pre></td></tr></table></figure>
+<p>没能成功，仍然报错。</p>
+<h2 id="方法二"><a class="markdownIt-Anchor" href="#方法二"></a> 方法二</h2>
+<div class="note note-success">
+            <p>修改_config.yml文件，将配置地址http方式切换成ssh方式</p>
+          </div>
+<figure class="highlight clean"><table><tr><td class="code"><pre><code class="hljs clean">##进入站点根目录<br><br>##删除git提交内容文件夹<br>vim _config.yml<br><br>##修改<br>deploy:<br><br>type: git<br><br>repository: https:<span class="hljs-comment">//github.com/Uninfo/blog.github.io.git </span><br>-&gt; git@github.com:Uninfo/blog.github.io.git<br><br>branch: master<br><br>##最后<br>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d<br></code></pre></td></tr></table></figure>
+<p>不习惯用vim，直接用编辑器打开<code>_config.yml</code>文件，将配置地址的http方式换成ssh方式。</p>
+<p>解决，成功部署。</p>
+<h2 id="方法三"><a class="markdownIt-Anchor" href="#方法三"></a> 方法三</h2>
+<div class="note note-success">
+            <p>强制上传，没试过，网上说不建议</p>
+          </div>
+<figure class="highlight clean"><table><tr><td class="code"><pre><code class="hljs clean">##进入站点根目录<br><br>##进入depoly文件夹<br>cd .deploy_git/<br><br>##强制推送<br>git push -f<br></code></pre></td></tr></table></figure>
 ]]></content>
       <categories>
-        <category>杂</category>
+        <category>hexo</category>
       </categories>
       <tags>
-        <tag>杂</tag>
+        <tag>hexo</tag>
+        <tag>解决报错</tag>
       </tags>
   </entry>
   <entry>
-    <title>wireshark学习与应用</title>
-    <url>/2022/05/26/wireshark%E5%AD%A6%E4%B9%A0%E4%B8%8E%E5%BA%94%E7%94%A8/</url>
-    <content><![CDATA[<h1 id="wireshark抓包工具使用"><a class="markdownIt-Anchor" href="#wireshark抓包工具使用"></a> wireshark抓包工具使用</h1>
-<h2 id="wireshark简介"><a class="markdownIt-Anchor" href="#wireshark简介"></a> wireshark简介</h2>
-<p>wireshark是一个网络封包分析软件，其功能是撷取网络封包，并尽可能显示出最为详细的网络封包资料。Wireshark使用WinPCAP作为借口，直接与网卡进行数据报文交换。</p>
-<h2 id="wireshark主要应用"><a class="markdownIt-Anchor" href="#wireshark主要应用"></a> wireshark主要应用</h2>
+    <title>hexo使用笔记</title>
+    <url>/2022/05/10/hexo%E4%BD%BF%E7%94%A8%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<h1 id="hexo笔记"><a class="markdownIt-Anchor" href="#hexo笔记"></a> hexo笔记</h1>
+<h2 id="写作命令"><a class="markdownIt-Anchor" href="#写作命令"></a> 写作命令</h2>
+<ol>
+<li>新建分页: <code>hexo new page 名称</code></li>
+<li>新建文章: <code>hexo new 名称</code> 或 <code>hexo n 名称</code></li>
+<li>新建草稿: <code>hexo new draft 名称</code> 或 <code>hexo n draft 名称</code></li>
+<li>草稿生成文章: <code>hexo publish 名称</code> 或 <code>hexo p 名称</code></li>
+<li>草稿生成分页: <code>hexo publish page 名称</code> 或 <code>hexo p 名称</code></li>
+</ol>
+<h2 id="操作命令"><a class="markdownIt-Anchor" href="#操作命令"></a> 操作命令</h2>
+<ol>
+<li>清除已生成文件: <code>hexo clean</code></li>
+<li>运行本地服务器（预览）: <code>hexo s</code></li>
+<li>运行本地服务器（预览草稿）: <code>hexo s --drafts</code></li>
+<li>生成静态文件: <code>hexo g</code></li>
+<li>部署到服务器: <code>hexo d</code></li>
+<li>生成并部署文件: <code>hexo g -d</code> 或 <code>hexo d -g</code></li>
+</ol>
+<h2 id="常见事项"><a class="markdownIt-Anchor" href="#常见事项"></a> 常见事项</h2>
+<ol>
+<li>多标签</li>
+</ol>
+<figure class="highlight subunit"><table><tr><td class="code"><pre><code class="hljs subunit"><span class="hljs-keyword">tags:</span> <br>- 标签1<br>- 标签2<br></code></pre></td></tr></table></figure>
+<p>或<code>tags:[标签1，标签2]</code><br />
+2. 设置阅读全文</p>
 <ul>
-<li>网络管理员用来解决网络问题</li>
-<li>网络安全工程师用来检测安全隐患</li>
-<li>开发人员用来测试协议执行情况</li>
-<li>用来学习网络协议</li>
+<li>方法1：在文章中使用<code>&lt;!--more--&gt;</code>手动进行截断,Hexo提供的方式（推荐）</li>
+<li>方法2：在文章的front-matter中添加description,并提供文章摘录</li>
+<li>方法3：自动形成摘要,在主题配置文件中修改：</li>
 </ul>
-<h2 id="waireshark快速分析数据包技巧"><a class="markdownIt-Anchor" href="#waireshark快速分析数据包技巧"></a> waireshark快速分析数据包技巧</h2>
-<ul>
-<li>确定wireshark的物理位置。</li>
-<li>选择捕获接口。</li>
-<li>使用捕获过滤器</li>
-<li>使用显示过滤器</li>
-<li>使用着色规则</li>
-<li>构建图表</li>
-<li>重组数据</li>
-</ul>
-<h2 id="wireshark抓包及快速定位数据包技巧"><a class="markdownIt-Anchor" href="#wireshark抓包及快速定位数据包技巧"></a> wireshark抓包及快速定位数据包技巧</h2>
-<h3 id="常见协议包"><a class="markdownIt-Anchor" href="#常见协议包"></a> 常见协议包</h3>
-<ul>
-<li>ARP协议</li>
-<li>ICMP协议</li>
-<li>TCP协议</li>
-<li>UDP协议</li>
-<li>DNS协议</li>
-<li>HTTP协议</li>
-</ul>
-<h2 id="wireshark过滤器使用"><a class="markdownIt-Anchor" href="#wireshark过滤器使用"></a> wireshark过滤器使用</h2>
-<ul>
-<li>
-<p>其中一例：使用过滤器筛选udp的数据包</p>
-<p>使用过滤器输入“udp”以筛选出udp报文。但输入udp之后出现了多种协议。原因就是oicq以及dns都是基于udp的传输层之上的协议。</p>
-<p>扩展：客户端向DNS服务器查询域名，一般返回的内容都不超过512字节，用UDP传输即可。不用经过三次握手，这样DNS服务器负载更低，响应更快。理论上说，客户端也可以指定向DNS服务器查询时用TCP，但事实上，很多DNS服务器进行配置的时候，仅支持UDP查询包。</p>
-</li>
-<li>
-<p>ip.src_host为源ip地址</p>
-</li>
-<li>
-<p>ip.dst_host为目的ip地址</p>
-</li>
-<li>
-<p>ip.addr不分源和目的ip地址</p>
-</li>
-<li>
-<p>查询条件为或是<code>or</code></p>
-</li>
-<li>
-<p>查询条件为且是<code>and</code></p>
-</li>
-</ul>
-<h2 id="wireshark对常用协议抓包并分析原理"><a class="markdownIt-Anchor" href="#wireshark对常用协议抓包并分析原理"></a> wireshark对常用协议抓包并分析原理</h2>
-<p><strong>协议分析的时候关闭混杂模式，避免一些干扰的数据包存在</strong></p>
-<h3 id="常用协议分析-arp协议"><a class="markdownIt-Anchor" href="#常用协议分析-arp协议"></a> 常用协议分析-ARP协议</h3>
-<ul>
-<li>
-<p>地址解析协议（英语：Address Resolution Protocol，缩写ARP）是一个通过解析网络层地址来找寻数据链路层地址的网络传输协议，它在IPv4中及其重要。ARP是通过网络地址来定位MAC地址。</p>
-</li>
-<li>
-<p>开始抓包—过滤arp</p>
-</li>
-</ul>
-<p>​		<img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%2Fwireshark%2F66%20-%20SzNv8iT.png" alt="" /></p>
-<p>​		使用<code>nmap (-sn)</code> （对目标进行ping检测，不进行端口扫描）来基于ARP协议进行扫描</p>
-<ul>
-<li>请求包（<code>Opcode:_request(1)</code>）中，目标mac地址为0，因为不清楚。</li>
-<li>应答包（<code>Opcode:_reply(2)</code>）中，应答包补全了自己的MAC地址，目的地址和源地址做了替换。</li>
-</ul>
-<p>​		<img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%2Fwireshark%2F67%20-%20KRNZG8P.png" alt="" /></p>
-<h3 id="常用协议分析-icmp协议"><a class="markdownIt-Anchor" href="#常用协议分析-icmp协议"></a> 常用协议分析-ICMP协议</h3>
-<ul>
-<li>把之前的数据包清空掉然后筛选ICMP协议的数据包</li>
-<li>打开一个终端 ping <a href="http://baidu.com">baidu.com</a></li>
-<li>基于IP协议</li>
-</ul>
-<h4 id="icmp协议分析请求包"><a class="markdownIt-Anchor" href="#icmp协议分析请求包"></a> ICMP协议分析请求包</h4>
-<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%2Fwireshark%2F69%20-%20EVF8tfn.png" alt="" /></p>
-<h4 id="icmp协议分析应答包"><a class="markdownIt-Anchor" href="#icmp协议分析应答包"></a> ICMP协议分析应答包</h4>
-<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%2Fwireshark%2F68%20-%200Kgv5ze.png" alt="" /></p>
-<p><strong>工作过程：</strong></p>
-<ul>
-<li>本机发送一个ICMP Echo Request的包。</li>
-<li>接收方返回一个ICMP Echo Reply，包含了接受到数据拷贝和一些其他命令。</li>
-</ul>
-<h3 id="常用协议分析-tcp协议"><a class="markdownIt-Anchor" href="#常用协议分析-tcp协议"></a> 常用协议分析-TCP协议</h3>
-<ul>
-<li>
-<p>启动抓包。选择http://www.sina.com.cn作为目标地址</p>
-</li>
-<li>
-<p>打开命令夫，通过ipconfig查看本机IP地址</p>
-</li>
-<li>
-<p>Filter对话框中填入过滤条件：tcp and ip.addr == 10.19.129.113,得到过滤结果。</p>
-</li>
-<li>
-<p>连接三次握手，断开连接四次挥手</p>
-</li>
-</ul>
-<h4 id="三次握手"><a class="markdownIt-Anchor" href="#三次握手"></a> 三次握手</h4>
-<h5 id="第一次握手"><a class="markdownIt-Anchor" href="#第一次握手"></a> 第一次握手</h5>
-<ul>
-<li>
-<h5 id="客户端给服务器发送一个syn段该段中也包含客户端的初始序列号sequence-number"><a class="markdownIt-Anchor" href="#客户端给服务器发送一个syn段该段中也包含客户端的初始序列号sequence-number"></a> 客户端给服务器发送一个SYN段，该段中也包含客户端的初始序列号(Sequence number)</h5>
-<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%2Fwireshark%2F71%20-%205MX78iG.png" alt="" /></p>
-</li>
-</ul>
-<h5 id="第二次握手"><a class="markdownIt-Anchor" href="#第二次握手"></a> 第二次握手</h5>
-<ul>
-<li>
-<p>服务器返回客户端SYN+ACK段，该段中包含服务器的初始序列号(Sequence number = J);同时使Acknowledgment number = J + 1来表示确认已收到客户端的SYN段。</p>
-<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%2Fwireshark%2F72%20-%20ydQ9DoP.png" alt="" /></p>
-</li>
-</ul>
-<h5 id="第三次握手"><a class="markdownIt-Anchor" href="#第三次握手"></a> 第三次握手</h5>
-<ul>
-<li>
-<p>客户端给服务器相应一个ACK段，该段中使Acknowledgment number = K + 1来表示确认已收到服务器的SYN段(Sequence number = K)</p>
-<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%2Fwireshark%2F73%20-%20frRzNZS.png" alt="" /></p>
-</li>
-</ul>
-<h4 id="四次挥手"><a class="markdownIt-Anchor" href="#四次挥手"></a> 四次挥手</h4>
-<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%2Fwireshark%2F74%20-%20zxOkltZ.png" alt="" /></p>
-<p>wireshark卡退了，下面几张图和端口对不上，但不影响</p>
-<h5 id="第一次挥手"><a class="markdownIt-Anchor" href="#第一次挥手"></a> 第一次挥手</h5>
-<ul>
-<li>
-<p>客户端打算断开连接，向服务器发送FIN报文，FIN报文中会指定一个序列号，之后客户端进入FIN_WAIT_1状态。也就是客户端发出连接释放报文段(FIN报文)，指定序列号seq = u，主动关闭TCP连接，等待服务器的确认。</p>
-<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%2Fwireshark%2F75%20-%206BqFDbA.png" alt="" /></p>
-</li>
-</ul>
-<h5 id="第二次挥手"><a class="markdownIt-Anchor" href="#第二次挥手"></a> 第二次挥手</h5>
-<ul>
-<li>
-<p>服务器收到连接释放报文段(FIN报文)后，就向客户端发送ACK应答报文，以客户端的FIN报文的序列号 seq+1 作为ACK应答报文段的确认序列号ack = seq+1 = u + 1。接着服务器进入CLOSE_WAIT(等待关闭)状态，此时的TCP处于半关闭状态，客户端到服务器的连接释放。客户端收到来自服务器的ACK应答报文段后，进入FIN_WAIT_2状态。</p>
-<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%2Fwireshark%2F76%20-%20jRYYGkm.png" alt="" /></p>
-</li>
-</ul>
-<h5 id="第三次挥手"><a class="markdownIt-Anchor" href="#第三次挥手"></a> 第三次挥手</h5>
-<ul>
-<li>
-<p>服务器也打算断开连接，向客户端发送<strong>连接释放(FIN)报文段</strong>，之后服务器进入<strong>LASK_ACK(最后确认)状态</strong>，等待客户端的确认。服务器的连接释放(FIN)报文段的FIN=1，ACK=1，序列号seq=m，确认序列号ack=u+1。</p>
-<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%2Fwireshark%2F77%20-%20FTERgJ4.png" alt="" /></p>
-</li>
-</ul>
-<h5 id="第四次挥手"><a class="markdownIt-Anchor" href="#第四次挥手"></a> 第四次挥手</h5>
-<ul>
-<li>
-<p>客户端收到来自服务器的连接释放(FIN)报文段后，会向服务器发送一个ACK应答报文段，以连接释放(FIN)报文段的确认序号 ack 作为ACK应答报文段的序列号 seq，以连接释放(FIN)报文段的序列号 seq+1作为确认序号ack。之后客户端进入TIME_WAIT(时间等待)状态，服务器收到ACK应答报文段后，服务器就进入CLOSE(关闭)状态，到此服务器的连接已经完成关闭。客户端处于TIME_WAIT状态时，此时的TCP还未释放掉，需要等待2MSL后，客户端才进入CLOSE状态。</p>
-<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%2Fwireshark%2F78%20-%20gFP1ulp.png" alt="" /></p>
-</li>
-</ul>
-<h3 id="常用协议分析-http协议"><a class="markdownIt-Anchor" href="#常用协议分析-http协议"></a> 常用协议分析-HTTP协议</h3>
-<ul>
-<li>
-<p>还是筛选TCP协议因为HTTP是TCP的上层协议，所以过滤TCP的数据会包含HTTP协议的数据包</p>
-</li>
-<li>
-<p>使用curl -I <a href="http://baidu.com">baidu.com</a></p>
-</li>
-<li>
-<p>curl是一个在命令行下工作的文件传输工具，这里用来发送http请求 -I标识仅返回头部信息 看tcp协议时也可用此方法</p>
-</li>
-</ul>
-<p>​		<img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%2Fwireshark%2F79%20-%20GqXXPLH.png" alt="" /></p>
-<ul>
-<li>
-<p>第一步：发送了一个HTTP的HEAD请求</p>
-</li>
-<li>
-<p>第二步：服务器收到我们的请求返回了一个Seq/ACK进行确认</p>
-</li>
-<li>
-<p>第三步：服务器将HTTP的头部信息返回给我们客户端 <strong>状态码为200标识页面正常</strong></p>
-</li>
-<li>
-<p>第四步：客户端收到服务器返回的头部信息向服务器发送Seq/ACK进行确认</p>
-</li>
-<li>
-<p>发送完成之后客户端就会发送FIN/ACK来进行关闭链接的请求</p>
-<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%2Fwireshark%2F80%20-%20xUuVOxl.png" alt="" /></p>
-</li>
-</ul>
-<h2 id="习题与思考题"><a class="markdownIt-Anchor" href="#习题与思考题"></a> 习题与思考题</h2>
-<p><strong>网络工程师能通过WIRESHARK做哪些工作</strong></p>
-<ul>
-<li>检擦网络协议的执行情况。</li>
-<li>排查网络故障，解决网络问题。</li>
-<li>网络攻防，检测网络安全隐患。</li>
-</ul>
+<figure class="highlight dts"><table><tr><td class="code"><pre><code class="hljs dts"><span class="hljs-symbol">auto_excerpt:</span><br><span class="hljs-symbol">    enable:</span>true<br><span class="hljs-symbol">    length:</span><span class="hljs-number">150</span><br></code></pre></td></tr></table></figure>
+<p>默认截取的长度为150字符，可以根据需要自行设定</p>
+<blockquote>
+<p>建议使用<code>&lt;!--more--&gt;</code>(及第一种方式)，除了可以精确控制需要显示的展露内容以外，这种方式也可以让Hexo中的插件更好的识别</p>
+</blockquote>
 ]]></content>
       <categories>
-        <category>计算机网络</category>
+        <category>hexo</category>
       </categories>
       <tags>
-        <tag>计算机网络</tag>
-        <tag>wireshark</tag>
-        <tag>抓包</tag>
-        <tag>软件学习</tag>
+        <tag>hexo</tag>
       </tags>
   </entry>
   <entry>
@@ -2729,6 +2492,10 @@
 <ul>
 <li>贪心。局部最优：当气球出现重叠，一起射，所用弓箭最少。全局最优：把所有气球射爆所用弓箭最少。为了让气球尽可能的重叠，需要对数组进行排序。射中的气球我们对其“进行标记”，具体实现是将重叠气球的右边界统一设置成重叠气球中的最小右边界。</li>
 </ul>
+<h4 id="738-单调递增的数字"><a class="markdownIt-Anchor" href="#738-单调递增的数字"></a> 738. 单调递增的数字</h4>
+<ul>
+<li>贪心。一旦出现前一位大于后一位的情况，让前一位减一，后一位设为9.找不出反例，用贪心。从后向前遍历，找到最后一个前一位大于后一位的数，然后后面设置为9.</li>
+</ul>
 <h4 id="763-划分字母区间"><a class="markdownIt-Anchor" href="#763-划分字母区间"></a> 763. 划分字母区间</h4>
 <ul>
 <li>分为两步
@@ -2756,6 +2523,231 @@
         <tag>算法</tag>
         <tag>leetcode</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>wireshark学习与应用</title>
+    <url>/2022/05/26/wireshark%E5%AD%A6%E4%B9%A0%E4%B8%8E%E5%BA%94%E7%94%A8/</url>
+    <content><![CDATA[<h1 id="wireshark抓包工具使用"><a class="markdownIt-Anchor" href="#wireshark抓包工具使用"></a> wireshark抓包工具使用</h1>
+<h2 id="wireshark简介"><a class="markdownIt-Anchor" href="#wireshark简介"></a> wireshark简介</h2>
+<p>wireshark是一个网络封包分析软件，其功能是撷取网络封包，并尽可能显示出最为详细的网络封包资料。Wireshark使用WinPCAP作为借口，直接与网卡进行数据报文交换。</p>
+<h2 id="wireshark主要应用"><a class="markdownIt-Anchor" href="#wireshark主要应用"></a> wireshark主要应用</h2>
+<ul>
+<li>网络管理员用来解决网络问题</li>
+<li>网络安全工程师用来检测安全隐患</li>
+<li>开发人员用来测试协议执行情况</li>
+<li>用来学习网络协议</li>
+</ul>
+<h2 id="waireshark快速分析数据包技巧"><a class="markdownIt-Anchor" href="#waireshark快速分析数据包技巧"></a> waireshark快速分析数据包技巧</h2>
+<ul>
+<li>确定wireshark的物理位置。</li>
+<li>选择捕获接口。</li>
+<li>使用捕获过滤器</li>
+<li>使用显示过滤器</li>
+<li>使用着色规则</li>
+<li>构建图表</li>
+<li>重组数据</li>
+</ul>
+<h2 id="wireshark抓包及快速定位数据包技巧"><a class="markdownIt-Anchor" href="#wireshark抓包及快速定位数据包技巧"></a> wireshark抓包及快速定位数据包技巧</h2>
+<h3 id="常见协议包"><a class="markdownIt-Anchor" href="#常见协议包"></a> 常见协议包</h3>
+<ul>
+<li>ARP协议</li>
+<li>ICMP协议</li>
+<li>TCP协议</li>
+<li>UDP协议</li>
+<li>DNS协议</li>
+<li>HTTP协议</li>
+</ul>
+<h2 id="wireshark过滤器使用"><a class="markdownIt-Anchor" href="#wireshark过滤器使用"></a> wireshark过滤器使用</h2>
+<ul>
+<li>
+<p>其中一例：使用过滤器筛选udp的数据包</p>
+<p>使用过滤器输入“udp”以筛选出udp报文。但输入udp之后出现了多种协议。原因就是oicq以及dns都是基于udp的传输层之上的协议。</p>
+<p>扩展：客户端向DNS服务器查询域名，一般返回的内容都不超过512字节，用UDP传输即可。不用经过三次握手，这样DNS服务器负载更低，响应更快。理论上说，客户端也可以指定向DNS服务器查询时用TCP，但事实上，很多DNS服务器进行配置的时候，仅支持UDP查询包。</p>
+</li>
+<li>
+<p>ip.src_host为源ip地址</p>
+</li>
+<li>
+<p>ip.dst_host为目的ip地址</p>
+</li>
+<li>
+<p>ip.addr不分源和目的ip地址</p>
+</li>
+<li>
+<p>查询条件为或是<code>or</code></p>
+</li>
+<li>
+<p>查询条件为且是<code>and</code></p>
+</li>
+</ul>
+<h2 id="wireshark对常用协议抓包并分析原理"><a class="markdownIt-Anchor" href="#wireshark对常用协议抓包并分析原理"></a> wireshark对常用协议抓包并分析原理</h2>
+<p><strong>协议分析的时候关闭混杂模式，避免一些干扰的数据包存在</strong></p>
+<h3 id="常用协议分析-arp协议"><a class="markdownIt-Anchor" href="#常用协议分析-arp协议"></a> 常用协议分析-ARP协议</h3>
+<ul>
+<li>
+<p>地址解析协议（英语：Address Resolution Protocol，缩写ARP）是一个通过解析网络层地址来找寻数据链路层地址的网络传输协议，它在IPv4中及其重要。ARP是通过网络地址来定位MAC地址。</p>
+</li>
+<li>
+<p>开始抓包—过滤arp</p>
+</li>
+</ul>
+<p>​		<img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%2Fwireshark%2F66%20-%20SzNv8iT.png" alt="" /></p>
+<p>​		使用<code>nmap (-sn)</code> （对目标进行ping检测，不进行端口扫描）来基于ARP协议进行扫描</p>
+<ul>
+<li>请求包（<code>Opcode:_request(1)</code>）中，目标mac地址为0，因为不清楚。</li>
+<li>应答包（<code>Opcode:_reply(2)</code>）中，应答包补全了自己的MAC地址，目的地址和源地址做了替换。</li>
+</ul>
+<p>​		<img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%2Fwireshark%2F67%20-%20KRNZG8P.png" alt="" /></p>
+<h3 id="常用协议分析-icmp协议"><a class="markdownIt-Anchor" href="#常用协议分析-icmp协议"></a> 常用协议分析-ICMP协议</h3>
+<ul>
+<li>把之前的数据包清空掉然后筛选ICMP协议的数据包</li>
+<li>打开一个终端 ping <a href="http://baidu.com">baidu.com</a></li>
+<li>基于IP协议</li>
+</ul>
+<h4 id="icmp协议分析请求包"><a class="markdownIt-Anchor" href="#icmp协议分析请求包"></a> ICMP协议分析请求包</h4>
+<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%2Fwireshark%2F69%20-%20EVF8tfn.png" alt="" /></p>
+<h4 id="icmp协议分析应答包"><a class="markdownIt-Anchor" href="#icmp协议分析应答包"></a> ICMP协议分析应答包</h4>
+<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%2Fwireshark%2F68%20-%200Kgv5ze.png" alt="" /></p>
+<p><strong>工作过程：</strong></p>
+<ul>
+<li>本机发送一个ICMP Echo Request的包。</li>
+<li>接收方返回一个ICMP Echo Reply，包含了接受到数据拷贝和一些其他命令。</li>
+</ul>
+<h3 id="常用协议分析-tcp协议"><a class="markdownIt-Anchor" href="#常用协议分析-tcp协议"></a> 常用协议分析-TCP协议</h3>
+<ul>
+<li>
+<p>启动抓包。选择http://www.sina.com.cn作为目标地址</p>
+</li>
+<li>
+<p>打开命令夫，通过ipconfig查看本机IP地址</p>
+</li>
+<li>
+<p>Filter对话框中填入过滤条件：tcp and ip.addr == 10.19.129.113,得到过滤结果。</p>
+</li>
+<li>
+<p>连接三次握手，断开连接四次挥手</p>
+</li>
+</ul>
+<h4 id="三次握手"><a class="markdownIt-Anchor" href="#三次握手"></a> 三次握手</h4>
+<h5 id="第一次握手"><a class="markdownIt-Anchor" href="#第一次握手"></a> 第一次握手</h5>
+<ul>
+<li>
+<h5 id="客户端给服务器发送一个syn段该段中也包含客户端的初始序列号sequence-number"><a class="markdownIt-Anchor" href="#客户端给服务器发送一个syn段该段中也包含客户端的初始序列号sequence-number"></a> 客户端给服务器发送一个SYN段，该段中也包含客户端的初始序列号(Sequence number)</h5>
+<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%2Fwireshark%2F71%20-%205MX78iG.png" alt="" /></p>
+</li>
+</ul>
+<h5 id="第二次握手"><a class="markdownIt-Anchor" href="#第二次握手"></a> 第二次握手</h5>
+<ul>
+<li>
+<p>服务器返回客户端SYN+ACK段，该段中包含服务器的初始序列号(Sequence number = J);同时使Acknowledgment number = J + 1来表示确认已收到客户端的SYN段。</p>
+<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%2Fwireshark%2F72%20-%20ydQ9DoP.png" alt="" /></p>
+</li>
+</ul>
+<h5 id="第三次握手"><a class="markdownIt-Anchor" href="#第三次握手"></a> 第三次握手</h5>
+<ul>
+<li>
+<p>客户端给服务器相应一个ACK段，该段中使Acknowledgment number = K + 1来表示确认已收到服务器的SYN段(Sequence number = K)</p>
+<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%2Fwireshark%2F73%20-%20frRzNZS.png" alt="" /></p>
+</li>
+</ul>
+<h4 id="四次挥手"><a class="markdownIt-Anchor" href="#四次挥手"></a> 四次挥手</h4>
+<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%2Fwireshark%2F74%20-%20zxOkltZ.png" alt="" /></p>
+<p>wireshark卡退了，下面几张图和端口对不上，但不影响</p>
+<h5 id="第一次挥手"><a class="markdownIt-Anchor" href="#第一次挥手"></a> 第一次挥手</h5>
+<ul>
+<li>
+<p>客户端打算断开连接，向服务器发送FIN报文，FIN报文中会指定一个序列号，之后客户端进入FIN_WAIT_1状态。也就是客户端发出连接释放报文段(FIN报文)，指定序列号seq = u，主动关闭TCP连接，等待服务器的确认。</p>
+<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%2Fwireshark%2F75%20-%206BqFDbA.png" alt="" /></p>
+</li>
+</ul>
+<h5 id="第二次挥手"><a class="markdownIt-Anchor" href="#第二次挥手"></a> 第二次挥手</h5>
+<ul>
+<li>
+<p>服务器收到连接释放报文段(FIN报文)后，就向客户端发送ACK应答报文，以客户端的FIN报文的序列号 seq+1 作为ACK应答报文段的确认序列号ack = seq+1 = u + 1。接着服务器进入CLOSE_WAIT(等待关闭)状态，此时的TCP处于半关闭状态，客户端到服务器的连接释放。客户端收到来自服务器的ACK应答报文段后，进入FIN_WAIT_2状态。</p>
+<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%2Fwireshark%2F76%20-%20jRYYGkm.png" alt="" /></p>
+</li>
+</ul>
+<h5 id="第三次挥手"><a class="markdownIt-Anchor" href="#第三次挥手"></a> 第三次挥手</h5>
+<ul>
+<li>
+<p>服务器也打算断开连接，向客户端发送<strong>连接释放(FIN)报文段</strong>，之后服务器进入<strong>LASK_ACK(最后确认)状态</strong>，等待客户端的确认。服务器的连接释放(FIN)报文段的FIN=1，ACK=1，序列号seq=m，确认序列号ack=u+1。</p>
+<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%2Fwireshark%2F77%20-%20FTERgJ4.png" alt="" /></p>
+</li>
+</ul>
+<h5 id="第四次挥手"><a class="markdownIt-Anchor" href="#第四次挥手"></a> 第四次挥手</h5>
+<ul>
+<li>
+<p>客户端收到来自服务器的连接释放(FIN)报文段后，会向服务器发送一个ACK应答报文段，以连接释放(FIN)报文段的确认序号 ack 作为ACK应答报文段的序列号 seq，以连接释放(FIN)报文段的序列号 seq+1作为确认序号ack。之后客户端进入TIME_WAIT(时间等待)状态，服务器收到ACK应答报文段后，服务器就进入CLOSE(关闭)状态，到此服务器的连接已经完成关闭。客户端处于TIME_WAIT状态时，此时的TCP还未释放掉，需要等待2MSL后，客户端才进入CLOSE状态。</p>
+<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%2Fwireshark%2F78%20-%20gFP1ulp.png" alt="" /></p>
+</li>
+</ul>
+<h3 id="常用协议分析-http协议"><a class="markdownIt-Anchor" href="#常用协议分析-http协议"></a> 常用协议分析-HTTP协议</h3>
+<ul>
+<li>
+<p>还是筛选TCP协议因为HTTP是TCP的上层协议，所以过滤TCP的数据会包含HTTP协议的数据包</p>
+</li>
+<li>
+<p>使用curl -I <a href="http://baidu.com">baidu.com</a></p>
+</li>
+<li>
+<p>curl是一个在命令行下工作的文件传输工具，这里用来发送http请求 -I标识仅返回头部信息 看tcp协议时也可用此方法</p>
+</li>
+</ul>
+<p>​		<img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%2Fwireshark%2F79%20-%20GqXXPLH.png" alt="" /></p>
+<ul>
+<li>
+<p>第一步：发送了一个HTTP的HEAD请求</p>
+</li>
+<li>
+<p>第二步：服务器收到我们的请求返回了一个Seq/ACK进行确认</p>
+</li>
+<li>
+<p>第三步：服务器将HTTP的头部信息返回给我们客户端 <strong>状态码为200标识页面正常</strong></p>
+</li>
+<li>
+<p>第四步：客户端收到服务器返回的头部信息向服务器发送Seq/ACK进行确认</p>
+</li>
+<li>
+<p>发送完成之后客户端就会发送FIN/ACK来进行关闭链接的请求</p>
+<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%2Fwireshark%2F80%20-%20xUuVOxl.png" alt="" /></p>
+</li>
+</ul>
+<h2 id="习题与思考题"><a class="markdownIt-Anchor" href="#习题与思考题"></a> 习题与思考题</h2>
+<p><strong>网络工程师能通过WIRESHARK做哪些工作</strong></p>
+<ul>
+<li>检擦网络协议的执行情况。</li>
+<li>排查网络故障，解决网络问题。</li>
+<li>网络攻防，检测网络安全隐患。</li>
+</ul>
+]]></content>
+      <categories>
+        <category>计算机网络</category>
+      </categories>
+      <tags>
+        <tag>计算机网络</tag>
+        <tag>wireshark</tag>
+        <tag>抓包</tag>
+        <tag>软件学习</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2023/08/29/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="quick-start"><a class="markdownIt-Anchor" href="#quick-start"></a> Quick Start</h2>
+<h3 id="create-a-new-post"><a class="markdownIt-Anchor" href="#create-a-new-post"></a> Create a new post</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="run-server"><a class="markdownIt-Anchor" href="#run-server"></a> Run server</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="generate-static-files"><a class="markdownIt-Anchor" href="#generate-static-files"></a> Generate static files</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="deploy-to-remote-sites"><a class="markdownIt-Anchor" href="#deploy-to-remote-sites"></a> Deploy to remote sites</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
   </entry>
   <entry>
     <title>云计算实验</title>
@@ -3150,6 +3142,18 @@ http
       </tags>
   </entry>
   <entry>
+    <title>关于本博客访问的一点说明</title>
+    <url>/2022/05/16/%E5%85%B3%E4%BA%8E%E6%9C%AC%E5%8D%9A%E5%AE%A2%E8%AE%BF%E9%97%AE%E7%9A%84%E4%B8%80%E7%82%B9%E8%AF%B4%E6%98%8E/</url>
+    <content><![CDATA[<p>之前使用舍友推荐采用免费图床<a href="https://imgur.com/">imgur</a>,因此图片需链接代理后才可完整显示。后面感觉太麻烦，购买了腾讯的cos对象存储，不是很贵，但用户体验很好，现在查看图片已经不需要代理了。</p>
+]]></content>
+      <categories>
+        <category>杂</category>
+      </categories>
+      <tags>
+        <tag>杂</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>建站想法</title>
     <url>/2022/05/14/%E5%BB%BA%E7%AB%99%E6%83%B3%E6%B3%95/</url>
     <content><![CDATA[<h1 id="建站想法"><a class="markdownIt-Anchor" href="#建站想法"></a> 建站想法</h1>
@@ -3220,199 +3224,6 @@ http
       </categories>
       <tags>
         <tag>生活杂谈</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>计算机游戏设计上机实验1</title>
-    <url>/2022/05/25/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%B8%B8%E6%88%8F%E8%AE%BE%E8%AE%A1%E4%B8%8A%E6%9C%BA%E5%AE%9E%E9%AA%8C1/</url>
-    <content><![CDATA[<h1 id="巫师3狂猎游戏世界分析"><a class="markdownIt-Anchor" href="#巫师3狂猎游戏世界分析"></a> 《巫师3：狂猎》游戏世界分析</h1>
-<h2 id="巫师3狂猎游戏介绍"><a class="markdownIt-Anchor" href="#巫师3狂猎游戏介绍"></a> 《巫师3：狂猎》游戏介绍</h2>
-<p>《巫师3：狂猎》是由CD Projekt RED制作，WB Games（北美地区）、Spike Chunsoft（日本地区）发行的一款RPG游戏（角色扮演类游戏），于2015年5月19日在Windows/Playstation 4/Xbox One平台发行，2019年10月13日登录Nintendo Switch平台。游戏改编自小说《猎魔人》系列，为《<a href="https://baike.baidu.com/item/%E5%B7%AB%E5%B8%88/3816318">巫师</a>》系列的第三部作品，同时也是杰洛特冒险的终曲。该游戏曾获得2015年TGA年度最佳RPG游戏、IGN年度最佳RPG游戏、游民星空年度最佳RPG游戏以及2016年TGA年度最佳RPG游戏等等奖项。</p>
-<p>《巫师3：狂猎》是一款情节驱动的开放世界角色扮演游戏。本作讲述的是猎魔人杰洛特的故事，游戏中玩家也将扮演猎魔人杰洛特进行游戏。故事发生在一个令人目眩神迷的奇幻宇宙里，玩家做出的每一个选择都意义重大，同时也要面对影响深远的后果。游戏中玩家通过完成任务和打败怪物可以获得经验点数，在获得一定的经验点数后就能提升等级，并获得能力点数、解锁技能槽与突变诱发物槽来进行人物设定。</p>
-<h2 id="游戏世界分析"><a class="markdownIt-Anchor" href="#游戏世界分析"></a> 游戏世界分析</h2>
-<p>从物理维度、时间维度、环境维度、感情维度、道德维度以及现实度六个维度分析《巫师：3》游戏世界</p>
-<h3 id="物理维度"><a class="markdownIt-Anchor" href="#物理维度"></a> 物理维度</h3>
-<h4 id="空间维度"><a class="markdownIt-Anchor" href="#空间维度"></a> 空间维度</h4>
-<ul>
-<li>游戏中几乎所有图形素材均为3D建模，因此该游戏是一款3D游戏。</li>
-</ul>
-<h4 id="大小规模"><a class="markdownIt-Anchor" href="#大小规模"></a> 大小规模</h4>
-<ul>
-<li>
-<p>游戏是高仿真游戏，物体之间大小比例比较准确，但有些关键物体会被夸大，比如需要采的药草、需要获取的推动剧情发展的物品（钥匙、人物手镯等等）</p>
-<img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E6%B8%B8%E6%88%8F%2F%E5%B7%AB%E5%B8%88%2F60%20-%20F8pReji.png"  width="500"  height = "300" />
-</li>
-<li>
-<p>人、建筑物与地形高度较为符合现实，但也存在某些房屋较矮的情况，玩家甚至能轻易跳上屋顶。或许是游戏厂商有意为之。</p>
-</li>
-<li>
-<p>室内和室外场所比例比较符合逻辑。</p>
-<ul>
-<li>
-<p>室内大小合理，玩家只需要走动或者跑动即可在短时间内走完。</p>
-<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E6%B8%B8%E6%88%8F%2F%E5%B7%AB%E5%B8%88%2F59%20-%20Tg7oU5L.png" alt="" /></p>
-</li>
-<li>
-<p>城市之间距离在游戏世界中相对来说路程较远，可用现实世界的公里来衡量。玩家要从一个城市到另一个城市往往需要借助其他工具，游戏中体现为马匹和传送门。游戏也设置快速传送点，方便玩家在城市间切换。</p>
-</li>
-</ul>
-<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E6%B8%B8%E6%88%8F%2F%E5%B7%AB%E5%B8%88%2F61%20-%20qdrwnv6.png" alt="" /></p>
-</li>
-<li>
-<p>物体相对速度合理。人物有走动、跑动状态，马匹有慢走，慢跑与疾驰状态，状态间速度变化明显。人物相对马移动速度满，游戏刻画地非常明显。同时背包中物品数量也会影响人物以及马匹的移动速度。上述设置较为合理且符合现实。</p>
-</li>
-</ul>
-<h4 id="界限"><a class="markdownIt-Anchor" href="#界限"></a> 界限</h4>
-<p>不知是否是翻译问题，游戏宣传曾说《巫师3：狂猎》的世界所有“目之所及”的地方都可以到达，没有空气墙和边界。但我测试一下，结果并非完全如此。</p>
-<ul>
-<li>
-<p>游戏世界确实没有空气墙，且玩家确实无法到达边界。但当玩家即将抵达地图边界时，游戏会弹出提示：“超出地图边界，请回头”。此时游戏主角杰洛特也会说：“我不觉得希瑞（推动故事发展的人物）会在那个方向”。但若忽视掉这些提示，继续跑一会儿，屏幕就会突然黑屏然后将人物强制转头，将人物传送回“地图边界”。</p>
-<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E6%B8%B8%E6%88%8F%2F%E5%B7%AB%E5%B8%88%2F58%20-%20u3zSRsU.png" alt="到达世界边缘" /></p>
-</li>
-<li>
-<p>当人物到达游戏边境时打开ansel摄像头，去探索游戏远景，发现游戏世界确实还是存在边界，只不过被上述方法巧妙掩盖了。</p>
-</li>
-</ul>
-<h3 id="时间维度"><a class="markdownIt-Anchor" href="#时间维度"></a> 时间维度</h3>
-<p>对于这类大型的开放世界RPG游戏中时间流逝是很重要的一个设定。如果是游戏时间流逝过快就会让玩家缺乏游戏的代入感，但要是时间流速过慢又会让游戏的节奏过慢而导致玩家丧失耐心。</p>
-<ul>
-<li>
-<p>对《巫师3：狂猎》中的时间变化，游戏时间中的时间流速是游戏世界中的一天等于现实世界的1小时36分钟。可以测算出现实中过去一秒，游戏中过去15秒。时间是绝对的，无论玩家是否在行动，时间都是在流逝的。不过《巫师3：狂猎》中并不存在季节系统。</p>
-</li>
-<li>
-<p>游戏是存在时间尺度的。游戏有时间单位，用周、天、小时等来度量。部分任务要求一周或者几天后才能开始执行。玩家化身具有某些能力以及部分道具是用小时来衡量的。</p>
-</li>
-<li>
-<p>游戏中存在白天黄昏黑夜等。</p>
-<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E6%B8%B8%E6%88%8F%2F%E5%B7%AB%E5%B8%88%2F49%20-%20hJEcXgt.png" alt="日落" /></p>
-<ul>
-<li>白天与黑夜不会影响玩家的化身，玩家的化身不会因为时间流逝而感觉到饿或者累。但是黑夜通常会影响玩家的视野，若玩家在黑夜中赶路通常需要一些照明设备。另外有些道具要求必须在白天或在晚上才能做。</li>
-<li>有些任务要求玩家必须在特定的时间段来完成，例如要求玩家在黄昏时完成的任务。</li>
-<li>玩家也可根据时段来做相应任务，以此来降低人物的难度系数。</li>
-<li>许多生物在不同的时间段都会有不同的效果，比如说狼在夜晚会增加攻击力，或是在晴天的时候成群结队等等。</li>
-</ul>
-<p>玩家可以在游戏中把握时间从而更轻易达到自己的目的。因此增加了玩家的可玩性。</p>
-<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E6%B8%B8%E6%88%8F%2F%E5%B7%AB%E5%B8%88%2F48%20-%20in0QwcZ.png" alt="黑夜" /></p>
-</li>
-<li>
-<p>游戏存在可变时间。玩家有时需要游戏时间快速流逝，来达到自己想要的时间段。游戏提供了一种冥想的功能。玩家可以选择冥想的时间，最久24小时，最少1小时（游戏时间）。玩家可以通过冥想来快速度过时间。</p>
-<img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E6%B8%B8%E6%88%8F%2F%E5%B7%AB%E5%B8%88%2F46%20-%20T8AKIcx.png"  width="400"  height = "600" />
-</li>
-<li>
-<p>不允许玩家调整时间。游戏中时间作为绝对的游戏元素不可被玩家手动更改。如上所述，玩家可采用“冥想”快速消耗时间来“调整时间”。</p>
-</li>
-<li>
-<p>游戏中不存在反常时间。</p>
-</li>
-</ul>
-<h3 id="环境维度"><a class="markdownIt-Anchor" href="#环境维度"></a> 环境维度</h3>
-<ul>
-<li>
-<p>游戏延承了《猎魔人》系列小说的世界观。游戏世界观极为宏大，故事发生在“巫师星球”上。巫师星球与另一颗星球交汇，出现了许多魔物。之后巫师星球出现了第一批精灵，后面演化出了人类。过了很多年之后，人类建立起了自己的帝国，版图大致分为两块：北方诸国与南方帝国。</p>
-</li>
-<li>
-<p>在游戏中人类具有一个复杂的、有组织的社会。上面也提到，人类建立起了帝国，包括北方的瑞达尼亚、科德温、泰莫利亚、亚甸以及南方的尼弗迦德。人们社会阶层分明，如同中世纪的欧洲帝国，包括统治者，大臣，贵族，平民等等。行业多种多样，主要包括：商店老板、药草师、猎魔人、工匠、术士、士兵、猎人、诗人、佣兵、农民等等。游戏中存在一种组织叫做“狂猎”，作为与游戏化身矛盾的发起点。</p>
-</li>
-<li>
-<p>游戏中的家具、服装、建筑风格与中世纪的欧洲帝国相似。家具精致而质朴，多为木工手艺；服饰多为样式单调的肥大长衣以及连袖外套为主，色彩素淡；建筑简洁、线条分明、讲究对称、多运用色彩明暗、暗淡对视觉进行冲击。</p>
-<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E6%B8%B8%E6%88%8F%2F%E5%B7%AB%E5%B8%88%2F63%20-%20HjbOita.png" alt="" /></p>
-</li>
-<li>
-<p>人们多以游牧业与农业为主，崇尚帝国主义以及军事威力，因此战乱较为频繁。</p>
-</li>
-<li>
-<p>巫师的世界中，神的存在并没有像指环王的世界那样重要和严谨，可以被看作是无神论或者自然神论的奇幻世界。巫师的世界中终身被称作‘gods’，带没有明确的神系和神域，其中游戏涉及的主神有女神Melitele，在游戏中拥有教堂和广泛的信徒，神域特征是善良和守护；Lilit女神是恶魔的化身，但被世界的东部居民崇拜，甚于特征是邪恶与毁灭。另外还有一些邪教性质的信仰，包括Coram Agh Tera，信仰某种蜘蛛类的‘邪神’，‘伟大的编织者’；还有永恒之火教团等等。</p>
-<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E6%B8%B8%E6%88%8F%2F%E5%B7%AB%E5%B8%88%2F57%20-%20tN8npEF.png" alt="永恒之火教团祭祀" /></p>
-</li>
-<li>
-<p>游戏视觉风格统一。角色、用户界面等等符合古代欧洲帝国典雅、朴素但不失壮丽的风格。</p>
-</li>
-<li>
-<p>游戏设计各种自然环境。现实世界中能想到的地形，游戏世界中基本都能涵盖，包括雪山、大海、荒地、森林、平原等等。</p>
-</li>
-<li>
-<p>游戏风格和气氛与物理环境相关。当天气晴朗且人物在安全状态时，游戏气氛无忧无虑且欢快。但当天气作恶或与魔物接触时游戏气氛紧张刺激。</p>
-</li>
-<li>
-<p>游戏细节处理极为丰富。游戏对细节刻画极为重视，人类的尸骨，魔物的血迹甚至脚步都能看到。当然，有些任务也需要玩家仔细寻找发现这些细节才能继续执行。</p>
-<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E6%B8%B8%E6%88%8F%2F%E5%B7%AB%E5%B8%88%2F53%20-%20UIUhDqv.png" alt="羊的脚印" /></p>
-</li>
-</ul>
-<h3 id="感情维度"><a class="markdownIt-Anchor" href="#感情维度"></a> 感情维度</h3>
-<ul>
-<li>
-<p>游戏感情极为丰富，甚至可以说游戏剧情是以感情为线索发展的。</p>
-<ul>
-<li>
-<p>主角杰洛特与叶奈法（女术士）的感情始于一场关于迪精的冒险，随着这场冒险，他们二人的命运纠缠在了一起。二人也同时养育着杰洛特意外获得的养女（希里）。</p>
-<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E6%B8%B8%E6%88%8F%2F%E5%B7%AB%E5%B8%88%2F51%20-%20cQkP5jw.png" alt="杰洛特与叶奈法" /></p>
-</li>
-<li>
-<p>杰洛特与叶奈法在经历了一场意外后失忆。杰洛特在失忆后于叶奈法的好友特莉丝（女术士）还有一段坎坷的恋情。</p>
-<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E6%B8%B8%E6%88%8F%2F%E5%B7%AB%E5%B8%88%2F47%20-%20FEESNf9.png" alt="杰洛特与特莉丝" /></p>
-</li>
-<li>
-<p>后面杰洛特恢复了记忆，使得特莉丝无法接受自己爱上了好友爱人的事实，但在感性上又无法割舍对杰洛特的爱，这就产生了矛盾。</p>
-</li>
-<li>
-<p>而叶奈法先于杰洛特恢复了记忆。因此他早已得知恋人和曾经的好友在一起的事实，与杰洛特有着很深羁绊的她无疑时十分痛苦的。</p>
-</li>
-</ul>
-</li>
-<li>
-<p>感情作为剧情推动。从开始杰洛特要去寻找旧爱叶奈法与好友来到白果园，后面要与希里生父合作找寻自己疼爱的养女希里等等，正是因为玩家化身具备丰富的感情，才使得游戏剧情顺利推进。</p>
-</li>
-<li>
-<p>游戏给玩家设立了很多抉择，不同抉择下的剧情推动不同，玩家必须为游戏化身做出选择。比如杰洛特在恢复记忆后是否拒绝特莉丝的表白等等。这样玩家通常会出于同情或其他心里难以抉择，或是对其中一方本就嗤之以鼻而爽快抉择两种方式。玩家基于对剧情走向的理解做出选择，则增加了玩家的沉浸感，容易引起玩家感情的共鸣。</p>
-</li>
-<li>
-<p>玩家的抉择一般有善恶两种。比如完成任务后是否收取农民来之不易的钱。这与玩家的价值观相互辉映，容易激发玩家的情感，使玩家更易沉浸其中。</p>
-</li>
-</ul>
-<h3 id="道德维度"><a class="markdownIt-Anchor" href="#道德维度"></a> 道德维度</h3>
-<ul>
-<li>
-<p>从游戏大局以及现在人们的价值观来看，游戏中存在一个绝对的反派艾瑞汀。他抓走杰洛特的养女希里是为了获得其长者之血以及时空导航能力，从而在各个世界之间跳跃，侵略。</p>
-<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E6%B8%B8%E6%88%8F%2F%E5%B7%AB%E5%B8%88%2F52%20-%20TxVg9V8.png" alt="艾瑞汀" /></p>
-</li>
-<li>
-<p>然而分析其他人物时并没有绝对的对错。比如还有人想要带走希里，叫做阿瓦拉克。它来自艾恩艾尔世界，其白霜将在不久的将来吞噬整个世界。而阿瓦拉克的目的是用希里的能力拯救家乡，让其免遭白霜的吞噬；再比如杰洛特在游戏开始时曾与不满新帝国暴政的平民意外起了冲突，便将所有暴乱的平民全部杀掉。这些并不能判定究竟谁对谁错，这种道德的模棱两可也是游戏成功的原因之一。</p>
-</li>
-<li>
-<p>游戏并未太过解释自身世界的道德维度，总体都是让玩家自己判断。而对玩家正确的判断通常会得到额外的奖励，比如金币、经验等等。这也算是一种给玩家解释道德维度的方式。</p>
-<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E6%B8%B8%E6%88%8F%2F%E5%B7%AB%E5%B8%88%2F55%20-%20Y1KW3G4.png" alt="玩家具有不同的抉择" /></p>
-</li>
-<li>
-<p>游戏世界充斥着冲突与暴力。玩家需要与其他人或怪物打斗来赢得奖励。玩家有两把剑，一把铁剑一把银剑。虽然玩家经常与其他人冲突，但通常都是用铁剑斩恶，银剑斩妖。且基本都是出于正向原因而与他人冲突。</p>
-</li>
-<li>
-<p>游戏中有些抉择给玩家对暴力的选择范围。有个剧情提到玩家攻下了一座城墙，而玩家可以选择饶城主一命或是杀掉。但似乎并没有因为选择非暴力而奖励，也没有因为选择暴力而惩罚。选择不同的抉择一般只会影响后续的剧情发展。</p>
-</li>
-<li>
-<p>游戏里也有偷盗、掠夺、或是不遵守诺言的问题。但这些行为通常会有消极的后果。比如玩家若在城墙中偷拿走一些物资，会使得本中立的士兵对玩家刀剑相向。还有不向雇佣者缴纳物资之类不遵守诺言的问题，往往使得玩家不能获得应有的奖励。</p>
-</li>
-</ul>
-<h3 id="现实度"><a class="markdownIt-Anchor" href="#现实度"></a> 现实度</h3>
-<ul>
-<li>
-<p>游戏比较符合显示规律。比如人物背包中物资过多无法长时间快跑，装备具有耐久度，马匹具有耐力。</p>
-<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E6%B8%B8%E6%88%8F%2F%E5%B7%AB%E5%B8%88%2F64%20-%20CtRABZI.png" alt="" /></p>
-</li>
-<li>
-<p>但游戏也去掉了某些现实。比如玩家化身虽然可以进食，但没有饥饿感，食物主要用来回复生命值；玩家化身虽然会因装备多无法长时间快跑，但并无角色疲劳感的数值面板；角色没有情绪上的变化，至少没有对应的数值面板；角色的马匹可在几乎任何时候召唤到自己身边，这也不太符合现实。</p>
-<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E6%B8%B8%E6%88%8F%2F%E5%B7%AB%E5%B8%88%2F62%20-%206RKlroe.png" alt="" /></p>
-</li>
-<li>
-<p>但游戏中这些现实与“非现实”都是为可玩性服务的。人物背包物资过多就要求玩家去寻求npc交易或将装备存储；装备需要经常找工匠维护才能维持耐久度；马匹耐力有限，当马匹快跑时间过长时需要时间休息；角色可以进食但没有饥饿感、没有设置角色情绪上的变化也会减轻玩家对游戏的“不耐烦”；玩家几乎可以随时随地召唤自己的马匹也是为了方便玩家执行任务等等。综上所述，这些现实与“非现实”更增加了玩家的代入感，增加了游戏的可玩性。</p>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>课程作业</category>
-      </categories>
-      <tags>
-        <tag>课程作业</tag>
-        <tag>游戏分析</tag>
       </tags>
   </entry>
   <entry>
@@ -4532,246 +4343,196 @@ n &amp; 0 &amp; 0 &amp; 0\\
       </tags>
   </entry>
   <entry>
-    <title>计算机网络（二）</title>
-    <url>/2022/06/06/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%EF%BC%88%E4%BA%8C%EF%BC%89/</url>
-    <content><![CDATA[<h1 id="第三章-数据链路层"><a class="markdownIt-Anchor" href="#第三章-数据链路层"></a> 第三章 数据链路层</h1>
-<h2 id="术语"><a class="markdownIt-Anchor" href="#术语"></a> 术语：</h2>
+    <title>计算机游戏设计上机实验1</title>
+    <url>/2022/05/25/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%B8%B8%E6%88%8F%E8%AE%BE%E8%AE%A1%E4%B8%8A%E6%9C%BA%E5%AE%9E%E9%AA%8C1/</url>
+    <content><![CDATA[<h1 id="巫师3狂猎游戏世界分析"><a class="markdownIt-Anchor" href="#巫师3狂猎游戏世界分析"></a> 《巫师3：狂猎》游戏世界分析</h1>
+<h2 id="巫师3狂猎游戏介绍"><a class="markdownIt-Anchor" href="#巫师3狂猎游戏介绍"></a> 《巫师3：狂猎》游戏介绍</h2>
+<p>《巫师3：狂猎》是由CD Projekt RED制作，WB Games（北美地区）、Spike Chunsoft（日本地区）发行的一款RPG游戏（角色扮演类游戏），于2015年5月19日在Windows/Playstation 4/Xbox One平台发行，2019年10月13日登录Nintendo Switch平台。游戏改编自小说《猎魔人》系列，为《<a href="https://baike.baidu.com/item/%E5%B7%AB%E5%B8%88/3816318">巫师</a>》系列的第三部作品，同时也是杰洛特冒险的终曲。该游戏曾获得2015年TGA年度最佳RPG游戏、IGN年度最佳RPG游戏、游民星空年度最佳RPG游戏以及2016年TGA年度最佳RPG游戏等等奖项。</p>
+<p>《巫师3：狂猎》是一款情节驱动的开放世界角色扮演游戏。本作讲述的是猎魔人杰洛特的故事，游戏中玩家也将扮演猎魔人杰洛特进行游戏。故事发生在一个令人目眩神迷的奇幻宇宙里，玩家做出的每一个选择都意义重大，同时也要面对影响深远的后果。游戏中玩家通过完成任务和打败怪物可以获得经验点数，在获得一定的经验点数后就能提升等级，并获得能力点数、解锁技能槽与突变诱发物槽来进行人物设定。</p>
+<h2 id="游戏世界分析"><a class="markdownIt-Anchor" href="#游戏世界分析"></a> 游戏世界分析</h2>
+<p>从物理维度、时间维度、环境维度、感情维度、道德维度以及现实度六个维度分析《巫师：3》游戏世界</p>
+<h3 id="物理维度"><a class="markdownIt-Anchor" href="#物理维度"></a> 物理维度</h3>
+<h4 id="空间维度"><a class="markdownIt-Anchor" href="#空间维度"></a> 空间维度</h4>
 <ul>
-<li>主机和路由器：<strong>结点(nodes)</strong></li>
-<li>连接相连节点的通信信道：<strong>链路(links)</strong>
-<ul>
-<li>有线链路(wired links)</li>
-<li>无线链路(wireless links)</li>
-<li>局域网(LANs)</li>
+<li>游戏中几乎所有图形素材均为3D建模，因此该游戏是一款3D游戏。</li>
 </ul>
-</li>
-<li>链路层(第2层)数据分组：帧(frame)，封装网络层数据报</li>
-</ul>
-<p>数据链路层负责通过一条链路从一个节点向另一个物理链路直接相连的相邻节点传送数据报。</p>
-<h2 id="数据链路层服务"><a class="markdownIt-Anchor" href="#数据链路层服务"></a> 数据链路层服务</h2>
+<h4 id="大小规模"><a class="markdownIt-Anchor" href="#大小规模"></a> 大小规模</h4>
 <ul>
 <li>
-<p>组帧(framing)</p>
+<p>游戏是高仿真游戏，物体之间大小比例比较准确，但有些关键物体会被夸大，比如需要采的药草、需要获取的推动剧情发展的物品（钥匙、人物手镯等等）</p>
+<img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E6%B8%B8%E6%88%8F%2F%E5%B7%AB%E5%B8%88%2F60%20-%20F8pReji.png"  width="500"  height = "300" />
+</li>
+<li>
+<p>人、建筑物与地形高度较为符合现实，但也存在某些房屋较矮的情况，玩家甚至能轻易跳上屋顶。或许是游戏厂商有意为之。</p>
+</li>
+<li>
+<p>室内和室外场所比例比较符合逻辑。</p>
 <ul>
-<li>封装数据报构成数据帧，加首部和尾部</li>
-<li>帧同步</li>
+<li>
+<p>室内大小合理，玩家只需要走动或者跑动即可在短时间内走完。</p>
+<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E6%B8%B8%E6%88%8F%2F%E5%B7%AB%E5%B8%88%2F59%20-%20Tg7oU5L.png" alt="" /></p>
+</li>
+<li>
+<p>城市之间距离在游戏世界中相对来说路程较远，可用现实世界的公里来衡量。玩家要从一个城市到另一个城市往往需要借助其他工具，游戏中体现为马匹和传送门。游戏也设置快速传送点，方便玩家在城市间切换。</p>
+</li>
+</ul>
+<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E6%B8%B8%E6%88%8F%2F%E5%B7%AB%E5%B8%88%2F61%20-%20qdrwnv6.png" alt="" /></p>
+</li>
+<li>
+<p>物体相对速度合理。人物有走动、跑动状态，马匹有慢走，慢跑与疾驰状态，状态间速度变化明显。人物相对马移动速度满，游戏刻画地非常明显。同时背包中物品数量也会影响人物以及马匹的移动速度。上述设置较为合理且符合现实。</p>
+</li>
+</ul>
+<h4 id="界限"><a class="markdownIt-Anchor" href="#界限"></a> 界限</h4>
+<p>不知是否是翻译问题，游戏宣传曾说《巫师3：狂猎》的世界所有“目之所及”的地方都可以到达，没有空气墙和边界。但我测试一下，结果并非完全如此。</p>
+<ul>
+<li>
+<p>游戏世界确实没有空气墙，且玩家确实无法到达边界。但当玩家即将抵达地图边界时，游戏会弹出提示：“超出地图边界，请回头”。此时游戏主角杰洛特也会说：“我不觉得希瑞（推动故事发展的人物）会在那个方向”。但若忽视掉这些提示，继续跑一会儿，屏幕就会突然黑屏然后将人物强制转头，将人物传送回“地图边界”。</p>
+<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E6%B8%B8%E6%88%8F%2F%E5%B7%AB%E5%B8%88%2F58%20-%20u3zSRsU.png" alt="到达世界边缘" /></p>
+</li>
+<li>
+<p>当人物到达游戏边境时打开ansel摄像头，去探索游戏远景，发现游戏世界确实还是存在边界，只不过被上述方法巧妙掩盖了。</p>
+</li>
+</ul>
+<h3 id="时间维度"><a class="markdownIt-Anchor" href="#时间维度"></a> 时间维度</h3>
+<p>对于这类大型的开放世界RPG游戏中时间流逝是很重要的一个设定。如果是游戏时间流逝过快就会让玩家缺乏游戏的代入感，但要是时间流速过慢又会让游戏的节奏过慢而导致玩家丧失耐心。</p>
+<ul>
+<li>
+<p>对《巫师3：狂猎》中的时间变化，游戏时间中的时间流速是游戏世界中的一天等于现实世界的1小时36分钟。可以测算出现实中过去一秒，游戏中过去15秒。时间是绝对的，无论玩家是否在行动，时间都是在流逝的。不过《巫师3：狂猎》中并不存在季节系统。</p>
+</li>
+<li>
+<p>游戏是存在时间尺度的。游戏有时间单位，用周、天、小时等来度量。部分任务要求一周或者几天后才能开始执行。玩家化身具有某些能力以及部分道具是用小时来衡量的。</p>
+</li>
+<li>
+<p>游戏中存在白天黄昏黑夜等。</p>
+<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E6%B8%B8%E6%88%8F%2F%E5%B7%AB%E5%B8%88%2F49%20-%20hJEcXgt.png" alt="日落" /></p>
+<ul>
+<li>白天与黑夜不会影响玩家的化身，玩家的化身不会因为时间流逝而感觉到饿或者累。但是黑夜通常会影响玩家的视野，若玩家在黑夜中赶路通常需要一些照明设备。另外有些道具要求必须在白天或在晚上才能做。</li>
+<li>有些任务要求玩家必须在特定的时间段来完成，例如要求玩家在黄昏时完成的任务。</li>
+<li>玩家也可根据时段来做相应任务，以此来降低人物的难度系数。</li>
+<li>许多生物在不同的时间段都会有不同的效果，比如说狼在夜晚会增加攻击力，或是在晴天的时候成群结队等等。</li>
+</ul>
+<p>玩家可以在游戏中把握时间从而更轻易达到自己的目的。因此增加了玩家的可玩性。</p>
+<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E6%B8%B8%E6%88%8F%2F%E5%B7%AB%E5%B8%88%2F48%20-%20in0QwcZ.png" alt="黑夜" /></p>
+</li>
+<li>
+<p>游戏存在可变时间。玩家有时需要游戏时间快速流逝，来达到自己想要的时间段。游戏提供了一种冥想的功能。玩家可以选择冥想的时间，最久24小时，最少1小时（游戏时间）。玩家可以通过冥想来快速度过时间。</p>
+<img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E6%B8%B8%E6%88%8F%2F%E5%B7%AB%E5%B8%88%2F46%20-%20T8AKIcx.png"  width="400"  height = "600" />
+</li>
+<li>
+<p>不允许玩家调整时间。游戏中时间作为绝对的游戏元素不可被玩家手动更改。如上所述，玩家可采用“冥想”快速消耗时间来“调整时间”。</p>
+</li>
+<li>
+<p>游戏中不存在反常时间。</p>
+</li>
+</ul>
+<h3 id="环境维度"><a class="markdownIt-Anchor" href="#环境维度"></a> 环境维度</h3>
+<ul>
+<li>
+<p>游戏延承了《猎魔人》系列小说的世界观。游戏世界观极为宏大，故事发生在“巫师星球”上。巫师星球与另一颗星球交汇，出现了许多魔物。之后巫师星球出现了第一批精灵，后面演化出了人类。过了很多年之后，人类建立起了自己的帝国，版图大致分为两块：北方诸国与南方帝国。</p>
+</li>
+<li>
+<p>在游戏中人类具有一个复杂的、有组织的社会。上面也提到，人类建立起了帝国，包括北方的瑞达尼亚、科德温、泰莫利亚、亚甸以及南方的尼弗迦德。人们社会阶层分明，如同中世纪的欧洲帝国，包括统治者，大臣，贵族，平民等等。行业多种多样，主要包括：商店老板、药草师、猎魔人、工匠、术士、士兵、猎人、诗人、佣兵、农民等等。游戏中存在一种组织叫做“狂猎”，作为与游戏化身矛盾的发起点。</p>
+</li>
+<li>
+<p>游戏中的家具、服装、建筑风格与中世纪的欧洲帝国相似。家具精致而质朴，多为木工手艺；服饰多为样式单调的肥大长衣以及连袖外套为主，色彩素淡；建筑简洁、线条分明、讲究对称、多运用色彩明暗、暗淡对视觉进行冲击。</p>
+<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E6%B8%B8%E6%88%8F%2F%E5%B7%AB%E5%B8%88%2F63%20-%20HjbOita.png" alt="" /></p>
+</li>
+<li>
+<p>人们多以游牧业与农业为主，崇尚帝国主义以及军事威力，因此战乱较为频繁。</p>
+</li>
+<li>
+<p>巫师的世界中，神的存在并没有像指环王的世界那样重要和严谨，可以被看作是无神论或者自然神论的奇幻世界。巫师的世界中终身被称作‘gods’，带没有明确的神系和神域，其中游戏涉及的主神有女神Melitele，在游戏中拥有教堂和广泛的信徒，神域特征是善良和守护；Lilit女神是恶魔的化身，但被世界的东部居民崇拜，甚于特征是邪恶与毁灭。另外还有一些邪教性质的信仰，包括Coram Agh Tera，信仰某种蜘蛛类的‘邪神’，‘伟大的编织者’；还有永恒之火教团等等。</p>
+<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E6%B8%B8%E6%88%8F%2F%E5%B7%AB%E5%B8%88%2F57%20-%20tN8npEF.png" alt="永恒之火教团祭祀" /></p>
+</li>
+<li>
+<p>游戏视觉风格统一。角色、用户界面等等符合古代欧洲帝国典雅、朴素但不失壮丽的风格。</p>
+</li>
+<li>
+<p>游戏设计各种自然环境。现实世界中能想到的地形，游戏世界中基本都能涵盖，包括雪山、大海、荒地、森林、平原等等。</p>
+</li>
+<li>
+<p>游戏风格和气氛与物理环境相关。当天气晴朗且人物在安全状态时，游戏气氛无忧无虑且欢快。但当天气作恶或与魔物接触时游戏气氛紧张刺激。</p>
+</li>
+<li>
+<p>游戏细节处理极为丰富。游戏对细节刻画极为重视，人类的尸骨，魔物的血迹甚至脚步都能看到。当然，有些任务也需要玩家仔细寻找发现这些细节才能继续执行。</p>
+<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E6%B8%B8%E6%88%8F%2F%E5%B7%AB%E5%B8%88%2F53%20-%20UIUhDqv.png" alt="羊的脚印" /></p>
+</li>
+</ul>
+<h3 id="感情维度"><a class="markdownIt-Anchor" href="#感情维度"></a> 感情维度</h3>
+<ul>
+<li>
+<p>游戏感情极为丰富，甚至可以说游戏剧情是以感情为线索发展的。</p>
+<ul>
+<li>
+<p>主角杰洛特与叶奈法（女术士）的感情始于一场关于迪精的冒险，随着这场冒险，他们二人的命运纠缠在了一起。二人也同时养育着杰洛特意外获得的养女（希里）。</p>
+<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E6%B8%B8%E6%88%8F%2F%E5%B7%AB%E5%B8%88%2F51%20-%20cQkP5jw.png" alt="杰洛特与叶奈法" /></p>
+</li>
+<li>
+<p>杰洛特与叶奈法在经历了一场意外后失忆。杰洛特在失忆后于叶奈法的好友特莉丝（女术士）还有一段坎坷的恋情。</p>
+<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E6%B8%B8%E6%88%8F%2F%E5%B7%AB%E5%B8%88%2F47%20-%20FEESNf9.png" alt="杰洛特与特莉丝" /></p>
+</li>
+<li>
+<p>后面杰洛特恢复了记忆，使得特莉丝无法接受自己爱上了好友爱人的事实，但在感性上又无法割舍对杰洛特的爱，这就产生了矛盾。</p>
+</li>
+<li>
+<p>而叶奈法先于杰洛特恢复了记忆。因此他早已得知恋人和曾经的好友在一起的事实，与杰洛特有着很深羁绊的她无疑时十分痛苦的。</p>
+</li>
 </ul>
 </li>
 <li>
-<p>链路接入(link access)</p>
-<ul>
-<li>如果是共享介质，需要解决信道接入(channel access)</li>
-<li>帧首部中的&quot;MAC&quot;地址，用于标识帧的源和目的
-<ul>
-<li>不同于IP地址！</li>
-</ul>
-</li>
-</ul>
+<p>感情作为剧情推动。从开始杰洛特要去寻找旧爱叶奈法与好友来到白果园，后面要与希里生父合作找寻自己疼爱的养女希里等等，正是因为玩家化身具备丰富的感情，才使得游戏剧情顺利推进。</p>
 </li>
 <li>
-<p>相邻节点间可靠交付</p>
-<ul>
-<li>在低误码率的有线链路上很少采用(如光纤，某些双绞线等)</li>
-<li>无线链路：误码率高，需要可靠交付</li>
-</ul>
+<p>游戏给玩家设立了很多抉择，不同抉择下的剧情推动不同，玩家必须为游戏化身做出选择。比如杰洛特在恢复记忆后是否拒绝特莉丝的表白等等。这样玩家通常会出于同情或其他心里难以抉择，或是对其中一方本就嗤之以鼻而爽快抉择两种方式。玩家基于对剧情走向的理解做出选择，则增加了玩家的沉浸感，容易引起玩家感情的共鸣。</p>
 </li>
 <li>
-<p>流量控制(flow control)</p>
-<ul>
-<li>协调(pacing)相邻的发送节点和接受</li>
-</ul>
-</li>
-<li>
-<p>差错检测(error detection)</p>
-<ul>
-<li>信号衰减和噪声会引起差错</li>
-<li>接受端检测到差错
-<ul>
-<li>通知发送端重传或者直接丢弃帧</li>
-</ul>
+<p>玩家的抉择一般有善恶两种。比如完成任务后是否收取农民来之不易的钱。这与玩家的价值观相互辉映，容易激发玩家的情感，使玩家更易沉浸其中。</p>
 </li>
 </ul>
-</li>
-<li>
-<p>差错纠正(error correction)</p>
-<ul>
-<li>接收端直接纠正比特差错</li>
-</ul>
-</li>
-<li>
-<p>全双工和半双工通信控制</p>
-<ul>
-<li>全双工：链路两端节点<strong>同时</strong>双向传输</li>
-<li>半双工：链路两端节点<strong>交替</strong>双向传输</li>
-</ul>
-</li>
-</ul>
-<h2 id="链路层的具体实现"><a class="markdownIt-Anchor" href="#链路层的具体实现"></a> 链路层的具体实现</h2>
-<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%2F99%20-%20SdHdGVd.png" alt="" /></p>
-<h2 id="网卡间通信"><a class="markdownIt-Anchor" href="#网卡间通信"></a> 网卡间通信</h2>
-<ul>
-<li>发送端
-<ul>
-<li>将数据报封装成帧</li>
-<li>增加差错检测比特，实现可靠数据传输和流量控制等</li>
-</ul>
-</li>
-<li>接收端
-<ul>
-<li>检测差错，实现可靠数据传输和流量控制等</li>
-<li>提取数据报，交付上层协议实体</li>
-</ul>
-</li>
-</ul>
-<h2 id="差错检测"><a class="markdownIt-Anchor" href="#差错检测"></a> 差错检测</h2>
-<h3 id="差错编码基本原理"><a class="markdownIt-Anchor" href="#差错编码基本原理"></a> 差错编码基本原理</h3>
-<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%2F100%20-%20ztP8Io8.png" alt="" /></p>
-<h3 id="差错编码的检错能力"><a class="markdownIt-Anchor" href="#差错编码的检错能力"></a> 差错编码的检错能力</h3>
-<ul>
-<li>差错编码可分为<strong>检错码</strong>与<strong>纠错码</strong></li>
-<li>对于检错码，如果编码集的汉明距离d=r+1，则该差错编码可以检测r位的差错</li>
-<li>对于纠错码，如果编码集的汉明距离d=2r+1，则该差错编码可以纠正r位的差错</li>
-</ul>
-<h3 id="奇偶校验码"><a class="markdownIt-Anchor" href="#奇偶校验码"></a> 奇偶校验码</h3>
-<h4 id="1比特校验位"><a class="markdownIt-Anchor" href="#1比特校验位"></a> 1比特校验位：</h4>
-<ul>
-<li>检测奇数位差错</li>
-</ul>
-<h4 id="二维奇偶校验"><a class="markdownIt-Anchor" href="#二维奇偶校验"></a> 二维奇偶校验：</h4>
-<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%2F101%20-%20pOV7Kf7.png" alt="" /></p>
-<h3 id="internet校验和checksum"><a class="markdownIt-Anchor" href="#internet校验和checksum"></a> Internet校验和(Checksum)</h3>
+<h3 id="道德维度"><a class="markdownIt-Anchor" href="#道德维度"></a> 道德维度</h3>
 <ul>
 <li>
-<p>发送端</p>
-<ul>
-<li>将&quot;数据&quot;（校验内容）划分为16位的二进制“整数”序列</li>
-<li>求和（sum）：补码求和（最高位进位的&quot;1&quot;,返回最低为继续加）</li>
-<li>校验和（checksum）：sum的反码</li>
-<li>放入分组（UDP、TCP、IP）的校验和字段</li>
-</ul>
+<p>从游戏大局以及现在人们的价值观来看，游戏中存在一个绝对的反派艾瑞汀。他抓走杰洛特的养女希里是为了获得其长者之血以及时空导航能力，从而在各个世界之间跳跃，侵略。</p>
+<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E6%B8%B8%E6%88%8F%2F%E5%B7%AB%E5%B8%88%2F52%20-%20TxVg9V8.png" alt="艾瑞汀" /></p>
 </li>
 <li>
-<p>接收端</p>
-<ul>
-<li>与发送端相同算法计算</li>
-<li>计算得到的&quot;checksum&quot;:
-<ul>
-<li>为16位全0(或sum为16位全1)：无错</li>
-<li>否则：有错</li>
-</ul>
+<p>然而分析其他人物时并没有绝对的对错。比如还有人想要带走希里，叫做阿瓦拉克。它来自艾恩艾尔世界，其白霜将在不久的将来吞噬整个世界。而阿瓦拉克的目的是用希里的能力拯救家乡，让其免遭白霜的吞噬；再比如杰洛特在游戏开始时曾与不满新帝国暴政的平民意外起了冲突，便将所有暴乱的平民全部杀掉。这些并不能判定究竟谁对谁错，这种道德的模棱两可也是游戏成功的原因之一。</p>
+</li>
+<li>
+<p>游戏并未太过解释自身世界的道德维度，总体都是让玩家自己判断。而对玩家正确的判断通常会得到额外的奖励，比如金币、经验等等。这也算是一种给玩家解释道德维度的方式。</p>
+<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E6%B8%B8%E6%88%8F%2F%E5%B7%AB%E5%B8%88%2F55%20-%20Y1KW3G4.png" alt="玩家具有不同的抉择" /></p>
+</li>
+<li>
+<p>游戏世界充斥着冲突与暴力。玩家需要与其他人或怪物打斗来赢得奖励。玩家有两把剑，一把铁剑一把银剑。虽然玩家经常与其他人冲突，但通常都是用铁剑斩恶，银剑斩妖。且基本都是出于正向原因而与他人冲突。</p>
+</li>
+<li>
+<p>游戏中有些抉择给玩家对暴力的选择范围。有个剧情提到玩家攻下了一座城墙，而玩家可以选择饶城主一命或是杀掉。但似乎并没有因为选择非暴力而奖励，也没有因为选择暴力而惩罚。选择不同的抉择一般只会影响后续的剧情发展。</p>
+</li>
+<li>
+<p>游戏里也有偷盗、掠夺、或是不遵守诺言的问题。但这些行为通常会有消极的后果。比如玩家若在城墙中偷拿走一些物资，会使得本中立的士兵对玩家刀剑相向。还有不向雇佣者缴纳物资之类不遵守诺言的问题，往往使得玩家不能获得应有的奖励。</p>
 </li>
 </ul>
+<h3 id="现实度"><a class="markdownIt-Anchor" href="#现实度"></a> 现实度</h3>
+<ul>
+<li>
+<p>游戏比较符合显示规律。比如人物背包中物资过多无法长时间快跑，装备具有耐久度，马匹具有耐力。</p>
+<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E6%B8%B8%E6%88%8F%2F%E5%B7%AB%E5%B8%88%2F64%20-%20CtRABZI.png" alt="" /></p>
+</li>
+<li>
+<p>但游戏也去掉了某些现实。比如玩家化身虽然可以进食，但没有饥饿感，食物主要用来回复生命值；玩家化身虽然会因装备多无法长时间快跑，但并无角色疲劳感的数值面板；角色没有情绪上的变化，至少没有对应的数值面板；角色的马匹可在几乎任何时候召唤到自己身边，这也不太符合现实。</p>
+<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E6%B8%B8%E6%88%8F%2F%E5%B7%AB%E5%B8%88%2F62%20-%206RKlroe.png" alt="" /></p>
+</li>
+<li>
+<p>但游戏中这些现实与“非现实”都是为可玩性服务的。人物背包物资过多就要求玩家去寻求npc交易或将装备存储；装备需要经常找工匠维护才能维持耐久度；马匹耐力有限，当马匹快跑时间过长时需要时间休息；角色可以进食但没有饥饿感、没有设置角色情绪上的变化也会减轻玩家对游戏的“不耐烦”；玩家几乎可以随时随地召唤自己的马匹也是为了方便玩家执行任务等等。综上所述，这些现实与“非现实”更增加了玩家的代入感，增加了游戏的可玩性。</p>
 </li>
 </ul>
-<h3 id="循环冗余校验码crc"><a class="markdownIt-Anchor" href="#循环冗余校验码crc"></a> 循环冗余校验码（CRC）</h3>
-<ul>
-<li>检错能力更强大的差错编码</li>
-<li>将数据比特，D，视为一个二进制数</li>
-<li>选择一个r+1位的比特模式（生成比特模式），G</li>
-<li>目标，满足r位的CRC比特，R，满足
-<ul>
-<li>&lt;D,R&gt;刚好可以被G整除(模2)</li>
-<li>接收端检错：利用G除&lt;D,R&gt;,余式全0，无错：否则，有错！</li>
-<li>可以检测所有突发长度小于r+1位差错</li>
-</ul>
-</li>
-<li>广泛应用于实际网络(以太网，802.11WiFi，ATM)</li>
-</ul>
-<p>D*2^r XOR R = nG 相当于 用G去除D左移r位，则余式为R</p>
-<h2 id="多路访问控制mac协议"><a class="markdownIt-Anchor" href="#多路访问控制mac协议"></a> 多路访问控制（MAC）协议</h2>
-<h3 id="两类链路"><a class="markdownIt-Anchor" href="#两类链路"></a> 两类&quot;链路&quot;：</h3>
-<ul>
-<li>点对点链路
-<ul>
-<li>拨号接入的PPP</li>
-<li>以太网交换机与主机间的点对点链路</li>
-</ul>
-</li>
-<li>广播链路（共享介质）
-<ul>
-<li>早期的总线以太网</li>
-<li>HFC的上行链路</li>
-<li>802.11无线局域网</li>
-</ul>
-</li>
-</ul>
-<h3 id="使用场景"><a class="markdownIt-Anchor" href="#使用场景"></a> 使用场景</h3>
-<ul>
-<li>单一共享广播信道</li>
-<li>两个或者两个以上结点同时传输:干扰(interference)
-<ul>
-<li>冲突（collision）
-<ul>
-<li>节点同时接收到两个或者多个信号-&gt;接受失败！</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h3 id="多路访问控制协议multiple-access-control-protocol"><a class="markdownIt-Anchor" href="#多路访问控制协议multiple-access-control-protocol"></a> 多路访问控制协议(multiple access control protocol)</h3>
-<ul>
-<li>采用分布式算法决定结点如何共享信道，即决策节点何时可以传输数据</li>
-<li>必须基于信道本身，通信信道共享协调信息
-<ul>
-<li>无带外信道用于协调</li>
-</ul>
-</li>
-</ul>
-<h3 id="理想mac协议"><a class="markdownIt-Anchor" href="#理想mac协议"></a> 理想MAC协议</h3>
-<p>给定：速率为R bps的广播信道</p>
-<p>期望：</p>
-<pre><code class="hljs">1. 当只有一个节点希望传输数据时，它可以以速率R发送
-2. 当有M个结点期望发送数据时，每个节点平均发送数据的平均速率是R/M
-3. 完全分散控制：
- + 无需特定结点协调
- + 无需时钟、时隙同步
-4. 简单
-</code></pre>
-<h3 id="mac协议分类"><a class="markdownIt-Anchor" href="#mac协议分类"></a> MAC协议分类</h3>
-<p>三大类：</p>
-<ul>
-<li>信道划分(channel partitioning)MAC协议
-<ul>
-<li>多路复用技术</li>
-</ul>
-</li>
-<li>随机访问(random access)MAC协议
-<ul>
-<li>信道不划分，允许冲突</li>
-<li>采用冲突&quot;恢复&quot;机制</li>
-</ul>
-</li>
-<li>轮转(“taking turns”)MAC协议
-<ul>
-<li>结点轮流使用信道</li>
-</ul>
-</li>
-</ul>
-<h4 id="信道划分mac协议tdma"><a class="markdownIt-Anchor" href="#信道划分mac协议tdma"></a> 信道划分MAC协议:TDMA</h4>
-<p>TDMA: time division multiple access</p>
-<ul>
-<li>“周期性”接入信道</li>
-<li>每个站点在每个周期，占用固定长度的时隙(e.g.长度=分组传输时间)</li>
-<li>未用时隙空闲(idle)</li>
-<li>例如：6-站点LAN，1，3，4传输分组，2，5，6空闲</li>
-</ul>
-<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%2F102%20-%202fP7KOu.png" alt="" /></p>
-<h4 id="信道划分mac协议fdma"><a class="markdownIt-Anchor" href="#信道划分mac协议fdma"></a> 信道划分MAC协议：FDMA</h4>
-<p>FDMA: frequency division multiple access</p>
-<ul>
-<li>信道频谱划分为若干频带(frequency bands)</li>
-<li>每个站点分配一个固定的频带</li>
-<li>无传输频带空闲</li>
-<li>例如：6站点LAN，1，3，4频带传输数据，2，5，6频带空闲。</li>
-</ul>
-<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%2F103%20-%20u5uTjDC.png" alt="" /></p>
 ]]></content>
       <categories>
-        <category>计算机网络</category>
+        <category>课程作业</category>
       </categories>
       <tags>
-        <tag>计算机网络</tag>
-        <tag>学习笔记</tag>
+        <tag>课程作业</tag>
+        <tag>游戏分析</tag>
       </tags>
   </entry>
   <entry>
@@ -5335,6 +5096,249 @@ RTT越大，在收到确认之前，可以发送的数据越多</p>
 <li>集线器不能分割冲突域。</li>
 <li>连在集线器上的工作主机平分带宽。</li>
 </ul>
+]]></content>
+      <categories>
+        <category>计算机网络</category>
+      </categories>
+      <tags>
+        <tag>计算机网络</tag>
+        <tag>学习笔记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>计算机网络（二）</title>
+    <url>/2022/06/06/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%EF%BC%88%E4%BA%8C%EF%BC%89/</url>
+    <content><![CDATA[<h1 id="第三章-数据链路层"><a class="markdownIt-Anchor" href="#第三章-数据链路层"></a> 第三章 数据链路层</h1>
+<h2 id="术语"><a class="markdownIt-Anchor" href="#术语"></a> 术语：</h2>
+<ul>
+<li>主机和路由器：<strong>结点(nodes)</strong></li>
+<li>连接相连节点的通信信道：<strong>链路(links)</strong>
+<ul>
+<li>有线链路(wired links)</li>
+<li>无线链路(wireless links)</li>
+<li>局域网(LANs)</li>
+</ul>
+</li>
+<li>链路层(第2层)数据分组：帧(frame)，封装网络层数据报</li>
+</ul>
+<p>数据链路层负责通过一条链路从一个节点向另一个物理链路直接相连的相邻节点传送数据报。</p>
+<h2 id="数据链路层服务"><a class="markdownIt-Anchor" href="#数据链路层服务"></a> 数据链路层服务</h2>
+<ul>
+<li>
+<p>组帧(framing)</p>
+<ul>
+<li>封装数据报构成数据帧，加首部和尾部</li>
+<li>帧同步</li>
+</ul>
+</li>
+<li>
+<p>链路接入(link access)</p>
+<ul>
+<li>如果是共享介质，需要解决信道接入(channel access)</li>
+<li>帧首部中的&quot;MAC&quot;地址，用于标识帧的源和目的
+<ul>
+<li>不同于IP地址！</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>相邻节点间可靠交付</p>
+<ul>
+<li>在低误码率的有线链路上很少采用(如光纤，某些双绞线等)</li>
+<li>无线链路：误码率高，需要可靠交付</li>
+</ul>
+</li>
+<li>
+<p>流量控制(flow control)</p>
+<ul>
+<li>协调(pacing)相邻的发送节点和接受</li>
+</ul>
+</li>
+<li>
+<p>差错检测(error detection)</p>
+<ul>
+<li>信号衰减和噪声会引起差错</li>
+<li>接受端检测到差错
+<ul>
+<li>通知发送端重传或者直接丢弃帧</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>差错纠正(error correction)</p>
+<ul>
+<li>接收端直接纠正比特差错</li>
+</ul>
+</li>
+<li>
+<p>全双工和半双工通信控制</p>
+<ul>
+<li>全双工：链路两端节点<strong>同时</strong>双向传输</li>
+<li>半双工：链路两端节点<strong>交替</strong>双向传输</li>
+</ul>
+</li>
+</ul>
+<h2 id="链路层的具体实现"><a class="markdownIt-Anchor" href="#链路层的具体实现"></a> 链路层的具体实现</h2>
+<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%2F99%20-%20SdHdGVd.png" alt="" /></p>
+<h2 id="网卡间通信"><a class="markdownIt-Anchor" href="#网卡间通信"></a> 网卡间通信</h2>
+<ul>
+<li>发送端
+<ul>
+<li>将数据报封装成帧</li>
+<li>增加差错检测比特，实现可靠数据传输和流量控制等</li>
+</ul>
+</li>
+<li>接收端
+<ul>
+<li>检测差错，实现可靠数据传输和流量控制等</li>
+<li>提取数据报，交付上层协议实体</li>
+</ul>
+</li>
+</ul>
+<h2 id="差错检测"><a class="markdownIt-Anchor" href="#差错检测"></a> 差错检测</h2>
+<h3 id="差错编码基本原理"><a class="markdownIt-Anchor" href="#差错编码基本原理"></a> 差错编码基本原理</h3>
+<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%2F100%20-%20ztP8Io8.png" alt="" /></p>
+<h3 id="差错编码的检错能力"><a class="markdownIt-Anchor" href="#差错编码的检错能力"></a> 差错编码的检错能力</h3>
+<ul>
+<li>差错编码可分为<strong>检错码</strong>与<strong>纠错码</strong></li>
+<li>对于检错码，如果编码集的汉明距离d=r+1，则该差错编码可以检测r位的差错</li>
+<li>对于纠错码，如果编码集的汉明距离d=2r+1，则该差错编码可以纠正r位的差错</li>
+</ul>
+<h3 id="奇偶校验码"><a class="markdownIt-Anchor" href="#奇偶校验码"></a> 奇偶校验码</h3>
+<h4 id="1比特校验位"><a class="markdownIt-Anchor" href="#1比特校验位"></a> 1比特校验位：</h4>
+<ul>
+<li>检测奇数位差错</li>
+</ul>
+<h4 id="二维奇偶校验"><a class="markdownIt-Anchor" href="#二维奇偶校验"></a> 二维奇偶校验：</h4>
+<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%2F101%20-%20pOV7Kf7.png" alt="" /></p>
+<h3 id="internet校验和checksum"><a class="markdownIt-Anchor" href="#internet校验和checksum"></a> Internet校验和(Checksum)</h3>
+<ul>
+<li>
+<p>发送端</p>
+<ul>
+<li>将&quot;数据&quot;（校验内容）划分为16位的二进制“整数”序列</li>
+<li>求和（sum）：补码求和（最高位进位的&quot;1&quot;,返回最低为继续加）</li>
+<li>校验和（checksum）：sum的反码</li>
+<li>放入分组（UDP、TCP、IP）的校验和字段</li>
+</ul>
+</li>
+<li>
+<p>接收端</p>
+<ul>
+<li>与发送端相同算法计算</li>
+<li>计算得到的&quot;checksum&quot;:
+<ul>
+<li>为16位全0(或sum为16位全1)：无错</li>
+<li>否则：有错</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="循环冗余校验码crc"><a class="markdownIt-Anchor" href="#循环冗余校验码crc"></a> 循环冗余校验码（CRC）</h3>
+<ul>
+<li>检错能力更强大的差错编码</li>
+<li>将数据比特，D，视为一个二进制数</li>
+<li>选择一个r+1位的比特模式（生成比特模式），G</li>
+<li>目标，满足r位的CRC比特，R，满足
+<ul>
+<li>&lt;D,R&gt;刚好可以被G整除(模2)</li>
+<li>接收端检错：利用G除&lt;D,R&gt;,余式全0，无错：否则，有错！</li>
+<li>可以检测所有突发长度小于r+1位差错</li>
+</ul>
+</li>
+<li>广泛应用于实际网络(以太网，802.11WiFi，ATM)</li>
+</ul>
+<p>D*2^r XOR R = nG 相当于 用G去除D左移r位，则余式为R</p>
+<h2 id="多路访问控制mac协议"><a class="markdownIt-Anchor" href="#多路访问控制mac协议"></a> 多路访问控制（MAC）协议</h2>
+<h3 id="两类链路"><a class="markdownIt-Anchor" href="#两类链路"></a> 两类&quot;链路&quot;：</h3>
+<ul>
+<li>点对点链路
+<ul>
+<li>拨号接入的PPP</li>
+<li>以太网交换机与主机间的点对点链路</li>
+</ul>
+</li>
+<li>广播链路（共享介质）
+<ul>
+<li>早期的总线以太网</li>
+<li>HFC的上行链路</li>
+<li>802.11无线局域网</li>
+</ul>
+</li>
+</ul>
+<h3 id="使用场景"><a class="markdownIt-Anchor" href="#使用场景"></a> 使用场景</h3>
+<ul>
+<li>单一共享广播信道</li>
+<li>两个或者两个以上结点同时传输:干扰(interference)
+<ul>
+<li>冲突（collision）
+<ul>
+<li>节点同时接收到两个或者多个信号-&gt;接受失败！</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="多路访问控制协议multiple-access-control-protocol"><a class="markdownIt-Anchor" href="#多路访问控制协议multiple-access-control-protocol"></a> 多路访问控制协议(multiple access control protocol)</h3>
+<ul>
+<li>采用分布式算法决定结点如何共享信道，即决策节点何时可以传输数据</li>
+<li>必须基于信道本身，通信信道共享协调信息
+<ul>
+<li>无带外信道用于协调</li>
+</ul>
+</li>
+</ul>
+<h3 id="理想mac协议"><a class="markdownIt-Anchor" href="#理想mac协议"></a> 理想MAC协议</h3>
+<p>给定：速率为R bps的广播信道</p>
+<p>期望：</p>
+<pre><code class="hljs">1. 当只有一个节点希望传输数据时，它可以以速率R发送
+2. 当有M个结点期望发送数据时，每个节点平均发送数据的平均速率是R/M
+3. 完全分散控制：
+ + 无需特定结点协调
+ + 无需时钟、时隙同步
+4. 简单
+</code></pre>
+<h3 id="mac协议分类"><a class="markdownIt-Anchor" href="#mac协议分类"></a> MAC协议分类</h3>
+<p>三大类：</p>
+<ul>
+<li>信道划分(channel partitioning)MAC协议
+<ul>
+<li>多路复用技术</li>
+</ul>
+</li>
+<li>随机访问(random access)MAC协议
+<ul>
+<li>信道不划分，允许冲突</li>
+<li>采用冲突&quot;恢复&quot;机制</li>
+</ul>
+</li>
+<li>轮转(“taking turns”)MAC协议
+<ul>
+<li>结点轮流使用信道</li>
+</ul>
+</li>
+</ul>
+<h4 id="信道划分mac协议tdma"><a class="markdownIt-Anchor" href="#信道划分mac协议tdma"></a> 信道划分MAC协议:TDMA</h4>
+<p>TDMA: time division multiple access</p>
+<ul>
+<li>“周期性”接入信道</li>
+<li>每个站点在每个周期，占用固定长度的时隙(e.g.长度=分组传输时间)</li>
+<li>未用时隙空闲(idle)</li>
+<li>例如：6-站点LAN，1，3，4传输分组，2，5，6空闲</li>
+</ul>
+<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%2F102%20-%202fP7KOu.png" alt="" /></p>
+<h4 id="信道划分mac协议fdma"><a class="markdownIt-Anchor" href="#信道划分mac协议fdma"></a> 信道划分MAC协议：FDMA</h4>
+<p>FDMA: frequency division multiple access</p>
+<ul>
+<li>信道频谱划分为若干频带(frequency bands)</li>
+<li>每个站点分配一个固定的频带</li>
+<li>无传输频带空闲</li>
+<li>例如：6站点LAN，1，3，4频带传输数据，2，5，6频带空闲。</li>
+</ul>
+<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%2F103%20-%20u5uTjDC.png" alt="" /></p>
 ]]></content>
       <categories>
         <category>计算机网络</category>
