@@ -1,6 +1,385 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>SpongeBob_SquarePants_Classic_Quotes</title>
+    <url>/2022/06/01/SpongeBob-SquarePants-Classic-Quotes/</url>
+    <content><![CDATA[<h1 id="海绵宝宝经典语录"><a class="markdownIt-Anchor" href="#海绵宝宝经典语录"></a> 海绵宝宝经典语录</h1>
+<h2 id="前言"><a class="markdownIt-Anchor" href="#前言"></a> 前言</h2>
+<div class="note note-success">
+            <p>最近偶然看到了童年的动画回忆，感觉小时候的动画片很经典，蕴藏的知识很符合本人的三观。无意间又逛到了b站up主<code>黄方块和粉星星a</code>，看到了一些海绵宝宝里的经典语录，就想无聊时看一遍海绵宝宝，把那些蕴含哲理的话记录一下。不过当然不能简单地看一遍，毕竟越来越感觉时间不多了🐶，还是得让自己做的事有意义。在b站发现了有英文原版，就想着看一遍英文的吧，就当是学英语了。不过很惨，没有英文字幕，好多生词也听不出来没法去拼写。去YouTube上看海绵宝宝，也没字幕，也确实，中国人看中国剧也不会有字幕😂。不过找到了海绵宝宝的wiki，海绵宝宝的创作者把一整个剧本都写在了里面，可以跟着剧本比对着看。贴个链接：<code>https://spongebob.fandom.com/wiki/List_of_episodes</code>（如果要找剧本，点击<code>Transcripts</code>标签，然后根据你想要的集数选择<code>View Transcript</code>）(也确实明白了海绵宝宝为什么能做的如此成功，因为创作者对自己的作品充满了热情并下了很大的功夫，向他们学习🖖)</p>
+          </div>
+<div class="note note-success">
+            <ul><li>其实最近对保研很难去外校这事儿焦虑了好久，今晚跟球队一拒绝阿里实习的研究生学长一谈，又跟自己的舍友一谈，感觉未来还是很光明的💪。也是对自己要求太高，对自己不满，自己也想像别人那样上岸更好的学校。但我也是没给自己找准定位，大不了就本校，反正还是得靠自己。</li><li>马上要面一个暑期实习，为了能过这两天也是想速成自己一个零基础的技术，黑白颠倒，没日没夜地学，但效果不好，学的东西太多太杂，没梳理好也没打好基础。</li><li>我为啥要说这个，这个跟看海绵宝宝有啥关系。其实就是想让自己放宽心，不想再去为保研和工作过多焦虑。保持快乐学习吧，不要为了达到一个目的而去学习，而是要保持学习，最终会自然而然达到目的。</li><li>哦对了，今天是儿童节嘛，当个儿童吧，就像海绵宝宝里鱼奶奶的一句话：<code>你只会年轻一次，你不会想那么快长大的，那会错过成长的乐趣，快去享受青春活力吧！</code></li></ul>
+          </div>
+<blockquote>
+<p>It’s not the destination, it’s the journey.</p>
+<p>真正重要的不是终点，而是旅途。</p>
+</blockquote>
+<h2 id="season-1"><a class="markdownIt-Anchor" href="#season-1"></a> Season 1</h2>
+<h3 id="help-wanted"><a class="markdownIt-Anchor" href="#help-wanted"></a> Help Wanted</h3>
+<blockquote>
+<ul>
+<li>
+<p>I ❤️ pain</p>
+</li>
+<li>
+<p>我爱痛苦</p>
+</li>
+</ul>
+</blockquote>
+<h3 id="reef-blower"><a class="markdownIt-Anchor" href="#reef-blower"></a> Reef Blower</h3>
+<ul>
+<li>海绵宝宝唯一一集默片😐。</li>
+</ul>
+<h3 id="tea-at-the-treedome"><a class="markdownIt-Anchor" href="#tea-at-the-treedome"></a> Tea at the Treedome</h3>
+<h2 id="积累单词"><a class="markdownIt-Anchor" href="#积累单词"></a> 积累单词</h2>
+<ul>
+<li>lad 				少年，小伙子</li>
+<li>sea legs        指的是水手在航行的船上适应海浪的颠簸而不摔倒（俚语）
+<ul>
+<li>文中例句：It looks like you don’t even have your sea legs.      -看起来你并没有准备好</li>
+</ul>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>语料积累</category>
+      </categories>
+      <tags>
+        <tag>语料积累</tag>
+        <tag>海绵宝宝</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>BIM模型渲染算法及实现</title>
+    <url>/2022/11/28/BIM%E6%A8%A1%E5%9E%8B%E6%B8%B2%E6%9F%93%E7%AE%97%E6%B3%95%E5%8F%8A%E5%AE%9E%E7%8E%B0/</url>
+    <content><![CDATA[<h1 id="bim模型渲染算法及实现"><a class="markdownIt-Anchor" href="#bim模型渲染算法及实现"></a> BIM模型渲染算法及实现</h1>
+<h2 id="一-ssao算法-屏幕空间环境光遮蔽"><a class="markdownIt-Anchor" href="#一-ssao算法-屏幕空间环境光遮蔽"></a> 一、SSAO算法 屏幕空间环境光遮蔽</h2>
+<h3 id="1-ssao的介绍"><a class="markdownIt-Anchor" href="#1-ssao的介绍"></a> 1. SSAO的介绍</h3>
+<p>SSAO，即屏幕空间环境光遮蔽(Screen-Space Ambient Occlusion)。要讨论SSAO，首先要了解AO(Ambient Occlusion)，即环境光遮蔽。这是一种着色渲染技术，模拟光线到达物体的能力的粗略的全局方法，描述光线达到物体表面的能力。在一些古老或者简单的游戏中，游戏开发人员通常只给环境光一个单一的颜色值，但这渲染出来的效果远差于真实场景。比如在房间里，角落的光线通常比较暗。这是因为光在反射的时候，很多褶皱、空洞中的光线难以反射出来达到我们的眼睛，所以这些地方看着会更加的暗。</p>
+<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/image-20221128162121381.png" alt="image-20221128162121381" /></p>
+<p>如上图，左边以及中间的图片没有应用AO而显得白色雕像悬浮在空中一样，但其实应像图三一样正确摆放在地面上。</p>
+<p>环境光遮蔽采用对空间中每一点发射大量光线，并在片元周围计算光线丢失，这会带来极大的性能开销。</p>
+<p>而SSAO通过获取像素的深度缓冲，法线缓冲来计算实现，来近似的表现物体在间接光下产生的阴影。2007年，Crytek公司发布了这个技术，并用在了他们的看家作品孤岛危机上。</p>
+<h3 id="2-ssao的原理"><a class="markdownIt-Anchor" href="#2-ssao的原理"></a> 2. SSAO的原理</h3>
+<p>对于屏幕空间中每一个片段，我们都根据法线信息来构建一个法向半球，在这个半球里面生成许多随机样本，得到他的深度信息，然后与当前片段深度值进行对比，高于片段深度值的认为被遮蔽，根据这些样本计算加权得到遮蔽因子，这个遮蔽因子会被用来减少片段的环境光照分量。</p>
+<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/image-20221128165033908.png" alt="image-20221128165033908" /></p>
+<p>如上图，图片中灰色的点则是采样点的深度大于该片段的深度，因此当灰色的点越多，则表明当前片段点遮蔽因子越大。</p>
+<h3 id="3-ssao算法实现"><a class="markdownIt-Anchor" href="#3-ssao算法实现"></a> 3. SSAO算法实现</h3>
+<h2 id="二-csm算法-级联阴影映射"><a class="markdownIt-Anchor" href="#二-csm算法-级联阴影映射"></a> 二、CSM算法 级联阴影映射</h2>
+<h3 id="1-csm算法介绍"><a class="markdownIt-Anchor" href="#1-csm算法介绍"></a> 1. CSM算法介绍</h3>
+<p>阴影贴图(Shadow mapping)是游戏引擎中广泛使用的实现实时阴影的技术，也叫做光照贴图(Light Mapping)，这是一种可以在不减少帧率的情况下达到真实感光照和阴影效果的方法。像素与以纹理形式保存的光照深度缓冲区或者深度图像比较，通过这种方式计算像素是否处于光源照射范围内，从而生成阴影。从光源位置看出去，所有能够看到的物体都处在光照之中，但是这些物体后面的东西将处于阴影之中。光照场景进行渲染，保存能够看到的物体表面深度，即得到深度图像。然后，正常的场景中的每个点都变换到光源的裁剪坐标，然后与这个深度图像进行比较，就好像判断场景中的每个点能否被光线看到，从而进行正常场景的渲染。</p>
+<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/image-20230223092226092.png" alt="image-20230223092226092" /></p>
+<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/image-20230223092258388.png" alt="image-20230223092258388" /></p>
+<p>基础的阴影贴图方法对于大型场景渲染显得力不从心，很容易出现阴影抖动和锯齿边缘现象。Cascaded Shadow Maps方法根据对象到观察者的距离蹄冻不同分辨率的深度纹理来解决上述问题。他将相机的视锥体分割成若干部分，然后为分割的每一部分生成独立的深度贴图。</p>
+<p>CSM通常用来在大型场景模拟太阳投射的阴影。在一张阴影贴图中捕捉所有对象需要阴影贴图具有非常高的分辨率。使用多张阴影贴图就可以结局这个问题。对于进出的场景使用较高分辨率的阴影贴图，对于远处的场景使用粗糙的阴影贴图，在两张阴影贴图过的地方选择其中一张使用。因为远处的对象只占画面的很少一部分像素，而近处的对象占据了画面的很大一部分。</p>
+<h3 id="2-csm算法原理"><a class="markdownIt-Anchor" href="#2-csm算法原理"></a> 2. CSM算法原理</h3>
+<p>CSM的具体流程如下:</p>
+<ol>
+<li><strong>划分camera frustum成多个subfrustum</strong>，其中每个分割面的z值有公式计算得出。<a href="https://developer.download.nvidia.cn/SDK/10.5/opengl/src/cascaded_shadow_maps/doc/cascaded_shadow_maps.pdf">cascaded_shadow_maps (nvidia.cn)</a><a href="https://www.researchgate.net/publication/220805307_Parallel-split_shadow_maps_for_large-scale_virtual_environments">(PDF) Parallel-split shadow maps for large-scale virtual environments (researchgate.net)</a></li>
+</ol>
+<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/v2-9dd397c609a3881ccbc70b09e02a5978_r.jpg" alt="img" /></p>
+<ol start="2">
+<li><strong>计算每个小的subfrustum的包围盒。</strong> 我们可以发现光锥体要包裹相机视锥体。光锥体就像一个包围盒。但仅仅包裹分割后的相机视锥体是不够的，如果在光源和分割后的相机视锥体之间存在可以投射阴影的遮挡物，我们应该扩展光锥体的大小将遮挡物包裹在光锥体中。此外，通常光锥体包含了很大一部分不可见的区域，造成了阴影贴图的大量浪费。我们可以将分割后的相机视锥体的顶点映射到光源的齐次空间，得到一个与光锥体对齐的包围盒。根据这个包围盒，我们可以使用缩放和平移构造出更加精确的光锥体。我们确实也可以让光锥体和分割后的相机视锥体完全一致，但这可能会改变光源的方向。</li>
+</ol>
+<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/v2-e3525fcf48b0b35f643426f6560b9436_r.jpg" alt="" /></p>
+<ol start="3">
+<li><strong>重复操作，对每个subfrustum生成一张shadow map。</strong> N一般取1到4之间的整数值。</li>
+<li><strong>对每一个像素选择合适的shadow map生成阴影。</strong> 我们需要计算片段对应的阴影贴图的坐标，我们首先使用相机的模型视图矩阵的逆矩阵将片段坐标变换到世界坐标系下，然后将变换后的坐标乘以片段对应的果园矩阵。接着将坐标从[-1,1]线性缩放到[0,1]的范围，即映射到深度贴图上。现在，我们就可以使用这个坐标访问片段对应深度贴图。如果坐标的z值比深度贴图对应的z值小，说明片段被光源照亮，否则，说明片段处于阴影中。</li>
+</ol>
+]]></content>
+  </entry>
+  <entry>
+    <title>解决hexo报错spwan failed</title>
+    <url>/2022/05/26/failed%E8%A7%A3%E5%86%B3%E6%96%B9%E5%BC%8F/</url>
+    <content><![CDATA[<h1 id="hexo部署出现错误errorspawn-failed解决方式"><a class="markdownIt-Anchor" href="#hexo部署出现错误errorspawn-failed解决方式"></a> Hexo部署出现错误Error:Spawn failed解决方式</h1>
+<div class="note note-success">
+            <p>Hexo部署出现以下错误Error:Spawn failed解决方式</p>
+          </div>
+<figure class="highlight roboconf"><table><tr><td class="code"><pre><code class="hljs roboconf">FATAL &#123;<br>  <span class="hljs-attribute">err</span>: Error: Spawn failed<br>      at ChildProcess.&lt;anonymous&gt; (C:\Users\myosotis\Desktop\Hexo_blog\node_modules\hexo-util\lib\spawn<span class="hljs-variable">.js</span>:51:21)<br>      at ChildProcess<span class="hljs-variable">.emit</span> (events<span class="hljs-variable">.js</span>:315:20)<br>      at ChildProcess<span class="hljs-variable">.cp</span><span class="hljs-variable">.emit</span> (C:\Users\myosotis\Desktop\Hexo_blog\node_modules\cross-spawn\lib\enoent<span class="hljs-variable">.js</span>:34:29)<br>      at Process<span class="hljs-variable">.ChildProcess</span><span class="hljs-variable">._handle</span><span class="hljs-variable">.onexit</span> (internal/child_process<span class="hljs-variable">.js</span>:277:12) &#123;<br>    code: 128<br>  &#125;<br>&#125; Something&#x27;s wrong. Maybe you can find the solution here: %s https://hexo<span class="hljs-variable">.io</span>/docs/troubleshooting<span class="hljs-variable">.html</span><br></code></pre></td></tr></table></figure>
+<p>从网上找了几个方法：</p>
+<h2 id="方法一"><a class="markdownIt-Anchor" href="#方法一"></a> 方法一</h2>
+<figure class="highlight clean"><table><tr><td class="code"><pre><code class="hljs clean">##进入站点根目录<br><br>##删除git提交内容文件夹<br>rm -rf .deploy_git/<br><br>##执行<br>git config --global core.autocrlf false<br><br>##最后<br>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d<br></code></pre></td></tr></table></figure>
+<p>没能成功，仍然报错。</p>
+<h2 id="方法二"><a class="markdownIt-Anchor" href="#方法二"></a> 方法二</h2>
+<div class="note note-success">
+            <p>修改_config.yml文件，将配置地址http方式切换成ssh方式</p>
+          </div>
+<figure class="highlight clean"><table><tr><td class="code"><pre><code class="hljs clean">##进入站点根目录<br><br>##删除git提交内容文件夹<br>vim _config.yml<br><br>##修改<br>deploy:<br><br>type: git<br><br>repository: https:<span class="hljs-comment">//github.com/Uninfo/blog.github.io.git </span><br>-&gt; git@github.com:Uninfo/blog.github.io.git<br><br>branch: master<br><br>##最后<br>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d<br></code></pre></td></tr></table></figure>
+<p>不习惯用vim，直接用编辑器打开<code>_config.yml</code>文件，将配置地址的http方式换成ssh方式。</p>
+<p>解决，成功部署。</p>
+<h2 id="方法三"><a class="markdownIt-Anchor" href="#方法三"></a> 方法三</h2>
+<div class="note note-success">
+            <p>强制上传，没试过，网上说不建议</p>
+          </div>
+<figure class="highlight clean"><table><tr><td class="code"><pre><code class="hljs clean">##进入站点根目录<br><br>##进入depoly文件夹<br>cd .deploy_git/<br><br>##强制推送<br>git push -f<br></code></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>hexo</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+        <tag>解决报错</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2023/08/29/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="quick-start"><a class="markdownIt-Anchor" href="#quick-start"></a> Quick Start</h2>
+<h3 id="create-a-new-post"><a class="markdownIt-Anchor" href="#create-a-new-post"></a> Create a new post</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="run-server"><a class="markdownIt-Anchor" href="#run-server"></a> Run server</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="generate-static-files"><a class="markdownIt-Anchor" href="#generate-static-files"></a> Generate static files</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="deploy-to-remote-sites"><a class="markdownIt-Anchor" href="#deploy-to-remote-sites"></a> Deploy to remote sites</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>WINPCAP编程</title>
+    <url>/2022/05/28/WINPCAP%E7%BC%96%E7%A8%8B/</url>
+    <content><![CDATA[<h1 id="winpcap编程"><a class="markdownIt-Anchor" href="#winpcap编程"></a> WINPCAP编程</h1>
+<h2 id="winpcap简介"><a class="markdownIt-Anchor" href="#winpcap简介"></a> Winpcap简介</h2>
+<p>Winpcap是UNIX下的libpcap移植到windows下的产物,他是一个free and open source的项目。Winpcap工作于驱动(Driver)层，所以能以很高的效率进行网络操作。</p>
+<p>其提供了以下强大的功能</p>
+<ul>
+<li>捕获原始的数据包</li>
+<li>设置fliter，只捕获自己感兴趣的数据包</li>
+<li>方便地把捕获的数据包输出到文件和从文件输入</li>
+<li>发送原始的数据包</li>
+<li>统计网络流量</li>
+</ul>
+<h2 id="实验目的"><a class="markdownIt-Anchor" href="#实验目的"></a> 实验目的</h2>
+<ul>
+<li>
+<p>了解WINPCAP的架构</p>
+</li>
+<li>
+<p>学习WINPCAP编程</p>
+</li>
+</ul>
+<h2 id="实验原理"><a class="markdownIt-Anchor" href="#实验原理"></a> 实验原理</h2>
+<p>WinPcap是一个基于Win32平台的，用于捕获网络数据包并进行分析的开源库.</p>
+<p>大多数网络应用程序通过被广泛使用的操作系统元件来访问网络，比如sockets。 这是一种简单的实现方式，因为操作系统已经妥善处理了底层具体实现细节（比如协议处理，封装数据包等等），并且提供了一个与读写文件类似的，令人熟悉的接口。</p>
+<p>然而，有些时候，这种“简单的方式”并不能满足任务的需求，因为有些应用程序需要直接访问网络中的数据包。也就是说，那些应用程序需要访问原始数据包，即没有被操作系统利用网络协议处理过的数据包。</p>
+<p>WinPcap产生的目的，就是为Win32应用程序提供这种访问方式； WinPcap提供了以下功能</p>
+<ol>
+<li>
+<p>捕获原始数据包，无论它是发往某台机器的，还是在其他设备（共享媒介）上进行交换的</p>
+</li>
+<li>
+<p>在数据包发送给某应用程序前，根据用户指定的规则过滤数据包</p>
+</li>
+<li>
+<p>将原始数据包通过网络发送出去</p>
+</li>
+<li>
+<p>收集并统计网络流量信息</p>
+</li>
+</ol>
+<p>以上这些功能需要借助安装在Win32内核中的网络设备驱动程序才能实现，再加上几个动态链接库DLL。</p>
+<p>所有这些功能都能通过一个强大的编程接口来表现出来,易于开发，并能在不同的操作系统上使用。这本手册的主要目标是在一些程序范例的帮助下，叙述这些编程接口的使用。</p>
+<p>WinPcap可以被用来制作网络分析、监控工具。一些基于WinPcap的典型应用有：</p>
+<ol>
+<li>
+<p>网络与协议分析器 (network and protocol analyzers)</p>
+</li>
+<li>
+<p>网络监视器 (network monitors)</p>
+</li>
+<li>
+<p>网络流量记录器 (traffic loggers)</p>
+</li>
+<li>
+<p>网络流量发生器 (traffic generators)</p>
+</li>
+<li>
+<p>用户级网桥及路由 (user-level bridges and routers)</p>
+</li>
+<li>
+<p>网络入侵检测系统 (network intrusion detection systems (NIDS))</p>
+</li>
+<li>
+<p>网络扫描器 (network scanners)</p>
+</li>
+<li>
+<p>安全工具 (security tools)</p>
+</li>
+</ol>
+<h2 id="winpcap环境配置"><a class="markdownIt-Anchor" href="#winpcap环境配置"></a> WINPCAP环境配置</h2>
+<ol>
+<li>
+<p>打开VS新建一个空项目并添加一个空的源文件</p>
+</li>
+<li>
+<p>点击菜单栏 项目-&gt;项目属性</p>
+</li>
+<li>
+<p>选择C/C+±&gt;预处理器，在预处理器定义中添加<strong>WIN32</strong>、WPCAP和HAVE_REMOTE三个宏定义，然后点击 应用；</p>
+</li>
+</ol>
+<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%2Fwinpcap%2F82%20-%20wN7ZhzX.png" alt="" /></p>
+<ol start="4">
+<li>选择链接器-&gt;输入，在附加依赖项添加wpcap.lib、ws2_32.lib、Packet.lib三个库，然后点击应用；</li>
+</ol>
+<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%2Fwinpcap%2F84%20-%20jtgejz6.png" alt="" /></p>
+<p>​		<img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%2Fwinpcap%2F83%20-%20RkAqJcE.png" alt="" /></p>
+<ol start="5">
+<li>选择VC++目录，添加WpdPack文件夹中的包含目录(include目录)，然后点击应用</li>
+</ol>
+<p>​		<img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%2Fwinpcap%2F85%20-%20kdVqLVx.png" alt="" /></p>
+<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%2Fwinpcap%2F86%20-%20JAHJo0c.png" alt="" /></p>
+<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%2Fwinpcap%2F87%20-%20pqYx6Gm.png" alt="" /></p>
+<ol start="6">
+<li>同样，添加WpdPack文件夹中的库目录(Lib目录)，然后点击应用</li>
+</ol>
+<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%2Fwinpcap%2F88%20-%20BIYU1Eh.png" alt="" /></p>
+<ol start="7">
+<li>
+<p>选择C/C+±&gt;语言，将 符合模式 设置为 否，点击确定</p>
+</li>
+<li>
+<p>将解决方案平台设置为x64</p>
+</li>
+</ol>
+<p>​		<img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%2Fwinpcap%2F89%20-%20EB6Bj3o.png" alt="" /></p>
+<ol start="9">
+<li>
+<p>环境配置到此结束。注意，使用C语言开发，因此新建.c文件而不是.cpp文件。</p>
+</li>
+<li>
+<p>测试配置是否完成，复制以下代码到项目中运行测试。</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><code class="hljs c"><span class="hljs-meta">#<span class="hljs-keyword">define</span> WIN32      <span class="hljs-comment">// 必须加这条，否则vs不会自动识别</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;stdio.h&gt;</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;pcap.h&gt;</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">pragma</span> comment(lib, <span class="hljs-string">&quot;wpcap.lib&quot;</span>)</span><br><br>main()<br>&#123;<br>	<span class="hljs-type">pcap_if_t</span>* alldevs, * d;<br>	<span class="hljs-type">int</span> i = <span class="hljs-number">0</span>;<br>	<span class="hljs-type">char</span> errbuf[PCAP_ERRBUF_SIZE];<br>	<span class="hljs-keyword">if</span> (pcap_findalldevs_ex(PCAP_SRC_IF_STRING, <span class="hljs-literal">NULL</span>,<br>		&amp;alldevs, errbuf) == <span class="hljs-number">-1</span>)<br>	&#123;<br>		<span class="hljs-built_in">fprintf</span>(<span class="hljs-built_in">stderr</span>, <span class="hljs-string">&quot;Error in pcap_findalldevs_ex: %s\n&quot;</span>,<br>			errbuf);<br>		<span class="hljs-built_in">exit</span>(<span class="hljs-number">1</span>);<br>	&#125;<br>	<span class="hljs-keyword">for</span> (d = alldevs; d != <span class="hljs-literal">NULL</span>; d = d-&gt;next)<br>	&#123;<br>		<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;%d.%s&quot;</span>, ++i, d-&gt;name);<br>		<span class="hljs-keyword">if</span> (d-&gt;description)<br>		&#123;<br>			<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;(%s)\n&quot;</span>, d-&gt;description);<br>		&#125;<br>		<span class="hljs-keyword">else</span> &#123;<br>			<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;(No description available)\n&quot;</span>);<br>		&#125;<br>	&#125;<br>	<span class="hljs-keyword">if</span> (i == <span class="hljs-number">0</span>)<br>	&#123;<br>		<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;\nNo interfaces found! Make sure Winpcap is installed.\n&quot;</span>);<br>		<span class="hljs-keyword">return</span>;<br>	&#125;<br>	<span class="hljs-comment">// 释放设备</span><br>	pcap_freealldevs(alldevs);<br>&#125;<br></code></pre></td></tr></table></figure>
+</li>
+</ol>
+<h2 id="winpcap基本开发流程"><a class="markdownIt-Anchor" href="#winpcap基本开发流程"></a> WINPCAP基本开发流程</h2>
+<ul>
+<li>WinPcap开发网络应用程序的大致流程：首先获取主机安装的网络设备列表，然后选择并激活某个网络设备，封装或过滤数据包，发送或解析数据包。</li>
+</ul>
+<p>​	<img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%2Fwinpcap%2F90%20-%20omkINVh.png" alt="" /></p>
+<h3 id="获取设备列表"><a class="markdownIt-Anchor" href="#获取设备列表"></a> 获取设备列表</h3>
+<p>WinPcap提供了<code>pcap_findalldevs_ex()</code>函数来实现获取设备列表的功能，这个函数返回一个<code>pcap_if</code>结构的链表，每个这样的结构都包含了一个适配器的详细信息。值得注意的是，数据域<code>name</code>和<code>description</code>表示一个适配器名称和一个可以让人们理解的描述。下面获取适配器列表，并在屏幕上显示出来，如果没有找到适配器，将打印错误信息。</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><code class="hljs C"><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;stdio.h&gt;</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&quot;pcap.h&quot;</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> PCAP_SRC_IF_STRING   <span class="hljs-string">&quot;rpcap://&quot;</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> PCAP_SRC_FILE_STRING   <span class="hljs-string">&quot;file://&quot;</span></span><br><br>main()<br>&#123;<br>	<span class="hljs-type">pcap_if_t</span> *alldevs;<br>	<span class="hljs-type">pcap_if_t</span> *d;<br>	<span class="hljs-type">int</span> i = <span class="hljs-number">0</span>;<br>	<span class="hljs-type">char</span> errbuf[PCAP_ERRBUF_SIZE];<br><br>	<span class="hljs-comment">/* 获取本地机器设备列表 */</span><br>	<span class="hljs-keyword">if</span> (pcap_findalldevs_ex(PCAP_SRC_IF_STRING, <span class="hljs-literal">NULL</span> <span class="hljs-comment">/* auth is not needed */</span>, &amp;alldevs, errbuf) == <span class="hljs-number">-1</span>)<br>	&#123;<br>		<span class="hljs-built_in">fprintf</span>(<span class="hljs-built_in">stderr</span>, <span class="hljs-string">&quot;Error in pcap_findalldevs_ex: %s\n&quot;</span>, errbuf);<br>		<span class="hljs-built_in">exit</span>(<span class="hljs-number">1</span>);<br>	&#125;<br><br>	<span class="hljs-comment">/* 打印列表 */</span><br>	<span class="hljs-keyword">for</span> (d = alldevs; d != <span class="hljs-literal">NULL</span>; d = d-&gt;next)<br>	&#123;<br>		<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;%d. %s&quot;</span>, ++i, d-&gt;name);<br>		<span class="hljs-keyword">if</span> (d-&gt;description)<br>			<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot; (%s)\n&quot;</span>, d-&gt;description);<br>		<span class="hljs-keyword">else</span><br>			<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot; (No description available)\n&quot;</span>);<br>	&#125;<br><br>	<span class="hljs-keyword">if</span> (i == <span class="hljs-number">0</span>)<br>	&#123;<br>		<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;\nNo interfaces found! Make sure WinPcap is installed.\n&quot;</span>);<br>		<span class="hljs-keyword">return</span>;<br>	&#125;<br>	getchar();<br>	<span class="hljs-comment">/* 不再需要设备列表了，释放它 */</span><br>	pcap_freealldevs(alldevs);<br>&#125;<br></code></pre></td></tr></table></figure>
+<p>有关这段代码的一些说明</p>
+<p>pcap_findalldevs_ex() 是 WinPcap 提供的用以查找主机网络适配器功能的函数，它是 pcap_findalldevs() 函数的升级版，现在基本都选择使用 ex 版本，它不仅能查找本地的设备，还能查找远程的设备，关于此函数的定义如下</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><code class="hljs C"><span class="hljs-comment">// 函数原型：</span><br><span class="hljs-type">int</span> <span class="hljs-title function_">pcap_findalldevs_ex</span><span class="hljs-params">(<span class="hljs-type">char</span>* source,  <span class="hljs-keyword">struct</span> pcap_rmtauth *auth,  <span class="hljs-type">pcap_if_t</span>** alldevs,   <span class="hljs-type">char</span>* errbuf)</span>;<br><span class="hljs-comment">/* 参数说明</span><br><span class="hljs-comment">* source：指定是本地适配器还是远程适配器</span><br><span class="hljs-comment">* auth：身份验证信息，可以为NULL</span><br><span class="hljs-comment">* alldevs：存放获取的适配器数据，如果查找失败，其值为NULL</span><br><span class="hljs-comment">* errbuf：存放查找失败的相关错误信息</span><br><span class="hljs-comment">*/</span><br><span class="hljs-comment">// 返回值：成功返回0，失败返回-1</span><br></code></pre></td></tr></table></figure>
+<h3 id="获取已安装设备的高级信息"><a class="markdownIt-Anchor" href="#获取已安装设备的高级信息"></a> 获取已安装设备的高级信息</h3>
+<p>参数<code>alldevs</code>的类型是<code>pcap_if_t</code>类型的二级指针，这里需要说明，<code>pcap_findalldevs_ex()</code>函数再获取到设备信息之后会将详细信息存储在一个结构体<code>pcap_if_t</code>中，他的定义如下：</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><code class="hljs C"><span class="hljs-class"><span class="hljs-keyword">struct</span> <span class="hljs-title">pcap_if_t</span></span><br><span class="hljs-class">&#123;</span><br>	<span class="hljs-class"><span class="hljs-keyword">struct</span> <span class="hljs-title">pcap_if_t</span> *<span class="hljs-title">next</span>;</span>		<span class="hljs-comment">// 如果不为空，就指向下一个元素</span><br>	<span class="hljs-type">char</span> *name;					<span class="hljs-comment">// 设备名称</span><br>	<span class="hljs-type">char</span> *description;			<span class="hljs-comment">// 设备描述</span><br>	<span class="hljs-class"><span class="hljs-keyword">struct</span> <span class="hljs-title">pcap_addr</span> *<span class="hljs-title">addresses</span>;</span><span class="hljs-comment">// 接口地址列表</span><br>	bpf_u_int32 flags;			<span class="hljs-comment">// 标志位，标志是否 loopback 设备</span><br>&#125;<br></code></pre></td></tr></table></figure>
+<p>从中可以看出，我们需要建立一个<code>pcap_if_t</code>类型的指针来存储调用函数获取到的设备信息，然后直接通过指针就可以访问指定设备的相关信息。</p>
+<p>同样，从<code>pcap_if_t</code>结构体的定义中可以看到，在结构体里面有定义了一个名为<code>pcap_addr</code>的结构体，用来存储接口地址列表，<code>pcap_addr</code>的定义如下：</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><code class="hljs C"><span class="hljs-class"><span class="hljs-keyword">struct</span> <span class="hljs-title">pcap_addr</span></span><br><span class="hljs-class">&#123;</span><br>	<span class="hljs-class"><span class="hljs-keyword">struct</span> <span class="hljs-title">pcap_addr</span> *<span class="hljs-title">next</span>;</span>			<span class="hljs-comment">// 如果不为空，则指向下一个元素</span><br>	<span class="hljs-class"><span class="hljs-keyword">struct</span> <span class="hljs-title">sockaddr</span> *<span class="hljs-title">addr</span>;</span>			<span class="hljs-comment">// 接口IP地址</span><br>	<span class="hljs-class"><span class="hljs-keyword">struct</span> <span class="hljs-title">sockaddr</span> *<span class="hljs-title">netmask</span>;</span>		<span class="hljs-comment">// 接口网络掩码</span><br>	<span class="hljs-class"><span class="hljs-keyword">struct</span> <span class="hljs-title">sockaddr</span> *<span class="hljs-title">broadaddr</span>;</span>		<span class="hljs-comment">// 接口广播地址</span><br>	<span class="hljs-class"><span class="hljs-keyword">struct</span> <span class="hljs-title">sockaddr</span> *<span class="hljs-title">dstaddr</span>;</span>		<span class="hljs-comment">// 接口 P2P 目的地址</span><br>&#125;<br></code></pre></td></tr></table></figure>
+<p>另外，函数<code>pcap_findalldevs_ex()</code>还能返回远程适配器信息和一个位于所给的本地文件夹的pcap文件列表。</p>
+<p>下面的程序使用了<code>ifprint()</code>函数来打印出<code>pcap_if</code>结构体中的所有内容。程序对每一个由<code>pcap_findalldevs_ex()</code>函数返回的<code>pcap_if</code>，都调用<code>ifprint()</code>函数来打印。</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><code class="hljs C"><span class="hljs-meta">#<span class="hljs-keyword">define</span> _CRT_SECURE_NO_WARNINGS</span><br><br><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&quot;pcap.h&quot;</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;stdio.h&gt;</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> PCAP_SRC_IF_STRING   <span class="hljs-string">&quot;rpcap://&quot;</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> PCAP_SRC_FILE_STRING   <span class="hljs-string">&quot;file://&quot;</span></span><br><br><span class="hljs-meta">#<span class="hljs-keyword">ifndef</span> WIN32</span><br><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;sys/socket.h&gt;</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;netinet/in.h&gt;</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">else</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;winsock.h&gt;</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">endif</span></span><br><br><br><span class="hljs-comment">// 函数原型</span><br><span class="hljs-type">void</span> <span class="hljs-title function_">ifprint</span><span class="hljs-params">(<span class="hljs-type">pcap_if_t</span>* d)</span>;<br><span class="hljs-type">char</span>* <span class="hljs-title function_">iptos</span><span class="hljs-params">(u_long in)</span>;<br><br><br><span class="hljs-type">int</span> <span class="hljs-title function_">main</span><span class="hljs-params">()</span><br>&#123;<br>	<span class="hljs-type">pcap_if_t</span>* alldevs;<br>	<span class="hljs-type">pcap_if_t</span>* d;<br>	<span class="hljs-type">char</span> errbuf[PCAP_ERRBUF_SIZE + <span class="hljs-number">1</span>];<br>	<span class="hljs-type">char</span> source[PCAP_ERRBUF_SIZE + <span class="hljs-number">1</span>];<br><br>	<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;Enter the device you want to list:\n&quot;</span><br>		<span class="hljs-string">&quot;rpcap://              ==&gt; lists interfaces in the local machine\n&quot;</span><br>		<span class="hljs-string">&quot;rpcap://hostname:port ==&gt; lists interfaces in a remote machine\n&quot;</span><br>		<span class="hljs-string">&quot;                          (rpcapd daemon must be up and running\n&quot;</span><br>		<span class="hljs-string">&quot;                           and it must accept &#x27;null&#x27; authentication)\n&quot;</span><br>		<span class="hljs-string">&quot;file://foldername     ==&gt; lists all pcap files in the give folder\n\n&quot;</span><br>		<span class="hljs-string">&quot;Enter your choice: &quot;</span>);<br><br>	fgets(source, PCAP_ERRBUF_SIZE, <span class="hljs-built_in">stdin</span>);<br>	source[PCAP_ERRBUF_SIZE] = <span class="hljs-string">&#x27;\0&#x27;</span>;<br><br>	<span class="hljs-comment">/* 获得接口列表 */</span><br>	<span class="hljs-keyword">if</span> (pcap_findalldevs_ex(source, <span class="hljs-literal">NULL</span>, &amp;alldevs, errbuf) == <span class="hljs-number">-1</span>)<br>	&#123;<br>		<span class="hljs-built_in">fprintf</span>(<span class="hljs-built_in">stderr</span>, <span class="hljs-string">&quot;Error in pcap_findalldevs: %s\n&quot;</span>, errbuf);<br>		<span class="hljs-built_in">exit</span>(<span class="hljs-number">1</span>);<br>	&#125;<br><br>	<span class="hljs-comment">/* 扫描列表并打印每一项 */</span><br>	<span class="hljs-keyword">for</span> (d = alldevs; d; d = d-&gt;next)<br>	&#123;<br>		ifprint(d);<br>	&#125;<br><br>	pcap_freealldevs(alldevs);<br>	getchar();<br>	<span class="hljs-keyword">return</span> <span class="hljs-number">1</span>;<br>&#125;<br><br><br><span class="hljs-comment">/* 打印所有可用信息 */</span><br><span class="hljs-type">void</span> <span class="hljs-title function_">ifprint</span><span class="hljs-params">(<span class="hljs-type">pcap_if_t</span>* d)</span><br>&#123;<br>	<span class="hljs-type">pcap_addr_t</span>* a;<br><br>	<span class="hljs-comment">/* 设备名(Name) */</span><br>	<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;%s\n&quot;</span>, d-&gt;name);<br><br>	<span class="hljs-comment">/* 设备描述(Description) */</span><br>	<span class="hljs-keyword">if</span> (d-&gt;description)<br>		<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;\tDescription: %s\n&quot;</span>, d-&gt;description);<br><br>	<span class="hljs-comment">/* Loopback Address*/</span><br>	<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;\tLoopback: %s\n&quot;</span>, (d-&gt;flags &amp; PCAP_IF_LOOPBACK) ? <span class="hljs-string">&quot;yes&quot;</span> : <span class="hljs-string">&quot;no&quot;</span>);<br><br>	<span class="hljs-comment">/* IP addresses */</span><br>	<span class="hljs-keyword">for</span> (a = d-&gt;addresses; a; a = a-&gt;next) &#123;<br>		<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;\tAddress Family: #%d\n&quot;</span>, a-&gt;addr-&gt;sa_family);<br><br>		<span class="hljs-keyword">switch</span> (a-&gt;addr-&gt;sa_family)<br>		&#123;<br>		<span class="hljs-keyword">case</span> AF_INET:<br>			<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;\tAddress Family Name: AF_INET\n&quot;</span>);<br>			<span class="hljs-keyword">if</span> (a-&gt;addr)<br>				<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;\tAddress: %s\n&quot;</span>, iptos(((<span class="hljs-keyword">struct</span> sockaddr_in*)a-&gt;addr)-&gt;sin_addr.s_addr));<br>			<span class="hljs-keyword">if</span> (a-&gt;netmask)<br>				<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;\tNetmask: %s\n&quot;</span>, iptos(((<span class="hljs-keyword">struct</span> sockaddr_in*)a-&gt;netmask)-&gt;sin_addr.s_addr));<br>			<span class="hljs-keyword">if</span> (a-&gt;broadaddr)<br>				<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;\tBroadcast Address: %s\n&quot;</span>, iptos(((<span class="hljs-keyword">struct</span> sockaddr_in*)a-&gt;broadaddr)-&gt;sin_addr.s_addr));<br>			<span class="hljs-keyword">if</span> (a-&gt;dstaddr)<br>				<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;\tDestination Address: %s\n&quot;</span>, iptos(((<span class="hljs-keyword">struct</span> sockaddr_in*)a-&gt;dstaddr)-&gt;sin_addr.s_addr));<br>			<span class="hljs-keyword">break</span>;<br><br>		<span class="hljs-keyword">default</span>:<br>			<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;\tAddress Family Name: Unknown\n&quot;</span>);<br>			<span class="hljs-keyword">break</span>;<br>		&#125;<br>	&#125;<br>	<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;\n&quot;</span>);<br>&#125;<br><br><br><br><span class="hljs-comment">/* 将数字类型的IP地址转换成字符串类型的 */</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> IPTOSBUFFERS    12</span><br><span class="hljs-type">char</span>* <span class="hljs-title function_">iptos</span><span class="hljs-params">(u_long in)</span><br>&#123;<br>	<span class="hljs-type">static</span> <span class="hljs-type">char</span> output[IPTOSBUFFERS][<span class="hljs-number">3</span> * <span class="hljs-number">4</span> + <span class="hljs-number">3</span> + <span class="hljs-number">1</span>];<br>	<span class="hljs-type">static</span> <span class="hljs-type">short</span> which;<br>	u_char* p;<br><br>	p = (u_char*)&amp;in;<br>	which = (which + <span class="hljs-number">1</span> == IPTOSBUFFERS ? <span class="hljs-number">0</span> : which + <span class="hljs-number">1</span>);<br>	<span class="hljs-built_in">sprintf</span>(output[which], <span class="hljs-string">&quot;%d.%d.%d.%d&quot;</span>, p[<span class="hljs-number">0</span>], p[<span class="hljs-number">1</span>], p[<span class="hljs-number">2</span>], p[<span class="hljs-number">3</span>]);<br>	<span class="hljs-keyword">return</span> output[which];<br>&#125;<br></code></pre></td></tr></table></figure>
+<p>当我们完成了设备列表的使用，我们要调用<code>pcap_freealldevs()</code>函数将其占用的内存资源释放。</p>
+<h3 id="打开适配器并捕获数据包"><a class="markdownIt-Anchor" href="#打开适配器并捕获数据包"></a> 打开适配器并捕获数据包</h3>
+<p>现在，我们已经知道如何获取适配器的信息了，那我们就开始一项更具意义的工作，打开适配器并捕获数据包。编写一个程序，将每一个通过适配器的数据包打印出来。<br />
+打开设备的函数是 <code>pcap_open()</code>。下面是参数 <code>snaplen</code>,<code>flags</code> 和 <code>to_ms</code> 的解释说明</p>
+<ul>
+<li>
+<p><code>snaplen</code>：制定要捕获数据包中的哪些部分。 在一些操作系统中 (比如 xBSD 和 Win32)， 驱动可以被配置成只捕获数据包的初始化部分： 这样可以减少应用程序间复制数据的量，从而提高捕获效率。本例中，将值定为65535，它比能遇到的最大的MTU还要大，因此总能收到完整的数据包。</p>
+</li>
+<li>
+<p><code>flags</code>：最最重要的flag是用来指示适配器是否要被设置成混杂模式。 一般情况下，适配器只接收发给它自己的数据包， 而那些在其他机器之间通讯的数据包，将会被丢弃。 相反，如果适配器是混杂模式，那么不管这个数据包是不是发给我的，我都会去捕获。也就是说，我会去捕获所有的数据包。 这意味着在一个共享媒介(比如总线型以太网)，WinPcap能捕获其他主机的所有的数据包。 大多数用于数据捕获的应用程序都会将适配器设置成混杂模式，所以在下面的范例中，使用混杂模式。</p>
+</li>
+<li>
+<p><code>to_ms</code>：指定读取数据的超时时间，以毫秒计(1s=1000ms)。在适配器上进行读取操作(比如用 pcap_dispatch() 或 pcap_next_ex()) 都会在 to_ms 毫秒时间内响应，即使在网络上没有可用的数据包。 在统计模式下，to_ms 还可以用来定义统计的时间间隔。 将 to_ms 设置为0意味着没有超时，那么如果没有数据包到达的话，读操作将永远不会返回。 如果设置成-1，则情况恰好相反，无论有没有数据包到达，读操作都会立即返回。</p>
+</li>
+</ul>
+<figure class="highlight c"><table><tr><td class="code"><pre><code class="hljs C"><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&quot;pcap.h&quot;</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> PCAP_SRC_IF_STRING   <span class="hljs-string">&quot;rpcap://&quot;</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> PCAP_SRC_FILE_STRING   <span class="hljs-string">&quot;file://&quot;</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> 	PCAP_OPENFLAG_PROMISCUOUS   1</span><br><span class="hljs-comment">//Defines if the adapter has to go in promiscuous mode.</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> 	PCAP_OPENFLAG_DATATX_UDP   2</span><br><span class="hljs-comment">//Defines if the data trasfer(in case of a remote capture) has to be done with UDP protocol.</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> 	PCAP_OPENFLAG_NOCAPTURE_RPCAP   4</span><br><span class="hljs-comment">//Defines if the remote probe will capture its own generated traffic.</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> 	PCAP_OPENFLAG_NOCAPTURE_LOCAL   8</span><br><span class="hljs-comment">//Defines if the local adapter will capture its own generated traffic.</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> 	PCAP_OPENFLAG_MAX_RESPONSIVENESS   16</span><br><span class="hljs-comment">//This flag configures the adapter for maximum responsiveness.</span><br><br><span class="hljs-comment">/* packet handler 函数原型 */</span><br><span class="hljs-type">void</span> <span class="hljs-title function_">packet_handler</span><span class="hljs-params">(u_char *param, <span class="hljs-type">const</span> <span class="hljs-keyword">struct</span> pcap_pkthdr *header, <span class="hljs-type">const</span> u_char *pkt_data)</span>;<br><br>main()<br>&#123;<br>	<span class="hljs-type">pcap_if_t</span> *alldevs;<br>	<span class="hljs-type">pcap_if_t</span> *d;<br>	<span class="hljs-type">int</span> inum;<br>	<span class="hljs-type">int</span> i = <span class="hljs-number">0</span>;<br>	<span class="hljs-type">pcap_t</span> *adhandle;<br>	<span class="hljs-type">char</span> errbuf[PCAP_ERRBUF_SIZE];<br><br>	<span class="hljs-comment">/* 获取本机设备列表 */</span><br>	<span class="hljs-keyword">if</span> (pcap_findalldevs_ex(PCAP_SRC_IF_STRING, <span class="hljs-literal">NULL</span>, &amp;alldevs, errbuf) == <span class="hljs-number">-1</span>)<br>	&#123;<br>		<span class="hljs-built_in">fprintf</span>(<span class="hljs-built_in">stderr</span>, <span class="hljs-string">&quot;Error in pcap_findalldevs: %s\n&quot;</span>, errbuf);<br>		<span class="hljs-built_in">exit</span>(<span class="hljs-number">1</span>);<br>	&#125;<br><br>	<span class="hljs-comment">/* 打印列表 */</span><br>	<span class="hljs-keyword">for</span> (d = alldevs; d; d = d-&gt;next)<br>	&#123;<br>		<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;%d. %s&quot;</span>, ++i, d-&gt;name);<br>		<span class="hljs-keyword">if</span> (d-&gt;description)<br>			<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot; (%s)\n&quot;</span>, d-&gt;description);<br>		<span class="hljs-keyword">else</span><br>			<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot; (No description available)\n&quot;</span>);<br>	&#125;<br><br>	<span class="hljs-keyword">if</span> (i == <span class="hljs-number">0</span>)<br>	&#123;<br>		<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;\nNo interfaces found! Make sure WinPcap is installed.\n&quot;</span>);<br>		<span class="hljs-keyword">return</span> <span class="hljs-number">-1</span>;<br>	&#125;<br><br>	<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;Enter the interface number (1-%d):&quot;</span>, i);<br>	<span class="hljs-built_in">scanf</span>(<span class="hljs-string">&quot;%d&quot;</span>, &amp;inum);<br><br>	<span class="hljs-keyword">if</span> (inum &lt; <span class="hljs-number">1</span> || inum &gt; i)<br>	&#123;<br>		<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;\nInterface number out of range.\n&quot;</span>);<br>		<span class="hljs-comment">/* 释放设备列表 */</span><br>		pcap_freealldevs(alldevs);<br>		<span class="hljs-keyword">return</span> <span class="hljs-number">-1</span>;<br>	&#125;<br><br>	<span class="hljs-comment">/* 跳转到选中的适配器 */</span><br>	<span class="hljs-keyword">for</span> (d = alldevs, i = <span class="hljs-number">0</span>; i&lt; inum - <span class="hljs-number">1</span>; d = d-&gt;next, i++);<br><br>	<span class="hljs-comment">/* 打开设备 */</span><br>	<span class="hljs-keyword">if</span> ((adhandle = pcap_open(d-&gt;name,          <span class="hljs-comment">// 设备名</span><br>		<span class="hljs-number">65536</span>,            <span class="hljs-comment">// 65535保证能捕获到不同数据链路层上的每个数据包的全部内容</span><br>		PCAP_OPENFLAG_PROMISCUOUS,    <span class="hljs-comment">// 混杂模式</span><br>		<span class="hljs-number">1000</span>,             <span class="hljs-comment">// 读取超时时间</span><br>		<span class="hljs-literal">NULL</span>,             <span class="hljs-comment">// 远程机器验证</span><br>		errbuf            <span class="hljs-comment">// 错误缓冲池</span><br>		)) == <span class="hljs-literal">NULL</span>)<br>	&#123;<br>		<span class="hljs-built_in">fprintf</span>(<span class="hljs-built_in">stderr</span>, <span class="hljs-string">&quot;\nUnable to open the adapter. %s is not supported by WinPcap\n&quot;</span>, d-&gt;name);<br>		<span class="hljs-comment">/* 释放设备列表 */</span><br>		pcap_freealldevs(alldevs);<br>		<span class="hljs-keyword">return</span> <span class="hljs-number">-1</span>;<br>	&#125;<br><br>	<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;\nlistening on %s...\n&quot;</span>, d-&gt;description);<br><br>	<span class="hljs-comment">/* 释放设备列表 */</span><br>	pcap_freealldevs(alldevs);<br><br>	<span class="hljs-comment">/* 开始捕获 */</span><br>	pcap_loop(adhandle, <span class="hljs-number">0</span>, packet_handler, <span class="hljs-literal">NULL</span>);<br><br>	<span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;<br>&#125;<br><br><br><span class="hljs-comment">/* 每次捕获到数据包时，libpcap都会自动调用这个回调函数 */</span><br><span class="hljs-type">void</span> <span class="hljs-title function_">packet_handler</span><span class="hljs-params">(u_char *param, <span class="hljs-type">const</span> <span class="hljs-keyword">struct</span> pcap_pkthdr *header, <span class="hljs-type">const</span> u_char *pkt_data)</span><br>&#123;<br>	<span class="hljs-class"><span class="hljs-keyword">struct</span> <span class="hljs-title">tm</span> *<span class="hljs-title">ltime</span>;</span><br>	<span class="hljs-type">char</span> timestr[<span class="hljs-number">16</span>];<br>	<span class="hljs-type">time_t</span> local_tv_sec;<br><br>	<span class="hljs-comment">/* 将时间戳转换成可识别的格式 */</span><br>	local_tv_sec = header-&gt;ts.tv_sec;<br>	ltime = localtime(&amp;local_tv_sec);<br>	strftime(timestr, <span class="hljs-keyword">sizeof</span> timestr, <span class="hljs-string">&quot;%H:%M:%S&quot;</span>, ltime);<br><br>	<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;%s,%.6d len:%d\n&quot;</span>, timestr, header-&gt;ts.tv_usec, header-&gt;len);<br><br>&#125;<br></code></pre></td></tr></table></figure>
+<p>适配器被打开，捕获工作就可以用 <code>pcap_dispatch()</code> 或 <code>pcap_loop()</code> 进行。 这两个函数非常的相似，区别就是 <code>pcap_ dispatch()</code> 当超时时间到了(timeout expires)就返回 (尽管不能保证) ，而 <code>pcap_loop()</code> 不会因此而返回，只有当 cnt 数据包被捕获，所以，<code>pcap_loop()</code> 会在一小段时间内，阻塞网络的利用。<code>pcap_loop()</code> 对于这个简单的范例来说，可以满足需求，不过， <code>pcap_dispatch()</code> 函数一般用于比较复杂的程序中。</p>
+<p>这两个函数都有一个 回调 参数， <code>packet_handler</code>指向一个可以接收数据包的函数。 这个函数会在收到每个新的数据包并收到一个通用状态时被libpcap所调用 ( 与函数 <code>pcap_loop()</code> 和 <code>pcap_dispatch()</code> 中的 user 参数相似)，数据包的首部一般有一些诸如时间戳，数据包长度的信息，还有包含了协议首部的实际数据。 注意：冗余校验码CRC不再支持，因为帧到达适配器，并经过校验确认以后，适配器就会将CRC删除，与此同时，大部分适配器会直接丢弃CRC错误的数据包，所以，WinPcap没法捕获到它们。</p>
+<p>上面的程序将每一个数据包的时间戳和长度从 <code>pcap_pkthdr</code> 的首部解析出来，并打印在屏幕上。</p>
+<h3 id="不用回调方法捕获数据包"><a class="markdownIt-Anchor" href="#不用回调方法捕获数据包"></a> 不用回调方法捕获数据包</h3>
+<p>下面范例程序所实现的功能和效果和上一讲的非常相似（打开适配器并捕获数据包），但本讲将用<code>pcap_next_ex()</code>函数代替上面的<code>pcap_loop()</code>函数。</p>
+<p><code>pcap_loop()</code>函数是基于毁掉的原理来进行数据捕获，这是一种精妙的方法，并且在某些场合中，它是一种很好的选择。然而，处理回调有时候并不适用。他会增加程序的复杂度，特别是在拥有多线程的C++程序中。</p>
+<p>可以通过直接调用<code>pcap_next_ex()</code>函数来获得一个数据包。只有当编程人员使用了<code>pcap_next_ex()</code>函数才能收到数据包。</p>
+<p>这个函数的参数和捕获回调函数的参数是一样的。它包含一个网络适配器的描述符和两个可以初始化和返回给用户的指针(一个指向<code>pcap_pkthdr</code>结构体，另一个指向数据包数据的缓冲)。</p>
+<p>在下面的程序中，会再次用到上一讲中的有关回调方面的代码，只是我们将它放入了main()函数，之后调用pcap_next_ex()函数。</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><code class="hljs C"><span class="hljs-meta">#<span class="hljs-keyword">define</span> _CRT_SECURE_NO_WARNINGS</span><br><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&quot;pcap.h&quot;</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> PCAP_SRC_IF_STRING   <span class="hljs-string">&quot;rpcap://&quot;</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> PCAP_SRC_FILE_STRING   <span class="hljs-string">&quot;file://&quot;</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> 	PCAP_OPENFLAG_PROMISCUOUS   1</span><br><span class="hljs-comment">//Defines if the adapter has to go in promiscuous mode.</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> 	PCAP_OPENFLAG_DATATX_UDP   2</span><br><span class="hljs-comment">//Defines if the data trasfer(in case of a remote capture) has to be done with UDP protocol.</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> 	PCAP_OPENFLAG_NOCAPTURE_RPCAP   4</span><br><span class="hljs-comment">//Defines if the remote probe will capture its own generated traffic.</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> 	PCAP_OPENFLAG_NOCAPTURE_LOCAL   8</span><br><span class="hljs-comment">//Defines if the local adapter will capture its own generated traffic.</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> 	PCAP_OPENFLAG_MAX_RESPONSIVENESS   16</span><br><span class="hljs-comment">//This flag configures the adapter for maximum responsiveness.</span><br><br><span class="hljs-comment">/* packet handler 函数原型 */</span><br><span class="hljs-type">void</span> <span class="hljs-title function_">packet_handler</span><span class="hljs-params">(u_char* param, <span class="hljs-type">const</span> <span class="hljs-keyword">struct</span> pcap_pkthdr* header, <span class="hljs-type">const</span> u_char* pkt_data)</span>;<br><br>main()<br>&#123;<br>	<span class="hljs-type">pcap_if_t</span>* alldevs;<br>	<span class="hljs-type">pcap_if_t</span>* d;<br>	<span class="hljs-type">int</span> inum;<br>	<span class="hljs-type">int</span> i = <span class="hljs-number">0</span>;<br>	<span class="hljs-type">pcap_t</span>* adhandle;<br>	<span class="hljs-type">char</span> errbuf[PCAP_ERRBUF_SIZE];<br><br>	<span class="hljs-comment">/* 获取本机设备列表 */</span><br>	<span class="hljs-keyword">if</span> (pcap_findalldevs_ex(PCAP_SRC_IF_STRING, <span class="hljs-literal">NULL</span>, &amp;alldevs, errbuf) == <span class="hljs-number">-1</span>)<br>	&#123;<br>		<span class="hljs-built_in">fprintf</span>(<span class="hljs-built_in">stderr</span>, <span class="hljs-string">&quot;Error in pcap_findalldevs: %s\n&quot;</span>, errbuf);<br>		<span class="hljs-built_in">exit</span>(<span class="hljs-number">1</span>);<br>	&#125;<br><br>	<span class="hljs-comment">/* 打印列表 */</span><br>	<span class="hljs-keyword">for</span> (d = alldevs; d; d = d-&gt;next)<br>	&#123;<br>		<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;%d. %s&quot;</span>, ++i, d-&gt;name);<br>		<span class="hljs-keyword">if</span> (d-&gt;description)<br>			<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot; (%s)\n&quot;</span>, d-&gt;description);<br>		<span class="hljs-keyword">else</span><br>			<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot; (No description available)\n&quot;</span>);<br>	&#125;<br><br>	<span class="hljs-keyword">if</span> (i == <span class="hljs-number">0</span>)<br>	&#123;<br>		<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;\nNo interfaces found! Make sure WinPcap is installed.\n&quot;</span>);<br>		<span class="hljs-keyword">return</span> <span class="hljs-number">-1</span>;<br>	&#125;<br><br>	<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;Enter the interface number (1-%d):&quot;</span>, i);<br>	<span class="hljs-built_in">scanf</span>(<span class="hljs-string">&quot;%d&quot;</span>, &amp;inum);<br><br>	<span class="hljs-keyword">if</span> (inum &lt; <span class="hljs-number">1</span> || inum &gt; i)<br>	&#123;<br>		<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;\nInterface number out of range.\n&quot;</span>);<br>		<span class="hljs-comment">/* 释放设备列表 */</span><br>		pcap_freealldevs(alldevs);<br>		<span class="hljs-keyword">return</span> <span class="hljs-number">-1</span>;<br>	&#125;<br><br>	<span class="hljs-comment">/* 跳转到选中的适配器 */</span><br>	<span class="hljs-keyword">for</span> (d = alldevs, i = <span class="hljs-number">0</span>; i &lt; inum - <span class="hljs-number">1</span>; d = d-&gt;next, i++);<br><br>	<span class="hljs-comment">/* 打开设备 */</span><br>	<span class="hljs-keyword">if</span> ((adhandle = pcap_open(d-&gt;name,          <span class="hljs-comment">// 设备名</span><br>		<span class="hljs-number">65536</span>,            <span class="hljs-comment">// 65535保证能捕获到不同数据链路层上的每个数据包的全部内容</span><br>		PCAP_OPENFLAG_PROMISCUOUS,    <span class="hljs-comment">// 混杂模式</span><br>		<span class="hljs-number">1000</span>,             <span class="hljs-comment">// 读取超时时间</span><br>		<span class="hljs-literal">NULL</span>,             <span class="hljs-comment">// 远程机器验证</span><br>		errbuf            <span class="hljs-comment">// 错误缓冲池</span><br>	)) == <span class="hljs-literal">NULL</span>)<br>	&#123;<br>		<span class="hljs-built_in">fprintf</span>(<span class="hljs-built_in">stderr</span>, <span class="hljs-string">&quot;\nUnable to open the adapter. %s is not supported by WinPcap\n&quot;</span>, d-&gt;name);<br>		<span class="hljs-comment">/* 释放设备列表 */</span><br>		pcap_freealldevs(alldevs);<br>		<span class="hljs-keyword">return</span> <span class="hljs-number">-1</span>;<br>	&#125;<br><br>	<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;\nlistening on %s...\n&quot;</span>, d-&gt;description);<br><br>	<span class="hljs-comment">/* 释放设备列表 */</span><br>	pcap_freealldevs(alldevs);<br><br>	<span class="hljs-type">int</span> res;<br>	<span class="hljs-class"><span class="hljs-keyword">struct</span> <span class="hljs-title">tm</span>* <span class="hljs-title">ltime</span>;</span><br>	<span class="hljs-type">char</span> timestr[<span class="hljs-number">16</span>];<br>	<span class="hljs-class"><span class="hljs-keyword">struct</span> <span class="hljs-title">pcap_pkthdr</span>* <span class="hljs-title">header</span>;</span><br>	<span class="hljs-type">const</span> u_char* pkt_data;<br>	<span class="hljs-type">time_t</span> local_tv_sec;<br><br>	<span class="hljs-comment">/* 获取数据包 */</span><br>	<span class="hljs-keyword">while</span> ((res = pcap_next_ex(adhandle, &amp;header, &amp;pkt_data)) &gt;= <span class="hljs-number">0</span>) &#123;<br><br>		<span class="hljs-keyword">if</span> (res == <span class="hljs-number">0</span>)<br>			<span class="hljs-comment">/* 超时时间到 */</span><br>			<span class="hljs-keyword">continue</span>;<br><br>		<span class="hljs-comment">/* 将时间戳转换成可识别的格式 */</span><br>		local_tv_sec = header-&gt;ts.tv_sec;<br>		ltime = localtime(&amp;local_tv_sec);<br>		strftime(timestr, <span class="hljs-keyword">sizeof</span> timestr, <span class="hljs-string">&quot;%H:%M:%S&quot;</span>, ltime);<br><br>		<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;%s,%.6d len:%d\n&quot;</span>, timestr, header-&gt;ts.tv_usec, header-&gt;len);<br>	&#125;<br><br>	<span class="hljs-keyword">if</span> (res == <span class="hljs-number">-1</span>) &#123;<br>		<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;Error reading the packets: %s\n&quot;</span>, pcap_geterr(adhandle));<br>		<span class="hljs-keyword">return</span> <span class="hljs-number">-1</span>;<br>	&#125;<br><br>	<span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;<br><br>	<span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;<br>&#125;<br></code></pre></td></tr></table></figure>
+<p>为什么我们要用<code>pcap_next_ex()</code>代替以前的<code>pcap_next()</code>?因为<code>pcap_next()</code>有一些不好的地方。首先，他效率低下，尽管它隐藏了回调的方式，但它依然依赖于函数<code>pcap_dispatch()</code>。第二，它不能检测到文件末尾这个状态(EOF)，因此，如果数据包是从文件读取来的，那么它就不那么有用了。</p>
+<p>值得注意的是，pcap_next_ex()在成功，超时，出错或EOF的情况下，会返回不同的值。</p>
+<h3 id="分析数据包"><a class="markdownIt-Anchor" href="#分析数据包"></a> 分析数据包</h3>
+<p>捕获的数据包的协议首部，打印一些网络上传输的UDP数据的信息。</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><code class="hljs c"><span class="hljs-meta">#<span class="hljs-keyword">define</span> _CRT_SECURE_NO_WARNINGS</span><br><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&quot;pcap.h&quot;</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> PCAP_SRC_IF_STRING   <span class="hljs-string">&quot;rpcap://&quot;</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> PCAP_SRC_FILE_STRING   <span class="hljs-string">&quot;file://&quot;</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> 	PCAP_OPENFLAG_PROMISCUOUS   1</span><br><span class="hljs-comment">//Defines if the adapter has to go in promiscuous mode.</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> 	PCAP_OPENFLAG_DATATX_UDP   2</span><br><span class="hljs-comment">//Defines if the data trasfer(in case of a remote capture) has to be done with UDP protocol.</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> 	PCAP_OPENFLAG_NOCAPTURE_RPCAP   4</span><br><span class="hljs-comment">//Defines if the remote probe will capture its own generated traffic.</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> 	PCAP_OPENFLAG_NOCAPTURE_LOCAL   8</span><br><span class="hljs-comment">//Defines if the local adapter will capture its own generated traffic.</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> 	PCAP_OPENFLAG_MAX_RESPONSIVENESS   16</span><br><span class="hljs-comment">//This flag configures the adapter for maximum responsiveness.</span><br><br><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&quot;pcap.h&quot;</span></span><br><br><span class="hljs-comment">/* 4字节的IP地址 */</span><br><span class="hljs-keyword">typedef</span> <span class="hljs-class"><span class="hljs-keyword">struct</span> <span class="hljs-title">ip_address</span> &#123;</span><br>	u_char byte1;<br>	u_char byte2;<br>	u_char byte3;<br>	u_char byte4;<br>&#125;ip_address;<br><br><span class="hljs-comment">/* IPv4 首部 */</span><br><span class="hljs-keyword">typedef</span> <span class="hljs-class"><span class="hljs-keyword">struct</span> <span class="hljs-title">ip_header</span> &#123;</span><br>	u_char  ver_ihl;        <span class="hljs-comment">// 版本 (4 bits) + 首部长度 (4 bits)</span><br>	u_char  tos;            <span class="hljs-comment">// 服务类型(Type of service) </span><br>	u_short tlen;           <span class="hljs-comment">// 总长(Total length) </span><br>	u_short identification; <span class="hljs-comment">// 标识(Identification)</span><br>	u_short flags_fo;       <span class="hljs-comment">// 标志位(Flags) (3 bits) + 段偏移量(Fragment offset) (13 bits)</span><br>	u_char  ttl;            <span class="hljs-comment">// 存活时间(Time to live)</span><br>	u_char  proto;          <span class="hljs-comment">// 协议(Protocol)</span><br>	u_short crc;            <span class="hljs-comment">// 首部校验和(Header checksum)</span><br>	ip_address  saddr;      <span class="hljs-comment">// 源地址(Source address)</span><br>	ip_address  daddr;      <span class="hljs-comment">// 目的地址(Destination address)</span><br>	u_int   op_pad;         <span class="hljs-comment">// 选项与填充(Option + Padding)</span><br>&#125;ip_header;<br><br><span class="hljs-comment">/* UDP 首部*/</span><br><span class="hljs-keyword">typedef</span> <span class="hljs-class"><span class="hljs-keyword">struct</span> <span class="hljs-title">udp_header</span> &#123;</span><br>	u_short sport;          <span class="hljs-comment">// 源端口(Source port)</span><br>	u_short dport;          <span class="hljs-comment">// 目的端口(Destination port)</span><br>	u_short len;            <span class="hljs-comment">// UDP数据包长度(Datagram length)</span><br>	u_short crc;            <span class="hljs-comment">// 校验和(Checksum)</span><br>&#125;udp_header;<br><br><span class="hljs-comment">/* 回调函数原型 */</span><br><span class="hljs-type">void</span> <span class="hljs-title function_">packet_handler</span><span class="hljs-params">(u_char* param, <span class="hljs-type">const</span> <span class="hljs-keyword">struct</span> pcap_pkthdr* header, <span class="hljs-type">const</span> u_char* pkt_data)</span>;<br><br><br>main()<br>&#123;<br>	<span class="hljs-type">pcap_if_t</span>* alldevs;<br>	<span class="hljs-type">pcap_if_t</span>* d;<br>	<span class="hljs-type">int</span> inum;<br>	<span class="hljs-type">int</span> i = <span class="hljs-number">0</span>;<br>	<span class="hljs-type">pcap_t</span>* adhandle;<br>	<span class="hljs-type">char</span> errbuf[PCAP_ERRBUF_SIZE];<br>	u_int netmask;<br>	<span class="hljs-type">char</span> packet_filter[] = <span class="hljs-string">&quot;ip and udp&quot;</span>;<br>	<span class="hljs-class"><span class="hljs-keyword">struct</span> <span class="hljs-title">bpf_program</span> <span class="hljs-title">fcode</span>;</span><br><br>	<span class="hljs-comment">/* 获得设备列表 */</span><br>	<span class="hljs-keyword">if</span> (pcap_findalldevs_ex(PCAP_SRC_IF_STRING, <span class="hljs-literal">NULL</span>, &amp;alldevs, errbuf) == <span class="hljs-number">-1</span>)<br>	&#123;<br>		<span class="hljs-built_in">fprintf</span>(<span class="hljs-built_in">stderr</span>, <span class="hljs-string">&quot;Error in pcap_findalldevs: %s\n&quot;</span>, errbuf);<br>		<span class="hljs-built_in">exit</span>(<span class="hljs-number">1</span>);<br>	&#125;<br><br>	<span class="hljs-comment">/* 打印列表 */</span><br>	<span class="hljs-keyword">for</span> (d = alldevs; d; d = d-&gt;next)<br>	&#123;<br>		<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;%d. %s&quot;</span>, ++i, d-&gt;name);<br>		<span class="hljs-keyword">if</span> (d-&gt;description)<br>			<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot; (%s)\n&quot;</span>, d-&gt;description);<br>		<span class="hljs-keyword">else</span><br>			<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot; (No description available)\n&quot;</span>);<br>	&#125;<br><br>	<span class="hljs-keyword">if</span> (i == <span class="hljs-number">0</span>)<br>	&#123;<br>		<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;\nNo interfaces found! Make sure WinPcap is installed.\n&quot;</span>);<br>		<span class="hljs-keyword">return</span> <span class="hljs-number">-1</span>;<br>	&#125;<br><br>	<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;Enter the interface number (1-%d):&quot;</span>, i);<br>	<span class="hljs-built_in">scanf</span>(<span class="hljs-string">&quot;%d&quot;</span>, &amp;inum);<br><br>	<span class="hljs-keyword">if</span> (inum &lt; <span class="hljs-number">1</span> || inum &gt; i)<br>	&#123;<br>		<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;\nInterface number out of range.\n&quot;</span>);<br>		<span class="hljs-comment">/* 释放设备列表 */</span><br>		pcap_freealldevs(alldevs);<br>		<span class="hljs-keyword">return</span> <span class="hljs-number">-1</span>;<br>	&#125;<br><br>	<span class="hljs-comment">/* 跳转到已选设备 */</span><br>	<span class="hljs-keyword">for</span> (d = alldevs, i = <span class="hljs-number">0</span>; i &lt; inum - <span class="hljs-number">1</span>; d = d-&gt;next, i++);<br><br>	<span class="hljs-comment">/* 打开适配器 */</span><br>	<span class="hljs-keyword">if</span> ((adhandle = pcap_open(d-&gt;name,  <span class="hljs-comment">// 设备名</span><br>		<span class="hljs-number">65536</span>,     <span class="hljs-comment">// 要捕捉的数据包的部分 </span><br>		<span class="hljs-comment">// 65535保证能捕获到不同数据链路层上的每个数据包的全部内容</span><br>		PCAP_OPENFLAG_PROMISCUOUS,         <span class="hljs-comment">// 混杂模式</span><br>		<span class="hljs-number">1000</span>,      <span class="hljs-comment">// 读取超时时间</span><br>		<span class="hljs-literal">NULL</span>,      <span class="hljs-comment">// 远程机器验证</span><br>		errbuf     <span class="hljs-comment">// 错误缓冲池</span><br>	)) == <span class="hljs-literal">NULL</span>)<br>	&#123;<br>		<span class="hljs-built_in">fprintf</span>(<span class="hljs-built_in">stderr</span>, <span class="hljs-string">&quot;\nUnable to open the adapter. %s is not supported by WinPcap\n&quot;</span>);<br>		<span class="hljs-comment">/* 释放设备列表 */</span><br>		pcap_freealldevs(alldevs);<br>		<span class="hljs-keyword">return</span> <span class="hljs-number">-1</span>;<br>	&#125;<br><br>	<span class="hljs-comment">/* 检查数据链路层，为了简单，我们只考虑以太网 */</span><br>	<span class="hljs-keyword">if</span> (pcap_datalink(adhandle) != DLT_EN10MB)<br>	&#123;<br>		<span class="hljs-built_in">fprintf</span>(<span class="hljs-built_in">stderr</span>, <span class="hljs-string">&quot;\nThis program works only on Ethernet networks.\n&quot;</span>);<br>		<span class="hljs-comment">/* 释放设备列表 */</span><br>		pcap_freealldevs(alldevs);<br>		<span class="hljs-keyword">return</span> <span class="hljs-number">-1</span>;<br>	&#125;<br><br>	<span class="hljs-keyword">if</span> (d-&gt;addresses != <span class="hljs-literal">NULL</span>)<br>		<span class="hljs-comment">/* 获得接口第一个地址的掩码 */</span><br>		netmask = ((<span class="hljs-keyword">struct</span> sockaddr_in*)(d-&gt;addresses-&gt;netmask))-&gt;sin_addr.S_un.S_addr;<br>	<span class="hljs-keyword">else</span><br>		<span class="hljs-comment">/* 如果接口没有地址，那么我们假设一个C类的掩码 */</span><br>		netmask = <span class="hljs-number">0xffffff</span>;<br><br><br>	<span class="hljs-comment">//编译过滤器</span><br>	<span class="hljs-keyword">if</span> (pcap_compile(adhandle, &amp;fcode, packet_filter, <span class="hljs-number">1</span>, netmask) &lt; <span class="hljs-number">0</span>)<br>	&#123;<br>		<span class="hljs-built_in">fprintf</span>(<span class="hljs-built_in">stderr</span>, <span class="hljs-string">&quot;\nUnable to compile the packet filter. Check the syntax.\n&quot;</span>);<br>		<span class="hljs-comment">/* 释放设备列表 */</span><br>		pcap_freealldevs(alldevs);<br>		<span class="hljs-keyword">return</span> <span class="hljs-number">-1</span>;<br>	&#125;<br><br>	<span class="hljs-comment">//设置过滤器</span><br>	<span class="hljs-keyword">if</span> (pcap_setfilter(adhandle, &amp;fcode) &lt; <span class="hljs-number">0</span>)<br>	&#123;<br>		<span class="hljs-built_in">fprintf</span>(<span class="hljs-built_in">stderr</span>, <span class="hljs-string">&quot;\nError setting the filter.\n&quot;</span>);<br>		<span class="hljs-comment">/* 释放设备列表 */</span><br>		pcap_freealldevs(alldevs);<br>		<span class="hljs-keyword">return</span> <span class="hljs-number">-1</span>;<br>	&#125;<br><br>	<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;\nlistening on %s...\n&quot;</span>, d-&gt;description);<br><br>	<span class="hljs-comment">/* 释放设备列表 */</span><br>	pcap_freealldevs(alldevs);<br><br>	<span class="hljs-comment">/* 开始捕捉 */</span><br>	pcap_loop(adhandle, <span class="hljs-number">0</span>, packet_handler, <span class="hljs-literal">NULL</span>);<br><br>	<span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;<br>&#125;<br><br><span class="hljs-comment">/* 回调函数，当收到每一个数据包时会被libpcap所调用 */</span><br><span class="hljs-type">void</span> <span class="hljs-title function_">packet_handler</span><span class="hljs-params">(u_char* param, <span class="hljs-type">const</span> <span class="hljs-keyword">struct</span> pcap_pkthdr* header, <span class="hljs-type">const</span> u_char* pkt_data)</span><br>&#123;<br>	<span class="hljs-class"><span class="hljs-keyword">struct</span> <span class="hljs-title">tm</span>* <span class="hljs-title">ltime</span>;</span><br>	<span class="hljs-type">char</span> timestr[<span class="hljs-number">16</span>];<br>	ip_header* ih;<br>	udp_header* uh;<br>	u_int ip_len;<br>	u_short sport, dport;<br>	<span class="hljs-type">time_t</span> local_tv_sec;<br><br>	<span class="hljs-comment">/* 将时间戳转换成可识别的格式 */</span><br>	local_tv_sec = header-&gt;ts.tv_sec;<br>	ltime = localtime(&amp;local_tv_sec);<br>	strftime(timestr, <span class="hljs-keyword">sizeof</span> timestr, <span class="hljs-string">&quot;%H:%M:%S&quot;</span>, ltime);<br><br>	<span class="hljs-comment">/* 打印数据包的时间戳和长度 */</span><br>	<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;%s.%.6d len:%d &quot;</span>, timestr, header-&gt;ts.tv_usec, header-&gt;len);<br><br>	<span class="hljs-comment">/* 获得IP数据包头部的位置 */</span><br>	ih = (ip_header*)(pkt_data +<br>		<span class="hljs-number">14</span>); <span class="hljs-comment">//以太网头部长度</span><br><br>	<span class="hljs-comment">/* 获得UDP首部的位置 */</span><br>	ip_len = (ih-&gt;ver_ihl &amp; <span class="hljs-number">0xf</span>) * <span class="hljs-number">4</span>;<br>	uh = (udp_header*)((u_char*)ih + ip_len);<br><br>	<span class="hljs-comment">/* 将网络字节序列转换成主机字节序列 */</span><br>	sport = ntohs(uh-&gt;sport);<br>	dport = ntohs(uh-&gt;dport);<br><br>	<span class="hljs-comment">/* 打印IP地址和UDP端口 */</span><br>	<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;%d.%d.%d.%d.%d -&gt; %d.%d.%d.%d.%d\n&quot;</span>,<br>		ih-&gt;saddr.byte1,<br>		ih-&gt;saddr.byte2,<br>		ih-&gt;saddr.byte3,<br>		ih-&gt;saddr.byte4,<br>		sport,<br>		ih-&gt;daddr.byte1,<br>		ih-&gt;daddr.byte2,<br>		ih-&gt;daddr.byte3,<br>		ih-&gt;daddr.byte4,<br>		dport);<br>&#125;<br></code></pre></td></tr></table></figure>
+<p>首先，将过滤器设置成&quot;ip and udp&quot;。在这种方式下，<code>packet_handler</code>只会收到基于IPv4的UDP数据包；这将简化解析过程，提高程序的效率。其次，创建了用于描述IP首部和UDP首部的结构体。这些结构体中的各种数据会被packet_handler()合理地定位。在开始捕捉前，使用了pcap_datalink() 对MAC层进行了检测，以确保在处理一个以太网络，确保MAC首部是14位的。IP数据包的首部就位于MAC首部的后面，将从IP数据包的首部解析到源IP地址和目的IP地址。</p>
+<p>处理UDP的首部有一些复杂，因为IP数据包的首部的长度并不是固定的，可以通过IP数据包的length域来得到它的长度。一旦知道了UDP首部的位置就能解析到源端口和目的端口。</p>
+<p>被解析出来的值被打印在屏幕上，形式上图所示，每一行分别代表一个数据包。</p>
+<h2 id="winpcap的一些基本功能的实现"><a class="markdownIt-Anchor" href="#winpcap的一些基本功能的实现"></a> Winpcap的一些基本功能的实现</h2>
+<h3 id="捕获数据包"><a class="markdownIt-Anchor" href="#捕获数据包"></a> 捕获数据包</h3>
+<ol>
+<li>
+<p>枚举所有可用的设备<code>pcap_findalldevs_ex()</code></p>
+</li>
+<li>
+<p>通过名字打开一个设备<code>pcap_open()</code></p>
+<p>在这里可以打开一个文件，只是在打开这个文件之前需要通过<code>pcap_createsrcstr</code>创建相应的<code>name string</code></p>
+</li>
+<li>
+<p>设置<code>Filter[pcap_compile,pcap_setfilter]</code>（可选）</p>
+</li>
+<li>
+<p>捕获数据</p>
+<p>有几种捕获数据的方法(捕获数据的数据都是最原始的数据包，即包含数据链路层的数据头)</p>
+<ul>
+<li>是以回调的方式<code>[pcap_loop,pcap_dispatch]</code></li>
+</ul>
+<p>这两种方法基本相同，底层收集数据包，当满足一定的条件(timeout或者缓冲区满)，就会调用回调函数，把收集到的原始数据包s,交给用户。他们返回的数据缓冲区包含多个包。</p>
+<ul>
+<li><code>pcap_next_ex()</code>的方式</li>
+</ul>
+<p>每当一个包到达以后，<code>pcap_next_ex</code>就会返回，返回的数据缓冲区里只包含一个包</p>
+</li>
+</ol>
+<h3 id="发送包"><a class="markdownIt-Anchor" href="#发送包"></a> 发送包</h3>
+<p>Winpcap中有发送单个包和发送多个包的方法。这里只说发送单个包。</p>
+<ol>
+<li>通过名字打开一个设备<code>[pcap_open]</code></li>
+<li>自己构造一个原始数据包（这个数据包会不经过任何处理就发送出去，所以必须把包中的各个字段设置好。另外这个数据包是包含数据链路层报头的）</li>
+<li>使用<code>pcap_sendpacket()</code>发送数据包</li>
+</ol>
+<h3 id="统计网络流量"><a class="markdownIt-Anchor" href="#统计网络流量"></a> 统计网络流量</h3>
+<ol>
+<li>
+<p>通过名字打开一个设备<code>[pcap_open]</code></p>
+<p>通过read_timeout来设置统计的时间间隔</p>
+</li>
+<li>
+<p>设置<code>filter[pcap_compile,pcap_setfilter]</code>(可选)</p>
+</li>
+<li>
+<p>设置设备的模式为统计模式<code>[pcap_setmode(MODE_STAT);]</code></p>
+</li>
+<li>
+<p>开始统计，<code>pcap_loop/pcap_dispatch()</code></p>
+</li>
+<li>
+<p>在回调函数中的参数中就包含了统计信息。</p>
+</li>
+</ol>
+<h2 id="习题与思考题"><a class="markdownIt-Anchor" href="#习题与思考题"></a> 习题与思考题</h2>
+<p>1、WINPCAP是否能实现服务质量的控制？</p>
+<p>答：不能。WinPcap可以独立地通过主机协议发送和接受数据，如同TCP-IP。 这就意味着WinPcap不能阻止、过滤或操纵同一机器上的其他应用程序的通讯： 它仅仅能简单地&quot;监视&quot;在网络上传输的数据包。所以，它不能提供类似网络流量控制、服务质量调度和个人防火墙之类的支持，因而不能实现服务质量的控制。</p>
+<h1 id="tips"><a class="markdownIt-Anchor" href="#tips"></a> tips</h1>
+<p>使用winpcap踩了大坑。</p>
+<p>Npcap是基于Winpcap和Libpcap的，Winpcap已多年无人维护，其官网也推荐Windows XP之后的用户转移到Npcap上。Npcap基于WINPCAP，Winpcap基于libcap，并做出了诸多改进。</p>
+<p>后面都是用Npcap开发了。</p>
+]]></content>
+      <categories>
+        <category>计算机网络</category>
+      </categories>
+      <tags>
+        <tag>计算机网络</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hexo中使用emoji表情</title>
     <url>/2022/05/22/Hexo%E4%B8%AD%E4%BD%BF%E7%94%A8emoji%E8%A1%A8%E6%83%85/</url>
     <content><![CDATA[<h1 id="hexo中使用emoji表情"><a class="markdownIt-Anchor" href="#hexo中使用emoji表情"></a> Hexo中使用emoji表情</h1>
@@ -1470,149 +1849,8 @@
         <category>hexo</category>
       </categories>
       <tags>
+        <tag>hexo</tag>
         <tag>博客美化</tag>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>BIM模型渲染算法及实现</title>
-    <url>/2022/11/28/BIM%E6%A8%A1%E5%9E%8B%E6%B8%B2%E6%9F%93%E7%AE%97%E6%B3%95%E5%8F%8A%E5%AE%9E%E7%8E%B0/</url>
-    <content><![CDATA[<h1 id="bim模型渲染算法及实现"><a class="markdownIt-Anchor" href="#bim模型渲染算法及实现"></a> BIM模型渲染算法及实现</h1>
-<h2 id="一-ssao算法-屏幕空间环境光遮蔽"><a class="markdownIt-Anchor" href="#一-ssao算法-屏幕空间环境光遮蔽"></a> 一、SSAO算法 屏幕空间环境光遮蔽</h2>
-<h3 id="1-ssao的介绍"><a class="markdownIt-Anchor" href="#1-ssao的介绍"></a> 1. SSAO的介绍</h3>
-<p>SSAO，即屏幕空间环境光遮蔽(Screen-Space Ambient Occlusion)。要讨论SSAO，首先要了解AO(Ambient Occlusion)，即环境光遮蔽。这是一种着色渲染技术，模拟光线到达物体的能力的粗略的全局方法，描述光线达到物体表面的能力。在一些古老或者简单的游戏中，游戏开发人员通常只给环境光一个单一的颜色值，但这渲染出来的效果远差于真实场景。比如在房间里，角落的光线通常比较暗。这是因为光在反射的时候，很多褶皱、空洞中的光线难以反射出来达到我们的眼睛，所以这些地方看着会更加的暗。</p>
-<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/image-20221128162121381.png" alt="image-20221128162121381" /></p>
-<p>如上图，左边以及中间的图片没有应用AO而显得白色雕像悬浮在空中一样，但其实应像图三一样正确摆放在地面上。</p>
-<p>环境光遮蔽采用对空间中每一点发射大量光线，并在片元周围计算光线丢失，这会带来极大的性能开销。</p>
-<p>而SSAO通过获取像素的深度缓冲，法线缓冲来计算实现，来近似的表现物体在间接光下产生的阴影。2007年，Crytek公司发布了这个技术，并用在了他们的看家作品孤岛危机上。</p>
-<h3 id="2-ssao的原理"><a class="markdownIt-Anchor" href="#2-ssao的原理"></a> 2. SSAO的原理</h3>
-<p>对于屏幕空间中每一个片段，我们都根据法线信息来构建一个法向半球，在这个半球里面生成许多随机样本，得到他的深度信息，然后与当前片段深度值进行对比，高于片段深度值的认为被遮蔽，根据这些样本计算加权得到遮蔽因子，这个遮蔽因子会被用来减少片段的环境光照分量。</p>
-<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/image-20221128165033908.png" alt="image-20221128165033908" /></p>
-<p>如上图，图片中灰色的点则是采样点的深度大于该片段的深度，因此当灰色的点越多，则表明当前片段点遮蔽因子越大。</p>
-<h3 id="3-ssao算法实现"><a class="markdownIt-Anchor" href="#3-ssao算法实现"></a> 3. SSAO算法实现</h3>
-<h2 id="二-csm算法-级联阴影映射"><a class="markdownIt-Anchor" href="#二-csm算法-级联阴影映射"></a> 二、CSM算法 级联阴影映射</h2>
-<h3 id="1-csm算法介绍"><a class="markdownIt-Anchor" href="#1-csm算法介绍"></a> 1. CSM算法介绍</h3>
-<p>阴影贴图(Shadow mapping)是游戏引擎中广泛使用的实现实时阴影的技术，也叫做光照贴图(Light Mapping)，这是一种可以在不减少帧率的情况下达到真实感光照和阴影效果的方法。像素与以纹理形式保存的光照深度缓冲区或者深度图像比较，通过这种方式计算像素是否处于光源照射范围内，从而生成阴影。从光源位置看出去，所有能够看到的物体都处在光照之中，但是这些物体后面的东西将处于阴影之中。光照场景进行渲染，保存能够看到的物体表面深度，即得到深度图像。然后，正常的场景中的每个点都变换到光源的裁剪坐标，然后与这个深度图像进行比较，就好像判断场景中的每个点能否被光线看到，从而进行正常场景的渲染。</p>
-<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/image-20230223092226092.png" alt="image-20230223092226092" /></p>
-<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/image-20230223092258388.png" alt="image-20230223092258388" /></p>
-<p>基础的阴影贴图方法对于大型场景渲染显得力不从心，很容易出现阴影抖动和锯齿边缘现象。Cascaded Shadow Maps方法根据对象到观察者的距离蹄冻不同分辨率的深度纹理来解决上述问题。他将相机的视锥体分割成若干部分，然后为分割的每一部分生成独立的深度贴图。</p>
-<p>CSM通常用来在大型场景模拟太阳投射的阴影。在一张阴影贴图中捕捉所有对象需要阴影贴图具有非常高的分辨率。使用多张阴影贴图就可以结局这个问题。对于进出的场景使用较高分辨率的阴影贴图，对于远处的场景使用粗糙的阴影贴图，在两张阴影贴图过的地方选择其中一张使用。因为远处的对象只占画面的很少一部分像素，而近处的对象占据了画面的很大一部分。</p>
-<h3 id="2-csm算法原理"><a class="markdownIt-Anchor" href="#2-csm算法原理"></a> 2. CSM算法原理</h3>
-<p>CSM的具体流程如下:</p>
-<ol>
-<li><strong>划分camera frustum成多个subfrustum</strong>，其中每个分割面的z值有公式计算得出。<a href="https://developer.download.nvidia.cn/SDK/10.5/opengl/src/cascaded_shadow_maps/doc/cascaded_shadow_maps.pdf">cascaded_shadow_maps (nvidia.cn)</a><a href="https://www.researchgate.net/publication/220805307_Parallel-split_shadow_maps_for_large-scale_virtual_environments">(PDF) Parallel-split shadow maps for large-scale virtual environments (researchgate.net)</a></li>
-</ol>
-<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/v2-9dd397c609a3881ccbc70b09e02a5978_r.jpg" alt="img" /></p>
-<ol start="2">
-<li><strong>计算每个小的subfrustum的包围盒。</strong> 我们可以发现光锥体要包裹相机视锥体。光锥体就像一个包围盒。但仅仅包裹分割后的相机视锥体是不够的，如果在光源和分割后的相机视锥体之间存在可以投射阴影的遮挡物，我们应该扩展光锥体的大小将遮挡物包裹在光锥体中。此外，通常光锥体包含了很大一部分不可见的区域，造成了阴影贴图的大量浪费。我们可以将分割后的相机视锥体的顶点映射到光源的齐次空间，得到一个与光锥体对齐的包围盒。根据这个包围盒，我们可以使用缩放和平移构造出更加精确的光锥体。我们确实也可以让光锥体和分割后的相机视锥体完全一致，但这可能会改变光源的方向。</li>
-</ol>
-<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/v2-e3525fcf48b0b35f643426f6560b9436_r.jpg" alt="" /></p>
-<ol start="3">
-<li><strong>重复操作，对每个subfrustum生成一张shadow map。</strong> N一般取1到4之间的整数值。</li>
-<li><strong>对每一个像素选择合适的shadow map生成阴影。</strong> 我们需要计算片段对应的阴影贴图的坐标，我们首先使用相机的模型视图矩阵的逆矩阵将片段坐标变换到世界坐标系下，然后将变换后的坐标乘以片段对应的果园矩阵。接着将坐标从[-1,1]线性缩放到[0,1]的范围，即映射到深度贴图上。现在，我们就可以使用这个坐标访问片段对应深度贴图。如果坐标的z值比深度贴图对应的z值小，说明片段被光源照亮，否则，说明片段处于阴影中。</li>
-</ol>
-]]></content>
-  </entry>
-  <entry>
-    <title>SpongeBob_SquarePants_Classic_Quotes</title>
-    <url>/2022/06/01/SpongeBob-SquarePants-Classic-Quotes/</url>
-    <content><![CDATA[<h1 id="海绵宝宝经典语录"><a class="markdownIt-Anchor" href="#海绵宝宝经典语录"></a> 海绵宝宝经典语录</h1>
-<h2 id="前言"><a class="markdownIt-Anchor" href="#前言"></a> 前言</h2>
-<div class="note note-success">
-            <p>最近偶然看到了童年的动画回忆，感觉小时候的动画片很经典，蕴藏的知识很符合本人的三观。无意间又逛到了b站up主<code>黄方块和粉星星a</code>，看到了一些海绵宝宝里的经典语录，就想无聊时看一遍海绵宝宝，把那些蕴含哲理的话记录一下。不过当然不能简单地看一遍，毕竟越来越感觉时间不多了🐶，还是得让自己做的事有意义。在b站发现了有英文原版，就想着看一遍英文的吧，就当是学英语了。不过很惨，没有英文字幕，好多生词也听不出来没法去拼写。去YouTube上看海绵宝宝，也没字幕，也确实，中国人看中国剧也不会有字幕😂。不过找到了海绵宝宝的wiki，海绵宝宝的创作者把一整个剧本都写在了里面，可以跟着剧本比对着看。贴个链接：<code>https://spongebob.fandom.com/wiki/List_of_episodes</code>（如果要找剧本，点击<code>Transcripts</code>标签，然后根据你想要的集数选择<code>View Transcript</code>）(也确实明白了海绵宝宝为什么能做的如此成功，因为创作者对自己的作品充满了热情并下了很大的功夫，向他们学习🖖)</p>
-          </div>
-<div class="note note-success">
-            <ul><li>其实最近对保研很难去外校这事儿焦虑了好久，今晚跟球队一拒绝阿里实习的研究生学长一谈，又跟自己的舍友一谈，感觉未来还是很光明的💪。也是对自己要求太高，对自己不满，自己也想像别人那样上岸更好的学校。但我也是没给自己找准定位，大不了就本校，反正还是得靠自己。</li><li>马上要面一个暑期实习，为了能过这两天也是想速成自己一个零基础的技术，黑白颠倒，没日没夜地学，但效果不好，学的东西太多太杂，没梳理好也没打好基础。</li><li>我为啥要说这个，这个跟看海绵宝宝有啥关系。其实就是想让自己放宽心，不想再去为保研和工作过多焦虑。保持快乐学习吧，不要为了达到一个目的而去学习，而是要保持学习，最终会自然而然达到目的。</li><li>哦对了，今天是儿童节嘛，当个儿童吧，就像海绵宝宝里鱼奶奶的一句话：<code>你只会年轻一次，你不会想那么快长大的，那会错过成长的乐趣，快去享受青春活力吧！</code></li></ul>
-          </div>
-<blockquote>
-<p>It’s not the destination, it’s the journey.</p>
-<p>真正重要的不是终点，而是旅途。</p>
-</blockquote>
-<h2 id="season-1"><a class="markdownIt-Anchor" href="#season-1"></a> Season 1</h2>
-<h3 id="help-wanted"><a class="markdownIt-Anchor" href="#help-wanted"></a> Help Wanted</h3>
-<blockquote>
-<ul>
-<li>
-<p>I ❤️ pain</p>
-</li>
-<li>
-<p>我爱痛苦</p>
-</li>
-</ul>
-</blockquote>
-<h3 id="reef-blower"><a class="markdownIt-Anchor" href="#reef-blower"></a> Reef Blower</h3>
-<ul>
-<li>海绵宝宝唯一一集默片😐。</li>
-</ul>
-<h3 id="tea-at-the-treedome"><a class="markdownIt-Anchor" href="#tea-at-the-treedome"></a> Tea at the Treedome</h3>
-<h2 id="积累单词"><a class="markdownIt-Anchor" href="#积累单词"></a> 积累单词</h2>
-<ul>
-<li>lad 				少年，小伙子</li>
-<li>sea legs        指的是水手在航行的船上适应海浪的颠簸而不摔倒（俚语）
-<ul>
-<li>文中例句：It looks like you don’t even have your sea legs.      -看起来你并没有准备好</li>
-</ul>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>语料积累</category>
-      </categories>
-      <tags>
-        <tag>语料积累</tag>
-        <tag>海绵宝宝</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2023/08/29/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="quick-start"><a class="markdownIt-Anchor" href="#quick-start"></a> Quick Start</h2>
-<h3 id="create-a-new-post"><a class="markdownIt-Anchor" href="#create-a-new-post"></a> Create a new post</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="run-server"><a class="markdownIt-Anchor" href="#run-server"></a> Run server</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="generate-static-files"><a class="markdownIt-Anchor" href="#generate-static-files"></a> Generate static files</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="deploy-to-remote-sites"><a class="markdownIt-Anchor" href="#deploy-to-remote-sites"></a> Deploy to remote sites</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>解决hexo报错spwan failed</title>
-    <url>/2022/05/26/failed%E8%A7%A3%E5%86%B3%E6%96%B9%E5%BC%8F/</url>
-    <content><![CDATA[<h1 id="hexo部署出现错误errorspawn-failed解决方式"><a class="markdownIt-Anchor" href="#hexo部署出现错误errorspawn-failed解决方式"></a> Hexo部署出现错误Error:Spawn failed解决方式</h1>
-<div class="note note-success">
-            <p>Hexo部署出现以下错误Error:Spawn failed解决方式</p>
-          </div>
-<figure class="highlight roboconf"><table><tr><td class="code"><pre><code class="hljs roboconf">FATAL &#123;<br>  <span class="hljs-attribute">err</span>: Error: Spawn failed<br>      at ChildProcess.&lt;anonymous&gt; (C:\Users\myosotis\Desktop\Hexo_blog\node_modules\hexo-util\lib\spawn<span class="hljs-variable">.js</span>:51:21)<br>      at ChildProcess<span class="hljs-variable">.emit</span> (events<span class="hljs-variable">.js</span>:315:20)<br>      at ChildProcess<span class="hljs-variable">.cp</span><span class="hljs-variable">.emit</span> (C:\Users\myosotis\Desktop\Hexo_blog\node_modules\cross-spawn\lib\enoent<span class="hljs-variable">.js</span>:34:29)<br>      at Process<span class="hljs-variable">.ChildProcess</span><span class="hljs-variable">._handle</span><span class="hljs-variable">.onexit</span> (internal/child_process<span class="hljs-variable">.js</span>:277:12) &#123;<br>    code: 128<br>  &#125;<br>&#125; Something&#x27;s wrong. Maybe you can find the solution here: %s https://hexo<span class="hljs-variable">.io</span>/docs/troubleshooting<span class="hljs-variable">.html</span><br></code></pre></td></tr></table></figure>
-<p>从网上找了几个方法：</p>
-<h2 id="方法一"><a class="markdownIt-Anchor" href="#方法一"></a> 方法一</h2>
-<figure class="highlight clean"><table><tr><td class="code"><pre><code class="hljs clean">##进入站点根目录<br><br>##删除git提交内容文件夹<br>rm -rf .deploy_git/<br><br>##执行<br>git config --global core.autocrlf false<br><br>##最后<br>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d<br></code></pre></td></tr></table></figure>
-<p>没能成功，仍然报错。</p>
-<h2 id="方法二"><a class="markdownIt-Anchor" href="#方法二"></a> 方法二</h2>
-<div class="note note-success">
-            <p>修改_config.yml文件，将配置地址http方式切换成ssh方式</p>
-          </div>
-<figure class="highlight clean"><table><tr><td class="code"><pre><code class="hljs clean">##进入站点根目录<br><br>##删除git提交内容文件夹<br>vim _config.yml<br><br>##修改<br>deploy:<br><br>type: git<br><br>repository: https:<span class="hljs-comment">//github.com/Uninfo/blog.github.io.git </span><br>-&gt; git@github.com:Uninfo/blog.github.io.git<br><br>branch: master<br><br>##最后<br>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d<br></code></pre></td></tr></table></figure>
-<p>不习惯用vim，直接用编辑器打开<code>_config.yml</code>文件，将配置地址的http方式换成ssh方式。</p>
-<p>解决，成功部署。</p>
-<h2 id="方法三"><a class="markdownIt-Anchor" href="#方法三"></a> 方法三</h2>
-<div class="note note-success">
-            <p>强制上传，没试过，网上说不建议</p>
-          </div>
-<figure class="highlight clean"><table><tr><td class="code"><pre><code class="hljs clean">##进入站点根目录<br><br>##进入depoly文件夹<br>cd .deploy_git/<br><br>##强制推送<br>git push -f<br></code></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>hexo</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-        <tag>解决报错</tag>
       </tags>
   </entry>
   <entry>
@@ -1659,244 +1897,6 @@
       </categories>
       <tags>
         <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>WINPCAP编程</title>
-    <url>/2022/05/28/WINPCAP%E7%BC%96%E7%A8%8B/</url>
-    <content><![CDATA[<h1 id="winpcap编程"><a class="markdownIt-Anchor" href="#winpcap编程"></a> WINPCAP编程</h1>
-<h2 id="winpcap简介"><a class="markdownIt-Anchor" href="#winpcap简介"></a> Winpcap简介</h2>
-<p>Winpcap是UNIX下的libpcap移植到windows下的产物,他是一个free and open source的项目。Winpcap工作于驱动(Driver)层，所以能以很高的效率进行网络操作。</p>
-<p>其提供了以下强大的功能</p>
-<ul>
-<li>捕获原始的数据包</li>
-<li>设置fliter，只捕获自己感兴趣的数据包</li>
-<li>方便地把捕获的数据包输出到文件和从文件输入</li>
-<li>发送原始的数据包</li>
-<li>统计网络流量</li>
-</ul>
-<h2 id="实验目的"><a class="markdownIt-Anchor" href="#实验目的"></a> 实验目的</h2>
-<ul>
-<li>
-<p>了解WINPCAP的架构</p>
-</li>
-<li>
-<p>学习WINPCAP编程</p>
-</li>
-</ul>
-<h2 id="实验原理"><a class="markdownIt-Anchor" href="#实验原理"></a> 实验原理</h2>
-<p>WinPcap是一个基于Win32平台的，用于捕获网络数据包并进行分析的开源库.</p>
-<p>大多数网络应用程序通过被广泛使用的操作系统元件来访问网络，比如sockets。 这是一种简单的实现方式，因为操作系统已经妥善处理了底层具体实现细节（比如协议处理，封装数据包等等），并且提供了一个与读写文件类似的，令人熟悉的接口。</p>
-<p>然而，有些时候，这种“简单的方式”并不能满足任务的需求，因为有些应用程序需要直接访问网络中的数据包。也就是说，那些应用程序需要访问原始数据包，即没有被操作系统利用网络协议处理过的数据包。</p>
-<p>WinPcap产生的目的，就是为Win32应用程序提供这种访问方式； WinPcap提供了以下功能</p>
-<ol>
-<li>
-<p>捕获原始数据包，无论它是发往某台机器的，还是在其他设备（共享媒介）上进行交换的</p>
-</li>
-<li>
-<p>在数据包发送给某应用程序前，根据用户指定的规则过滤数据包</p>
-</li>
-<li>
-<p>将原始数据包通过网络发送出去</p>
-</li>
-<li>
-<p>收集并统计网络流量信息</p>
-</li>
-</ol>
-<p>以上这些功能需要借助安装在Win32内核中的网络设备驱动程序才能实现，再加上几个动态链接库DLL。</p>
-<p>所有这些功能都能通过一个强大的编程接口来表现出来,易于开发，并能在不同的操作系统上使用。这本手册的主要目标是在一些程序范例的帮助下，叙述这些编程接口的使用。</p>
-<p>WinPcap可以被用来制作网络分析、监控工具。一些基于WinPcap的典型应用有：</p>
-<ol>
-<li>
-<p>网络与协议分析器 (network and protocol analyzers)</p>
-</li>
-<li>
-<p>网络监视器 (network monitors)</p>
-</li>
-<li>
-<p>网络流量记录器 (traffic loggers)</p>
-</li>
-<li>
-<p>网络流量发生器 (traffic generators)</p>
-</li>
-<li>
-<p>用户级网桥及路由 (user-level bridges and routers)</p>
-</li>
-<li>
-<p>网络入侵检测系统 (network intrusion detection systems (NIDS))</p>
-</li>
-<li>
-<p>网络扫描器 (network scanners)</p>
-</li>
-<li>
-<p>安全工具 (security tools)</p>
-</li>
-</ol>
-<h2 id="winpcap环境配置"><a class="markdownIt-Anchor" href="#winpcap环境配置"></a> WINPCAP环境配置</h2>
-<ol>
-<li>
-<p>打开VS新建一个空项目并添加一个空的源文件</p>
-</li>
-<li>
-<p>点击菜单栏 项目-&gt;项目属性</p>
-</li>
-<li>
-<p>选择C/C+±&gt;预处理器，在预处理器定义中添加<strong>WIN32</strong>、WPCAP和HAVE_REMOTE三个宏定义，然后点击 应用；</p>
-</li>
-</ol>
-<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%2Fwinpcap%2F82%20-%20wN7ZhzX.png" alt="" /></p>
-<ol start="4">
-<li>选择链接器-&gt;输入，在附加依赖项添加wpcap.lib、ws2_32.lib、Packet.lib三个库，然后点击应用；</li>
-</ol>
-<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%2Fwinpcap%2F84%20-%20jtgejz6.png" alt="" /></p>
-<p>​		<img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%2Fwinpcap%2F83%20-%20RkAqJcE.png" alt="" /></p>
-<ol start="5">
-<li>选择VC++目录，添加WpdPack文件夹中的包含目录(include目录)，然后点击应用</li>
-</ol>
-<p>​		<img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%2Fwinpcap%2F85%20-%20kdVqLVx.png" alt="" /></p>
-<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%2Fwinpcap%2F86%20-%20JAHJo0c.png" alt="" /></p>
-<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%2Fwinpcap%2F87%20-%20pqYx6Gm.png" alt="" /></p>
-<ol start="6">
-<li>同样，添加WpdPack文件夹中的库目录(Lib目录)，然后点击应用</li>
-</ol>
-<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%2Fwinpcap%2F88%20-%20BIYU1Eh.png" alt="" /></p>
-<ol start="7">
-<li>
-<p>选择C/C+±&gt;语言，将 符合模式 设置为 否，点击确定</p>
-</li>
-<li>
-<p>将解决方案平台设置为x64</p>
-</li>
-</ol>
-<p>​		<img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%2Fwinpcap%2F89%20-%20EB6Bj3o.png" alt="" /></p>
-<ol start="9">
-<li>
-<p>环境配置到此结束。注意，使用C语言开发，因此新建.c文件而不是.cpp文件。</p>
-</li>
-<li>
-<p>测试配置是否完成，复制以下代码到项目中运行测试。</p>
-<figure class="highlight c"><table><tr><td class="code"><pre><code class="hljs c"><span class="hljs-meta">#<span class="hljs-keyword">define</span> WIN32      <span class="hljs-comment">// 必须加这条，否则vs不会自动识别</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;stdio.h&gt;</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;pcap.h&gt;</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">pragma</span> comment(lib, <span class="hljs-string">&quot;wpcap.lib&quot;</span>)</span><br><br>main()<br>&#123;<br>	<span class="hljs-type">pcap_if_t</span>* alldevs, * d;<br>	<span class="hljs-type">int</span> i = <span class="hljs-number">0</span>;<br>	<span class="hljs-type">char</span> errbuf[PCAP_ERRBUF_SIZE];<br>	<span class="hljs-keyword">if</span> (pcap_findalldevs_ex(PCAP_SRC_IF_STRING, <span class="hljs-literal">NULL</span>,<br>		&amp;alldevs, errbuf) == <span class="hljs-number">-1</span>)<br>	&#123;<br>		<span class="hljs-built_in">fprintf</span>(<span class="hljs-built_in">stderr</span>, <span class="hljs-string">&quot;Error in pcap_findalldevs_ex: %s\n&quot;</span>,<br>			errbuf);<br>		<span class="hljs-built_in">exit</span>(<span class="hljs-number">1</span>);<br>	&#125;<br>	<span class="hljs-keyword">for</span> (d = alldevs; d != <span class="hljs-literal">NULL</span>; d = d-&gt;next)<br>	&#123;<br>		<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;%d.%s&quot;</span>, ++i, d-&gt;name);<br>		<span class="hljs-keyword">if</span> (d-&gt;description)<br>		&#123;<br>			<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;(%s)\n&quot;</span>, d-&gt;description);<br>		&#125;<br>		<span class="hljs-keyword">else</span> &#123;<br>			<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;(No description available)\n&quot;</span>);<br>		&#125;<br>	&#125;<br>	<span class="hljs-keyword">if</span> (i == <span class="hljs-number">0</span>)<br>	&#123;<br>		<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;\nNo interfaces found! Make sure Winpcap is installed.\n&quot;</span>);<br>		<span class="hljs-keyword">return</span>;<br>	&#125;<br>	<span class="hljs-comment">// 释放设备</span><br>	pcap_freealldevs(alldevs);<br>&#125;<br></code></pre></td></tr></table></figure>
-</li>
-</ol>
-<h2 id="winpcap基本开发流程"><a class="markdownIt-Anchor" href="#winpcap基本开发流程"></a> WINPCAP基本开发流程</h2>
-<ul>
-<li>WinPcap开发网络应用程序的大致流程：首先获取主机安装的网络设备列表，然后选择并激活某个网络设备，封装或过滤数据包，发送或解析数据包。</li>
-</ul>
-<p>​	<img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%2Fwinpcap%2F90%20-%20omkINVh.png" alt="" /></p>
-<h3 id="获取设备列表"><a class="markdownIt-Anchor" href="#获取设备列表"></a> 获取设备列表</h3>
-<p>WinPcap提供了<code>pcap_findalldevs_ex()</code>函数来实现获取设备列表的功能，这个函数返回一个<code>pcap_if</code>结构的链表，每个这样的结构都包含了一个适配器的详细信息。值得注意的是，数据域<code>name</code>和<code>description</code>表示一个适配器名称和一个可以让人们理解的描述。下面获取适配器列表，并在屏幕上显示出来，如果没有找到适配器，将打印错误信息。</p>
-<figure class="highlight c"><table><tr><td class="code"><pre><code class="hljs C"><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;stdio.h&gt;</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&quot;pcap.h&quot;</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> PCAP_SRC_IF_STRING   <span class="hljs-string">&quot;rpcap://&quot;</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> PCAP_SRC_FILE_STRING   <span class="hljs-string">&quot;file://&quot;</span></span><br><br>main()<br>&#123;<br>	<span class="hljs-type">pcap_if_t</span> *alldevs;<br>	<span class="hljs-type">pcap_if_t</span> *d;<br>	<span class="hljs-type">int</span> i = <span class="hljs-number">0</span>;<br>	<span class="hljs-type">char</span> errbuf[PCAP_ERRBUF_SIZE];<br><br>	<span class="hljs-comment">/* 获取本地机器设备列表 */</span><br>	<span class="hljs-keyword">if</span> (pcap_findalldevs_ex(PCAP_SRC_IF_STRING, <span class="hljs-literal">NULL</span> <span class="hljs-comment">/* auth is not needed */</span>, &amp;alldevs, errbuf) == <span class="hljs-number">-1</span>)<br>	&#123;<br>		<span class="hljs-built_in">fprintf</span>(<span class="hljs-built_in">stderr</span>, <span class="hljs-string">&quot;Error in pcap_findalldevs_ex: %s\n&quot;</span>, errbuf);<br>		<span class="hljs-built_in">exit</span>(<span class="hljs-number">1</span>);<br>	&#125;<br><br>	<span class="hljs-comment">/* 打印列表 */</span><br>	<span class="hljs-keyword">for</span> (d = alldevs; d != <span class="hljs-literal">NULL</span>; d = d-&gt;next)<br>	&#123;<br>		<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;%d. %s&quot;</span>, ++i, d-&gt;name);<br>		<span class="hljs-keyword">if</span> (d-&gt;description)<br>			<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot; (%s)\n&quot;</span>, d-&gt;description);<br>		<span class="hljs-keyword">else</span><br>			<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot; (No description available)\n&quot;</span>);<br>	&#125;<br><br>	<span class="hljs-keyword">if</span> (i == <span class="hljs-number">0</span>)<br>	&#123;<br>		<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;\nNo interfaces found! Make sure WinPcap is installed.\n&quot;</span>);<br>		<span class="hljs-keyword">return</span>;<br>	&#125;<br>	getchar();<br>	<span class="hljs-comment">/* 不再需要设备列表了，释放它 */</span><br>	pcap_freealldevs(alldevs);<br>&#125;<br></code></pre></td></tr></table></figure>
-<p>有关这段代码的一些说明</p>
-<p>pcap_findalldevs_ex() 是 WinPcap 提供的用以查找主机网络适配器功能的函数，它是 pcap_findalldevs() 函数的升级版，现在基本都选择使用 ex 版本，它不仅能查找本地的设备，还能查找远程的设备，关于此函数的定义如下</p>
-<figure class="highlight c"><table><tr><td class="code"><pre><code class="hljs C"><span class="hljs-comment">// 函数原型：</span><br><span class="hljs-type">int</span> <span class="hljs-title function_">pcap_findalldevs_ex</span><span class="hljs-params">(<span class="hljs-type">char</span>* source,  <span class="hljs-keyword">struct</span> pcap_rmtauth *auth,  <span class="hljs-type">pcap_if_t</span>** alldevs,   <span class="hljs-type">char</span>* errbuf)</span>;<br><span class="hljs-comment">/* 参数说明</span><br><span class="hljs-comment">* source：指定是本地适配器还是远程适配器</span><br><span class="hljs-comment">* auth：身份验证信息，可以为NULL</span><br><span class="hljs-comment">* alldevs：存放获取的适配器数据，如果查找失败，其值为NULL</span><br><span class="hljs-comment">* errbuf：存放查找失败的相关错误信息</span><br><span class="hljs-comment">*/</span><br><span class="hljs-comment">// 返回值：成功返回0，失败返回-1</span><br></code></pre></td></tr></table></figure>
-<h3 id="获取已安装设备的高级信息"><a class="markdownIt-Anchor" href="#获取已安装设备的高级信息"></a> 获取已安装设备的高级信息</h3>
-<p>参数<code>alldevs</code>的类型是<code>pcap_if_t</code>类型的二级指针，这里需要说明，<code>pcap_findalldevs_ex()</code>函数再获取到设备信息之后会将详细信息存储在一个结构体<code>pcap_if_t</code>中，他的定义如下：</p>
-<figure class="highlight c"><table><tr><td class="code"><pre><code class="hljs C"><span class="hljs-class"><span class="hljs-keyword">struct</span> <span class="hljs-title">pcap_if_t</span></span><br><span class="hljs-class">&#123;</span><br>	<span class="hljs-class"><span class="hljs-keyword">struct</span> <span class="hljs-title">pcap_if_t</span> *<span class="hljs-title">next</span>;</span>		<span class="hljs-comment">// 如果不为空，就指向下一个元素</span><br>	<span class="hljs-type">char</span> *name;					<span class="hljs-comment">// 设备名称</span><br>	<span class="hljs-type">char</span> *description;			<span class="hljs-comment">// 设备描述</span><br>	<span class="hljs-class"><span class="hljs-keyword">struct</span> <span class="hljs-title">pcap_addr</span> *<span class="hljs-title">addresses</span>;</span><span class="hljs-comment">// 接口地址列表</span><br>	bpf_u_int32 flags;			<span class="hljs-comment">// 标志位，标志是否 loopback 设备</span><br>&#125;<br></code></pre></td></tr></table></figure>
-<p>从中可以看出，我们需要建立一个<code>pcap_if_t</code>类型的指针来存储调用函数获取到的设备信息，然后直接通过指针就可以访问指定设备的相关信息。</p>
-<p>同样，从<code>pcap_if_t</code>结构体的定义中可以看到，在结构体里面有定义了一个名为<code>pcap_addr</code>的结构体，用来存储接口地址列表，<code>pcap_addr</code>的定义如下：</p>
-<figure class="highlight c"><table><tr><td class="code"><pre><code class="hljs C"><span class="hljs-class"><span class="hljs-keyword">struct</span> <span class="hljs-title">pcap_addr</span></span><br><span class="hljs-class">&#123;</span><br>	<span class="hljs-class"><span class="hljs-keyword">struct</span> <span class="hljs-title">pcap_addr</span> *<span class="hljs-title">next</span>;</span>			<span class="hljs-comment">// 如果不为空，则指向下一个元素</span><br>	<span class="hljs-class"><span class="hljs-keyword">struct</span> <span class="hljs-title">sockaddr</span> *<span class="hljs-title">addr</span>;</span>			<span class="hljs-comment">// 接口IP地址</span><br>	<span class="hljs-class"><span class="hljs-keyword">struct</span> <span class="hljs-title">sockaddr</span> *<span class="hljs-title">netmask</span>;</span>		<span class="hljs-comment">// 接口网络掩码</span><br>	<span class="hljs-class"><span class="hljs-keyword">struct</span> <span class="hljs-title">sockaddr</span> *<span class="hljs-title">broadaddr</span>;</span>		<span class="hljs-comment">// 接口广播地址</span><br>	<span class="hljs-class"><span class="hljs-keyword">struct</span> <span class="hljs-title">sockaddr</span> *<span class="hljs-title">dstaddr</span>;</span>		<span class="hljs-comment">// 接口 P2P 目的地址</span><br>&#125;<br></code></pre></td></tr></table></figure>
-<p>另外，函数<code>pcap_findalldevs_ex()</code>还能返回远程适配器信息和一个位于所给的本地文件夹的pcap文件列表。</p>
-<p>下面的程序使用了<code>ifprint()</code>函数来打印出<code>pcap_if</code>结构体中的所有内容。程序对每一个由<code>pcap_findalldevs_ex()</code>函数返回的<code>pcap_if</code>，都调用<code>ifprint()</code>函数来打印。</p>
-<figure class="highlight c"><table><tr><td class="code"><pre><code class="hljs C"><span class="hljs-meta">#<span class="hljs-keyword">define</span> _CRT_SECURE_NO_WARNINGS</span><br><br><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&quot;pcap.h&quot;</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;stdio.h&gt;</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> PCAP_SRC_IF_STRING   <span class="hljs-string">&quot;rpcap://&quot;</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> PCAP_SRC_FILE_STRING   <span class="hljs-string">&quot;file://&quot;</span></span><br><br><span class="hljs-meta">#<span class="hljs-keyword">ifndef</span> WIN32</span><br><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;sys/socket.h&gt;</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;netinet/in.h&gt;</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">else</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;winsock.h&gt;</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">endif</span></span><br><br><br><span class="hljs-comment">// 函数原型</span><br><span class="hljs-type">void</span> <span class="hljs-title function_">ifprint</span><span class="hljs-params">(<span class="hljs-type">pcap_if_t</span>* d)</span>;<br><span class="hljs-type">char</span>* <span class="hljs-title function_">iptos</span><span class="hljs-params">(u_long in)</span>;<br><br><br><span class="hljs-type">int</span> <span class="hljs-title function_">main</span><span class="hljs-params">()</span><br>&#123;<br>	<span class="hljs-type">pcap_if_t</span>* alldevs;<br>	<span class="hljs-type">pcap_if_t</span>* d;<br>	<span class="hljs-type">char</span> errbuf[PCAP_ERRBUF_SIZE + <span class="hljs-number">1</span>];<br>	<span class="hljs-type">char</span> source[PCAP_ERRBUF_SIZE + <span class="hljs-number">1</span>];<br><br>	<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;Enter the device you want to list:\n&quot;</span><br>		<span class="hljs-string">&quot;rpcap://              ==&gt; lists interfaces in the local machine\n&quot;</span><br>		<span class="hljs-string">&quot;rpcap://hostname:port ==&gt; lists interfaces in a remote machine\n&quot;</span><br>		<span class="hljs-string">&quot;                          (rpcapd daemon must be up and running\n&quot;</span><br>		<span class="hljs-string">&quot;                           and it must accept &#x27;null&#x27; authentication)\n&quot;</span><br>		<span class="hljs-string">&quot;file://foldername     ==&gt; lists all pcap files in the give folder\n\n&quot;</span><br>		<span class="hljs-string">&quot;Enter your choice: &quot;</span>);<br><br>	fgets(source, PCAP_ERRBUF_SIZE, <span class="hljs-built_in">stdin</span>);<br>	source[PCAP_ERRBUF_SIZE] = <span class="hljs-string">&#x27;\0&#x27;</span>;<br><br>	<span class="hljs-comment">/* 获得接口列表 */</span><br>	<span class="hljs-keyword">if</span> (pcap_findalldevs_ex(source, <span class="hljs-literal">NULL</span>, &amp;alldevs, errbuf) == <span class="hljs-number">-1</span>)<br>	&#123;<br>		<span class="hljs-built_in">fprintf</span>(<span class="hljs-built_in">stderr</span>, <span class="hljs-string">&quot;Error in pcap_findalldevs: %s\n&quot;</span>, errbuf);<br>		<span class="hljs-built_in">exit</span>(<span class="hljs-number">1</span>);<br>	&#125;<br><br>	<span class="hljs-comment">/* 扫描列表并打印每一项 */</span><br>	<span class="hljs-keyword">for</span> (d = alldevs; d; d = d-&gt;next)<br>	&#123;<br>		ifprint(d);<br>	&#125;<br><br>	pcap_freealldevs(alldevs);<br>	getchar();<br>	<span class="hljs-keyword">return</span> <span class="hljs-number">1</span>;<br>&#125;<br><br><br><span class="hljs-comment">/* 打印所有可用信息 */</span><br><span class="hljs-type">void</span> <span class="hljs-title function_">ifprint</span><span class="hljs-params">(<span class="hljs-type">pcap_if_t</span>* d)</span><br>&#123;<br>	<span class="hljs-type">pcap_addr_t</span>* a;<br><br>	<span class="hljs-comment">/* 设备名(Name) */</span><br>	<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;%s\n&quot;</span>, d-&gt;name);<br><br>	<span class="hljs-comment">/* 设备描述(Description) */</span><br>	<span class="hljs-keyword">if</span> (d-&gt;description)<br>		<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;\tDescription: %s\n&quot;</span>, d-&gt;description);<br><br>	<span class="hljs-comment">/* Loopback Address*/</span><br>	<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;\tLoopback: %s\n&quot;</span>, (d-&gt;flags &amp; PCAP_IF_LOOPBACK) ? <span class="hljs-string">&quot;yes&quot;</span> : <span class="hljs-string">&quot;no&quot;</span>);<br><br>	<span class="hljs-comment">/* IP addresses */</span><br>	<span class="hljs-keyword">for</span> (a = d-&gt;addresses; a; a = a-&gt;next) &#123;<br>		<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;\tAddress Family: #%d\n&quot;</span>, a-&gt;addr-&gt;sa_family);<br><br>		<span class="hljs-keyword">switch</span> (a-&gt;addr-&gt;sa_family)<br>		&#123;<br>		<span class="hljs-keyword">case</span> AF_INET:<br>			<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;\tAddress Family Name: AF_INET\n&quot;</span>);<br>			<span class="hljs-keyword">if</span> (a-&gt;addr)<br>				<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;\tAddress: %s\n&quot;</span>, iptos(((<span class="hljs-keyword">struct</span> sockaddr_in*)a-&gt;addr)-&gt;sin_addr.s_addr));<br>			<span class="hljs-keyword">if</span> (a-&gt;netmask)<br>				<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;\tNetmask: %s\n&quot;</span>, iptos(((<span class="hljs-keyword">struct</span> sockaddr_in*)a-&gt;netmask)-&gt;sin_addr.s_addr));<br>			<span class="hljs-keyword">if</span> (a-&gt;broadaddr)<br>				<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;\tBroadcast Address: %s\n&quot;</span>, iptos(((<span class="hljs-keyword">struct</span> sockaddr_in*)a-&gt;broadaddr)-&gt;sin_addr.s_addr));<br>			<span class="hljs-keyword">if</span> (a-&gt;dstaddr)<br>				<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;\tDestination Address: %s\n&quot;</span>, iptos(((<span class="hljs-keyword">struct</span> sockaddr_in*)a-&gt;dstaddr)-&gt;sin_addr.s_addr));<br>			<span class="hljs-keyword">break</span>;<br><br>		<span class="hljs-keyword">default</span>:<br>			<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;\tAddress Family Name: Unknown\n&quot;</span>);<br>			<span class="hljs-keyword">break</span>;<br>		&#125;<br>	&#125;<br>	<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;\n&quot;</span>);<br>&#125;<br><br><br><br><span class="hljs-comment">/* 将数字类型的IP地址转换成字符串类型的 */</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> IPTOSBUFFERS    12</span><br><span class="hljs-type">char</span>* <span class="hljs-title function_">iptos</span><span class="hljs-params">(u_long in)</span><br>&#123;<br>	<span class="hljs-type">static</span> <span class="hljs-type">char</span> output[IPTOSBUFFERS][<span class="hljs-number">3</span> * <span class="hljs-number">4</span> + <span class="hljs-number">3</span> + <span class="hljs-number">1</span>];<br>	<span class="hljs-type">static</span> <span class="hljs-type">short</span> which;<br>	u_char* p;<br><br>	p = (u_char*)&amp;in;<br>	which = (which + <span class="hljs-number">1</span> == IPTOSBUFFERS ? <span class="hljs-number">0</span> : which + <span class="hljs-number">1</span>);<br>	<span class="hljs-built_in">sprintf</span>(output[which], <span class="hljs-string">&quot;%d.%d.%d.%d&quot;</span>, p[<span class="hljs-number">0</span>], p[<span class="hljs-number">1</span>], p[<span class="hljs-number">2</span>], p[<span class="hljs-number">3</span>]);<br>	<span class="hljs-keyword">return</span> output[which];<br>&#125;<br></code></pre></td></tr></table></figure>
-<p>当我们完成了设备列表的使用，我们要调用<code>pcap_freealldevs()</code>函数将其占用的内存资源释放。</p>
-<h3 id="打开适配器并捕获数据包"><a class="markdownIt-Anchor" href="#打开适配器并捕获数据包"></a> 打开适配器并捕获数据包</h3>
-<p>现在，我们已经知道如何获取适配器的信息了，那我们就开始一项更具意义的工作，打开适配器并捕获数据包。编写一个程序，将每一个通过适配器的数据包打印出来。<br />
-打开设备的函数是 <code>pcap_open()</code>。下面是参数 <code>snaplen</code>,<code>flags</code> 和 <code>to_ms</code> 的解释说明</p>
-<ul>
-<li>
-<p><code>snaplen</code>：制定要捕获数据包中的哪些部分。 在一些操作系统中 (比如 xBSD 和 Win32)， 驱动可以被配置成只捕获数据包的初始化部分： 这样可以减少应用程序间复制数据的量，从而提高捕获效率。本例中，将值定为65535，它比能遇到的最大的MTU还要大，因此总能收到完整的数据包。</p>
-</li>
-<li>
-<p><code>flags</code>：最最重要的flag是用来指示适配器是否要被设置成混杂模式。 一般情况下，适配器只接收发给它自己的数据包， 而那些在其他机器之间通讯的数据包，将会被丢弃。 相反，如果适配器是混杂模式，那么不管这个数据包是不是发给我的，我都会去捕获。也就是说，我会去捕获所有的数据包。 这意味着在一个共享媒介(比如总线型以太网)，WinPcap能捕获其他主机的所有的数据包。 大多数用于数据捕获的应用程序都会将适配器设置成混杂模式，所以在下面的范例中，使用混杂模式。</p>
-</li>
-<li>
-<p><code>to_ms</code>：指定读取数据的超时时间，以毫秒计(1s=1000ms)。在适配器上进行读取操作(比如用 pcap_dispatch() 或 pcap_next_ex()) 都会在 to_ms 毫秒时间内响应，即使在网络上没有可用的数据包。 在统计模式下，to_ms 还可以用来定义统计的时间间隔。 将 to_ms 设置为0意味着没有超时，那么如果没有数据包到达的话，读操作将永远不会返回。 如果设置成-1，则情况恰好相反，无论有没有数据包到达，读操作都会立即返回。</p>
-</li>
-</ul>
-<figure class="highlight c"><table><tr><td class="code"><pre><code class="hljs C"><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&quot;pcap.h&quot;</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> PCAP_SRC_IF_STRING   <span class="hljs-string">&quot;rpcap://&quot;</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> PCAP_SRC_FILE_STRING   <span class="hljs-string">&quot;file://&quot;</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> 	PCAP_OPENFLAG_PROMISCUOUS   1</span><br><span class="hljs-comment">//Defines if the adapter has to go in promiscuous mode.</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> 	PCAP_OPENFLAG_DATATX_UDP   2</span><br><span class="hljs-comment">//Defines if the data trasfer(in case of a remote capture) has to be done with UDP protocol.</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> 	PCAP_OPENFLAG_NOCAPTURE_RPCAP   4</span><br><span class="hljs-comment">//Defines if the remote probe will capture its own generated traffic.</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> 	PCAP_OPENFLAG_NOCAPTURE_LOCAL   8</span><br><span class="hljs-comment">//Defines if the local adapter will capture its own generated traffic.</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> 	PCAP_OPENFLAG_MAX_RESPONSIVENESS   16</span><br><span class="hljs-comment">//This flag configures the adapter for maximum responsiveness.</span><br><br><span class="hljs-comment">/* packet handler 函数原型 */</span><br><span class="hljs-type">void</span> <span class="hljs-title function_">packet_handler</span><span class="hljs-params">(u_char *param, <span class="hljs-type">const</span> <span class="hljs-keyword">struct</span> pcap_pkthdr *header, <span class="hljs-type">const</span> u_char *pkt_data)</span>;<br><br>main()<br>&#123;<br>	<span class="hljs-type">pcap_if_t</span> *alldevs;<br>	<span class="hljs-type">pcap_if_t</span> *d;<br>	<span class="hljs-type">int</span> inum;<br>	<span class="hljs-type">int</span> i = <span class="hljs-number">0</span>;<br>	<span class="hljs-type">pcap_t</span> *adhandle;<br>	<span class="hljs-type">char</span> errbuf[PCAP_ERRBUF_SIZE];<br><br>	<span class="hljs-comment">/* 获取本机设备列表 */</span><br>	<span class="hljs-keyword">if</span> (pcap_findalldevs_ex(PCAP_SRC_IF_STRING, <span class="hljs-literal">NULL</span>, &amp;alldevs, errbuf) == <span class="hljs-number">-1</span>)<br>	&#123;<br>		<span class="hljs-built_in">fprintf</span>(<span class="hljs-built_in">stderr</span>, <span class="hljs-string">&quot;Error in pcap_findalldevs: %s\n&quot;</span>, errbuf);<br>		<span class="hljs-built_in">exit</span>(<span class="hljs-number">1</span>);<br>	&#125;<br><br>	<span class="hljs-comment">/* 打印列表 */</span><br>	<span class="hljs-keyword">for</span> (d = alldevs; d; d = d-&gt;next)<br>	&#123;<br>		<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;%d. %s&quot;</span>, ++i, d-&gt;name);<br>		<span class="hljs-keyword">if</span> (d-&gt;description)<br>			<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot; (%s)\n&quot;</span>, d-&gt;description);<br>		<span class="hljs-keyword">else</span><br>			<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot; (No description available)\n&quot;</span>);<br>	&#125;<br><br>	<span class="hljs-keyword">if</span> (i == <span class="hljs-number">0</span>)<br>	&#123;<br>		<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;\nNo interfaces found! Make sure WinPcap is installed.\n&quot;</span>);<br>		<span class="hljs-keyword">return</span> <span class="hljs-number">-1</span>;<br>	&#125;<br><br>	<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;Enter the interface number (1-%d):&quot;</span>, i);<br>	<span class="hljs-built_in">scanf</span>(<span class="hljs-string">&quot;%d&quot;</span>, &amp;inum);<br><br>	<span class="hljs-keyword">if</span> (inum &lt; <span class="hljs-number">1</span> || inum &gt; i)<br>	&#123;<br>		<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;\nInterface number out of range.\n&quot;</span>);<br>		<span class="hljs-comment">/* 释放设备列表 */</span><br>		pcap_freealldevs(alldevs);<br>		<span class="hljs-keyword">return</span> <span class="hljs-number">-1</span>;<br>	&#125;<br><br>	<span class="hljs-comment">/* 跳转到选中的适配器 */</span><br>	<span class="hljs-keyword">for</span> (d = alldevs, i = <span class="hljs-number">0</span>; i&lt; inum - <span class="hljs-number">1</span>; d = d-&gt;next, i++);<br><br>	<span class="hljs-comment">/* 打开设备 */</span><br>	<span class="hljs-keyword">if</span> ((adhandle = pcap_open(d-&gt;name,          <span class="hljs-comment">// 设备名</span><br>		<span class="hljs-number">65536</span>,            <span class="hljs-comment">// 65535保证能捕获到不同数据链路层上的每个数据包的全部内容</span><br>		PCAP_OPENFLAG_PROMISCUOUS,    <span class="hljs-comment">// 混杂模式</span><br>		<span class="hljs-number">1000</span>,             <span class="hljs-comment">// 读取超时时间</span><br>		<span class="hljs-literal">NULL</span>,             <span class="hljs-comment">// 远程机器验证</span><br>		errbuf            <span class="hljs-comment">// 错误缓冲池</span><br>		)) == <span class="hljs-literal">NULL</span>)<br>	&#123;<br>		<span class="hljs-built_in">fprintf</span>(<span class="hljs-built_in">stderr</span>, <span class="hljs-string">&quot;\nUnable to open the adapter. %s is not supported by WinPcap\n&quot;</span>, d-&gt;name);<br>		<span class="hljs-comment">/* 释放设备列表 */</span><br>		pcap_freealldevs(alldevs);<br>		<span class="hljs-keyword">return</span> <span class="hljs-number">-1</span>;<br>	&#125;<br><br>	<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;\nlistening on %s...\n&quot;</span>, d-&gt;description);<br><br>	<span class="hljs-comment">/* 释放设备列表 */</span><br>	pcap_freealldevs(alldevs);<br><br>	<span class="hljs-comment">/* 开始捕获 */</span><br>	pcap_loop(adhandle, <span class="hljs-number">0</span>, packet_handler, <span class="hljs-literal">NULL</span>);<br><br>	<span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;<br>&#125;<br><br><br><span class="hljs-comment">/* 每次捕获到数据包时，libpcap都会自动调用这个回调函数 */</span><br><span class="hljs-type">void</span> <span class="hljs-title function_">packet_handler</span><span class="hljs-params">(u_char *param, <span class="hljs-type">const</span> <span class="hljs-keyword">struct</span> pcap_pkthdr *header, <span class="hljs-type">const</span> u_char *pkt_data)</span><br>&#123;<br>	<span class="hljs-class"><span class="hljs-keyword">struct</span> <span class="hljs-title">tm</span> *<span class="hljs-title">ltime</span>;</span><br>	<span class="hljs-type">char</span> timestr[<span class="hljs-number">16</span>];<br>	<span class="hljs-type">time_t</span> local_tv_sec;<br><br>	<span class="hljs-comment">/* 将时间戳转换成可识别的格式 */</span><br>	local_tv_sec = header-&gt;ts.tv_sec;<br>	ltime = localtime(&amp;local_tv_sec);<br>	strftime(timestr, <span class="hljs-keyword">sizeof</span> timestr, <span class="hljs-string">&quot;%H:%M:%S&quot;</span>, ltime);<br><br>	<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;%s,%.6d len:%d\n&quot;</span>, timestr, header-&gt;ts.tv_usec, header-&gt;len);<br><br>&#125;<br></code></pre></td></tr></table></figure>
-<p>适配器被打开，捕获工作就可以用 <code>pcap_dispatch()</code> 或 <code>pcap_loop()</code> 进行。 这两个函数非常的相似，区别就是 <code>pcap_ dispatch()</code> 当超时时间到了(timeout expires)就返回 (尽管不能保证) ，而 <code>pcap_loop()</code> 不会因此而返回，只有当 cnt 数据包被捕获，所以，<code>pcap_loop()</code> 会在一小段时间内，阻塞网络的利用。<code>pcap_loop()</code> 对于这个简单的范例来说，可以满足需求，不过， <code>pcap_dispatch()</code> 函数一般用于比较复杂的程序中。</p>
-<p>这两个函数都有一个 回调 参数， <code>packet_handler</code>指向一个可以接收数据包的函数。 这个函数会在收到每个新的数据包并收到一个通用状态时被libpcap所调用 ( 与函数 <code>pcap_loop()</code> 和 <code>pcap_dispatch()</code> 中的 user 参数相似)，数据包的首部一般有一些诸如时间戳，数据包长度的信息，还有包含了协议首部的实际数据。 注意：冗余校验码CRC不再支持，因为帧到达适配器，并经过校验确认以后，适配器就会将CRC删除，与此同时，大部分适配器会直接丢弃CRC错误的数据包，所以，WinPcap没法捕获到它们。</p>
-<p>上面的程序将每一个数据包的时间戳和长度从 <code>pcap_pkthdr</code> 的首部解析出来，并打印在屏幕上。</p>
-<h3 id="不用回调方法捕获数据包"><a class="markdownIt-Anchor" href="#不用回调方法捕获数据包"></a> 不用回调方法捕获数据包</h3>
-<p>下面范例程序所实现的功能和效果和上一讲的非常相似（打开适配器并捕获数据包），但本讲将用<code>pcap_next_ex()</code>函数代替上面的<code>pcap_loop()</code>函数。</p>
-<p><code>pcap_loop()</code>函数是基于毁掉的原理来进行数据捕获，这是一种精妙的方法，并且在某些场合中，它是一种很好的选择。然而，处理回调有时候并不适用。他会增加程序的复杂度，特别是在拥有多线程的C++程序中。</p>
-<p>可以通过直接调用<code>pcap_next_ex()</code>函数来获得一个数据包。只有当编程人员使用了<code>pcap_next_ex()</code>函数才能收到数据包。</p>
-<p>这个函数的参数和捕获回调函数的参数是一样的。它包含一个网络适配器的描述符和两个可以初始化和返回给用户的指针(一个指向<code>pcap_pkthdr</code>结构体，另一个指向数据包数据的缓冲)。</p>
-<p>在下面的程序中，会再次用到上一讲中的有关回调方面的代码，只是我们将它放入了main()函数，之后调用pcap_next_ex()函数。</p>
-<figure class="highlight c"><table><tr><td class="code"><pre><code class="hljs C"><span class="hljs-meta">#<span class="hljs-keyword">define</span> _CRT_SECURE_NO_WARNINGS</span><br><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&quot;pcap.h&quot;</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> PCAP_SRC_IF_STRING   <span class="hljs-string">&quot;rpcap://&quot;</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> PCAP_SRC_FILE_STRING   <span class="hljs-string">&quot;file://&quot;</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> 	PCAP_OPENFLAG_PROMISCUOUS   1</span><br><span class="hljs-comment">//Defines if the adapter has to go in promiscuous mode.</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> 	PCAP_OPENFLAG_DATATX_UDP   2</span><br><span class="hljs-comment">//Defines if the data trasfer(in case of a remote capture) has to be done with UDP protocol.</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> 	PCAP_OPENFLAG_NOCAPTURE_RPCAP   4</span><br><span class="hljs-comment">//Defines if the remote probe will capture its own generated traffic.</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> 	PCAP_OPENFLAG_NOCAPTURE_LOCAL   8</span><br><span class="hljs-comment">//Defines if the local adapter will capture its own generated traffic.</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> 	PCAP_OPENFLAG_MAX_RESPONSIVENESS   16</span><br><span class="hljs-comment">//This flag configures the adapter for maximum responsiveness.</span><br><br><span class="hljs-comment">/* packet handler 函数原型 */</span><br><span class="hljs-type">void</span> <span class="hljs-title function_">packet_handler</span><span class="hljs-params">(u_char* param, <span class="hljs-type">const</span> <span class="hljs-keyword">struct</span> pcap_pkthdr* header, <span class="hljs-type">const</span> u_char* pkt_data)</span>;<br><br>main()<br>&#123;<br>	<span class="hljs-type">pcap_if_t</span>* alldevs;<br>	<span class="hljs-type">pcap_if_t</span>* d;<br>	<span class="hljs-type">int</span> inum;<br>	<span class="hljs-type">int</span> i = <span class="hljs-number">0</span>;<br>	<span class="hljs-type">pcap_t</span>* adhandle;<br>	<span class="hljs-type">char</span> errbuf[PCAP_ERRBUF_SIZE];<br><br>	<span class="hljs-comment">/* 获取本机设备列表 */</span><br>	<span class="hljs-keyword">if</span> (pcap_findalldevs_ex(PCAP_SRC_IF_STRING, <span class="hljs-literal">NULL</span>, &amp;alldevs, errbuf) == <span class="hljs-number">-1</span>)<br>	&#123;<br>		<span class="hljs-built_in">fprintf</span>(<span class="hljs-built_in">stderr</span>, <span class="hljs-string">&quot;Error in pcap_findalldevs: %s\n&quot;</span>, errbuf);<br>		<span class="hljs-built_in">exit</span>(<span class="hljs-number">1</span>);<br>	&#125;<br><br>	<span class="hljs-comment">/* 打印列表 */</span><br>	<span class="hljs-keyword">for</span> (d = alldevs; d; d = d-&gt;next)<br>	&#123;<br>		<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;%d. %s&quot;</span>, ++i, d-&gt;name);<br>		<span class="hljs-keyword">if</span> (d-&gt;description)<br>			<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot; (%s)\n&quot;</span>, d-&gt;description);<br>		<span class="hljs-keyword">else</span><br>			<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot; (No description available)\n&quot;</span>);<br>	&#125;<br><br>	<span class="hljs-keyword">if</span> (i == <span class="hljs-number">0</span>)<br>	&#123;<br>		<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;\nNo interfaces found! Make sure WinPcap is installed.\n&quot;</span>);<br>		<span class="hljs-keyword">return</span> <span class="hljs-number">-1</span>;<br>	&#125;<br><br>	<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;Enter the interface number (1-%d):&quot;</span>, i);<br>	<span class="hljs-built_in">scanf</span>(<span class="hljs-string">&quot;%d&quot;</span>, &amp;inum);<br><br>	<span class="hljs-keyword">if</span> (inum &lt; <span class="hljs-number">1</span> || inum &gt; i)<br>	&#123;<br>		<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;\nInterface number out of range.\n&quot;</span>);<br>		<span class="hljs-comment">/* 释放设备列表 */</span><br>		pcap_freealldevs(alldevs);<br>		<span class="hljs-keyword">return</span> <span class="hljs-number">-1</span>;<br>	&#125;<br><br>	<span class="hljs-comment">/* 跳转到选中的适配器 */</span><br>	<span class="hljs-keyword">for</span> (d = alldevs, i = <span class="hljs-number">0</span>; i &lt; inum - <span class="hljs-number">1</span>; d = d-&gt;next, i++);<br><br>	<span class="hljs-comment">/* 打开设备 */</span><br>	<span class="hljs-keyword">if</span> ((adhandle = pcap_open(d-&gt;name,          <span class="hljs-comment">// 设备名</span><br>		<span class="hljs-number">65536</span>,            <span class="hljs-comment">// 65535保证能捕获到不同数据链路层上的每个数据包的全部内容</span><br>		PCAP_OPENFLAG_PROMISCUOUS,    <span class="hljs-comment">// 混杂模式</span><br>		<span class="hljs-number">1000</span>,             <span class="hljs-comment">// 读取超时时间</span><br>		<span class="hljs-literal">NULL</span>,             <span class="hljs-comment">// 远程机器验证</span><br>		errbuf            <span class="hljs-comment">// 错误缓冲池</span><br>	)) == <span class="hljs-literal">NULL</span>)<br>	&#123;<br>		<span class="hljs-built_in">fprintf</span>(<span class="hljs-built_in">stderr</span>, <span class="hljs-string">&quot;\nUnable to open the adapter. %s is not supported by WinPcap\n&quot;</span>, d-&gt;name);<br>		<span class="hljs-comment">/* 释放设备列表 */</span><br>		pcap_freealldevs(alldevs);<br>		<span class="hljs-keyword">return</span> <span class="hljs-number">-1</span>;<br>	&#125;<br><br>	<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;\nlistening on %s...\n&quot;</span>, d-&gt;description);<br><br>	<span class="hljs-comment">/* 释放设备列表 */</span><br>	pcap_freealldevs(alldevs);<br><br>	<span class="hljs-type">int</span> res;<br>	<span class="hljs-class"><span class="hljs-keyword">struct</span> <span class="hljs-title">tm</span>* <span class="hljs-title">ltime</span>;</span><br>	<span class="hljs-type">char</span> timestr[<span class="hljs-number">16</span>];<br>	<span class="hljs-class"><span class="hljs-keyword">struct</span> <span class="hljs-title">pcap_pkthdr</span>* <span class="hljs-title">header</span>;</span><br>	<span class="hljs-type">const</span> u_char* pkt_data;<br>	<span class="hljs-type">time_t</span> local_tv_sec;<br><br>	<span class="hljs-comment">/* 获取数据包 */</span><br>	<span class="hljs-keyword">while</span> ((res = pcap_next_ex(adhandle, &amp;header, &amp;pkt_data)) &gt;= <span class="hljs-number">0</span>) &#123;<br><br>		<span class="hljs-keyword">if</span> (res == <span class="hljs-number">0</span>)<br>			<span class="hljs-comment">/* 超时时间到 */</span><br>			<span class="hljs-keyword">continue</span>;<br><br>		<span class="hljs-comment">/* 将时间戳转换成可识别的格式 */</span><br>		local_tv_sec = header-&gt;ts.tv_sec;<br>		ltime = localtime(&amp;local_tv_sec);<br>		strftime(timestr, <span class="hljs-keyword">sizeof</span> timestr, <span class="hljs-string">&quot;%H:%M:%S&quot;</span>, ltime);<br><br>		<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;%s,%.6d len:%d\n&quot;</span>, timestr, header-&gt;ts.tv_usec, header-&gt;len);<br>	&#125;<br><br>	<span class="hljs-keyword">if</span> (res == <span class="hljs-number">-1</span>) &#123;<br>		<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;Error reading the packets: %s\n&quot;</span>, pcap_geterr(adhandle));<br>		<span class="hljs-keyword">return</span> <span class="hljs-number">-1</span>;<br>	&#125;<br><br>	<span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;<br><br>	<span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;<br>&#125;<br></code></pre></td></tr></table></figure>
-<p>为什么我们要用<code>pcap_next_ex()</code>代替以前的<code>pcap_next()</code>?因为<code>pcap_next()</code>有一些不好的地方。首先，他效率低下，尽管它隐藏了回调的方式，但它依然依赖于函数<code>pcap_dispatch()</code>。第二，它不能检测到文件末尾这个状态(EOF)，因此，如果数据包是从文件读取来的，那么它就不那么有用了。</p>
-<p>值得注意的是，pcap_next_ex()在成功，超时，出错或EOF的情况下，会返回不同的值。</p>
-<h3 id="分析数据包"><a class="markdownIt-Anchor" href="#分析数据包"></a> 分析数据包</h3>
-<p>捕获的数据包的协议首部，打印一些网络上传输的UDP数据的信息。</p>
-<figure class="highlight c"><table><tr><td class="code"><pre><code class="hljs c"><span class="hljs-meta">#<span class="hljs-keyword">define</span> _CRT_SECURE_NO_WARNINGS</span><br><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&quot;pcap.h&quot;</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> PCAP_SRC_IF_STRING   <span class="hljs-string">&quot;rpcap://&quot;</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> PCAP_SRC_FILE_STRING   <span class="hljs-string">&quot;file://&quot;</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> 	PCAP_OPENFLAG_PROMISCUOUS   1</span><br><span class="hljs-comment">//Defines if the adapter has to go in promiscuous mode.</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> 	PCAP_OPENFLAG_DATATX_UDP   2</span><br><span class="hljs-comment">//Defines if the data trasfer(in case of a remote capture) has to be done with UDP protocol.</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> 	PCAP_OPENFLAG_NOCAPTURE_RPCAP   4</span><br><span class="hljs-comment">//Defines if the remote probe will capture its own generated traffic.</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> 	PCAP_OPENFLAG_NOCAPTURE_LOCAL   8</span><br><span class="hljs-comment">//Defines if the local adapter will capture its own generated traffic.</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> 	PCAP_OPENFLAG_MAX_RESPONSIVENESS   16</span><br><span class="hljs-comment">//This flag configures the adapter for maximum responsiveness.</span><br><br><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&quot;pcap.h&quot;</span></span><br><br><span class="hljs-comment">/* 4字节的IP地址 */</span><br><span class="hljs-keyword">typedef</span> <span class="hljs-class"><span class="hljs-keyword">struct</span> <span class="hljs-title">ip_address</span> &#123;</span><br>	u_char byte1;<br>	u_char byte2;<br>	u_char byte3;<br>	u_char byte4;<br>&#125;ip_address;<br><br><span class="hljs-comment">/* IPv4 首部 */</span><br><span class="hljs-keyword">typedef</span> <span class="hljs-class"><span class="hljs-keyword">struct</span> <span class="hljs-title">ip_header</span> &#123;</span><br>	u_char  ver_ihl;        <span class="hljs-comment">// 版本 (4 bits) + 首部长度 (4 bits)</span><br>	u_char  tos;            <span class="hljs-comment">// 服务类型(Type of service) </span><br>	u_short tlen;           <span class="hljs-comment">// 总长(Total length) </span><br>	u_short identification; <span class="hljs-comment">// 标识(Identification)</span><br>	u_short flags_fo;       <span class="hljs-comment">// 标志位(Flags) (3 bits) + 段偏移量(Fragment offset) (13 bits)</span><br>	u_char  ttl;            <span class="hljs-comment">// 存活时间(Time to live)</span><br>	u_char  proto;          <span class="hljs-comment">// 协议(Protocol)</span><br>	u_short crc;            <span class="hljs-comment">// 首部校验和(Header checksum)</span><br>	ip_address  saddr;      <span class="hljs-comment">// 源地址(Source address)</span><br>	ip_address  daddr;      <span class="hljs-comment">// 目的地址(Destination address)</span><br>	u_int   op_pad;         <span class="hljs-comment">// 选项与填充(Option + Padding)</span><br>&#125;ip_header;<br><br><span class="hljs-comment">/* UDP 首部*/</span><br><span class="hljs-keyword">typedef</span> <span class="hljs-class"><span class="hljs-keyword">struct</span> <span class="hljs-title">udp_header</span> &#123;</span><br>	u_short sport;          <span class="hljs-comment">// 源端口(Source port)</span><br>	u_short dport;          <span class="hljs-comment">// 目的端口(Destination port)</span><br>	u_short len;            <span class="hljs-comment">// UDP数据包长度(Datagram length)</span><br>	u_short crc;            <span class="hljs-comment">// 校验和(Checksum)</span><br>&#125;udp_header;<br><br><span class="hljs-comment">/* 回调函数原型 */</span><br><span class="hljs-type">void</span> <span class="hljs-title function_">packet_handler</span><span class="hljs-params">(u_char* param, <span class="hljs-type">const</span> <span class="hljs-keyword">struct</span> pcap_pkthdr* header, <span class="hljs-type">const</span> u_char* pkt_data)</span>;<br><br><br>main()<br>&#123;<br>	<span class="hljs-type">pcap_if_t</span>* alldevs;<br>	<span class="hljs-type">pcap_if_t</span>* d;<br>	<span class="hljs-type">int</span> inum;<br>	<span class="hljs-type">int</span> i = <span class="hljs-number">0</span>;<br>	<span class="hljs-type">pcap_t</span>* adhandle;<br>	<span class="hljs-type">char</span> errbuf[PCAP_ERRBUF_SIZE];<br>	u_int netmask;<br>	<span class="hljs-type">char</span> packet_filter[] = <span class="hljs-string">&quot;ip and udp&quot;</span>;<br>	<span class="hljs-class"><span class="hljs-keyword">struct</span> <span class="hljs-title">bpf_program</span> <span class="hljs-title">fcode</span>;</span><br><br>	<span class="hljs-comment">/* 获得设备列表 */</span><br>	<span class="hljs-keyword">if</span> (pcap_findalldevs_ex(PCAP_SRC_IF_STRING, <span class="hljs-literal">NULL</span>, &amp;alldevs, errbuf) == <span class="hljs-number">-1</span>)<br>	&#123;<br>		<span class="hljs-built_in">fprintf</span>(<span class="hljs-built_in">stderr</span>, <span class="hljs-string">&quot;Error in pcap_findalldevs: %s\n&quot;</span>, errbuf);<br>		<span class="hljs-built_in">exit</span>(<span class="hljs-number">1</span>);<br>	&#125;<br><br>	<span class="hljs-comment">/* 打印列表 */</span><br>	<span class="hljs-keyword">for</span> (d = alldevs; d; d = d-&gt;next)<br>	&#123;<br>		<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;%d. %s&quot;</span>, ++i, d-&gt;name);<br>		<span class="hljs-keyword">if</span> (d-&gt;description)<br>			<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot; (%s)\n&quot;</span>, d-&gt;description);<br>		<span class="hljs-keyword">else</span><br>			<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot; (No description available)\n&quot;</span>);<br>	&#125;<br><br>	<span class="hljs-keyword">if</span> (i == <span class="hljs-number">0</span>)<br>	&#123;<br>		<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;\nNo interfaces found! Make sure WinPcap is installed.\n&quot;</span>);<br>		<span class="hljs-keyword">return</span> <span class="hljs-number">-1</span>;<br>	&#125;<br><br>	<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;Enter the interface number (1-%d):&quot;</span>, i);<br>	<span class="hljs-built_in">scanf</span>(<span class="hljs-string">&quot;%d&quot;</span>, &amp;inum);<br><br>	<span class="hljs-keyword">if</span> (inum &lt; <span class="hljs-number">1</span> || inum &gt; i)<br>	&#123;<br>		<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;\nInterface number out of range.\n&quot;</span>);<br>		<span class="hljs-comment">/* 释放设备列表 */</span><br>		pcap_freealldevs(alldevs);<br>		<span class="hljs-keyword">return</span> <span class="hljs-number">-1</span>;<br>	&#125;<br><br>	<span class="hljs-comment">/* 跳转到已选设备 */</span><br>	<span class="hljs-keyword">for</span> (d = alldevs, i = <span class="hljs-number">0</span>; i &lt; inum - <span class="hljs-number">1</span>; d = d-&gt;next, i++);<br><br>	<span class="hljs-comment">/* 打开适配器 */</span><br>	<span class="hljs-keyword">if</span> ((adhandle = pcap_open(d-&gt;name,  <span class="hljs-comment">// 设备名</span><br>		<span class="hljs-number">65536</span>,     <span class="hljs-comment">// 要捕捉的数据包的部分 </span><br>		<span class="hljs-comment">// 65535保证能捕获到不同数据链路层上的每个数据包的全部内容</span><br>		PCAP_OPENFLAG_PROMISCUOUS,         <span class="hljs-comment">// 混杂模式</span><br>		<span class="hljs-number">1000</span>,      <span class="hljs-comment">// 读取超时时间</span><br>		<span class="hljs-literal">NULL</span>,      <span class="hljs-comment">// 远程机器验证</span><br>		errbuf     <span class="hljs-comment">// 错误缓冲池</span><br>	)) == <span class="hljs-literal">NULL</span>)<br>	&#123;<br>		<span class="hljs-built_in">fprintf</span>(<span class="hljs-built_in">stderr</span>, <span class="hljs-string">&quot;\nUnable to open the adapter. %s is not supported by WinPcap\n&quot;</span>);<br>		<span class="hljs-comment">/* 释放设备列表 */</span><br>		pcap_freealldevs(alldevs);<br>		<span class="hljs-keyword">return</span> <span class="hljs-number">-1</span>;<br>	&#125;<br><br>	<span class="hljs-comment">/* 检查数据链路层，为了简单，我们只考虑以太网 */</span><br>	<span class="hljs-keyword">if</span> (pcap_datalink(adhandle) != DLT_EN10MB)<br>	&#123;<br>		<span class="hljs-built_in">fprintf</span>(<span class="hljs-built_in">stderr</span>, <span class="hljs-string">&quot;\nThis program works only on Ethernet networks.\n&quot;</span>);<br>		<span class="hljs-comment">/* 释放设备列表 */</span><br>		pcap_freealldevs(alldevs);<br>		<span class="hljs-keyword">return</span> <span class="hljs-number">-1</span>;<br>	&#125;<br><br>	<span class="hljs-keyword">if</span> (d-&gt;addresses != <span class="hljs-literal">NULL</span>)<br>		<span class="hljs-comment">/* 获得接口第一个地址的掩码 */</span><br>		netmask = ((<span class="hljs-keyword">struct</span> sockaddr_in*)(d-&gt;addresses-&gt;netmask))-&gt;sin_addr.S_un.S_addr;<br>	<span class="hljs-keyword">else</span><br>		<span class="hljs-comment">/* 如果接口没有地址，那么我们假设一个C类的掩码 */</span><br>		netmask = <span class="hljs-number">0xffffff</span>;<br><br><br>	<span class="hljs-comment">//编译过滤器</span><br>	<span class="hljs-keyword">if</span> (pcap_compile(adhandle, &amp;fcode, packet_filter, <span class="hljs-number">1</span>, netmask) &lt; <span class="hljs-number">0</span>)<br>	&#123;<br>		<span class="hljs-built_in">fprintf</span>(<span class="hljs-built_in">stderr</span>, <span class="hljs-string">&quot;\nUnable to compile the packet filter. Check the syntax.\n&quot;</span>);<br>		<span class="hljs-comment">/* 释放设备列表 */</span><br>		pcap_freealldevs(alldevs);<br>		<span class="hljs-keyword">return</span> <span class="hljs-number">-1</span>;<br>	&#125;<br><br>	<span class="hljs-comment">//设置过滤器</span><br>	<span class="hljs-keyword">if</span> (pcap_setfilter(adhandle, &amp;fcode) &lt; <span class="hljs-number">0</span>)<br>	&#123;<br>		<span class="hljs-built_in">fprintf</span>(<span class="hljs-built_in">stderr</span>, <span class="hljs-string">&quot;\nError setting the filter.\n&quot;</span>);<br>		<span class="hljs-comment">/* 释放设备列表 */</span><br>		pcap_freealldevs(alldevs);<br>		<span class="hljs-keyword">return</span> <span class="hljs-number">-1</span>;<br>	&#125;<br><br>	<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;\nlistening on %s...\n&quot;</span>, d-&gt;description);<br><br>	<span class="hljs-comment">/* 释放设备列表 */</span><br>	pcap_freealldevs(alldevs);<br><br>	<span class="hljs-comment">/* 开始捕捉 */</span><br>	pcap_loop(adhandle, <span class="hljs-number">0</span>, packet_handler, <span class="hljs-literal">NULL</span>);<br><br>	<span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;<br>&#125;<br><br><span class="hljs-comment">/* 回调函数，当收到每一个数据包时会被libpcap所调用 */</span><br><span class="hljs-type">void</span> <span class="hljs-title function_">packet_handler</span><span class="hljs-params">(u_char* param, <span class="hljs-type">const</span> <span class="hljs-keyword">struct</span> pcap_pkthdr* header, <span class="hljs-type">const</span> u_char* pkt_data)</span><br>&#123;<br>	<span class="hljs-class"><span class="hljs-keyword">struct</span> <span class="hljs-title">tm</span>* <span class="hljs-title">ltime</span>;</span><br>	<span class="hljs-type">char</span> timestr[<span class="hljs-number">16</span>];<br>	ip_header* ih;<br>	udp_header* uh;<br>	u_int ip_len;<br>	u_short sport, dport;<br>	<span class="hljs-type">time_t</span> local_tv_sec;<br><br>	<span class="hljs-comment">/* 将时间戳转换成可识别的格式 */</span><br>	local_tv_sec = header-&gt;ts.tv_sec;<br>	ltime = localtime(&amp;local_tv_sec);<br>	strftime(timestr, <span class="hljs-keyword">sizeof</span> timestr, <span class="hljs-string">&quot;%H:%M:%S&quot;</span>, ltime);<br><br>	<span class="hljs-comment">/* 打印数据包的时间戳和长度 */</span><br>	<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;%s.%.6d len:%d &quot;</span>, timestr, header-&gt;ts.tv_usec, header-&gt;len);<br><br>	<span class="hljs-comment">/* 获得IP数据包头部的位置 */</span><br>	ih = (ip_header*)(pkt_data +<br>		<span class="hljs-number">14</span>); <span class="hljs-comment">//以太网头部长度</span><br><br>	<span class="hljs-comment">/* 获得UDP首部的位置 */</span><br>	ip_len = (ih-&gt;ver_ihl &amp; <span class="hljs-number">0xf</span>) * <span class="hljs-number">4</span>;<br>	uh = (udp_header*)((u_char*)ih + ip_len);<br><br>	<span class="hljs-comment">/* 将网络字节序列转换成主机字节序列 */</span><br>	sport = ntohs(uh-&gt;sport);<br>	dport = ntohs(uh-&gt;dport);<br><br>	<span class="hljs-comment">/* 打印IP地址和UDP端口 */</span><br>	<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;%d.%d.%d.%d.%d -&gt; %d.%d.%d.%d.%d\n&quot;</span>,<br>		ih-&gt;saddr.byte1,<br>		ih-&gt;saddr.byte2,<br>		ih-&gt;saddr.byte3,<br>		ih-&gt;saddr.byte4,<br>		sport,<br>		ih-&gt;daddr.byte1,<br>		ih-&gt;daddr.byte2,<br>		ih-&gt;daddr.byte3,<br>		ih-&gt;daddr.byte4,<br>		dport);<br>&#125;<br></code></pre></td></tr></table></figure>
-<p>首先，将过滤器设置成&quot;ip and udp&quot;。在这种方式下，<code>packet_handler</code>只会收到基于IPv4的UDP数据包；这将简化解析过程，提高程序的效率。其次，创建了用于描述IP首部和UDP首部的结构体。这些结构体中的各种数据会被packet_handler()合理地定位。在开始捕捉前，使用了pcap_datalink() 对MAC层进行了检测，以确保在处理一个以太网络，确保MAC首部是14位的。IP数据包的首部就位于MAC首部的后面，将从IP数据包的首部解析到源IP地址和目的IP地址。</p>
-<p>处理UDP的首部有一些复杂，因为IP数据包的首部的长度并不是固定的，可以通过IP数据包的length域来得到它的长度。一旦知道了UDP首部的位置就能解析到源端口和目的端口。</p>
-<p>被解析出来的值被打印在屏幕上，形式上图所示，每一行分别代表一个数据包。</p>
-<h2 id="winpcap的一些基本功能的实现"><a class="markdownIt-Anchor" href="#winpcap的一些基本功能的实现"></a> Winpcap的一些基本功能的实现</h2>
-<h3 id="捕获数据包"><a class="markdownIt-Anchor" href="#捕获数据包"></a> 捕获数据包</h3>
-<ol>
-<li>
-<p>枚举所有可用的设备<code>pcap_findalldevs_ex()</code></p>
-</li>
-<li>
-<p>通过名字打开一个设备<code>pcap_open()</code></p>
-<p>在这里可以打开一个文件，只是在打开这个文件之前需要通过<code>pcap_createsrcstr</code>创建相应的<code>name string</code></p>
-</li>
-<li>
-<p>设置<code>Filter[pcap_compile,pcap_setfilter]</code>（可选）</p>
-</li>
-<li>
-<p>捕获数据</p>
-<p>有几种捕获数据的方法(捕获数据的数据都是最原始的数据包，即包含数据链路层的数据头)</p>
-<ul>
-<li>是以回调的方式<code>[pcap_loop,pcap_dispatch]</code></li>
-</ul>
-<p>这两种方法基本相同，底层收集数据包，当满足一定的条件(timeout或者缓冲区满)，就会调用回调函数，把收集到的原始数据包s,交给用户。他们返回的数据缓冲区包含多个包。</p>
-<ul>
-<li><code>pcap_next_ex()</code>的方式</li>
-</ul>
-<p>每当一个包到达以后，<code>pcap_next_ex</code>就会返回，返回的数据缓冲区里只包含一个包</p>
-</li>
-</ol>
-<h3 id="发送包"><a class="markdownIt-Anchor" href="#发送包"></a> 发送包</h3>
-<p>Winpcap中有发送单个包和发送多个包的方法。这里只说发送单个包。</p>
-<ol>
-<li>通过名字打开一个设备<code>[pcap_open]</code></li>
-<li>自己构造一个原始数据包（这个数据包会不经过任何处理就发送出去，所以必须把包中的各个字段设置好。另外这个数据包是包含数据链路层报头的）</li>
-<li>使用<code>pcap_sendpacket()</code>发送数据包</li>
-</ol>
-<h3 id="统计网络流量"><a class="markdownIt-Anchor" href="#统计网络流量"></a> 统计网络流量</h3>
-<ol>
-<li>
-<p>通过名字打开一个设备<code>[pcap_open]</code></p>
-<p>通过read_timeout来设置统计的时间间隔</p>
-</li>
-<li>
-<p>设置<code>filter[pcap_compile,pcap_setfilter]</code>(可选)</p>
-</li>
-<li>
-<p>设置设备的模式为统计模式<code>[pcap_setmode(MODE_STAT);]</code></p>
-</li>
-<li>
-<p>开始统计，<code>pcap_loop/pcap_dispatch()</code></p>
-</li>
-<li>
-<p>在回调函数中的参数中就包含了统计信息。</p>
-</li>
-</ol>
-<h2 id="习题与思考题"><a class="markdownIt-Anchor" href="#习题与思考题"></a> 习题与思考题</h2>
-<p>1、WINPCAP是否能实现服务质量的控制？</p>
-<p>答：不能。WinPcap可以独立地通过主机协议发送和接受数据，如同TCP-IP。 这就意味着WinPcap不能阻止、过滤或操纵同一机器上的其他应用程序的通讯： 它仅仅能简单地&quot;监视&quot;在网络上传输的数据包。所以，它不能提供类似网络流量控制、服务质量调度和个人防火墙之类的支持，因而不能实现服务质量的控制。</p>
-<h1 id="tips"><a class="markdownIt-Anchor" href="#tips"></a> tips</h1>
-<p>使用winpcap踩了大坑。</p>
-<p>Npcap是基于Winpcap和Libpcap的，Winpcap已多年无人维护，其官网也推荐Windows XP之后的用户转移到Npcap上。Npcap基于WINPCAP，Winpcap基于libcap，并做出了诸多改进。</p>
-<p>后面都是用Npcap开发了。</p>
-]]></content>
-      <categories>
-        <category>计算机网络</category>
-      </categories>
-      <tags>
-        <tag>计算机网络</tag>
       </tags>
   </entry>
   <entry>
@@ -2106,376 +2106,15 @@
       </tags>
   </entry>
   <entry>
-    <title>云计算实验</title>
-    <url>/2022/06/12/%E4%BA%91%E8%AE%A1%E7%AE%97%E5%AE%9E%E9%AA%8C/</url>
-    <content><![CDATA[<h1 id="云计算实验"><a class="markdownIt-Anchor" href="#云计算实验"></a> 云计算实验</h1>
-<h2 id="一-获取服务器"><a class="markdownIt-Anchor" href="#一-获取服务器"></a> 一、获取服务器</h2>
-<h3 id="1使用机房服务器"><a class="markdownIt-Anchor" href="#1使用机房服务器"></a> 1.使用机房服务器</h3>
-<p>windows系统下登录机房服务器（校园网环境下）：</p>
-<ol>
-<li>下载安装xshell和xftp；</li>
-<li>xshell中输入ssh IP（分配给每个学生的IP），比如<code>ssh 10.64.26.1</code>；</li>
-<li>用户名是root，初始密码是123456，登录之后最好修改密码；</li>
-</ol>
-<p>​		可通过命令<code>passwd</code>，阿里云服务器可在实例里修改</p>
-<h3 id="2使用阿里云服务器"><a class="markdownIt-Anchor" href="#2使用阿里云服务器"></a> 2.使用阿里云服务器</h3>
-<p>购买阿里云服务器，登录操作与机房服务器类似。通过校园网可能无法连接阿里云服务器，通过手机热点能够连接阿里云服务器。</p>
-<p>尝试了一下，显示<code>connection closed by foreign host. Disconnected from remote host</code></p>
-<p>查询资料，发现可能原因: 使用校园网联网，多位同学同时连接各自的阿里云服务器，由于局域网的ip地址多次访问，阿里云会认为这是恶意访问，故而阻止此段ip访问服务器。</p>
-<ul>
-<li>解决方法:在阿里云服务器里，设置白名单，允许此ip访问通过。</li>
-</ul>
-<ol>
-<li>
-<p>点击控制台<img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E4%BA%91%E8%AE%A1%E7%AE%97%2F107%20-%20WZX1xXx.png" alt="" /></p>
-</li>
-<li>
-<p>进入控制台后，选择安骑士<img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E4%BA%91%E8%AE%A1%E7%AE%97%2F108%20-%20Xe8fZQu.png" alt="" /></p>
-</li>
-<li>
-<p>不管弹出的内容，直接ESC，点击安全配置<img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E4%BA%91%E8%AE%A1%E7%AE%97%2F109%20-%20PCClWCj.png" alt="" /></p>
-</li>
-<li>
-<p>安全设置中，选择点击设置，进入添加白名单界面<img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E4%BA%91%E8%AE%A1%E7%AE%97%2F110%20-%20vDG14k2.png" alt="" /></p>
-</li>
-<li>
-<p>点击添加<img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E4%BA%91%E8%AE%A1%E7%AE%97%2F111%20-%2066xQLtn.png" alt="" /></p>
-</li>
-<li>
-<p>源ip设为0.0.0.0(表示允许所有ip访问)，并将下方右边服务ip添加到左边，确定<img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E4%BA%91%E8%AE%A1%E7%AE%97%2F112%20-%20Xw2GNic.png" alt="" /></p>
-</li>
-<li>
-<p>重新进入xshell-ssh访问服务器，出现密码框，访问成功</p>
-</li>
-</ol>
-<h2 id="二-配置服务器环境"><a class="markdownIt-Anchor" href="#二-配置服务器环境"></a> 二、配置服务器环境</h2>
-<h3 id="1服务器安装jdk"><a class="markdownIt-Anchor" href="#1服务器安装jdk"></a> 1.服务器安装jdk</h3>
-<ul>
-<li>
-<p>官网下载openjdk-11+28_linux-x64_bin.tar.gz</p>
-</li>
-<li>
-<p>xshell登录Linux服务器</p>
-</li>
-<li>
-<p>上传 openjdk-11+28_linux-x64_bin.tar.gz 到 /usr/local/java下</p>
-<p>怎样上传：xshell连接成功后，点击工具栏里面的图标</p>
-</li>
-</ul>
-<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E4%BA%91%E8%AE%A1%E7%AE%97%2F113%20-%20NNmIT5i.png" alt="" /></p>
-<p>​	如果已经安装了xftp，此时就会打开xftp</p>
-<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E4%BA%91%E8%AE%A1%E7%AE%97%2F114%20-%20YbOuDyv.png" alt="" /></p>
-<p>左侧是windows系统下的文件，右侧是linux系统下的文件。想要将windows里的文件上传，只需要将左侧文件拖到右侧的文件夹即可</p>
-<ul>
-<li>解压：<code>tar -zxvf openjdk-11+28_linux-x64_bin.tar.gz</code></li>
-<li>设置环境变量：<code>vi /etc/profile</code></li>
-</ul>
-<p>再拷贝下方内容到/etc/profile文件中：</p>
-<figure class="highlight awk"><table><tr><td class="code"><pre><code class="hljs awk"><span class="hljs-comment">###set java</span><br><br>JAVA_HOME=<span class="hljs-regexp">/usr/</span>local<span class="hljs-regexp">/java/</span>jdk-<span class="hljs-number">11</span><br><br>JRE_HOME=<span class="hljs-regexp">/usr/</span>local<span class="hljs-regexp">/java/</span>jdk-<span class="hljs-number">11</span>/jre<br><br>CLASSPATH=.:<span class="hljs-variable">$JAVA_HOME</span><span class="hljs-regexp">/lib/</span>dt.jar:<span class="hljs-variable">$JAVA_HOME</span><span class="hljs-regexp">/lib/</span>tools.jar:<span class="hljs-variable">$JRE_HOME</span>/lib<br><br>PATH=<span class="hljs-variable">$JAVA_HOME</span>/bin:<span class="hljs-variable">$PATH</span><br><br>export PATH JAVA_HOME CLASSPATH<br></code></pre></td></tr></table></figure>
-<ul>
-<li>刷新环境变量：<code>source /etc/profile</code></li>
-<li>查看java环境：<code>java -version</code></li>
-</ul>
-<h3 id="2服务器安装tomcat"><a class="markdownIt-Anchor" href="#2服务器安装tomcat"></a> 2.服务器安装tomcat</h3>
-<ol>
-<li>
-<p>首先需要在服务器安装好jdk</p>
-</li>
-<li>
-<p>官网下载apache-tomcat-9.0.63.tar.gz</p>
-</li>
-<li>
-<p>解压安装包:<code>tar -zxvf apache-tomcat-9.0.63.tar.gz</code></p>
-</li>
-<li>
-<p>启动Tomcat：<code>./startup.sh</code>(在bin目录下)</p>
-<p>如果使用的是阿里云服务器，则不需要进行第5、6步，但需要在“实例”—&gt;“安全组”—&gt;“配置规则”里面增加一条安全组规则，也就是增加8080端口，示意图如下：</p>
-<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E4%BA%91%E8%AE%A1%E7%AE%97%2F115%20-%206orin7h.png" alt="" /></p>
-</li>
-<li>
-<p>打开防火墙的8080端口：<code>firewall-cmd --zone=public --add-port=8080/tcp --permanent</code></p>
-</li>
-<li>
-<p>重启防火墙：<code>systemctl restart firewalld.service</code></p>
-</li>
-<li>
-<p>在windows的浏览器访问：IP 端口，例如：10.64.26.250:8080</p>
-</li>
-</ol>
-<h3 id="3服务器安装maven"><a class="markdownIt-Anchor" href="#3服务器安装maven"></a> 3.服务器安装maven</h3>
-<ol>
-<li>
-<p>官网下载apache-maven-3.8.5-bin.tar.gz</p>
-</li>
-<li>
-<p>解压安装包:<code>tar -zxvf apache-maven-3.8.5-bin.tar.gz</code></p>
-</li>
-<li>
-<p>配置环境变量：<code>vi /etc/profile</code></p>
-<p>再拷贝下方内容到/etc/profile文件中（注意路径用自己的，这里的路径只是例子）：</p>
-<figure class="highlight routeros"><table><tr><td class="code"><pre><code class="hljs routeros"><span class="hljs-built_in">export</span> <span class="hljs-attribute">MAVEN_HOME</span>=/usr/local/java/apache-maven-3.8.5<br><span class="hljs-built_in">export</span> <span class="hljs-attribute">PATH</span>=<span class="hljs-variable">$MAVEN_HOME</span>/bin:$PATH <br></code></pre></td></tr></table></figure>
-</li>
-<li>
-<p>刷新环境变量：<code>source /etc/profile</code></p>
-</li>
-<li>
-<p>验证安装结果：<code>mvn -v</code></p>
-</li>
-</ol>
-<p>此时可能报错:<code>-bash: /usr/local/java/apache-maven-3.8.5/bin/mvn: 权限不够</code></p>
-<p>或者:<code>-bash: /usr/local/java/apache-maven-3.8.5/bin/mvn: Permission denied</code></p>
-<p>这个主要是权限问题</p>
-<p>修改权限:<code>chmod a+x /usr/local/java/apache-maven-3.8.5/bin/mvn</code></p>
-<p>此时正确显示maven版本</p>
-<h3 id="4服务器安装mysql"><a class="markdownIt-Anchor" href="#4服务器安装mysql"></a> 4.服务器安装mysql</h3>
-<ol>
-<li>
-<p>官网下载mysql-8.0.28-1.el7.x86_64.rpm-bundle.tar</p>
-</li>
-<li>
-<p>解压<code>tar -xvf mysql-8.0.28-1.el7.x86_64.rpm-bundle.tar</code></p>
-</li>
-<li>
-<p>查找并删除mariadb：</p>
-<p><code>rpm -qa|grep mariadb</code></p>
-<p><code>rpm -e --nodeps mariadb-server-5.5.56-2.el7.x86_64</code></p>
-<p>（这个地方出现的三个我全删除了，因为后面安装mysql时mysql与mariadb冲突报错）</p>
-</li>
-<li>
-<p>安装mysql:依次执行以下操作：</p>
-<figure class="highlight apache"><table><tr><td class="code"><pre><code class="hljs apache"><span class="hljs-attribute">rpm</span> -ivh mysql-community-common-<span class="hljs-number">8</span>.<span class="hljs-number">0</span>.<span class="hljs-number">28</span>-<span class="hljs-number">1</span>.el7.x86_64.rpm<br><span class="hljs-attribute">rpm</span> -ivh mysql-community-client-plugins-<span class="hljs-number">8</span>.<span class="hljs-number">0</span>.<span class="hljs-number">28</span>-<span class="hljs-number">1</span>.el7.x86_64.rpm<br><span class="hljs-attribute">rpm</span> -ivh mysql-community-libs-<span class="hljs-number">8</span>.<span class="hljs-number">0</span>.<span class="hljs-number">28</span>-<span class="hljs-number">1</span>.el7.x86_64.rpm<br><span class="hljs-attribute">rpm</span> -ivh mysql-community-client-<span class="hljs-number">8</span>.<span class="hljs-number">0</span>.<span class="hljs-number">28</span>-<span class="hljs-number">1</span>.el7.x86_64.rpm<br><span class="hljs-attribute">rpm</span> -ivh mysql-community-icu-data-files-<span class="hljs-number">8</span>.<span class="hljs-number">0</span>.<span class="hljs-number">28</span>-<span class="hljs-number">1</span>.el7.x86_64.rpm<br></code></pre></td></tr></table></figure>
-<p>过程中存在报错，依赖检测失败<code>Failed dependencies</code></p>
-<p>解决方法，命令末尾加上<code>--nodeps --force</code></p>
-<p>如果是阿里云，需要在此处加一个<code>yum install libaio</code></p>
-</li>
-</ol>
-<p>​		<code>rpm -ivh mysql-community-server-8.0.28-1.el7.x86_64.rpm</code></p>
-<ol start="5">
-<li>
-<p>初始化mysql：<code>mysqld --initialize --console</code></p>
-<ul>
-<li>用阿里云出现报错，机房服务器没有:<code>mysqld:error while loading shared libraries: livssl.so.10: cannot open shared object file: No such file or directory</code></li>
-<li>解决方法:
-<ul>
-<li>去下载地址<code>https://centos.pkgs.org/8/centos-appstream-x86_64/compat-openssl10-1.0.2o-3.el8.x86_64.rpm.html</code></li>
-<li>下载<code>compat-openssl10-1.0.2o-3.el8.x86_64.rpm</code></li>
-<li><code>rpm -ivh compat-openssl10-1.0.2o-3.el8.x86_64.rpm</code></li>
-<li>问题解决</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>
-<p>给mysql授权：<code>chown -R mysql:mysql /var/lib/mysql/</code></p>
-</li>
-<li>
-<p>启动mysql服务：<code>systemctl start mysqld</code></p>
-</li>
-<li>
-<p>查询mysql初始密码：<code>cat /var/log/mysqld.log|grep localhost</code></p>
-</li>
-</ol>
-<p>​		大家一看就知道什么是初始密码了</p>
-<ol start="9">
-<li>登录mysql：<code>mysql -uroot -p</code></li>
-<li>修改mysql密码：<code>alter user 'root'@'localhost' identified by '123456';</code>(分号不要省)</li>
-</ol>
-<h3 id="5服务器安装ngnix"><a class="markdownIt-Anchor" href="#5服务器安装ngnix"></a> 5.服务器安装ngnix</h3>
-<ol>
-<li>
-<p>下载安装包：</p>
-<p><a href="http://www.openssl.org/source/openssl-fips-2.0.10.tar.gz">http://www.openssl.org/source/openssl-fips-2.0.10.tar.gz</a></p>
-<p><a href="http://zlib.net/zlib-1.2.11.tar.gz">http://zlib.net/zlib-1.2.11.tar.gz</a></p>
-<p><a href="http://downloads.sourceforge.net/project/pcre/pcre/8.35/pcre-8.35.tar.gz">http://downloads.sourceforge.net/project/pcre/pcre/8.35/pcre-8.35.tar.gz</a></p>
-<p><a href="https://nginx.org/en/download.html%E9%A1%B5%E9%9D%A2%E9%87%8C%E4%B8%8B%E8%BD%BDngnix-1.6.3%EF%BC%88%E6%B3%A8%E6%84%8F%E4%B8%8D%E8%A6%81%E4%B8%8B%E8%BD%BDwindows%E7%89%88%E6%9C%AC%E7%9A%84%EF%BC%89">https://nginx.org/en/download.html页面里下载ngnix-1.6.3（注意不要下载windows版本的）</a></p>
-</li>
-<li>
-<p>将安装包通过xftp上传到服务器的/usr/local/src文件夹</p>
-</li>
-<li>
-<p>解压：</p>
-<p><code>tar -zxvf openssl-fips-2.0.10.tar.gz</code></p>
-<p><code>tar -zxvf zlib.net/zlib-1.2.11.tar.gz</code></p>
-<p><code>tar -zxvf pcre-8.35.tar.gz</code></p>
-<p><code>tar -zxvf nginx-1.6.3.tar.gz</code></p>
-</li>
-<li>
-<p>安装：</p>
-<p>安装ssl：</p>
-<p><code>cd /usr/local/src/openssl-fips-2.0.10</code></p>
-<p><code>./config &amp;&amp; make &amp;&amp; make install</code></p>
-<p>安装zlib：</p>
-<p><code>cd /usr/local/src/zlib-1.2.11</code></p>
-<p><code>./configure &amp;&amp; make &amp;&amp; make install</code></p>
-<p>安装pcre：</p>
-<p><code>cd /usr/local/src/pcre-8.35</code></p>
-<p><code>./configure &amp;&amp; make &amp;&amp; make install</code></p>
-<p>安装nginx：</p>
-<p><code>cd /usr/local/src/nginx-1.6.3</code></p>
-<p>这行命令有点长：</p>
-<p><code>./configure --prefix=/usr/local/webserver/nginx --with-http_stub_status_module --with-openssl=/usr/local/src/openssl-fips-2.0.10 --with-pcre=/usr/local/src/pcre-8.35</code></p>
-<p><code>make</code></p>
-<ul>
-<li>
-<p>使用阿里云服务器时报错:(系统缺少C++环境)</p>
-<p><code>You need a C++ compiler for C++ support</code></p>
-</li>
-</ul>
-<p>​		解决方法：</p>
-<p>​		<code>yum install -y gcc gcc-c++</code></p>
-<ul>
-<li>后面又报错(原因：将警告当成错误处理)</li>
-</ul>
-<p><code>src/core/ngx_murmurhash.c:37:11: 错误：``this</code> <code>statement may fall through [-Werror=implicit-fallthrough=]</code></p>
-<p>​		解决办法:</p>
-<p>​		1. 打开文件Makefile</p>
-<p>​		<code>vim objs/Makefile</code></p>
-<p>​		2. 找到有以下内容的这行:</p>
-<p>​		<code>CFLAGS = -pipe -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g</code></p>
-<p>​		-Werror: gcc将所有的警告当成错误进行处理把这行内容中的Werror去掉</p>
-<ul>
-<li>
-<p>后面又报错</p>
-<figure class="highlight awk"><table><tr><td class="code"><pre><code class="hljs awk">src<span class="hljs-regexp">/os/u</span>nix/ngx_user.c: In <span class="hljs-keyword">function</span> ‘ngx_libc_crypt’:<br>src<span class="hljs-regexp">/os/u</span>nix/ngx_user.c:<span class="hljs-number">35</span>:<span class="hljs-number">7</span>: error: ‘struct crypt_data’ has no member named ‘current_salt’<br>     cd.current_salt[<span class="hljs-number">0</span>] = ~salt[<span class="hljs-number">0</span>];<br></code></pre></td></tr></table></figure>
-<p>原因:源代码问题</p>
-<p>解决方法：</p>
-<p><code>vim src/os/unix/ngx_user.c</code></p>
-<p>注释掉代码:</p>
-<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E4%BA%91%E8%AE%A1%E7%AE%97%2F128%20-%20dXZWI1u.png" alt="" /></p>
-<p>问题解决</p>
-</li>
-</ul>
-<p><code>make install</code></p>
-</li>
-<li>
-<p>查看nginx版本：<code>/usr/local/webserver/nginx/sbin/nginx -v</code></p>
-</li>
-<li>
-<p>配置ngnix：</p>
-<p><code>cd /usr/local/webserver/nginx/conf</code></p>
-<p><code>/usr/sbin/groupadd www</code></p>
-<p><code>/usr/sbin/useradd -g www www</code></p>
-<p>在xftp中打开/usr/local/webserver/nginx/conf/nginx.conf，将文件里的内容替换为ngnix.txt里面的内容</p>
-<p>ngnix.txt中内容</p>
-<pre class="highlight"><code class="">user www www;
-worker_processes 2; #设置值和CPU核心数一致
-error_log /usr/local/webserver/nginx/logs/nginx_error.log crit; #日志位置和日志级别
-pid /usr/local/webserver/nginx/nginx.pid;
-#Specifies the value for maximum file descriptors that can be opened by this process.
-worker_rlimit_nofile 65535;
-events
-&#123;
-  use epoll;
-  worker_connections 65535;
-&#125;
-http
-&#123;
-  include mime.types;
-  default_type application/octet-stream;
-  log_format main  '$remote_addr - $remote_user [$time_local] &quot;$request&quot; '
-               '$status $body_bytes_sent &quot;$http_referer&quot; '
-               '&quot;$http_user_agent&quot; $http_x_forwarded_for';
-  
-#charset gb2312;
-     
-  server_names_hash_bucket_size 128;
-  client_header_buffer_size 32k;
-  large_client_header_buffers 4 32k;
-  client_max_body_size 8m;
-     
-  sendfile on;
-  tcp_nopush on;
-  keepalive_timeout 60;
-  tcp_nodelay on;
-  fastcgi_connect_timeout 300;
-  fastcgi_send_timeout 300;
-  fastcgi_read_timeout 300;
-  fastcgi_buffer_size 64k;
-  fastcgi_buffers 4 64k;
-  fastcgi_busy_buffers_size 128k;
-  fastcgi_temp_file_write_size 128k;
-  gzip on; 
-  gzip_min_length 1k;
-  gzip_buffers 4 16k;
-  gzip_http_version 1.0;
-  gzip_comp_level 2;
-  gzip_types text/plain application/x-javascript text/css application/xml;
-  gzip_vary on;
- 
-  #limit_zone crawler $binary_remote_addr 10m;
- #下面是server虚拟主机的配置
- server
-  &#123;
-    listen 8090;#监听端口
-    server_name localhost1;#域名
-    index index.html index.htm index.php;
-    root /usr/local/webserver/nginx/html;#站点目录
-      location / &#123;
-	proxy_pass http://10.64.26.118:8080;
-     &#125;
-      location ~ .*\.(php|php5)?$
-    &#123;
-      #fastcgi_pass unix:/tmp/php-cgi.sock;
-      fastcgi_pass 127.0.0.1:9000;
-      fastcgi_index index.php;
-      include fastcgi.conf;
-    &#125;
-    location ~ .*\.(gif|jpg|jpeg|png|bmp|swf|ico)$
-    &#123;
-      expires 30d;
-  # access_log off;
-    &#125;
-    location ~ .*\.(js|css)?$
-    &#123;
-      expires 15d;
-   # access_log off;
-    &#125;
-    access_log off;
-  &#125;
-
-&#125;
-
-</code></pre>
-</li>
-<li>
-<p>检查配置文件nginx.conf的正确性：<code>/usr/local/webserver/nginx/sbin/nginx -t</code></p>
-</li>
-<li>
-<p>打开8090端口：</p>
-<p><code>firewall-cmd --zone=public --add-port=8090/tcp --permanent</code></p>
-<p>出现报错:</p>
-<p><code>FirewallD is not running</code></p>
-<p>解决方法:</p>
-<ol>
-<li>执行systemctl status firewalld查看防火墙状态</li>
-<li>需要开启防火墙即可
-<ol>
-<li>开启防火墙：<code>systemctl start firewalld</code></li>
-<li>关闭防火墙：<code>systemctl stop firewalld</code></li>
-<li>查看防火墙状态：<code>systemctl status firewalld</code></li>
-</ol>
-</li>
-</ol>
-</li>
-<li>
-<p>重启防火墙：<code>systemctl restart firewalld.service</code></p>
-</li>
-<li>
-<p>启动ngnix：<code>/usr/local/webserver/nginx/sbin/nginx</code></p>
-</li>
-<li>
-<p>浏览器访问ngnix：IP+端口，比如10.64.26.250：8090</p>
-</li>
-<li>
-<p>关闭ngnix：<code>/usr/local/webserver/nginx/sbin/nginx -s stop</code></p>
-</li>
-</ol>
+    <title>关于本博客访问的一点说明</title>
+    <url>/2022/05/16/%E5%85%B3%E4%BA%8E%E6%9C%AC%E5%8D%9A%E5%AE%A2%E8%AE%BF%E9%97%AE%E7%9A%84%E4%B8%80%E7%82%B9%E8%AF%B4%E6%98%8E/</url>
+    <content><![CDATA[<p>之前使用舍友推荐采用免费图床<a href="https://imgur.com/">imgur</a>,因此图片需链接代理后才可完整显示。后面感觉太麻烦，购买了腾讯的cos对象存储，不是很贵，但用户体验很好，现在查看图片已经不需要代理了。</p>
 ]]></content>
       <categories>
-        <category>课程作业</category>
+        <category>杂</category>
       </categories>
       <tags>
-        <tag>课程作业</tag>
+        <tag>杂</tag>
       </tags>
   </entry>
   <entry>
@@ -3117,6 +2756,23 @@ http
 <ul>
 <li>贪心算法。从下往上遍历，叶子结点的父节点安装监控会使用最少二叉树。对每个结点设为三个状态，从下往上遍历，根据子节点情况判断当前是否应该装监控。</li>
 </ul>
+<h2 id="九-动态规划"><a class="markdownIt-Anchor" href="#九-动态规划"></a> 九、动态规划</h2>
+<h3 id="简单题-9"><a class="markdownIt-Anchor" href="#简单题-9"></a> 简单题</h3>
+<h4 id="509-斐波那契数"><a class="markdownIt-Anchor" href="#509-斐波那契数"></a> 509. 斐波那契数</h4>
+<ul>
+<li>回溯。</li>
+<li>动态规划
+<ol>
+<li>确定dp数组以及下标的含义：dp[i]的定义为：第i个数的斐波那契数值是dp[i]</li>
+<li>确定递推公式：状态转移方程dp[i] = dp[i - 1] + dp[i - 2];</li>
+<li>dp数组如何初始化： dp[0] = 0; dp[1] = 1;</li>
+<li>确定遍历顺序：从前到后遍历。</li>
+<li>举例推导dp数组</li>
+</ol>
+</li>
+</ul>
+<h3 id="中等题-9"><a class="markdownIt-Anchor" href="#中等题-9"></a> 中等题</h3>
+<h3 id="困难题-9"><a class="markdownIt-Anchor" href="#困难题-9"></a> 困难题</h3>
 ]]></content>
       <categories>
         <category>算法</category>
@@ -3124,18 +2780,6 @@ http
       <tags>
         <tag>算法</tag>
         <tag>leetcode</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>关于本博客访问的一点说明</title>
-    <url>/2022/05/16/%E5%85%B3%E4%BA%8E%E6%9C%AC%E5%8D%9A%E5%AE%A2%E8%AE%BF%E9%97%AE%E7%9A%84%E4%B8%80%E7%82%B9%E8%AF%B4%E6%98%8E/</url>
-    <content><![CDATA[<p>之前使用舍友推荐采用免费图床<a href="https://imgur.com/">imgur</a>,因此图片需链接代理后才可完整显示。后面感觉太麻烦，购买了腾讯的cos对象存储，不是很贵，但用户体验很好，现在查看图片已经不需要代理了。</p>
-]]></content>
-      <categories>
-        <category>杂</category>
-      </categories>
-      <tags>
-        <tag>杂</tag>
       </tags>
   </entry>
   <entry>
@@ -3209,196 +2853,376 @@ http
       </tags>
   </entry>
   <entry>
-    <title>计算机游戏设计上机实验1</title>
-    <url>/2022/05/25/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%B8%B8%E6%88%8F%E8%AE%BE%E8%AE%A1%E4%B8%8A%E6%9C%BA%E5%AE%9E%E9%AA%8C1/</url>
-    <content><![CDATA[<h1 id="巫师3狂猎游戏世界分析"><a class="markdownIt-Anchor" href="#巫师3狂猎游戏世界分析"></a> 《巫师3：狂猎》游戏世界分析</h1>
-<h2 id="巫师3狂猎游戏介绍"><a class="markdownIt-Anchor" href="#巫师3狂猎游戏介绍"></a> 《巫师3：狂猎》游戏介绍</h2>
-<p>《巫师3：狂猎》是由CD Projekt RED制作，WB Games（北美地区）、Spike Chunsoft（日本地区）发行的一款RPG游戏（角色扮演类游戏），于2015年5月19日在Windows/Playstation 4/Xbox One平台发行，2019年10月13日登录Nintendo Switch平台。游戏改编自小说《猎魔人》系列，为《<a href="https://baike.baidu.com/item/%E5%B7%AB%E5%B8%88/3816318">巫师</a>》系列的第三部作品，同时也是杰洛特冒险的终曲。该游戏曾获得2015年TGA年度最佳RPG游戏、IGN年度最佳RPG游戏、游民星空年度最佳RPG游戏以及2016年TGA年度最佳RPG游戏等等奖项。</p>
-<p>《巫师3：狂猎》是一款情节驱动的开放世界角色扮演游戏。本作讲述的是猎魔人杰洛特的故事，游戏中玩家也将扮演猎魔人杰洛特进行游戏。故事发生在一个令人目眩神迷的奇幻宇宙里，玩家做出的每一个选择都意义重大，同时也要面对影响深远的后果。游戏中玩家通过完成任务和打败怪物可以获得经验点数，在获得一定的经验点数后就能提升等级，并获得能力点数、解锁技能槽与突变诱发物槽来进行人物设定。</p>
-<h2 id="游戏世界分析"><a class="markdownIt-Anchor" href="#游戏世界分析"></a> 游戏世界分析</h2>
-<p>从物理维度、时间维度、环境维度、感情维度、道德维度以及现实度六个维度分析《巫师：3》游戏世界</p>
-<h3 id="物理维度"><a class="markdownIt-Anchor" href="#物理维度"></a> 物理维度</h3>
-<h4 id="空间维度"><a class="markdownIt-Anchor" href="#空间维度"></a> 空间维度</h4>
+    <title>云计算实验</title>
+    <url>/2022/06/12/%E4%BA%91%E8%AE%A1%E7%AE%97%E5%AE%9E%E9%AA%8C/</url>
+    <content><![CDATA[<h1 id="云计算实验"><a class="markdownIt-Anchor" href="#云计算实验"></a> 云计算实验</h1>
+<h2 id="一-获取服务器"><a class="markdownIt-Anchor" href="#一-获取服务器"></a> 一、获取服务器</h2>
+<h3 id="1使用机房服务器"><a class="markdownIt-Anchor" href="#1使用机房服务器"></a> 1.使用机房服务器</h3>
+<p>windows系统下登录机房服务器（校园网环境下）：</p>
+<ol>
+<li>下载安装xshell和xftp；</li>
+<li>xshell中输入ssh IP（分配给每个学生的IP），比如<code>ssh 10.64.26.1</code>；</li>
+<li>用户名是root，初始密码是123456，登录之后最好修改密码；</li>
+</ol>
+<p>​		可通过命令<code>passwd</code>，阿里云服务器可在实例里修改</p>
+<h3 id="2使用阿里云服务器"><a class="markdownIt-Anchor" href="#2使用阿里云服务器"></a> 2.使用阿里云服务器</h3>
+<p>购买阿里云服务器，登录操作与机房服务器类似。通过校园网可能无法连接阿里云服务器，通过手机热点能够连接阿里云服务器。</p>
+<p>尝试了一下，显示<code>connection closed by foreign host. Disconnected from remote host</code></p>
+<p>查询资料，发现可能原因: 使用校园网联网，多位同学同时连接各自的阿里云服务器，由于局域网的ip地址多次访问，阿里云会认为这是恶意访问，故而阻止此段ip访问服务器。</p>
 <ul>
-<li>游戏中几乎所有图形素材均为3D建模，因此该游戏是一款3D游戏。</li>
+<li>解决方法:在阿里云服务器里，设置白名单，允许此ip访问通过。</li>
 </ul>
-<h4 id="大小规模"><a class="markdownIt-Anchor" href="#大小规模"></a> 大小规模</h4>
-<ul>
+<ol>
 <li>
-<p>游戏是高仿真游戏，物体之间大小比例比较准确，但有些关键物体会被夸大，比如需要采的药草、需要获取的推动剧情发展的物品（钥匙、人物手镯等等）</p>
-<img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E6%B8%B8%E6%88%8F%2F%E5%B7%AB%E5%B8%88%2F60%20-%20F8pReji.png"  width="500"  height = "300" />
+<p>点击控制台<img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E4%BA%91%E8%AE%A1%E7%AE%97%2F107%20-%20WZX1xXx.png" alt="" /></p>
 </li>
 <li>
-<p>人、建筑物与地形高度较为符合现实，但也存在某些房屋较矮的情况，玩家甚至能轻易跳上屋顶。或许是游戏厂商有意为之。</p>
+<p>进入控制台后，选择安骑士<img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E4%BA%91%E8%AE%A1%E7%AE%97%2F108%20-%20Xe8fZQu.png" alt="" /></p>
 </li>
 <li>
-<p>室内和室外场所比例比较符合逻辑。</p>
-<ul>
-<li>
-<p>室内大小合理，玩家只需要走动或者跑动即可在短时间内走完。</p>
-<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E6%B8%B8%E6%88%8F%2F%E5%B7%AB%E5%B8%88%2F59%20-%20Tg7oU5L.png" alt="" /></p>
+<p>不管弹出的内容，直接ESC，点击安全配置<img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E4%BA%91%E8%AE%A1%E7%AE%97%2F109%20-%20PCClWCj.png" alt="" /></p>
 </li>
 <li>
-<p>城市之间距离在游戏世界中相对来说路程较远，可用现实世界的公里来衡量。玩家要从一个城市到另一个城市往往需要借助其他工具，游戏中体现为马匹和传送门。游戏也设置快速传送点，方便玩家在城市间切换。</p>
-</li>
-</ul>
-<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E6%B8%B8%E6%88%8F%2F%E5%B7%AB%E5%B8%88%2F61%20-%20qdrwnv6.png" alt="" /></p>
+<p>安全设置中，选择点击设置，进入添加白名单界面<img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E4%BA%91%E8%AE%A1%E7%AE%97%2F110%20-%20vDG14k2.png" alt="" /></p>
 </li>
 <li>
-<p>物体相对速度合理。人物有走动、跑动状态，马匹有慢走，慢跑与疾驰状态，状态间速度变化明显。人物相对马移动速度满，游戏刻画地非常明显。同时背包中物品数量也会影响人物以及马匹的移动速度。上述设置较为合理且符合现实。</p>
-</li>
-</ul>
-<h4 id="界限"><a class="markdownIt-Anchor" href="#界限"></a> 界限</h4>
-<p>不知是否是翻译问题，游戏宣传曾说《巫师3：狂猎》的世界所有“目之所及”的地方都可以到达，没有空气墙和边界。但我测试一下，结果并非完全如此。</p>
-<ul>
-<li>
-<p>游戏世界确实没有空气墙，且玩家确实无法到达边界。但当玩家即将抵达地图边界时，游戏会弹出提示：“超出地图边界，请回头”。此时游戏主角杰洛特也会说：“我不觉得希瑞（推动故事发展的人物）会在那个方向”。但若忽视掉这些提示，继续跑一会儿，屏幕就会突然黑屏然后将人物强制转头，将人物传送回“地图边界”。</p>
-<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E6%B8%B8%E6%88%8F%2F%E5%B7%AB%E5%B8%88%2F58%20-%20u3zSRsU.png" alt="到达世界边缘" /></p>
+<p>点击添加<img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E4%BA%91%E8%AE%A1%E7%AE%97%2F111%20-%2066xQLtn.png" alt="" /></p>
 </li>
 <li>
-<p>当人物到达游戏边境时打开ansel摄像头，去探索游戏远景，发现游戏世界确实还是存在边界，只不过被上述方法巧妙掩盖了。</p>
+<p>源ip设为0.0.0.0(表示允许所有ip访问)，并将下方右边服务ip添加到左边，确定<img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E4%BA%91%E8%AE%A1%E7%AE%97%2F112%20-%20Xw2GNic.png" alt="" /></p>
 </li>
-</ul>
-<h3 id="时间维度"><a class="markdownIt-Anchor" href="#时间维度"></a> 时间维度</h3>
-<p>对于这类大型的开放世界RPG游戏中时间流逝是很重要的一个设定。如果是游戏时间流逝过快就会让玩家缺乏游戏的代入感，但要是时间流速过慢又会让游戏的节奏过慢而导致玩家丧失耐心。</p>
+<li>
+<p>重新进入xshell-ssh访问服务器，出现密码框，访问成功</p>
+</li>
+</ol>
+<h2 id="二-配置服务器环境"><a class="markdownIt-Anchor" href="#二-配置服务器环境"></a> 二、配置服务器环境</h2>
+<h3 id="1服务器安装jdk"><a class="markdownIt-Anchor" href="#1服务器安装jdk"></a> 1.服务器安装jdk</h3>
 <ul>
 <li>
-<p>对《巫师3：狂猎》中的时间变化，游戏时间中的时间流速是游戏世界中的一天等于现实世界的1小时36分钟。可以测算出现实中过去一秒，游戏中过去15秒。时间是绝对的，无论玩家是否在行动，时间都是在流逝的。不过《巫师3：狂猎》中并不存在季节系统。</p>
+<p>官网下载openjdk-11+28_linux-x64_bin.tar.gz</p>
 </li>
 <li>
-<p>游戏是存在时间尺度的。游戏有时间单位，用周、天、小时等来度量。部分任务要求一周或者几天后才能开始执行。玩家化身具有某些能力以及部分道具是用小时来衡量的。</p>
+<p>xshell登录Linux服务器</p>
 </li>
 <li>
-<p>游戏中存在白天黄昏黑夜等。</p>
-<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E6%B8%B8%E6%88%8F%2F%E5%B7%AB%E5%B8%88%2F49%20-%20hJEcXgt.png" alt="日落" /></p>
+<p>上传 openjdk-11+28_linux-x64_bin.tar.gz 到 /usr/local/java下</p>
+<p>怎样上传：xshell连接成功后，点击工具栏里面的图标</p>
+</li>
+</ul>
+<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E4%BA%91%E8%AE%A1%E7%AE%97%2F113%20-%20NNmIT5i.png" alt="" /></p>
+<p>​	如果已经安装了xftp，此时就会打开xftp</p>
+<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E4%BA%91%E8%AE%A1%E7%AE%97%2F114%20-%20YbOuDyv.png" alt="" /></p>
+<p>左侧是windows系统下的文件，右侧是linux系统下的文件。想要将windows里的文件上传，只需要将左侧文件拖到右侧的文件夹即可</p>
 <ul>
-<li>白天与黑夜不会影响玩家的化身，玩家的化身不会因为时间流逝而感觉到饿或者累。但是黑夜通常会影响玩家的视野，若玩家在黑夜中赶路通常需要一些照明设备。另外有些道具要求必须在白天或在晚上才能做。</li>
-<li>有些任务要求玩家必须在特定的时间段来完成，例如要求玩家在黄昏时完成的任务。</li>
-<li>玩家也可根据时段来做相应任务，以此来降低人物的难度系数。</li>
-<li>许多生物在不同的时间段都会有不同的效果，比如说狼在夜晚会增加攻击力，或是在晴天的时候成群结队等等。</li>
+<li>解压：<code>tar -zxvf openjdk-11+28_linux-x64_bin.tar.gz</code></li>
+<li>设置环境变量：<code>vi /etc/profile</code></li>
 </ul>
-<p>玩家可以在游戏中把握时间从而更轻易达到自己的目的。因此增加了玩家的可玩性。</p>
-<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E6%B8%B8%E6%88%8F%2F%E5%B7%AB%E5%B8%88%2F48%20-%20in0QwcZ.png" alt="黑夜" /></p>
+<p>再拷贝下方内容到/etc/profile文件中：</p>
+<figure class="highlight awk"><table><tr><td class="code"><pre><code class="hljs awk"><span class="hljs-comment">###set java</span><br><br>JAVA_HOME=<span class="hljs-regexp">/usr/</span>local<span class="hljs-regexp">/java/</span>jdk-<span class="hljs-number">11</span><br><br>JRE_HOME=<span class="hljs-regexp">/usr/</span>local<span class="hljs-regexp">/java/</span>jdk-<span class="hljs-number">11</span>/jre<br><br>CLASSPATH=.:<span class="hljs-variable">$JAVA_HOME</span><span class="hljs-regexp">/lib/</span>dt.jar:<span class="hljs-variable">$JAVA_HOME</span><span class="hljs-regexp">/lib/</span>tools.jar:<span class="hljs-variable">$JRE_HOME</span>/lib<br><br>PATH=<span class="hljs-variable">$JAVA_HOME</span>/bin:<span class="hljs-variable">$PATH</span><br><br>export PATH JAVA_HOME CLASSPATH<br></code></pre></td></tr></table></figure>
+<ul>
+<li>刷新环境变量：<code>source /etc/profile</code></li>
+<li>查看java环境：<code>java -version</code></li>
+</ul>
+<h3 id="2服务器安装tomcat"><a class="markdownIt-Anchor" href="#2服务器安装tomcat"></a> 2.服务器安装tomcat</h3>
+<ol>
+<li>
+<p>首先需要在服务器安装好jdk</p>
 </li>
 <li>
-<p>游戏存在可变时间。玩家有时需要游戏时间快速流逝，来达到自己想要的时间段。游戏提供了一种冥想的功能。玩家可以选择冥想的时间，最久24小时，最少1小时（游戏时间）。玩家可以通过冥想来快速度过时间。</p>
-<img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E6%B8%B8%E6%88%8F%2F%E5%B7%AB%E5%B8%88%2F46%20-%20T8AKIcx.png"  width="400"  height = "600" />
+<p>官网下载apache-tomcat-9.0.63.tar.gz</p>
 </li>
 <li>
-<p>不允许玩家调整时间。游戏中时间作为绝对的游戏元素不可被玩家手动更改。如上所述，玩家可采用“冥想”快速消耗时间来“调整时间”。</p>
+<p>解压安装包:<code>tar -zxvf apache-tomcat-9.0.63.tar.gz</code></p>
 </li>
 <li>
-<p>游戏中不存在反常时间。</p>
+<p>启动Tomcat：<code>./startup.sh</code>(在bin目录下)</p>
+<p>如果使用的是阿里云服务器，则不需要进行第5、6步，但需要在“实例”—&gt;“安全组”—&gt;“配置规则”里面增加一条安全组规则，也就是增加8080端口，示意图如下：</p>
+<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E4%BA%91%E8%AE%A1%E7%AE%97%2F115%20-%206orin7h.png" alt="" /></p>
+</li>
+<li>
+<p>打开防火墙的8080端口：<code>firewall-cmd --zone=public --add-port=8080/tcp --permanent</code></p>
+</li>
+<li>
+<p>重启防火墙：<code>systemctl restart firewalld.service</code></p>
+</li>
+<li>
+<p>在windows的浏览器访问：IP 端口，例如：10.64.26.250:8080</p>
+</li>
+</ol>
+<h3 id="3服务器安装maven"><a class="markdownIt-Anchor" href="#3服务器安装maven"></a> 3.服务器安装maven</h3>
+<ol>
+<li>
+<p>官网下载apache-maven-3.8.5-bin.tar.gz</p>
+</li>
+<li>
+<p>解压安装包:<code>tar -zxvf apache-maven-3.8.5-bin.tar.gz</code></p>
+</li>
+<li>
+<p>配置环境变量：<code>vi /etc/profile</code></p>
+<p>再拷贝下方内容到/etc/profile文件中（注意路径用自己的，这里的路径只是例子）：</p>
+<figure class="highlight routeros"><table><tr><td class="code"><pre><code class="hljs routeros"><span class="hljs-built_in">export</span> <span class="hljs-attribute">MAVEN_HOME</span>=/usr/local/java/apache-maven-3.8.5<br><span class="hljs-built_in">export</span> <span class="hljs-attribute">PATH</span>=<span class="hljs-variable">$MAVEN_HOME</span>/bin:$PATH <br></code></pre></td></tr></table></figure>
+</li>
+<li>
+<p>刷新环境变量：<code>source /etc/profile</code></p>
+</li>
+<li>
+<p>验证安装结果：<code>mvn -v</code></p>
+</li>
+</ol>
+<p>此时可能报错:<code>-bash: /usr/local/java/apache-maven-3.8.5/bin/mvn: 权限不够</code></p>
+<p>或者:<code>-bash: /usr/local/java/apache-maven-3.8.5/bin/mvn: Permission denied</code></p>
+<p>这个主要是权限问题</p>
+<p>修改权限:<code>chmod a+x /usr/local/java/apache-maven-3.8.5/bin/mvn</code></p>
+<p>此时正确显示maven版本</p>
+<h3 id="4服务器安装mysql"><a class="markdownIt-Anchor" href="#4服务器安装mysql"></a> 4.服务器安装mysql</h3>
+<ol>
+<li>
+<p>官网下载mysql-8.0.28-1.el7.x86_64.rpm-bundle.tar</p>
+</li>
+<li>
+<p>解压<code>tar -xvf mysql-8.0.28-1.el7.x86_64.rpm-bundle.tar</code></p>
+</li>
+<li>
+<p>查找并删除mariadb：</p>
+<p><code>rpm -qa|grep mariadb</code></p>
+<p><code>rpm -e --nodeps mariadb-server-5.5.56-2.el7.x86_64</code></p>
+<p>（这个地方出现的三个我全删除了，因为后面安装mysql时mysql与mariadb冲突报错）</p>
+</li>
+<li>
+<p>安装mysql:依次执行以下操作：</p>
+<figure class="highlight apache"><table><tr><td class="code"><pre><code class="hljs apache"><span class="hljs-attribute">rpm</span> -ivh mysql-community-common-<span class="hljs-number">8</span>.<span class="hljs-number">0</span>.<span class="hljs-number">28</span>-<span class="hljs-number">1</span>.el7.x86_64.rpm<br><span class="hljs-attribute">rpm</span> -ivh mysql-community-client-plugins-<span class="hljs-number">8</span>.<span class="hljs-number">0</span>.<span class="hljs-number">28</span>-<span class="hljs-number">1</span>.el7.x86_64.rpm<br><span class="hljs-attribute">rpm</span> -ivh mysql-community-libs-<span class="hljs-number">8</span>.<span class="hljs-number">0</span>.<span class="hljs-number">28</span>-<span class="hljs-number">1</span>.el7.x86_64.rpm<br><span class="hljs-attribute">rpm</span> -ivh mysql-community-client-<span class="hljs-number">8</span>.<span class="hljs-number">0</span>.<span class="hljs-number">28</span>-<span class="hljs-number">1</span>.el7.x86_64.rpm<br><span class="hljs-attribute">rpm</span> -ivh mysql-community-icu-data-files-<span class="hljs-number">8</span>.<span class="hljs-number">0</span>.<span class="hljs-number">28</span>-<span class="hljs-number">1</span>.el7.x86_64.rpm<br></code></pre></td></tr></table></figure>
+<p>过程中存在报错，依赖检测失败<code>Failed dependencies</code></p>
+<p>解决方法，命令末尾加上<code>--nodeps --force</code></p>
+<p>如果是阿里云，需要在此处加一个<code>yum install libaio</code></p>
+</li>
+</ol>
+<p>​		<code>rpm -ivh mysql-community-server-8.0.28-1.el7.x86_64.rpm</code></p>
+<ol start="5">
+<li>
+<p>初始化mysql：<code>mysqld --initialize --console</code></p>
+<ul>
+<li>用阿里云出现报错，机房服务器没有:<code>mysqld:error while loading shared libraries: livssl.so.10: cannot open shared object file: No such file or directory</code></li>
+<li>解决方法:
+<ul>
+<li>去下载地址<code>https://centos.pkgs.org/8/centos-appstream-x86_64/compat-openssl10-1.0.2o-3.el8.x86_64.rpm.html</code></li>
+<li>下载<code>compat-openssl10-1.0.2o-3.el8.x86_64.rpm</code></li>
+<li><code>rpm -ivh compat-openssl10-1.0.2o-3.el8.x86_64.rpm</code></li>
+<li>问题解决</li>
+</ul>
 </li>
 </ul>
-<h3 id="环境维度"><a class="markdownIt-Anchor" href="#环境维度"></a> 环境维度</h3>
+</li>
+<li>
+<p>给mysql授权：<code>chown -R mysql:mysql /var/lib/mysql/</code></p>
+</li>
+<li>
+<p>启动mysql服务：<code>systemctl start mysqld</code></p>
+</li>
+<li>
+<p>查询mysql初始密码：<code>cat /var/log/mysqld.log|grep localhost</code></p>
+</li>
+</ol>
+<p>​		大家一看就知道什么是初始密码了</p>
+<ol start="9">
+<li>登录mysql：<code>mysql -uroot -p</code></li>
+<li>修改mysql密码：<code>alter user 'root'@'localhost' identified by '123456';</code>(分号不要省)</li>
+</ol>
+<h3 id="5服务器安装ngnix"><a class="markdownIt-Anchor" href="#5服务器安装ngnix"></a> 5.服务器安装ngnix</h3>
+<ol>
+<li>
+<p>下载安装包：</p>
+<p><a href="http://www.openssl.org/source/openssl-fips-2.0.10.tar.gz">http://www.openssl.org/source/openssl-fips-2.0.10.tar.gz</a></p>
+<p><a href="http://zlib.net/zlib-1.2.11.tar.gz">http://zlib.net/zlib-1.2.11.tar.gz</a></p>
+<p><a href="http://downloads.sourceforge.net/project/pcre/pcre/8.35/pcre-8.35.tar.gz">http://downloads.sourceforge.net/project/pcre/pcre/8.35/pcre-8.35.tar.gz</a></p>
+<p><a href="https://nginx.org/en/download.html%E9%A1%B5%E9%9D%A2%E9%87%8C%E4%B8%8B%E8%BD%BDngnix-1.6.3%EF%BC%88%E6%B3%A8%E6%84%8F%E4%B8%8D%E8%A6%81%E4%B8%8B%E8%BD%BDwindows%E7%89%88%E6%9C%AC%E7%9A%84%EF%BC%89">https://nginx.org/en/download.html页面里下载ngnix-1.6.3（注意不要下载windows版本的）</a></p>
+</li>
+<li>
+<p>将安装包通过xftp上传到服务器的/usr/local/src文件夹</p>
+</li>
+<li>
+<p>解压：</p>
+<p><code>tar -zxvf openssl-fips-2.0.10.tar.gz</code></p>
+<p><code>tar -zxvf zlib.net/zlib-1.2.11.tar.gz</code></p>
+<p><code>tar -zxvf pcre-8.35.tar.gz</code></p>
+<p><code>tar -zxvf nginx-1.6.3.tar.gz</code></p>
+</li>
+<li>
+<p>安装：</p>
+<p>安装ssl：</p>
+<p><code>cd /usr/local/src/openssl-fips-2.0.10</code></p>
+<p><code>./config &amp;&amp; make &amp;&amp; make install</code></p>
+<p>安装zlib：</p>
+<p><code>cd /usr/local/src/zlib-1.2.11</code></p>
+<p><code>./configure &amp;&amp; make &amp;&amp; make install</code></p>
+<p>安装pcre：</p>
+<p><code>cd /usr/local/src/pcre-8.35</code></p>
+<p><code>./configure &amp;&amp; make &amp;&amp; make install</code></p>
+<p>安装nginx：</p>
+<p><code>cd /usr/local/src/nginx-1.6.3</code></p>
+<p>这行命令有点长：</p>
+<p><code>./configure --prefix=/usr/local/webserver/nginx --with-http_stub_status_module --with-openssl=/usr/local/src/openssl-fips-2.0.10 --with-pcre=/usr/local/src/pcre-8.35</code></p>
+<p><code>make</code></p>
 <ul>
 <li>
-<p>游戏延承了《猎魔人》系列小说的世界观。游戏世界观极为宏大，故事发生在“巫师星球”上。巫师星球与另一颗星球交汇，出现了许多魔物。之后巫师星球出现了第一批精灵，后面演化出了人类。过了很多年之后，人类建立起了自己的帝国，版图大致分为两块：北方诸国与南方帝国。</p>
-</li>
-<li>
-<p>在游戏中人类具有一个复杂的、有组织的社会。上面也提到，人类建立起了帝国，包括北方的瑞达尼亚、科德温、泰莫利亚、亚甸以及南方的尼弗迦德。人们社会阶层分明，如同中世纪的欧洲帝国，包括统治者，大臣，贵族，平民等等。行业多种多样，主要包括：商店老板、药草师、猎魔人、工匠、术士、士兵、猎人、诗人、佣兵、农民等等。游戏中存在一种组织叫做“狂猎”，作为与游戏化身矛盾的发起点。</p>
-</li>
-<li>
-<p>游戏中的家具、服装、建筑风格与中世纪的欧洲帝国相似。家具精致而质朴，多为木工手艺；服饰多为样式单调的肥大长衣以及连袖外套为主，色彩素淡；建筑简洁、线条分明、讲究对称、多运用色彩明暗、暗淡对视觉进行冲击。</p>
-<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E6%B8%B8%E6%88%8F%2F%E5%B7%AB%E5%B8%88%2F63%20-%20HjbOita.png" alt="" /></p>
-</li>
-<li>
-<p>人们多以游牧业与农业为主，崇尚帝国主义以及军事威力，因此战乱较为频繁。</p>
-</li>
-<li>
-<p>巫师的世界中，神的存在并没有像指环王的世界那样重要和严谨，可以被看作是无神论或者自然神论的奇幻世界。巫师的世界中终身被称作‘gods’，带没有明确的神系和神域，其中游戏涉及的主神有女神Melitele，在游戏中拥有教堂和广泛的信徒，神域特征是善良和守护；Lilit女神是恶魔的化身，但被世界的东部居民崇拜，甚于特征是邪恶与毁灭。另外还有一些邪教性质的信仰，包括Coram Agh Tera，信仰某种蜘蛛类的‘邪神’，‘伟大的编织者’；还有永恒之火教团等等。</p>
-<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E6%B8%B8%E6%88%8F%2F%E5%B7%AB%E5%B8%88%2F57%20-%20tN8npEF.png" alt="永恒之火教团祭祀" /></p>
-</li>
-<li>
-<p>游戏视觉风格统一。角色、用户界面等等符合古代欧洲帝国典雅、朴素但不失壮丽的风格。</p>
-</li>
-<li>
-<p>游戏设计各种自然环境。现实世界中能想到的地形，游戏世界中基本都能涵盖，包括雪山、大海、荒地、森林、平原等等。</p>
-</li>
-<li>
-<p>游戏风格和气氛与物理环境相关。当天气晴朗且人物在安全状态时，游戏气氛无忧无虑且欢快。但当天气作恶或与魔物接触时游戏气氛紧张刺激。</p>
-</li>
-<li>
-<p>游戏细节处理极为丰富。游戏对细节刻画极为重视，人类的尸骨，魔物的血迹甚至脚步都能看到。当然，有些任务也需要玩家仔细寻找发现这些细节才能继续执行。</p>
-<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E6%B8%B8%E6%88%8F%2F%E5%B7%AB%E5%B8%88%2F53%20-%20UIUhDqv.png" alt="羊的脚印" /></p>
+<p>使用阿里云服务器时报错:(系统缺少C++环境)</p>
+<p><code>You need a C++ compiler for C++ support</code></p>
 </li>
 </ul>
-<h3 id="感情维度"><a class="markdownIt-Anchor" href="#感情维度"></a> 感情维度</h3>
+<p>​		解决方法：</p>
+<p>​		<code>yum install -y gcc gcc-c++</code></p>
+<ul>
+<li>后面又报错(原因：将警告当成错误处理)</li>
+</ul>
+<p><code>src/core/ngx_murmurhash.c:37:11: 错误：``this</code> <code>statement may fall through [-Werror=implicit-fallthrough=]</code></p>
+<p>​		解决办法:</p>
+<p>​		1. 打开文件Makefile</p>
+<p>​		<code>vim objs/Makefile</code></p>
+<p>​		2. 找到有以下内容的这行:</p>
+<p>​		<code>CFLAGS = -pipe -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g</code></p>
+<p>​		-Werror: gcc将所有的警告当成错误进行处理把这行内容中的Werror去掉</p>
 <ul>
 <li>
-<p>游戏感情极为丰富，甚至可以说游戏剧情是以感情为线索发展的。</p>
-<ul>
-<li>
-<p>主角杰洛特与叶奈法（女术士）的感情始于一场关于迪精的冒险，随着这场冒险，他们二人的命运纠缠在了一起。二人也同时养育着杰洛特意外获得的养女（希里）。</p>
-<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E6%B8%B8%E6%88%8F%2F%E5%B7%AB%E5%B8%88%2F51%20-%20cQkP5jw.png" alt="杰洛特与叶奈法" /></p>
-</li>
-<li>
-<p>杰洛特与叶奈法在经历了一场意外后失忆。杰洛特在失忆后于叶奈法的好友特莉丝（女术士）还有一段坎坷的恋情。</p>
-<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E6%B8%B8%E6%88%8F%2F%E5%B7%AB%E5%B8%88%2F47%20-%20FEESNf9.png" alt="杰洛特与特莉丝" /></p>
-</li>
-<li>
-<p>后面杰洛特恢复了记忆，使得特莉丝无法接受自己爱上了好友爱人的事实，但在感性上又无法割舍对杰洛特的爱，这就产生了矛盾。</p>
-</li>
-<li>
-<p>而叶奈法先于杰洛特恢复了记忆。因此他早已得知恋人和曾经的好友在一起的事实，与杰洛特有着很深羁绊的她无疑时十分痛苦的。</p>
+<p>后面又报错</p>
+<figure class="highlight awk"><table><tr><td class="code"><pre><code class="hljs awk">src<span class="hljs-regexp">/os/u</span>nix/ngx_user.c: In <span class="hljs-keyword">function</span> ‘ngx_libc_crypt’:<br>src<span class="hljs-regexp">/os/u</span>nix/ngx_user.c:<span class="hljs-number">35</span>:<span class="hljs-number">7</span>: error: ‘struct crypt_data’ has no member named ‘current_salt’<br>     cd.current_salt[<span class="hljs-number">0</span>] = ~salt[<span class="hljs-number">0</span>];<br></code></pre></td></tr></table></figure>
+<p>原因:源代码问题</p>
+<p>解决方法：</p>
+<p><code>vim src/os/unix/ngx_user.c</code></p>
+<p>注释掉代码:</p>
+<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E4%BA%91%E8%AE%A1%E7%AE%97%2F128%20-%20dXZWI1u.png" alt="" /></p>
+<p>问题解决</p>
 </li>
 </ul>
+<p><code>make install</code></p>
 </li>
 <li>
-<p>感情作为剧情推动。从开始杰洛特要去寻找旧爱叶奈法与好友来到白果园，后面要与希里生父合作找寻自己疼爱的养女希里等等，正是因为玩家化身具备丰富的感情，才使得游戏剧情顺利推进。</p>
+<p>查看nginx版本：<code>/usr/local/webserver/nginx/sbin/nginx -v</code></p>
 </li>
 <li>
-<p>游戏给玩家设立了很多抉择，不同抉择下的剧情推动不同，玩家必须为游戏化身做出选择。比如杰洛特在恢复记忆后是否拒绝特莉丝的表白等等。这样玩家通常会出于同情或其他心里难以抉择，或是对其中一方本就嗤之以鼻而爽快抉择两种方式。玩家基于对剧情走向的理解做出选择，则增加了玩家的沉浸感，容易引起玩家感情的共鸣。</p>
+<p>配置ngnix：</p>
+<p><code>cd /usr/local/webserver/nginx/conf</code></p>
+<p><code>/usr/sbin/groupadd www</code></p>
+<p><code>/usr/sbin/useradd -g www www</code></p>
+<p>在xftp中打开/usr/local/webserver/nginx/conf/nginx.conf，将文件里的内容替换为ngnix.txt里面的内容</p>
+<p>ngnix.txt中内容</p>
+<pre class="highlight"><code class="">user www www;
+worker_processes 2; #设置值和CPU核心数一致
+error_log /usr/local/webserver/nginx/logs/nginx_error.log crit; #日志位置和日志级别
+pid /usr/local/webserver/nginx/nginx.pid;
+#Specifies the value for maximum file descriptors that can be opened by this process.
+worker_rlimit_nofile 65535;
+events
+&#123;
+  use epoll;
+  worker_connections 65535;
+&#125;
+http
+&#123;
+  include mime.types;
+  default_type application/octet-stream;
+  log_format main  '$remote_addr - $remote_user [$time_local] &quot;$request&quot; '
+               '$status $body_bytes_sent &quot;$http_referer&quot; '
+               '&quot;$http_user_agent&quot; $http_x_forwarded_for';
+  
+#charset gb2312;
+     
+  server_names_hash_bucket_size 128;
+  client_header_buffer_size 32k;
+  large_client_header_buffers 4 32k;
+  client_max_body_size 8m;
+     
+  sendfile on;
+  tcp_nopush on;
+  keepalive_timeout 60;
+  tcp_nodelay on;
+  fastcgi_connect_timeout 300;
+  fastcgi_send_timeout 300;
+  fastcgi_read_timeout 300;
+  fastcgi_buffer_size 64k;
+  fastcgi_buffers 4 64k;
+  fastcgi_busy_buffers_size 128k;
+  fastcgi_temp_file_write_size 128k;
+  gzip on; 
+  gzip_min_length 1k;
+  gzip_buffers 4 16k;
+  gzip_http_version 1.0;
+  gzip_comp_level 2;
+  gzip_types text/plain application/x-javascript text/css application/xml;
+  gzip_vary on;
+ 
+  #limit_zone crawler $binary_remote_addr 10m;
+ #下面是server虚拟主机的配置
+ server
+  &#123;
+    listen 8090;#监听端口
+    server_name localhost1;#域名
+    index index.html index.htm index.php;
+    root /usr/local/webserver/nginx/html;#站点目录
+      location / &#123;
+	proxy_pass http://10.64.26.118:8080;
+     &#125;
+      location ~ .*\.(php|php5)?$
+    &#123;
+      #fastcgi_pass unix:/tmp/php-cgi.sock;
+      fastcgi_pass 127.0.0.1:9000;
+      fastcgi_index index.php;
+      include fastcgi.conf;
+    &#125;
+    location ~ .*\.(gif|jpg|jpeg|png|bmp|swf|ico)$
+    &#123;
+      expires 30d;
+  # access_log off;
+    &#125;
+    location ~ .*\.(js|css)?$
+    &#123;
+      expires 15d;
+   # access_log off;
+    &#125;
+    access_log off;
+  &#125;
+
+&#125;
+
+</code></pre>
 </li>
 <li>
-<p>玩家的抉择一般有善恶两种。比如完成任务后是否收取农民来之不易的钱。这与玩家的价值观相互辉映，容易激发玩家的情感，使玩家更易沉浸其中。</p>
-</li>
-</ul>
-<h3 id="道德维度"><a class="markdownIt-Anchor" href="#道德维度"></a> 道德维度</h3>
-<ul>
-<li>
-<p>从游戏大局以及现在人们的价值观来看，游戏中存在一个绝对的反派艾瑞汀。他抓走杰洛特的养女希里是为了获得其长者之血以及时空导航能力，从而在各个世界之间跳跃，侵略。</p>
-<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E6%B8%B8%E6%88%8F%2F%E5%B7%AB%E5%B8%88%2F52%20-%20TxVg9V8.png" alt="艾瑞汀" /></p>
+<p>检查配置文件nginx.conf的正确性：<code>/usr/local/webserver/nginx/sbin/nginx -t</code></p>
 </li>
 <li>
-<p>然而分析其他人物时并没有绝对的对错。比如还有人想要带走希里，叫做阿瓦拉克。它来自艾恩艾尔世界，其白霜将在不久的将来吞噬整个世界。而阿瓦拉克的目的是用希里的能力拯救家乡，让其免遭白霜的吞噬；再比如杰洛特在游戏开始时曾与不满新帝国暴政的平民意外起了冲突，便将所有暴乱的平民全部杀掉。这些并不能判定究竟谁对谁错，这种道德的模棱两可也是游戏成功的原因之一。</p>
+<p>打开8090端口：</p>
+<p><code>firewall-cmd --zone=public --add-port=8090/tcp --permanent</code></p>
+<p>出现报错:</p>
+<p><code>FirewallD is not running</code></p>
+<p>解决方法:</p>
+<ol>
+<li>执行systemctl status firewalld查看防火墙状态</li>
+<li>需要开启防火墙即可
+<ol>
+<li>开启防火墙：<code>systemctl start firewalld</code></li>
+<li>关闭防火墙：<code>systemctl stop firewalld</code></li>
+<li>查看防火墙状态：<code>systemctl status firewalld</code></li>
+</ol>
+</li>
+</ol>
 </li>
 <li>
-<p>游戏并未太过解释自身世界的道德维度，总体都是让玩家自己判断。而对玩家正确的判断通常会得到额外的奖励，比如金币、经验等等。这也算是一种给玩家解释道德维度的方式。</p>
-<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E6%B8%B8%E6%88%8F%2F%E5%B7%AB%E5%B8%88%2F55%20-%20Y1KW3G4.png" alt="玩家具有不同的抉择" /></p>
+<p>重启防火墙：<code>systemctl restart firewalld.service</code></p>
 </li>
 <li>
-<p>游戏世界充斥着冲突与暴力。玩家需要与其他人或怪物打斗来赢得奖励。玩家有两把剑，一把铁剑一把银剑。虽然玩家经常与其他人冲突，但通常都是用铁剑斩恶，银剑斩妖。且基本都是出于正向原因而与他人冲突。</p>
+<p>启动ngnix：<code>/usr/local/webserver/nginx/sbin/nginx</code></p>
 </li>
 <li>
-<p>游戏中有些抉择给玩家对暴力的选择范围。有个剧情提到玩家攻下了一座城墙，而玩家可以选择饶城主一命或是杀掉。但似乎并没有因为选择非暴力而奖励，也没有因为选择暴力而惩罚。选择不同的抉择一般只会影响后续的剧情发展。</p>
+<p>浏览器访问ngnix：IP+端口，比如10.64.26.250：8090</p>
 </li>
 <li>
-<p>游戏里也有偷盗、掠夺、或是不遵守诺言的问题。但这些行为通常会有消极的后果。比如玩家若在城墙中偷拿走一些物资，会使得本中立的士兵对玩家刀剑相向。还有不向雇佣者缴纳物资之类不遵守诺言的问题，往往使得玩家不能获得应有的奖励。</p>
+<p>关闭ngnix：<code>/usr/local/webserver/nginx/sbin/nginx -s stop</code></p>
 </li>
-</ul>
-<h3 id="现实度"><a class="markdownIt-Anchor" href="#现实度"></a> 现实度</h3>
-<ul>
-<li>
-<p>游戏比较符合显示规律。比如人物背包中物资过多无法长时间快跑，装备具有耐久度，马匹具有耐力。</p>
-<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E6%B8%B8%E6%88%8F%2F%E5%B7%AB%E5%B8%88%2F64%20-%20CtRABZI.png" alt="" /></p>
-</li>
-<li>
-<p>但游戏也去掉了某些现实。比如玩家化身虽然可以进食，但没有饥饿感，食物主要用来回复生命值；玩家化身虽然会因装备多无法长时间快跑，但并无角色疲劳感的数值面板；角色没有情绪上的变化，至少没有对应的数值面板；角色的马匹可在几乎任何时候召唤到自己身边，这也不太符合现实。</p>
-<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E6%B8%B8%E6%88%8F%2F%E5%B7%AB%E5%B8%88%2F62%20-%206RKlroe.png" alt="" /></p>
-</li>
-<li>
-<p>但游戏中这些现实与“非现实”都是为可玩性服务的。人物背包物资过多就要求玩家去寻求npc交易或将装备存储；装备需要经常找工匠维护才能维持耐久度；马匹耐力有限，当马匹快跑时间过长时需要时间休息；角色可以进食但没有饥饿感、没有设置角色情绪上的变化也会减轻玩家对游戏的“不耐烦”；玩家几乎可以随时随地召唤自己的马匹也是为了方便玩家执行任务等等。综上所述，这些现实与“非现实”更增加了玩家的代入感，增加了游戏的可玩性。</p>
-</li>
-</ul>
+</ol>
 ]]></content>
       <categories>
         <category>课程作业</category>
       </categories>
       <tags>
         <tag>课程作业</tag>
-        <tag>游戏分析</tag>
       </tags>
   </entry>
   <entry>
@@ -3664,6 +3488,199 @@ http
       <tags>
         <tag>计算机网络</tag>
         <tag>学习笔记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>计算机游戏设计上机实验1</title>
+    <url>/2022/05/25/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%B8%B8%E6%88%8F%E8%AE%BE%E8%AE%A1%E4%B8%8A%E6%9C%BA%E5%AE%9E%E9%AA%8C1/</url>
+    <content><![CDATA[<h1 id="巫师3狂猎游戏世界分析"><a class="markdownIt-Anchor" href="#巫师3狂猎游戏世界分析"></a> 《巫师3：狂猎》游戏世界分析</h1>
+<h2 id="巫师3狂猎游戏介绍"><a class="markdownIt-Anchor" href="#巫师3狂猎游戏介绍"></a> 《巫师3：狂猎》游戏介绍</h2>
+<p>《巫师3：狂猎》是由CD Projekt RED制作，WB Games（北美地区）、Spike Chunsoft（日本地区）发行的一款RPG游戏（角色扮演类游戏），于2015年5月19日在Windows/Playstation 4/Xbox One平台发行，2019年10月13日登录Nintendo Switch平台。游戏改编自小说《猎魔人》系列，为《<a href="https://baike.baidu.com/item/%E5%B7%AB%E5%B8%88/3816318">巫师</a>》系列的第三部作品，同时也是杰洛特冒险的终曲。该游戏曾获得2015年TGA年度最佳RPG游戏、IGN年度最佳RPG游戏、游民星空年度最佳RPG游戏以及2016年TGA年度最佳RPG游戏等等奖项。</p>
+<p>《巫师3：狂猎》是一款情节驱动的开放世界角色扮演游戏。本作讲述的是猎魔人杰洛特的故事，游戏中玩家也将扮演猎魔人杰洛特进行游戏。故事发生在一个令人目眩神迷的奇幻宇宙里，玩家做出的每一个选择都意义重大，同时也要面对影响深远的后果。游戏中玩家通过完成任务和打败怪物可以获得经验点数，在获得一定的经验点数后就能提升等级，并获得能力点数、解锁技能槽与突变诱发物槽来进行人物设定。</p>
+<h2 id="游戏世界分析"><a class="markdownIt-Anchor" href="#游戏世界分析"></a> 游戏世界分析</h2>
+<p>从物理维度、时间维度、环境维度、感情维度、道德维度以及现实度六个维度分析《巫师：3》游戏世界</p>
+<h3 id="物理维度"><a class="markdownIt-Anchor" href="#物理维度"></a> 物理维度</h3>
+<h4 id="空间维度"><a class="markdownIt-Anchor" href="#空间维度"></a> 空间维度</h4>
+<ul>
+<li>游戏中几乎所有图形素材均为3D建模，因此该游戏是一款3D游戏。</li>
+</ul>
+<h4 id="大小规模"><a class="markdownIt-Anchor" href="#大小规模"></a> 大小规模</h4>
+<ul>
+<li>
+<p>游戏是高仿真游戏，物体之间大小比例比较准确，但有些关键物体会被夸大，比如需要采的药草、需要获取的推动剧情发展的物品（钥匙、人物手镯等等）</p>
+<img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E6%B8%B8%E6%88%8F%2F%E5%B7%AB%E5%B8%88%2F60%20-%20F8pReji.png"  width="500"  height = "300" />
+</li>
+<li>
+<p>人、建筑物与地形高度较为符合现实，但也存在某些房屋较矮的情况，玩家甚至能轻易跳上屋顶。或许是游戏厂商有意为之。</p>
+</li>
+<li>
+<p>室内和室外场所比例比较符合逻辑。</p>
+<ul>
+<li>
+<p>室内大小合理，玩家只需要走动或者跑动即可在短时间内走完。</p>
+<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E6%B8%B8%E6%88%8F%2F%E5%B7%AB%E5%B8%88%2F59%20-%20Tg7oU5L.png" alt="" /></p>
+</li>
+<li>
+<p>城市之间距离在游戏世界中相对来说路程较远，可用现实世界的公里来衡量。玩家要从一个城市到另一个城市往往需要借助其他工具，游戏中体现为马匹和传送门。游戏也设置快速传送点，方便玩家在城市间切换。</p>
+</li>
+</ul>
+<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E6%B8%B8%E6%88%8F%2F%E5%B7%AB%E5%B8%88%2F61%20-%20qdrwnv6.png" alt="" /></p>
+</li>
+<li>
+<p>物体相对速度合理。人物有走动、跑动状态，马匹有慢走，慢跑与疾驰状态，状态间速度变化明显。人物相对马移动速度满，游戏刻画地非常明显。同时背包中物品数量也会影响人物以及马匹的移动速度。上述设置较为合理且符合现实。</p>
+</li>
+</ul>
+<h4 id="界限"><a class="markdownIt-Anchor" href="#界限"></a> 界限</h4>
+<p>不知是否是翻译问题，游戏宣传曾说《巫师3：狂猎》的世界所有“目之所及”的地方都可以到达，没有空气墙和边界。但我测试一下，结果并非完全如此。</p>
+<ul>
+<li>
+<p>游戏世界确实没有空气墙，且玩家确实无法到达边界。但当玩家即将抵达地图边界时，游戏会弹出提示：“超出地图边界，请回头”。此时游戏主角杰洛特也会说：“我不觉得希瑞（推动故事发展的人物）会在那个方向”。但若忽视掉这些提示，继续跑一会儿，屏幕就会突然黑屏然后将人物强制转头，将人物传送回“地图边界”。</p>
+<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E6%B8%B8%E6%88%8F%2F%E5%B7%AB%E5%B8%88%2F58%20-%20u3zSRsU.png" alt="到达世界边缘" /></p>
+</li>
+<li>
+<p>当人物到达游戏边境时打开ansel摄像头，去探索游戏远景，发现游戏世界确实还是存在边界，只不过被上述方法巧妙掩盖了。</p>
+</li>
+</ul>
+<h3 id="时间维度"><a class="markdownIt-Anchor" href="#时间维度"></a> 时间维度</h3>
+<p>对于这类大型的开放世界RPG游戏中时间流逝是很重要的一个设定。如果是游戏时间流逝过快就会让玩家缺乏游戏的代入感，但要是时间流速过慢又会让游戏的节奏过慢而导致玩家丧失耐心。</p>
+<ul>
+<li>
+<p>对《巫师3：狂猎》中的时间变化，游戏时间中的时间流速是游戏世界中的一天等于现实世界的1小时36分钟。可以测算出现实中过去一秒，游戏中过去15秒。时间是绝对的，无论玩家是否在行动，时间都是在流逝的。不过《巫师3：狂猎》中并不存在季节系统。</p>
+</li>
+<li>
+<p>游戏是存在时间尺度的。游戏有时间单位，用周、天、小时等来度量。部分任务要求一周或者几天后才能开始执行。玩家化身具有某些能力以及部分道具是用小时来衡量的。</p>
+</li>
+<li>
+<p>游戏中存在白天黄昏黑夜等。</p>
+<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E6%B8%B8%E6%88%8F%2F%E5%B7%AB%E5%B8%88%2F49%20-%20hJEcXgt.png" alt="日落" /></p>
+<ul>
+<li>白天与黑夜不会影响玩家的化身，玩家的化身不会因为时间流逝而感觉到饿或者累。但是黑夜通常会影响玩家的视野，若玩家在黑夜中赶路通常需要一些照明设备。另外有些道具要求必须在白天或在晚上才能做。</li>
+<li>有些任务要求玩家必须在特定的时间段来完成，例如要求玩家在黄昏时完成的任务。</li>
+<li>玩家也可根据时段来做相应任务，以此来降低人物的难度系数。</li>
+<li>许多生物在不同的时间段都会有不同的效果，比如说狼在夜晚会增加攻击力，或是在晴天的时候成群结队等等。</li>
+</ul>
+<p>玩家可以在游戏中把握时间从而更轻易达到自己的目的。因此增加了玩家的可玩性。</p>
+<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E6%B8%B8%E6%88%8F%2F%E5%B7%AB%E5%B8%88%2F48%20-%20in0QwcZ.png" alt="黑夜" /></p>
+</li>
+<li>
+<p>游戏存在可变时间。玩家有时需要游戏时间快速流逝，来达到自己想要的时间段。游戏提供了一种冥想的功能。玩家可以选择冥想的时间，最久24小时，最少1小时（游戏时间）。玩家可以通过冥想来快速度过时间。</p>
+<img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E6%B8%B8%E6%88%8F%2F%E5%B7%AB%E5%B8%88%2F46%20-%20T8AKIcx.png"  width="400"  height = "600" />
+</li>
+<li>
+<p>不允许玩家调整时间。游戏中时间作为绝对的游戏元素不可被玩家手动更改。如上所述，玩家可采用“冥想”快速消耗时间来“调整时间”。</p>
+</li>
+<li>
+<p>游戏中不存在反常时间。</p>
+</li>
+</ul>
+<h3 id="环境维度"><a class="markdownIt-Anchor" href="#环境维度"></a> 环境维度</h3>
+<ul>
+<li>
+<p>游戏延承了《猎魔人》系列小说的世界观。游戏世界观极为宏大，故事发生在“巫师星球”上。巫师星球与另一颗星球交汇，出现了许多魔物。之后巫师星球出现了第一批精灵，后面演化出了人类。过了很多年之后，人类建立起了自己的帝国，版图大致分为两块：北方诸国与南方帝国。</p>
+</li>
+<li>
+<p>在游戏中人类具有一个复杂的、有组织的社会。上面也提到，人类建立起了帝国，包括北方的瑞达尼亚、科德温、泰莫利亚、亚甸以及南方的尼弗迦德。人们社会阶层分明，如同中世纪的欧洲帝国，包括统治者，大臣，贵族，平民等等。行业多种多样，主要包括：商店老板、药草师、猎魔人、工匠、术士、士兵、猎人、诗人、佣兵、农民等等。游戏中存在一种组织叫做“狂猎”，作为与游戏化身矛盾的发起点。</p>
+</li>
+<li>
+<p>游戏中的家具、服装、建筑风格与中世纪的欧洲帝国相似。家具精致而质朴，多为木工手艺；服饰多为样式单调的肥大长衣以及连袖外套为主，色彩素淡；建筑简洁、线条分明、讲究对称、多运用色彩明暗、暗淡对视觉进行冲击。</p>
+<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E6%B8%B8%E6%88%8F%2F%E5%B7%AB%E5%B8%88%2F63%20-%20HjbOita.png" alt="" /></p>
+</li>
+<li>
+<p>人们多以游牧业与农业为主，崇尚帝国主义以及军事威力，因此战乱较为频繁。</p>
+</li>
+<li>
+<p>巫师的世界中，神的存在并没有像指环王的世界那样重要和严谨，可以被看作是无神论或者自然神论的奇幻世界。巫师的世界中终身被称作‘gods’，带没有明确的神系和神域，其中游戏涉及的主神有女神Melitele，在游戏中拥有教堂和广泛的信徒，神域特征是善良和守护；Lilit女神是恶魔的化身，但被世界的东部居民崇拜，甚于特征是邪恶与毁灭。另外还有一些邪教性质的信仰，包括Coram Agh Tera，信仰某种蜘蛛类的‘邪神’，‘伟大的编织者’；还有永恒之火教团等等。</p>
+<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E6%B8%B8%E6%88%8F%2F%E5%B7%AB%E5%B8%88%2F57%20-%20tN8npEF.png" alt="永恒之火教团祭祀" /></p>
+</li>
+<li>
+<p>游戏视觉风格统一。角色、用户界面等等符合古代欧洲帝国典雅、朴素但不失壮丽的风格。</p>
+</li>
+<li>
+<p>游戏设计各种自然环境。现实世界中能想到的地形，游戏世界中基本都能涵盖，包括雪山、大海、荒地、森林、平原等等。</p>
+</li>
+<li>
+<p>游戏风格和气氛与物理环境相关。当天气晴朗且人物在安全状态时，游戏气氛无忧无虑且欢快。但当天气作恶或与魔物接触时游戏气氛紧张刺激。</p>
+</li>
+<li>
+<p>游戏细节处理极为丰富。游戏对细节刻画极为重视，人类的尸骨，魔物的血迹甚至脚步都能看到。当然，有些任务也需要玩家仔细寻找发现这些细节才能继续执行。</p>
+<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E6%B8%B8%E6%88%8F%2F%E5%B7%AB%E5%B8%88%2F53%20-%20UIUhDqv.png" alt="羊的脚印" /></p>
+</li>
+</ul>
+<h3 id="感情维度"><a class="markdownIt-Anchor" href="#感情维度"></a> 感情维度</h3>
+<ul>
+<li>
+<p>游戏感情极为丰富，甚至可以说游戏剧情是以感情为线索发展的。</p>
+<ul>
+<li>
+<p>主角杰洛特与叶奈法（女术士）的感情始于一场关于迪精的冒险，随着这场冒险，他们二人的命运纠缠在了一起。二人也同时养育着杰洛特意外获得的养女（希里）。</p>
+<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E6%B8%B8%E6%88%8F%2F%E5%B7%AB%E5%B8%88%2F51%20-%20cQkP5jw.png" alt="杰洛特与叶奈法" /></p>
+</li>
+<li>
+<p>杰洛特与叶奈法在经历了一场意外后失忆。杰洛特在失忆后于叶奈法的好友特莉丝（女术士）还有一段坎坷的恋情。</p>
+<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E6%B8%B8%E6%88%8F%2F%E5%B7%AB%E5%B8%88%2F47%20-%20FEESNf9.png" alt="杰洛特与特莉丝" /></p>
+</li>
+<li>
+<p>后面杰洛特恢复了记忆，使得特莉丝无法接受自己爱上了好友爱人的事实，但在感性上又无法割舍对杰洛特的爱，这就产生了矛盾。</p>
+</li>
+<li>
+<p>而叶奈法先于杰洛特恢复了记忆。因此他早已得知恋人和曾经的好友在一起的事实，与杰洛特有着很深羁绊的她无疑时十分痛苦的。</p>
+</li>
+</ul>
+</li>
+<li>
+<p>感情作为剧情推动。从开始杰洛特要去寻找旧爱叶奈法与好友来到白果园，后面要与希里生父合作找寻自己疼爱的养女希里等等，正是因为玩家化身具备丰富的感情，才使得游戏剧情顺利推进。</p>
+</li>
+<li>
+<p>游戏给玩家设立了很多抉择，不同抉择下的剧情推动不同，玩家必须为游戏化身做出选择。比如杰洛特在恢复记忆后是否拒绝特莉丝的表白等等。这样玩家通常会出于同情或其他心里难以抉择，或是对其中一方本就嗤之以鼻而爽快抉择两种方式。玩家基于对剧情走向的理解做出选择，则增加了玩家的沉浸感，容易引起玩家感情的共鸣。</p>
+</li>
+<li>
+<p>玩家的抉择一般有善恶两种。比如完成任务后是否收取农民来之不易的钱。这与玩家的价值观相互辉映，容易激发玩家的情感，使玩家更易沉浸其中。</p>
+</li>
+</ul>
+<h3 id="道德维度"><a class="markdownIt-Anchor" href="#道德维度"></a> 道德维度</h3>
+<ul>
+<li>
+<p>从游戏大局以及现在人们的价值观来看，游戏中存在一个绝对的反派艾瑞汀。他抓走杰洛特的养女希里是为了获得其长者之血以及时空导航能力，从而在各个世界之间跳跃，侵略。</p>
+<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E6%B8%B8%E6%88%8F%2F%E5%B7%AB%E5%B8%88%2F52%20-%20TxVg9V8.png" alt="艾瑞汀" /></p>
+</li>
+<li>
+<p>然而分析其他人物时并没有绝对的对错。比如还有人想要带走希里，叫做阿瓦拉克。它来自艾恩艾尔世界，其白霜将在不久的将来吞噬整个世界。而阿瓦拉克的目的是用希里的能力拯救家乡，让其免遭白霜的吞噬；再比如杰洛特在游戏开始时曾与不满新帝国暴政的平民意外起了冲突，便将所有暴乱的平民全部杀掉。这些并不能判定究竟谁对谁错，这种道德的模棱两可也是游戏成功的原因之一。</p>
+</li>
+<li>
+<p>游戏并未太过解释自身世界的道德维度，总体都是让玩家自己判断。而对玩家正确的判断通常会得到额外的奖励，比如金币、经验等等。这也算是一种给玩家解释道德维度的方式。</p>
+<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E6%B8%B8%E6%88%8F%2F%E5%B7%AB%E5%B8%88%2F55%20-%20Y1KW3G4.png" alt="玩家具有不同的抉择" /></p>
+</li>
+<li>
+<p>游戏世界充斥着冲突与暴力。玩家需要与其他人或怪物打斗来赢得奖励。玩家有两把剑，一把铁剑一把银剑。虽然玩家经常与其他人冲突，但通常都是用铁剑斩恶，银剑斩妖。且基本都是出于正向原因而与他人冲突。</p>
+</li>
+<li>
+<p>游戏中有些抉择给玩家对暴力的选择范围。有个剧情提到玩家攻下了一座城墙，而玩家可以选择饶城主一命或是杀掉。但似乎并没有因为选择非暴力而奖励，也没有因为选择暴力而惩罚。选择不同的抉择一般只会影响后续的剧情发展。</p>
+</li>
+<li>
+<p>游戏里也有偷盗、掠夺、或是不遵守诺言的问题。但这些行为通常会有消极的后果。比如玩家若在城墙中偷拿走一些物资，会使得本中立的士兵对玩家刀剑相向。还有不向雇佣者缴纳物资之类不遵守诺言的问题，往往使得玩家不能获得应有的奖励。</p>
+</li>
+</ul>
+<h3 id="现实度"><a class="markdownIt-Anchor" href="#现实度"></a> 现实度</h3>
+<ul>
+<li>
+<p>游戏比较符合显示规律。比如人物背包中物资过多无法长时间快跑，装备具有耐久度，马匹具有耐力。</p>
+<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E6%B8%B8%E6%88%8F%2F%E5%B7%AB%E5%B8%88%2F64%20-%20CtRABZI.png" alt="" /></p>
+</li>
+<li>
+<p>但游戏也去掉了某些现实。比如玩家化身虽然可以进食，但没有饥饿感，食物主要用来回复生命值；玩家化身虽然会因装备多无法长时间快跑，但并无角色疲劳感的数值面板；角色没有情绪上的变化，至少没有对应的数值面板；角色的马匹可在几乎任何时候召唤到自己身边，这也不太符合现实。</p>
+<p><img src="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E6%B8%B8%E6%88%8F%2F%E5%B7%AB%E5%B8%88%2F62%20-%206RKlroe.png" alt="" /></p>
+</li>
+<li>
+<p>但游戏中这些现实与“非现实”都是为可玩性服务的。人物背包物资过多就要求玩家去寻求npc交易或将装备存储；装备需要经常找工匠维护才能维持耐久度；马匹耐力有限，当马匹快跑时间过长时需要时间休息；角色可以进食但没有饥饿感、没有设置角色情绪上的变化也会减轻玩家对游戏的“不耐烦”；玩家几乎可以随时随地召唤自己的马匹也是为了方便玩家执行任务等等。综上所述，这些现实与“非现实”更增加了玩家的代入感，增加了游戏的可玩性。</p>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>课程作业</category>
+      </categories>
+      <tags>
+        <tag>课程作业</tag>
+        <tag>游戏分析</tag>
       </tags>
   </entry>
   <entry>
