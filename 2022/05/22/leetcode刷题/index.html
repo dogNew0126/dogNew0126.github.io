@@ -25,7 +25,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://dognew-1312375098.cos.ap-nanjing.myqcloud.com/%E7%94%B5%E5%BD%B1%2F%E6%B4%9B%E5%A5%87%2FCA13A5BDEE8695096042C5DF2E1E6A3C.png">
 <meta property="article:published_time" content="2022-05-22T12:21:23.000Z">
-<meta property="article:modified_time" content="2023-09-08T03:00:36.357Z">
+<meta property="article:modified_time" content="2023-09-13T07:37:42.897Z">
 <meta property="article:author" content="dogNew">
 <meta property="article:tag" content="算法">
 <meta property="article:tag" content="leetcode">
@@ -235,7 +235,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          9.9k 字
+          10k 字
         
       </span>
     
@@ -246,7 +246,7 @@
         
         
         
-          83 分钟
+          84 分钟
         
       </span>
     
@@ -301,7 +301,7 @@
               <p class="note note-info">
                 
                   
-                    本文最后更新于：2023年9月8日 上午
+                    本文最后更新于：2023年9月13日 下午
                   
                 
               </p>
@@ -964,6 +964,18 @@
 <li>dp数组如何初始化： dp[0] = 0; dp[1] = 1;</li>
 <li>确定遍历顺序：从前到后遍历。</li>
 <li>举例推导dp数组</li>
+</ol>
+</li>
+</ul>
+<h4 id="746-使用最小花费爬楼梯"><a class="markdownIt-Anchor" href="#746-使用最小花费爬楼梯"></a> 746. 使用最小花费爬楼梯</h4>
+<ul>
+<li>动态规划
+<ol>
+<li>确定dp数组以及下标的含义：dp[i]的定义：到达第i台阶所花费的最少体力为dp[i]。</li>
+<li>确定递推公式：dp[i] = min(dp[i - 1] + cost[i-1],dp[i - 2] + cost[i - 2]);</li>
+<li>dp数组初始化：dp[0]=0,dp[1]=1；</li>
+<li>确定遍历顺序：从前到后遍历。</li>
+<li>举例i推导dp数组。</li>
 </ol>
 </li>
 </ul>
