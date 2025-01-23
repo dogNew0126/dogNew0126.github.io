@@ -85,7 +85,7 @@
 <link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.css">
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hexo-math@4.0.0/dist/style.css">
-<!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.1.0"></head>
+<!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.3.0"></head>
 
 
 <body>
@@ -370,7 +370,7 @@
 <li>设置环境变量：<code>vi /etc/profile</code></li>
 </ul>
 <p>再拷贝下方内容到/etc/profile文件中：</p>
-<figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><code class="hljs awk"><span class="hljs-comment">###set java</span><br><br>JAVA_HOME=<span class="hljs-regexp">/usr/</span>local<span class="hljs-regexp">/java/</span>jdk-<span class="hljs-number">11</span><br><br>JRE_HOME=<span class="hljs-regexp">/usr/</span>local<span class="hljs-regexp">/java/</span>jdk-<span class="hljs-number">11</span>/jre<br><br>CLASSPATH=.:<span class="hljs-variable">$JAVA_HOME</span><span class="hljs-regexp">/lib/</span>dt.jar:<span class="hljs-variable">$JAVA_HOME</span><span class="hljs-regexp">/lib/</span>tools.jar:<span class="hljs-variable">$JRE_HOME</span>/lib<br><br>PATH=<span class="hljs-variable">$JAVA_HOME</span>/bin:<span class="hljs-variable">$PATH</span><br><br>export PATH JAVA_HOME CLASSPATH<br></code></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><code class="hljs bash"><span class="hljs-comment">###set java</span><br><br>JAVA_HOME=/usr/local/java/jdk-11<br><br>JRE_HOME=/usr/local/java/jdk-11/jre<br><br>CLASSPATH=.:<span class="hljs-variable">$JAVA_HOME</span>/lib/dt.jar:<span class="hljs-variable">$JAVA_HOME</span>/lib/tools.jar:<span class="hljs-variable">$JRE_HOME</span>/lib<br><br>PATH=<span class="hljs-variable">$JAVA_HOME</span>/bin:<span class="hljs-variable">$PATH</span><br><br><span class="hljs-built_in">export</span> PATH JAVA_HOME CLASSPATH<br></code></pre></td></tr></table></figure>
 <ul>
 <li>刷新环境变量：<code>source /etc/profile</code></li>
 <li>查看java环境：<code>java -version</code></li>
@@ -535,7 +535,7 @@
 <ul>
 <li>
 <p>后面又报错</p>
-<figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs awk">src<span class="hljs-regexp">/os/u</span>nix/ngx_user.c: In <span class="hljs-keyword">function</span> ‘ngx_libc_crypt’:<br>src<span class="hljs-regexp">/os/u</span>nix/ngx_user.c:<span class="hljs-number">35</span>:<span class="hljs-number">7</span>: error: ‘struct crypt_data’ has no member named ‘current_salt’<br>     cd.current_salt[<span class="hljs-number">0</span>] = ~salt[<span class="hljs-number">0</span>];<br></code></pre></td></tr></table></figure>
+<figure class="highlight apache"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs apache"><span class="hljs-attribute">src</span>/os/unix/ngx_user.c: In function ‘ngx_libc_crypt’:<br><span class="hljs-attribute">src</span>/os/unix/ngx_user.c:<span class="hljs-number">35</span>:<span class="hljs-number">7</span>: error: ‘struct crypt_data’ has no member named ‘current_salt’<br>     <span class="hljs-attribute">cd</span>.current_salt[<span class="hljs-number">0</span>] = ~salt[<span class="hljs-number">0</span>];<br></code></pre></td></tr></table></figure>
 <p>原因:源代码问题</p>
 <p>解决方法：</p>
 <p><code>vim src/os/unix/ngx_user.c</code></p>
